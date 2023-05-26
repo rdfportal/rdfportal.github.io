@@ -1,0 +1,74 @@
+[
+    {
+        "class": "http://www.w3.org/ns/dcat#CatalogRecord", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 2914
+    }, 
+    {
+        "class": "http://xmlns.com/foaf/0.1/Organization", 
+        "label": {
+            "en": "Organization", 
+            "ja": "Organization"
+        }, 
+        "number_of_instances": 1658
+    }, 
+    {
+        "class": "http://www.w3.org/ns/dcat#Dataset", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1639
+    }, 
+    {
+        "class": "http://purl.org/ontology/bibo/Article", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1380
+    }, 
+    {
+        "class": "http://www.w3.org/ns/dcat#Distribution", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 469
+    }, 
+    {
+        "class": "http://www.w3.org/2004/02/skos/core#Concept", 
+        "label": {
+            "en": "Concept", 
+            "ja": "Concept"
+        }, 
+        "number_of_instances": 31
+    }, 
+    {
+        "class": "http://www.w3.org/2004/02/skos/core#ConceptScheme", 
+        "label": {
+            "en": "Concept Scheme", 
+            "ja": "Concept Scheme"
+        }, 
+        "number_of_instances": 2
+    }, 
+    {
+        "class": "http://www.w3.org/ns/dcat#Catalog", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Ontology", 
+        "label": {
+            "en": "Ontology", 
+            "ja": "Ontology"
+        }, 
+        "number_of_instances": 1
+    }
+]

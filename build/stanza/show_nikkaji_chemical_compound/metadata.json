@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "show_nikkaji_chemical_compound",
+  "stanza:label": "Nikkaji chemical image",
+  "stanza:definition": "Images of chemicals which is matched the specified search term. ",
+  "stanza:parameter": [
+    {
+      "stanza:key": "text",
+      "stanza:example": "benzen",
+      "stanza:description": "chemical label for search",
+      "stanza:required": true
+    }
+  ],
+  "stanza:usage": "<togostanza-show_nikkaji_chemical_compound text=\"benzen\"></togostanza-show_nikkaji_chemical_compound>",
+  "stanza:type": "Stanza",
+  "stanza:context": "",
+  "stanza:display": "",
+  "stanza:provider": "provider of this stanza",
+  "stanza:license": "",
+  "stanza:author": "author name",
+  "stanza:address": "name@example.org",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2016-02-24",
+  "stanza:updated": "2016-02-24"
+}

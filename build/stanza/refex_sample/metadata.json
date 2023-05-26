@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "refex",
+  "stanza:label": "RefEx sample",
+  "stanza:definition": "Show a RefEx sample entry of a user specified identifier",
+  "stanza:parameter": [
+    {
+      "stanza:key": "refex_sample_id",
+      "stanza:example": "RES00000009",
+      "stanza:description": "refex sample entry ID",
+      "stanza:required": true
+    }
+  ],
+  "stanza:usage": "<togostanza-refex_sample refex_sample_id=\"RES00000009\"></togostanza-refex_sample>",
+  "stanza:type": "Stanza",
+  "stanza:context": "",
+  "stanza:display": "",
+  "stanza:provider": "DBCLS",
+  "stanza:license": "",
+  "stanza:author": "Shuichi Kawashima",
+  "stanza:address": "kwsm@dbcls.rois.ac.jp",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2016-03-16",
+  "stanza:updated": "2018-04-06"
+}

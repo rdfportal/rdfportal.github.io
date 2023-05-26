@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>Dataset information - NBDC RDF Portal</title>
+
+<!-- Bootstrap core CSS -->
+<link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="./css/bootstrap-select.css" rel="stylesheet" type="text/css">
+
+<link href="./css/rdf-portal.css" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+<link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="./js/html5shiv.js"></script>
+  <script src="./js/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+<header>
+  <div class="container">
+		<h1>Dataset information</h1>
+    <h2><a href="https://integbio.jp/rdf/" target="_blank">NDBC RDF Portal</a></h2>
+  </div>
+</header>
+
+
+<div class="container">
+<script type="module" src="https://togostanza.github.io/metastanza/pagination-table.js" async></script>
+
+<togostanza-pagination-table
+  data-url="https://raw.githubusercontent.com/biosciencedbc/rdf-portal/master/info/dataset.csv"
+  data-type="csv"
+  custom-css-url=""
+  width=""
+  fixed-columns="1"
+  padding="0px"
+  page-size-option="10,20,50,100"
+  page-slider="true"
+  columns="[{&quot;id&quot;: &quot;ds_name&quot;,&quot;label&quot;: &quot;Dataset name&quot;},{&quot;id&quot;:&quot;gr_name&quot;,&quot;label&quot;: &quot;Graph name&quot;},{&quot;id&quot;: &quot;metadata&quot;,&quot;label&quot;: &quot;Metadata&quot;,&quot;link&quot;:&quot;metadata_link&quot;,&quot;target&quot;: &quot;blank&quot;},{&quot;id&quot;: &quot;endpoint&quot;,&quot;label&quot;: &quot;Endpoint&quot;,&quot;link&quot;:&quot;endpoint&quot;,&quot;target&quot;: &quot;blank&quot;},{&quot;id&quot;: &quot;virtuosodb&quot;,&quot;label&quot;: &quot;virtuoso.db&quot;,&quot;link&quot;:&quot;virtuosodb_link&quot;,&quot;target&quot;: &quot;blank&quot;},{&quot;id&quot;: &quot;loaded&quot;,&quot;label&quot;: &quot;Loaded&quot;},{&quot;id&quot;: &quot;log&quot;,&quot;label&quot;: &quot;Load log&quot;,&quot;link&quot;:&quot;log_link&quot;,&quot;target&quot;: &quot;blank&quot;},{&quot;id&quot;: &quot;original&quot;,&quot;label&quot;: &quot;Original data&quot;,&quot;link&quot;:&quot;original_link&quot;,&quot;target&quot;: &quot;blank&quot;},{&quot;id&quot;: &quot;released&quot;,&quot;label&quot;: &quot;Released&quot;},{&quot;id&quot;:&quot;version&quot;,&quot;label&quot;: &quot;Version&quot;}]"
+></togostanza-pagination-table>
+</div>
+
+<footer>
+  <div class="container">
+    <h2>NBDC RDF Portal</h2>
+		&copy; 2015 <a href="https://biosciencedbc.jp" target="_blank" lang="ja">NBDC</a>
+    &nbsp; / &nbsp;
+    <a href="https://biosciencedbc.jp/en/sitepolicies" target="_blank" lang="en">Site Policies</a>
+  </div>
+</footer>
+
+</body>
+</html>

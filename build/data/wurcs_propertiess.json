@@ -1,0 +1,338 @@
+[
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 817537, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_LIN", 
+        "number_of_triples": 781060, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_GLIPS", 
+        "number_of_triples": 513262, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#is_monosaccharide", 
+        "number_of_triples": 457440, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#is_uniqueRES", 
+        "number_of_triples": 291467, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_GRES", 
+        "number_of_triples": 291467, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_acceptor", 
+        "number_of_triples": 268964, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#is_acceptor_of", 
+        "number_of_triples": 268964, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_acceptor_position", 
+        "number_of_triples": 263745, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_MAP", 
+        "number_of_triples": 258040, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#is_repeat", 
+        "number_of_triples": 256643, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#is_donor_of", 
+        "number_of_triples": 256636, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_donor", 
+        "number_of_triples": 256636, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_donor_position", 
+        "number_of_triples": 256625, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_uniqueRES", 
+        "number_of_triples": 165973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_monosaccharide", 
+        "number_of_triples": 165973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_basetype", 
+        "number_of_triples": 134219, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_glycosequence", 
+        "number_of_triples": 79928, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_sequence", 
+        "number_of_triples": 79928, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#RES_count", 
+        "number_of_triples": 39964, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#uniqueRES_count", 
+        "number_of_triples": 39964, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_root_RES", 
+        "number_of_triples": 39964, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#LIN_count", 
+        "number_of_triples": 39964, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_root_GRES", 
+        "number_of_triples": 39964, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2002/07/owl#sameAs", 
+        "number_of_triples": 39964, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#in_carbohydrate_format", 
+        "number_of_triples": 39964, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#subsumes", 
+        "number_of_triples": 38223, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_MOD", 
+        "number_of_triples": 5852, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_rep_max", 
+        "number_of_triples": 5139, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_rep_min", 
+        "number_of_triples": 5139, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_SC", 
+        "number_of_triples": 2919, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_anomeric_position", 
+        "number_of_triples": 2475, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_anomeric_symbol", 
+        "number_of_triples": 2475, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_ring", 
+        "number_of_triples": 2469, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_GLIP", 
+        "number_of_triples": 1511, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#is_fuzzy", 
+        "number_of_triples": 842, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#basetype", 
+        "number_of_triples": 673, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_SC_position", 
+        "number_of_triples": 606, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_RES", 
+        "number_of_triples": 528, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_LIPS", 
+        "number_of_triples": 294, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_modification_prob_lower", 
+        "number_of_triples": 117, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_modification_prob_upper", 
+        "number_of_triples": 117, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_LIP", 
+        "number_of_triples": 88, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_direction", 
+        "number_of_triples": 17, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glycoinfo.org/glyco/owl/wurcs#has_MAP_position", 
+        "number_of_triples": 17, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/hasVersion", 
+        "number_of_triples": 3, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/publisher", 
+        "number_of_triples": 3, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/givenname", 
+        "number_of_triples": 3, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/ns/dcat#landingPage", 
+        "number_of_triples": 3, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/title", 
+        "number_of_triples": 3, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/license", 
+        "number_of_triples": 3, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/family_name", 
+        "number_of_triples": 3, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/pav/version", 
+        "number_of_triples": 3, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/description", 
+        "number_of_triples": 3, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/mbox", 
+        "number_of_triples": 3, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/pav/contributedBy", 
+        "number_of_triples": 3, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

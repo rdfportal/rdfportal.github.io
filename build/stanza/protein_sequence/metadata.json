@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "protein_sequence",
+  "stanza:label": "Protein subsequence selector",
+  "stanza:definition": "This stanza communicates with protein structure stanza",
+  "stanza:parameter": [
+    {
+      "stanza:key": "up_id",
+      "stanza:example": "P00533",
+      "stanza:description": "Uniport identifier.",
+      "stanza:required": true
+    },
+    {
+      "stanza:key": "start_pos",
+      "stanza:example": "51",
+      "stanza:description": "Start position of aminoacid sequence",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "end_pos",
+      "stanza:example": "60",
+      "stanza:description": "End position of aminoacid sequence",
+      "stanza:required": false
+    }
+  ],
+  "stanza:usage": "<togostanza-protein_sequence up_id=\"P00533\" start_pos=\"51\" end_pos=\"60\"></togostanza-protein_sequence>",
+  "stanza:type": "Stanza",
+  "stanza:context": "",
+  "stanza:display": "",
+  "stanza:provider": "provider of this stanza",
+  "stanza:license": "",
+  "stanza:author": "author name",
+  "stanza:address": "name@example.org",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2016-02-23",
+  "stanza:updated": "2016-02-23"
+}

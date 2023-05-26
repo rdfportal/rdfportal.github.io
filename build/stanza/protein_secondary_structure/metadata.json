@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "protein_secondary_structure",
+  "stanza:label": "Hello Example",
+  "stanza:definition": "Greeting.",
+  "stanza:parameter": [
+    {
+      "stanza:key": "up_id",
+      "stanza:example": "P00533",
+      "stanza:description": "Uniport identifier.",
+      "stanza:required": true
+    },
+    {
+      "stanza:key": "start_pos",
+      "stanza:example": "58",
+      "stanza:description": "Start position of aminoacid sequence",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "end_pos",
+      "stanza:example": "600",
+      "stanza:description": "End position of aminoacid sequence",
+      "stanza:required": false
+    }
+  ],
+  "stanza:usage": "<togostanza-protein_secondary_structure up_id=\"P00533\"></togostanza-protein_secondary_structure>",
+  "stanza:type": "Stanza",
+  "stanza:context": "",
+  "stanza:display": "",
+  "stanza:provider": "provider of this stanza",
+  "stanza:license": "",
+  "stanza:author": "author name",
+  "stanza:address": "name@example.org",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2016-03-23",
+  "stanza:updated": "2016-03-23"
+}

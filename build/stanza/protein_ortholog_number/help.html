@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="../assets/components/webcomponentsjs/webcomponents-loader.js"></script>
+    <link rel="import" href="../protein_ortholog_number/">
+    <link rel="stylesheet" href="../assets/css/ts.css">
+    <title>Distribution of orthologous proteins</title>
+  </head>
+
+  <body>
+    <div id="contents">
+      <h1 class="page_ttl">Distribution of orthologous proteins</h1>
+
+      <ul class="showcase_icn">
+        
+      </ul>
+
+      <p class="lead">Show a distribution of orthologous proteins in the MBGD ortholog group containing the given protein by each phylum.</p>
+
+      <div class="showcase_detail">
+        <ul class="showcase_id">
+          
+            <li>
+              <dl>
+                <dt>up_id</dt>
+
+                <dd>
+                  <p class="id_box">
+                    <input type="text" value="P28903" data-param-key="up_id">
+
+                    
+                      <span class="required">required</span>
+                    
+                  </p>
+
+                  <p class="eg">
+                    Uniport identifier.
+                  </p>
+                </dd>
+              </dl>
+            </li>
+          
+        </ul>
+
+        <div class="showcase_code">
+          <code>&lt;togostanza-protein_ortholog_number up_id=&#34;P28903&#34;&gt;&lt;/togostanza-protein_ortholog_number&gt;</code>
+        </div>
+
+        <p class="explain">
+          The above element will automatically embed the following Stanza in your HTML page.
+        </p>
+
+        <div class="showcase_box">
+          <togostanza-protein_ortholog_number up_id="P28903"></togostanza-protein_ortholog_number>
+        </div>
+      </div>
+      <script>
+        const stanza = document.querySelector('togostanza-protein_ortholog_number');
+        const inputs = document.querySelectorAll('.showcase_id input');
+
+        inputs.forEach(function(input) {
+          const onParamChange = function() {
+            stanza.setAttribute(input.dataset.paramKey, input.value);
+          };
+
+          input.addEventListener('input', onParamChange);
+          onParamChange();
+        });
+      </script>
+  </body>
+</html>

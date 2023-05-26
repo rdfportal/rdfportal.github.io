@@ -1,0 +1,833 @@
+main#main-view
+  position: absolute
+  top: $size-main-view-margin
+  left: 60px
+  color: #fff
+  .appendix
+    display: none
+  > .stars
+    position: absolute
+    width: 100%
+    top: 0
+    left: 0
+    +transition( opacity $transition-duration ease-out )
+  #home-view
+    position: absolute
+    //padding: 256px 96px 40px 256px
+    margin-left: -$margin-left-main
+    opacity: 0
+    z-index: $z-index-to-back
+    height: 100%
+    overflow: hidden
+    //@include filter(blur(10px))
+    +transform(scale(0.9))
+    +transition( opacity $transition-duration * 3 ease-out, transform $transition-duration * 3 ease-out )
+    .logotype
+      position: absolute
+      top: 88px
+      left: -21px
+    section
+      position: relative
+      font-size: 16px
+      line-height: 30px
+      box-sizing: border-box
+      h2
+        position: absolute
+        left: -21px
+        font-size: 18px
+        font-weight: bold
+        line-height: 40px
+        z-index: $z-index-home-heading
+        .first-letter
+          display: inline-block
+          width: 40px
+          height: 40px
+          border-radius: 100%
+          background-color: #fff
+          color: #000
+          text-align: center
+          margin-right: 0.1em
+          box-shadow: 0 0 0 16px rgba(255, 255, 255, 0.2)
+        &:before, &:after
+          content: ""
+          display: block
+          width: 1px
+          background-color: #fff
+          border-radius: 100%
+      p.description
+        position: relative
+        font-size: 14px
+        line-height: 16px
+        text-align: center
+      > p.description
+        left: $left-home-cycle + $margin-left-main
+        width: 590px
+        margin-left: -295px
+        position: relative
+      .node
+        position: absolute
+        text-align: center
+        &:before, &:after
+          content: ""
+          width: 100%
+          height: 100%
+          position: absolute
+          top: 0
+          left: 0
+          display: block
+          border-radius: 100%
+        &:before
+          background: -webkit-gradient(radial, 100% 100%, 0, 100% 100%, 241, color-stop(0.80, rgba(255, 255, 255, 0.05)), color-stop(0.00, rgba(255, 255, 255, 1)))
+          background: -webkit-radial-gradient(50% 20%, circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.05) 80%)
+          background: -moz-radial-gradient(50% 20%, circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.05) 80%)
+          background: -o-radial-gradient(50% 20%, circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.05) 80%)
+          background: -ms-radial-gradient(50% 20%, circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.05) 80%)
+          background: radial-gradient(50% 20%, circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.05) 80%)
+          opacity: 0.5
+        &:after
+          background: -webkit-gradient(radial, 100% 100%, 0, 100% 100%, 241, color-stop(0.70, rgba(255, 255, 255, 0.00)), color-stop(0.00, rgba(255, 255, 255, 1)))
+          background: -webkit-radial-gradient(50% 50%, circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.00) 70%)
+          background: -moz-radial-gradient(50% 50%, circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.00) 70%)
+          background: -o-radial-gradient(50% 50%, circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.00) 70%)
+          background: -ms-radial-gradient(50% 50%, circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.00) 70%)
+          background: radial-gradient(50% 50%, circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.00) 70%)
+          opacity: 0.3
+      &#home-introduction
+        height: 334px
+        z-index: 0
+        p
+          top: 77px
+          left: $left-home-cycle + $margin-left-main
+          width: 590px
+          margin-left: -295px
+          position: relative
+      &#home-statistics
+        margin-bottom: 32px
+        p
+          text-align: right
+          font-size: 56px
+          width: 590px
+          left: 170px
+          position: relative
+          line-height: 36px
+          span
+            font-size: 20px
+            margin-left: 6px
+            display: inline-block
+            width: 300px
+            text-align: left
+        dl
+          margin-left: 197px
+          width: 590px
+          position: relative
+          top: -10px
+          line-height: 60px
+          dt
+            position: absolute
+            left: 0
+          dd
+            font-size: 48px
+            text-align: right
+      &#home-change-log
+        dl
+          margin-left: 197px
+          width: 590px
+          box-sizing: border-box
+          position: relative
+          top: 12px
+          padding-left: 100px
+          font-size: 14px
+          line-height: 20px
+          margin-bottom: 8px
+          cursor: pointer
+          &:hover
+            text-decoration: underline
+          dt
+            position: absolute
+            left: 0
+      &#home-views
+        height: 318px
+        h2
+          top: 141px
+        .node
+          width: $home-view-node1-size
+          height: $home-view-node1-size
+          top: 80px
+          cursor: pointer
+          &:before, &:after
+            +transition( opacity $transition-duration ease-out )
+          &:hover
+            &:before
+              opacity: 0.8
+            &:after
+              opacity: 0.6
+          h3
+            top: 90px
+            font-size: 18px
+            &:before
+              font-family: "fontello"
+              font-size: 34px
+              line-height: 34px
+              display: block
+              margin: 57px 0 10px
+          p.description
+            top: 36px
+            width: 125%
+            margin-left: -12.5%
+        #home-views-datasets
+          left: $left-home-cycle + $margin-left-main - $home-view-node1-size * 0.5 - $home-view-node1-left
+          h3
+            &:before
+              content: $char-menu-list
+        #home-views-statistics
+          left: $left-home-cycle + $margin-left-main - $home-view-node1-size * 0.5
+          h3
+            &:before
+              content: $char-menu-matrix
+        #home-views-links
+          left: $left-home-cycle + $margin-left-main - $home-view-node1-size * 0.5 + $home-view-node1-left
+          h3
+            &:before
+              content: $char-menu-graph
+      &#home-datasets
+        height: 265px
+        h2
+          top: 112px
+        .node
+          width: $home-view-node2-size
+          height: $home-view-node2-size
+          line-height: 98px
+        #home-views-dataset1
+          left: $left-home-cycle + $margin-left-main - $home-view-node2-size * 0.5 - $home-view-node2-left1
+          top: $home-view-node2-top1 + $home-view-node2-top2
+          opacity: 0.8
+        #home-views-dataset2
+          left: $left-home-cycle + $margin-left-main - $home-view-node2-size * 0.5 - $home-view-node2-left2
+          top: $home-view-node2-top1 + $home-view-node2-top2 + $home-view-node2-top3
+        #home-views-dataset3
+          left: $left-home-cycle + $margin-left-main - $home-view-node2-size * 0.5 + $home-view-node2-left2
+          top: $home-view-node2-top1 - $home-view-node2-top2
+          opacity: 0.7
+        #home-views-dataset4
+          left: $left-home-cycle + $margin-left-main - $home-view-node2-size * 0.5 + $home-view-node2-left1
+          top: $home-view-node2-top1 - $home-view-node2-top2 + $home-view-node2-top3
+          opacity: 0.9
+        p.description
+          top: 216px
+      &#home-endpoint
+        height: 590px
+        .node
+          width: $home-view-node1-size
+          height: $home-view-node1-size
+          left: 415px
+          top: 307px
+        p.description
+          top: 75px
+  #manual-view,
+  #guideline-view,
+  #changelog-view
+    position: absolute
+    margin-left: -$margin-left-main
+    margin-top: $margin-top-main
+    margin-right: 20px
+    padding-left: 4px
+    opacity: 0
+    z-index: $z-index-to-back
+    height: 100%
+    margin-left: -$margin-left-main
+    box-sizing: border-box
+    pointer-events: none
+    font-size: 16px
+    line-height: 24px
+    &.shown
+      opacity: 1
+      pointer-events: auto
+      z-index: $z-index-shown
+    header
+      margin-bottom: 56px
+      padding-top: 6px
+      h3
+        font-family: 'Lato', 'M+P', sans-serif
+        font-size: 40px
+        font-weight: 300
+    table
+      width: 100%
+    .seciton-body
+      margin-right: 36px
+      p
+        margin-bottom: 1em
+      > section
+        margin-bottom: 2em
+        h4
+          font-size: 24px
+          margin-bottom: 6px
+        > section
+          h5
+            font-size: 18px
+  #manual-view
+    $PADDING_LEFT: 118px
+    > section
+      padding-bottom: 40px
+      .seciton-body
+        > section
+          border-top: solid 1px $color-separator
+          position: relative
+          padding: 30px 0 18px $PADDING_LEFT
+          margin-bottom: 0
+          margin-left: -118px
+          width: calc(100vw - 61px)
+          h2
+            font-size: 24px
+            margin-left: -$PADDING_LEFT
+            margin-bottom: 10px
+            padding-left: $PADDING_LEFT
+            border-bottom: solid 1px $color-separator
+          h3, h4, h5, h6
+            font-size: 18px
+            margin-bottom: 6px
+            border-bottom: solid 1px $color-separator
+            padding: 4px 0 0
+          p, blockquote, ul, ol, table
+            margin-bottom: 1em
+          p
+            font-size: 14px
+            line-height: 24px
+            max-width: 640px
+          blockquote
+            margin-left: .5em
+            padding-left: .5em
+            font-style: italic
+            border-left: solid 2px $color-separator
+          ul, ol
+            padding-left: 1em
+            ul, ol
+              margin-bottom: 0
+          ul
+            list-style-type: disc
+          ol
+            list-style-type: decimal
+          hr
+            border: none
+            border-top: solid 1px $color-separator
+            margin: 1em 0
+          em
+            font-style: italic
+          strong
+            font-weight: bold
+          code
+            padding: 0 .5em
+            font-family: Menlo, Monaco, Consolas, "Courier New", monospace
+            background-color: rgba(255, 255, 255, .2)
+            font-size: 12px
+            border: solid 1px $color-separator-strong
+            border-radius: 3px
+          table
+            th, td
+              &[align="right"]
+                text-align: right
+              &[align="center"]
+                text-align: center
+            thead
+              th, td
+                font-weight: bold
+            tbody
+              th, td
+                border-top: solid 1px $color-separator
+            thead + tbody
+              > tr:first-child > td
+                border-top-color: $color-separator-strong
+          .CodeMirror
+            max-height: 156px
+            margin-bottom: 18px
+          > section
+            position: relative
+            h3
+              position: absolute
+              left: -200px
+  #changelog-view
+    > section
+      padding-bottom: 40px
+    article
+      border-top: solid 1px rgba(255, 255, 255, .2)
+      padding-top: 32px
+      padding-left: 118px
+      margin-bottom: 32px
+      margin-left: -118px
+      margin-right: -56px
+      width: calc(100vw - 179px)
+      &:last-child
+        padding-bottom: 40px
+      header
+        margin: 0 0 6px
+        max-width: 640px
+        h4
+          font-size: 18px
+          line-height: 1
+        time
+          display: block
+          font-size: 12px
+          opacity: .5
+      .seciton-body
+        font-size: 14px
+        max-width: 640px
+  ul.guideline-outline
+    li
+      margin-bottom: 18px
+      position: relative
+      padding-left: 42px
+      a
+        .guideline-number
+          text-align: center
+          width: 36px
+          height: 36px
+          line-height: 36px
+          color: $color-emphasis
+          border: solid 2px $color-emphasis
+          font-size: 12px
+          font-weight: bold
+          display: block
+          vertical-align: middle
+          border-radius: 100%
+          position: absolute
+          top: -7px
+          left: -4px
+        .guideline-statement
+
+        &:hover
+          .guideline-number
+            //color: $color-emphasis
+  #matrix
+    opacity: 0
+    z-index: $z-index-background
+    pointer-events: none
+  &[data-kind-of-view="home"]
+    overflow: hidden
+    height: auto !important
+    #home-view
+      position: relative
+      opacity: 1
+      z-index: 1
+      overflow: visible
+      +filter(blur(0))
+      +transform(scale(1))
+    .star
+      pointer-events: none
+      .icon
+        width: $size-star-home
+        height: $size-star-home
+        margin-top: -$size-star-home * 0.5
+        margin-left: -$size-star-home * 0.5
+        +filter(blur(4px))
+      &.xref .icon:before
+        font-size: 16px
+        position: relative
+        top: -8px
+    svg
+      opacity: 1
+      height: 1210px !important
+      g.edges
+        opacity: 0
+        text
+          display: none
+      g.corn
+        //opacity: 1
+  &[data-kind-of-view="datasets"]
+    .star
+      margin-bottom: 200px
+      .icon
+        width: 0px
+        height: 0px
+      h2
+        opacity: 0
+        margin-left: 60px
+        margin-top: -32px
+        position: relative
+        top: 0
+        text-align: left
+        font-size: 20px
+        text-shadow: none
+        white-space: nowrap
+        overflow: hidden
+        text-overflow: ellipsis
+        transform: none
+        transition: font-size $transition-duration * 3 ease-out, opacity $transition-duration * 3 ease-out, top 0 ease-out
+      .appendix.list-view
+        opacity: 0
+        position: relative
+        margin-left: 60px
+        margin-right: 30px
+        margin-top: 9px
+        display: block
+        transition: opacity $transition-duration * 3 ease-out
+        p.description
+          font-size: 14px
+          line-height: 16px
+          height: 16px
+          margin-bottom: 5px
+          white-space: nowrap
+          overflow: hidden
+          text-overflow: ellipsis
+        div.left-element
+          margin-right: 144px
+          position: absolute
+          top: -5px
+          right: 100%
+          text-align: right
+          font-size: 16px
+          line-height: 16px
+          p
+            display: none
+            white-space: nowrap
+            small
+              font-size: 12px
+              opacity: 0.6
+              margin-left: 0.4em
+      &.xref
+        opacity: 0
+      &.hidden
+        pointer-events: none
+        opacity: 0
+        +transform(scale(0))
+      &.placed
+        .icon
+          width: $size-star-small
+          height: $size-star-small
+          margin-left: -24px
+          &:after
+            content: ""
+            display: block
+            position: absolute
+            right: -40px
+            top: 50%
+            width: 40px
+            border-top: solid 1px rgba(255, 255, 255, 0.5)
+        h2
+          opacity: 1
+        .appendix.list-view
+          opacity: 1
+    ul.tags
+      li
+        cursor: pointer
+    &[data-kind-of-sort="LastUpdate"]
+      .appendix.list-view
+        div.left-element
+          p.last-update
+            display: block
+    &[data-kind-of-sort="Alphabetical"],
+    &[data-kind-of-sort="Triples"]
+      .appendix.list-view
+        div.left-element
+          p.number-of-triples
+            display: block
+    &[data-kind-of-sort="DataProvider"]
+      .appendix.list-view
+        div.left-element
+          p.institution
+            display: block
+            width: 176px
+            font-size: 12px
+            overflow: hidden
+            text-overflow: ellipsis
+            line-height: 18px
+  &[data-kind-of-view="statistics"]
+    overflow-x: hidden
+    .stars
+      &:before
+        content: ""
+        position: absolute
+        top: 127px
+        left: -114px
+        padding-left: 114px
+        display: block
+        width: 100%
+        border-bottom: solid 1px #fff
+    .star
+      &:before
+        content: ""
+        display: block
+        width: 365px
+        height: $height-matrix-cell + 1
+        border-top: solid 1px rgba(255, 255, 255, 0.25)
+        border-right: solid 1px rgba(255, 255, 255, 0.25)
+        border-bottom: solid 1px rgba(255, 255, 255, 0.25)
+        box-sizing: border-box
+        position: absolute
+        top: -16px
+        left: -94px
+        +transition( border $transition-duration * 3 ease-out, background-color $transition-duration ease-out)
+      &:hover:before
+        background-color: rgba(255, 255, 255, 0.15)
+      &.placing
+        &:before
+          border-top: solid 1px rgba(255, 255, 255, 0)
+          border-right: solid 1px rgba(255, 255, 255, 0)
+          border-bottom: solid 1px rgba(255, 255, 255, 0)
+      .icon
+        width: $size-star-matrix
+        height: $size-star-matrix
+        //margin-top: -$size-star-matrix * 0.5
+        //margin-left: -$size-star-matrix * 0.5
+      h2
+        opacity: 1
+        +transform(none)
+        top: -15px
+        left: 28px
+        overflow: hidden
+        width: 230px
+        text-align: left
+        text-overflow: ellipsis
+        font-size: 14px
+        line-height: 32px
+      &.xref
+        opacity: 0
+      &.col-selected, &.row-selected
+        &:before
+          background-color: rgba(255, 255, 255, 0.15)
+      &.col-selected.row-selected
+        &:before
+          background-color: rgba(255, 255, 255, 0.3)
+    #matrix
+      font-size: 14px
+      position: relative
+      left: 366px
+      z-index: 1
+      pointer-events: auto
+      +transition( opacity $transition-duration * 3 ease-out )
+      &:after
+        content: ""
+        position: fixed
+        left: 426px
+        top: 0
+        display: block
+        height: 100%
+        width: 100px
+        border-left: solid 1px #fff
+        pointer-events: none
+        +background(linear-gradient(left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.0)))
+      &.placed
+        opacity: 1
+      .inner
+        position: absolute
+        width: 100%
+        height: calc(100% + 100px)
+        overflow-x: scroll
+        overflow-y: hidden
+      div.cell
+        border: solid 1px rgba(255, 255, 255, 0.25)
+        position: absolute
+        height: $height-matrix-cell + 1
+        width: $width-matrix-cell + 1
+        padding: 0 10px
+        box-sizing: border-box
+        line-height: $height-matrix-cell
+        +transition( background-color $transition-duration ease-out )
+        &.col-selected, &.row-selected, &:hover
+          background-color: rgba(255, 255, 255, 0.15)
+        &.col-selected.row-selected
+          background-color: rgba(255, 255, 255, 0.3)
+        &.item-Alphabetical
+          border-left: none
+          padding-left: 124px
+          left: -365px
+          width: 366px
+        &.id-sum
+          border-top: solid 1px #FFF
+      header div.cell, div.cell.item-Alphabetical
+        border-top: none
+        height: 128px
+        padding-top: 96px
+        cursor: pointer
+        .sorter
+          position: absolute
+          right: 4px
+          bottom: 2px
+          width: 23px
+          height: 23px
+          border-radius: 12px
+          +transition( background-color $transition-duration ease-out )
+          //background-color: brown
+          &:before, &:after
+            content: ""
+            position: absolute
+            left: 8px
+            display: block
+            width: 5px
+            height: 5px
+            opacity: 0.4
+            +transform(rotate(45deg))
+          &:before
+            border-left: solid 2px #fff
+            border-top: solid 2px #fff
+            top: 6px
+          &:after
+            border-right: solid 2px #fff
+            border-bottom: solid 2px #fff
+            bottom: 6px
+        &.selected
+          &[data-ascend="ascend"]
+            .sorter
+              &:before
+                opacity: 0
+              &:after
+                opacity: 1
+          &[data-ascend="descend"]
+            .sorter
+              &:after
+                opacity: 0
+              &:before
+                opacity: 1
+        &:hover
+          .sorter
+            background-color: $color-emphasis
+            &:before, &:after
+              opacity: 1
+      #matrix-body
+        div.cell
+          text-align: right
+      .matrix-sum
+        position: absolute
+        width: 366px
+        left: -365px
+        box-sizing: border-box
+        line-height: $height-matrix-cell
+        height: $height-matrix-cell + 1
+        padding-left: 123px
+      .matrix-sum
+        border-top: solid 1px #FFF
+      #matrix-right, #matrix-bottom
+        position: absolute
+      #matrix-right
+        top: 0
+        width: $width-matrix-right
+        height: 100%
+        border-left: solid 1px rgba(255, 255, 255, 0.5)
+        //background-color: rgba(red, 0.1)
+      #matrix-bottom
+        height: 60px
+        width: 100%
+        border-top: solid 1px rgba(255, 255, 255, 0.5)
+        &:before
+          content: ""
+          position: absolute
+          left: -365px
+          top: -1px
+          width: 366px
+          border-top: solid 1px rgba(255, 255, 255, 0.5)
+        //background-color: rgba(yellow, 0.1)
+    #matrix-scroll-area
+      position: fixed
+      pointer-events: none
+      //background-color: yellow
+      opacity: 0.2
+    #matrix-scroll-bar
+      position: fixed
+      bottom: 42px
+      padding: 0 5px
+      box-sizing: border-box
+      height: 8px
+      &:before
+        content: ""
+        display: block
+        height: 8px
+        cursor: pointer
+        border-radius: 4px
+        background-color: rgba(255, 255, 255, 0.2)
+        +transition( background-color $transition-duration ease-out )
+      &:hover
+        &:before
+          background-color: rgba(255, 255, 255, 0.6)
+  &[data-kind-of-view="network"]
+    overflow: hidden
+    .star
+      .icon
+        width: $size-star-smaller
+        height: $size-star-smaller
+      h2, .number-of
+        opacity: 0.5
+        font-size: 10px
+      h2
+        top: 25px
+      &:hover
+        h2, .number-of
+          opacity: 1
+      &.xref
+        > .icon
+          transform: scale(2) translate(-25%, -25%)
+        h2
+          top: 20px
+    svg
+      g.edges
+        opacity: 1
+        transition: opacity $transition-duration * 0.5 ease-out
+    &.star-hovering
+      .star
+        opacity: $opacity-hovering
+        &:hover, &.connected-star-hovering
+          opacity: 1
+          h2
+            opacity: 1
+            +text-outline()
+            +transition( fill $transition-duration ease-out, text-shadow $transition-duration ease-out, opacity $transition-duration ease-out )
+      svg
+        g.edges
+          line, text
+            opacity: $opacity-hovering !important
+            &.connected-star-hovering
+              opacity: 1 !important
+    #force-layout-console
+      display: block
+  &[data-kind-of-view="dataset"]
+    > .stars
+      > .star
+        transform: scale(0)
+        &.selected
+          z-index: $z-index-star-hover
+          transform: scale(1)
+          .icon
+            width: $size-star-normal
+            height: $size-star-normal
+          h2
+            display: none
+    nav.detail-navigation
+      position: fixed
+      top: 176px
+      left: 61px
+      width: 192px
+      z-index: $z-index-detail-navigation
+      a
+        margin-bottom: 20px
+        padding: 0 20px 0 0
+        border-top-right-radius: 11px
+        border-bottom-right-radius: 11px
+        display: block
+        position: relative
+        line-height: 22px
+        font-size: 14px
+        font-weight: bold
+        text-align: right
+        text-decoration: none
+        background-color: rgba(255, 255, 255, 0.4)
+        color: $color-dark
+        +transition(background-color .3s ease-out)
+        &:after
+          content: ""
+          display: block
+          width: 5px
+          height: 5px
+          position: absolute
+          top: 8px
+          right: 10px
+          border-top: solid 1px $color-dark
+          border-right: solid 1px $color-dark
+          +transform(rotate(45deg))
+        &.within
+          background-color: rgba(255, 255, 255, 0.9)
+        &:hover
+          background-color: rgba($color-emphasis, 0.9)
+  &[data-kind-of-view="home"],
+  &[data-kind-of-view="documents"],
+  &[data-kind-of-view="guideline"],
+  &[data-kind-of-view="changeLog"]
+    .stars
+      opacity: 0
+

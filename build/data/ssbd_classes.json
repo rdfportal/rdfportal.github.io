@@ -1,0 +1,146 @@
+[
+    {
+        "class": "http://metadb.riken.jp/ontology/SSBD/LengthQuantity", 
+        "label": {
+            "en": "length quantity", 
+            "ja": "length quantity"
+        }, 
+        "number_of_instances": 564
+    }, 
+    {
+        "class": "http://metadb.riken.jp/ontology/SSBD/PixelsQuantity", 
+        "label": {
+            "en": "pixels quantity", 
+            "ja": "pixels quantity"
+        }, 
+        "number_of_instances": 564
+    }, 
+    {
+        "class": "http://metadb.riken.jp/ontology/SSBD/QuantitativeData", 
+        "label": {
+            "en": "quantitative biological dynamics data", 
+            "ja": "quantitative biological dynamics data"
+        }, 
+        "number_of_instances": 516
+    }, 
+    {
+        "class": "http://www.w3.org/2000/01/rdf-schema#Resource", 
+        "label": {
+            "en": "Resource", 
+            "ja": "Resource"
+        }, 
+        "number_of_instances": 386
+    }, 
+    {
+        "class": "http://metadb.riken.jp/ontology/SSBD/TimeslicesQuantity", 
+        "label": {
+            "en": "time slices quantity", 
+            "ja": "time slices quantity"
+        }, 
+        "number_of_instances": 188
+    }, 
+    {
+        "class": "http://metadb.riken.jp/ontology/SSBD/TimeintervalQuantity", 
+        "label": {
+            "en": "time interval quantity", 
+            "ja": "time interval quantity"
+        }, 
+        "number_of_instances": 188
+    }, 
+    {
+        "class": "http://metadb.riken.jp/ontology/SSBD/XYZTImageCollection", 
+        "label": {
+            "en": "XYZT collection of images", 
+            "ja": "XYZT collection of images"
+        }, 
+        "number_of_instances": 188
+    }, 
+    {
+        "class": "http://metadb.riken.jp/ontology/SSBD/Depositor", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 44
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 29
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#ObjectProperty", 
+        "label": {
+            "en": "ObjectProperty", 
+            "ja": "ObjectProperty"
+        }, 
+        "number_of_instances": 13
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/UO_0000003", 
+        "label": {
+            "en": "time unit", 
+            "ja": "time unit"
+        }, 
+        "number_of_instances": 2
+    }, 
+    {
+        "class": "http://metadb.riken.jp/ontology/SSBD/BioFormat", 
+        "label": {
+            "en": "formats of microscopy images", 
+            "ja": "formats of microscopy images"
+        }, 
+        "number_of_instances": 2
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Ontology", 
+        "label": {
+            "en": "Ontology", 
+            "ja": "Ontology"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://metadb.riken.jp/ontology", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/UO_0000001", 
+        "label": {
+            "en": "length unit", 
+            "ja": "length unit"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://metadb.riken.jp/db", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://www.w3.org/2000/01/rdf-schema#Property", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://metadb.riken.jp/ontology/SSBD/PixelUnit", 
+        "label": {
+            "en": "pixel Unit", 
+            "ja": "pixel Unit"
+        }, 
+        "number_of_instances": 1
+    }
+]

@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "protein_ortholog_number",
+  "stanza:label": "Distribution of orthologous proteins",
+  "stanza:definition": "Show a distribution of orthologous proteins in the MBGD ortholog group containing the given protein by each phylum.",
+  "stanza:parameter": [
+    {
+      "stanza:key": "up_id",
+      "stanza:example": "P28903",
+      "stanza:description": "Uniport identifier.",
+      "stanza:required": true
+    }
+  ],
+  "stanza:usage": "<togostanza-protein_ortholog_number up_id=\"P28903\"></togostanza-protein_ortholog_number>",
+  "stanza:type": "Stanza",
+  "stanza:context": "",
+  "stanza:display": "",
+  "stanza:provider": "provider of this stanza",
+  "stanza:license": "",
+  "stanza:author": "author name",
+  "stanza:address": "name@example.org",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2016-02-24",
+  "stanza:updated": "2016-02-24"
+}

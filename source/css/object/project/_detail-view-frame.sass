@@ -1,0 +1,27 @@
+#detail-view-frame
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  padding: 10px 0 36px
+  box-sizing: border-box
+  pointer-events: none
+  overflow: hidden
+  .inner
+    border: solid 1px rgba(255, 255, 255, 0.5)
+    width: 100%
+    height: 100%
+    box-sizing: border-box
+    opacity: 0
+    &.frame-in
+      +animation-name(frame-in)
+      +animation-duration($detail-duration * 2)
+      +animation-timing-function(linear)
+      +animation-delay($detail-duration * 0.25)
+      +animation-iteration-count(1)
+    &.frame-out
+      +animation-name(frame-out)
+      +animation-duration($detail-duration * 4)
+      +animation-timing-function(linear)
+      +animation-iteration-count(1)

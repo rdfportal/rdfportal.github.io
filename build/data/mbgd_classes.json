@@ -1,0 +1,258 @@
+[
+    {
+        "class": "http://biohackathon.org/resource/faldo#ExactPosition", 
+        "label": {
+            "en": "Exact position", 
+            "ja": "Exact position"
+        }, 
+        "number_of_instances": 137225652
+    }, 
+    {
+        "class": "http://biohackathon.org/resource/faldo#Region", 
+        "label": {
+            "en": "Region", 
+            "ja": "Region"
+        }, 
+        "number_of_instances": 68612826
+    }, 
+    {
+        "class": "http://biohackathon.org/resource/faldo#ReverseStrandPosition", 
+        "label": {
+            "en": "Negative/reverse strand position", 
+            "ja": "Negative/reverse strand position"
+        }, 
+        "number_of_instances": 65611152
+    }, 
+    {
+        "class": "http://biohackathon.org/resource/faldo#ForwardStrandPosition", 
+        "label": {
+            "en": "Forward/positive strand position", 
+            "ja": "Forward/positive strand position"
+        }, 
+        "number_of_instances": 64806932
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#CDS", 
+        "label": {
+            "en": "CDS", 
+            "ja": "CDS"
+        }, 
+        "number_of_instances": 63791627
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#Domain", 
+        "label": {
+            "en": "Domain", 
+            "ja": "Domain"
+        }, 
+        "number_of_instances": 3403784
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#Linear", 
+        "label": {
+            "en": "Linear", 
+            "ja": "Linear"
+        }, 
+        "number_of_instances": 1897812
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#Contig", 
+        "label": {
+            "en": "Contig", 
+            "ja": "Contig"
+        }, 
+        "number_of_instances": 1894494
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#tRNA", 
+        "label": {
+            "en": "tRNA", 
+            "ja": "tRNA"
+        }, 
+        "number_of_instances": 1073627
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/orth#OrthologGroup", 
+        "label": {
+            "en": "OrthologGroup", 
+            "ja": "OrthologGroup"
+        }, 
+        "number_of_instances": 375227
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#rRNA", 
+        "label": {
+            "en": "rRNA", 
+            "ja": "rRNA"
+        }, 
+        "number_of_instances": 192773
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#ncRNA", 
+        "label": {
+            "en": "ncRNA", 
+            "ja": "ncRNA"
+        }, 
+        "number_of_instances": 108332
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/orth#HomologGroup", 
+        "label": {
+            "en": "HomologGroup", 
+            "ja": "HomologGroup"
+        }, 
+        "number_of_instances": 99306
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#misc_RNA", 
+        "label": {
+            "en": "misc_RNA", 
+            "ja": "misc_RNA"
+        }, 
+        "number_of_instances": 39563
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/orth#Organism", 
+        "label": {
+            "en": "Organism", 
+            "ja": "Organism"
+        }, 
+        "number_of_instances": 17719
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#DraftGenome", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 14257
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#Circular", 
+        "label": {
+            "en": "Circular", 
+            "ja": "Circular"
+        }, 
+        "number_of_instances": 6205
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#Chromosome", 
+        "label": {
+            "en": "Chromosome", 
+            "ja": "Chromosome"
+        }, 
+        "number_of_instances": 5608
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#Plasmid", 
+        "label": {
+            "en": "Plasmid", 
+            "ja": "Plasmid"
+        }, 
+        "number_of_instances": 3894
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#CompleteGenome", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 3462
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#precursor_", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 2096
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#tmRNA", 
+        "label": {
+            "en": "tmRNA", 
+            "ja": "tmRNA"
+        }, 
+        "number_of_instances": 1021
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 32
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#DatatypeProperty", 
+        "label": {
+            "en": "DatatypeProperty", 
+            "ja": "DatatypeProperty"
+        }, 
+        "number_of_instances": 26
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#Mitochondrion", 
+        "label": {
+            "en": "Mitochondrion", 
+            "ja": "Mitochondrion"
+        }, 
+        "number_of_instances": 21
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#ObjectProperty", 
+        "label": {
+            "en": "ObjectProperty", 
+            "ja": "ObjectProperty"
+        }, 
+        "number_of_instances": 19
+    }, 
+    {
+        "class": "http://rdfs.org/ns/void#Dataset", 
+        "label": {
+            "en": "dataset", 
+            "ja": "dataset"
+        }, 
+        "number_of_instances": 4
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Restriction", 
+        "label": {
+            "en": "Restriction", 
+            "ja": "Restriction"
+        }, 
+        "number_of_instances": 3
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#SymmetricProperty", 
+        "label": {
+            "en": "SymmetricProperty", 
+            "ja": "SymmetricProperty"
+        }, 
+        "number_of_instances": 3
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#snoRNA", 
+        "label": {
+            "en": "snoRNA", 
+            "ja": "snoRNA"
+        }, 
+        "number_of_instances": 3
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Ontology", 
+        "label": {
+            "en": "Ontology", 
+            "ja": "Ontology"
+        }, 
+        "number_of_instances": 2
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/orth#Dataset", 
+        "label": {
+            "en": "Dataset", 
+            "ja": "Dataset"
+        }, 
+        "number_of_instances": 1
+    }
+]

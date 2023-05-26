@@ -1,0 +1,434 @@
+doctype html
+html
+	head
+		meta(charset="UTF-8")
+		title NBDC RDF Portal
+		link(href="//fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet" type="text/css")
+		base(href="/")
+		link(href="css/codemirror.css" rel="stylesheet")
+		link(href="css/main.css" rel="stylesheet")
+		//script(src="js/strings.js")
+		script(src="js/vendor/jquery-2.1.4.min.js")
+		script(src="js/vendor/jquery-ui.min.js")
+		script(src="js/vendor/jquery.easing.1.3.js")
+		script(src="js/vendor/jquery.adaptive-backgrounds.js")
+		script(src="js/vendor/jquery.cookie.js")
+		script(src="js/vendor/d3.min.js")
+		script(src="js/vendor/codemirror/codemirror.js")
+		script(src="js/vendor/codemirror/sparql.js")
+		script(src="js/vendor/page.js")
+		script(src="js/vendor/marked.min.js")
+		script(src="js/main.js")
+	body.preparing
+		h1#logotype NBDC RDF Portal
+		#splash-screen
+			img(src="images/logotype-white.svg" alt="NBDC RDF Portal")
+		main#main-view(data-kind-of-view)
+			article#home-view
+				img.logotype(src="images/logotype-white.svg" width="96")
+				section#home-introduction
+					p(lang="ja") NBDC RDF Portalは、RDF形式の生命科学データベースを集積したポータルサイトです。RDF形式のデータは相互に参照したり連結することが容易であるため、多種多様な生命科学のデータベースを統合的に活用することが可能となります。本サイトでは、さまざまな研究機関から提供されたRDFデータセットをダウンロードしたり、SPARQL言語による検索を行うことができます。
+					p(lang="en") The NBDC RDF Portal provides a collection of life science datasets in RDF (Resource Description Framework). The portal aims to accelerate integrative utilization of the heterogeneous datasets deposited by various research institutions and groups. In this portal, each dataset comes with a summary, downloadable files and a SPARQL endpoint.
+				section#home-statistics
+					h2
+						span.first-letter S
+						| tatistics
+				section#home-change-log
+					h2
+						span.first-letter U
+						| pdate notes
+				section#home-views
+					h2
+						span.first-letter V
+						| iews
+					#home-views-datasets.node(data-target="view-switch-list")
+						h3 Datasets
+						p.description
+							span(lang="en") List of RDF datasets with sorting and filtering options
+							span(lang="ja") RDFデータセットのリスト
+					#home-views-statistics.node(data-target="view-switch-matrix")
+						h3 Statistics
+						p.description
+							span(lang="en") Table of sortable statistics of RDF datasets
+							span(lang="ja") RDFデータセットの統計情報
+					#home-views-links.node(data-target="view-switch-graph")
+						h3 Statistics
+						p.description
+							span(lang="en") Graph of links between RDF datasets
+							span(lang="ja") RDFデータセット間の関係
+				section#home-datasets
+					h2
+						span.first-letter D
+						| atasets
+					#home-views-dataset1.node.dataset
+						h3 Detail
+					#home-views-dataset2.node.dataset
+						h3 Detail
+					#home-views-dataset3.node.dataset
+						h3 Detail
+					#home-views-dataset4.node.dataset
+						h3 Detail
+					p.description
+						span(lang="en") Detailed information of RDF datasets with download links and a SPARQL endpoint
+						span(lang="ja") 各RDFデータセットの詳細とダウンロード、SPARQL検索
+				section#home-endpoint
+					.node
+						p.description
+							span(lang="en") Life science databases
+							span(lang="ja") 生命科学データベース
+			article#manual-view
+				section
+					header
+						h3
+							span(lang="ja") ドキュメント
+							span(lang="en") Documents
+					.seciton-body(lang="en")
+						//section
+						//	h4 Datasets
+						//	p Datasets view shows the  list of the RDF datasets sorted by date last updated by default. Each database icon is linked to the corresponding detailed view. User can sort the datasets by alphabetical order, the number of triples or data provider in ascending or descending order by using the control panel in the bottom of the view. User can also filter the datasets by selecting the database categories.
+						//section
+						//	h4 Statistics
+						//	p Statistics view shows the summary table of statistics of all datasets in this portal.
+						//section
+						//	h4 Network view
+						//	p Network view shows the networks consisting of the links among the RDF datasets in this portal and external datasets, which are listed in the Statistics section of each Details view.
+						//section
+						//	h4 SPARQL
+						//	p SPARQL endpoint is available against all RDF datasets in this portal. User can execute a SPAQL query written in the query form by clicking the Run Query button. A number of prefixes for major ontologies such as dublin core, dcterms, skos, foaf, xsd, obo are predefined and user can user those prefixes without defining prefixes with @prefix notations. Predefined prefixes are listed in &gt;https://integbio.jp/rdf/sparql?nsdecl&lt; .
+						//section
+						//	h4 Details
+						//	p Each dataset has its Details view. Details consists of five subsections: Specification, Linked datasets, Statistics, Schema, SPARQL examples and Stanzas.
+						//	section
+						//		h5 Specification
+						//		p Specification section shows meta-data of the dataset: the database categories, the provider, the creators, the latest version, the date issued and the license. The RDF files are also available in this section.</p>
+						//	section
+						//		h5 Linked datasets
+						//		p Linked datasets section shows the statistics of  the external links from the dataset. The links in th&lt; form of '&gt;an resource in the dataset&lt; rdfs:seeAlso &gt;an external URI registered in identifiers.org&lt;' are enumerated
+						//	section
+						//		h5 Statistics
+						//		p Statistics section shows the detailed statistics such as the number of each class and property used.
+						//	section
+						//		h5 Schema
+						//		p Schema section shows the schematic image of the RDF model.
+						//	section
+						//		h5 SPARQL examples
+						//		p SPARQL examples section shows example SPARQL queries against the dataset. By clicking the SPARQL button below each query new browser window of the NBDC SPARQL endpoints service will be opened with the example query filled in the query from. User can directly execute the query by clicking the Run Query  button below the query form.
+						//	section
+						//		h5 Stanzas
+						//		p Stanza is a web application querying SPRQL endpoints, which is developed by the TogoStanza framework. Stanzas section shows the stanzas using the RDF dataset.
+					.seciton-body(lang="ja")
+						//section
+						//	h4 Datasets
+						//	p Datasets ページでは、RDFデータセットの一覧が、デフォルトでは更新日順に表示されます。それぞれのデータセットのアイコンは、各データセットのDetailsページにリンクされています。画面下部にある表示設定パネルで、更新日以外にも、アルファベット順、RDFトリプル数順、データ提供者順に、降順または昇順で並べ替えることができます。また、各データセットのデータベースカタログ分類を選ぶことで、表示されるデータセットを絞り込むこともできます。
+						//section
+						//	h4 Statistics
+						//	p Statistics ページでは、本ポータルサイトに収録された全てのデータセットの統計情報を要約したテーブルが表示されます。
+						//section
+						//	h4 Network view
+						//	p Network view ページでは、本ポータルに収録されたRDFデータセットおよび、外部のデータセットの間のリンクから構成されるネットーワーク図が表示されます。リンク情報は、各データセットのDetailsページのStatisticsに一覧されているものを利用しています。
+						//section
+						//	h4 SPARQL
+						//	p 全てのRDFデータセットに大して、SPARQLクエリを実行するためのエンドポイントを提供しています。Query: フォームに記述したSPARQLクエリを、Run Queryボタンをクリックすることで実行することができます。dublin core, dcterms, skos, foaf, xsd, obo 等の主要なオントロジーについては本ポータルにもロードされており、@prefix 記法で定義することなく、予め定義された接頭辞を利用することができます。利用できる接頭辞は、&gt;https://integbio.jp/rdf/sparql?nsdecl&lt; で参照できます。
+						//section
+						//	h4 Details
+						//	p Details ページでは、各データセットの詳細情報が表示されます。Specification, Linked datasets, Statistics, SPARQL examples, Stanzas の5つのセクションから構成されています。
+						//	section
+						//		h5 Specification
+						//		p Specificationo セクションには、各データセットに関する、データベースカテゴリー、データ提供者、データ構築者、最新バージョン、構築日、ライセンス等のメタ情報が表示されます。RDFファイルそのものも、このセクションからダウンロードすることができます。
+						//	section
+						//		h5 Linked datasets
+						//		p Linked datasets セクションには、外部リンクへの数が表示されています。次の形式のトリプル '&gt;本データセットのURI&lt; rdfs:seeAlso &gt;identifiers.orgのURI&lt;' の数を利用しています。
+						//	section
+						//		h5 Statistics
+						//		p Statistics セクションには、各クラス、各プロパティ毎のトリプル数等の詳細な統計情報が表示されます。
+						//	section
+						//		h5 Schema
+						//		p Schema セクションには、各データセットのRDFモデルのスキーマ図が表示されます。
+						//	section
+						//		h5 SPARQL examples
+						//		p SPARQL examples セクションでは、各データセットに関するSPARQLクエリの例が表示されます。各SPARQLクエリの下にあるSPARQLボタンを押すことで、SPARQLエンドポイントサービスのページが新しいウインドウで表示されます。query フォームには、SPARQL exmaple が記述されいるので、Run Query ボタンを押すことで、直接クエリを実行することができます。
+						//	section
+						//		h5 Stanzas
+						//		p スタンザとは、TogoStanza を用いて作られたSPARQLを利用するウェブアプリケーションのことです。<br>Stanzas セクションでは、各RDFデータセットを利用した、スタンザアプリケーションが表示されています。
+			article#guideline-view
+				section
+					header
+						h3
+							span(lang="ja") RDF化 データベースガイドライン
+							span(lang="en") RDFizing Database Guideline
+					.seciton-body(lang="ja")
+						ul.guideline-outline
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Provide_appropriate_ontology_classes_for_a_resource_URI" target="_blank")
+									span.guideline-number 2.2.1
+									span.guideline-statement URIリソースはオントロジーのクラスのインスタンスとして定義する
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Provide_labels_for_a_resource_URI" target="_blank")
+									span.guideline-number 2.2.2
+									span.guideline-statement URIリソースにラベルをつける
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Provide_the_identifier_literal_for_a_resource_URI" target="_blank")
+									span.guideline-number 2.2.3
+									span.guideline-statement URIリソースにIDラベルをつける
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Link_to_other_datasets" target="_blank")
+									span.guideline-number 2.2.4
+									span.guideline-statement 他のデータセットへのリンクをつける
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Link_to_references" target="_blank")
+									span.guideline-number 2.2.5
+									span.guideline-statement 文献情報へのリンクをつける
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Provide_meta_information_of_a_dataset" target="_blank")
+									span.guideline-number 2.2.6
+									span.guideline-statement データにメタ情報をつける
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Link_to_images" target="_blank")
+									span.guideline-number 2.2.7
+									span.guideline-statement 画像へのリンク
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Re-use_existing_ontologies" target="_blank")
+									span.guideline-number 2.3.1
+									span.guideline-statement 既存のオントロジーを再利用する
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Define_domains_and_ranges_of_the_properties_you_created" target="_blank")
+									span.guideline-number 2.3.3
+									span.guideline-statement プロパティにdomainとrangeを定義する
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Provide_a_license" target="_blank")
+									span.guideline-number 2.4.2
+									span.guideline-statement ライセンス情報をつける
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Publish_the_scheme_of_your_data" target="_blank")
+									span.guideline-number 2.4.3
+									span.guideline-statement スキーマ図を提供する
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Provide_example_SPARQL_queries" target="_blank")
+									span.guideline-number 2.4.4
+									span.guideline-statement SPARQLサンプルを提供する
+					.seciton-body(lang="en")
+						ul.guideline-outline
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Provide_appropriate_ontology_classes_for_a_resource_URI" target="_blank")
+									span.guideline-number 2.2.1
+									span.guideline-statement Provide appropriate ontology classes for a resource URI
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Provide_labels_for_a_resource_URI" target="_blank")
+									span.guideline-number 2.2.2
+									span.guideline-statement Provide labels for a resource URI
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Provide_the_identifier_literal_for_a_resource_URI" target="_blank")
+									span.guideline-number 2.2.3
+									span.guideline-statement Provide the identifier literal for a resource URI
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Link_to_other_datasets" target="_blank")
+									span.guideline-number 2.2.4
+									span.guideline-statement Link to other datasets
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Link_to_references" target="_blank")
+									span.guideline-number 2.2.5
+									span.guideline-statement Link to references
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Provide_meta_information_of_a_dataset" target="_blank")
+									span.guideline-number 2.2.6
+									span.guideline-statement Provide meta information of a dataset
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Link_to_images" target="_blank")
+									span.guideline-number 2.2.7
+									span.guideline-statement Link to images
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Re-use_existing_ontologies" target="_blank")
+									span.guideline-number 2.3.1
+									span.guideline-statement Re-use existing ontologies
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Define_domains_and_ranges_of_the_properties_you_created" target="_blank")
+									span.guideline-number 2.3.3
+									span.guideline-statement Define domains and ranges of the properties you created
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Provide_a_license" target="_blank")
+									span.guideline-number 2.4.2
+									span.guideline-statement Provide a license
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Publish_the_scheme_of_your_data" target="_blank")
+									span.guideline-number 2.4.3
+									span.guideline-statement Publish the scheme of your data
+							li
+								a(href="//wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1#Provide_example_SPARQL_queries" target="_blank")
+									span.guideline-number 2.4.4
+									span.guideline-statement Provide example SPARQL queries
+			article#changelog-view
+				section
+					header
+						h3
+							span(lang="ja") 更新履歴
+							span(lang="en") Change Log
+					.seciton-body
+			.stars
+		nav#global-navigation
+			h2#view-label
+			ul#view-switch1
+				li#view-switch-home(data-kind-of-view="home" title="Home")
+			ul#view-switch2
+				li#view-switch-list(data-kind-of-view="datasets" title="Datasets")
+				li#view-switch-matrix(data-kind-of-view="statistics" title="Statistics")
+				li#view-switch-graph(data-kind-of-view="network" title="Network view")
+			ul#view-switch3
+				li#view-switch-manual(data-kind-of-view="documents" title="Documents")
+				//li#view-switch-guideline(data-kind-of-view="guideline" title="Guidelines")
+			ul#link-endpoint
+				li(title="SPARQL endpoint")
+					a(href="sparql" target="_blank")
+			ul#language-switch
+				li(data-lang="en" title="English") A
+				li(data-lang="ja" title="Japanese") あ
+		footer#control-panel
+			#control-panel-icon
+			form#control-panel-items
+				dl#control-panel-provided-as-filter
+					dt
+						span(lang="ja") 提供
+						span(lang="en") Provided
+					dd
+						input#provided-as-only-original(type="radio" name="provided-as" value="original")
+						label.radio(for="provided-as-only-original")
+							span(lang="ja") オリジナルのみ
+							span(lang="en") Only original
+					dd
+						input#provided-as-all(type="radio" name="provided-as" value="all")
+						label.radio(for="provided-as-all")
+							span(lang="ja") 全て
+							span(lang="en") All
+				dl#control-panel-sort
+					dt
+						span(lang="ja") ソート
+						span(lang="en") Sort by
+					dd
+						input#sort-last-update(type="radio" name="sort" value="LastUpdate")
+						label.radio(for="sort-last-update")
+							span(lang="ja") 更新日
+							span(lang="en") Last update
+					dd
+						input#sort-alphabetical(type="radio" name="sort" value="Alphabetical")
+						label.radio(for="sort-alphabetical")
+							span(lang="ja") アルファベット順
+							span(lang="en") Alphabetical
+					dd
+						input#sort-triples(type="radio" name="sort" value="Triples")
+						label.radio(for="sort-triples")
+							span(lang="ja") トリプル数
+							span(lang="en") Number of triples
+					dd
+						input#sort-data-provider(type="radio" name="sort" value="DataProvider")
+						label.radio(for="sort-data-provider")
+							span(lang="ja") データ提供機関
+							span(lang="en") Data provider
+					hr 
+					dd
+						input#sort-ascend(type="radio" name="ascend" value="ascend")
+						label.radio(for="sort-ascend")
+							span(lang="ja") 昇順
+							span(lang="en") Ascend
+					dd
+						input#sort-descend(type="radio" name="descend" value="descend")
+						label.radio(for="sort-descend")
+							span(lang="ja") 降順
+							span(lang="en") Descend
+				dl#control-panel-scaling
+					dt
+						span(lang="ja") ノードの大きさ
+						span(lang="en") Scaling by
+					dd
+						input#scaling-none(type="radio" name="scaling" value="None")
+						label.radio(for="scaling-none")
+							span(lang="ja") 無効
+							span(lang="en") None
+					hr
+					dd
+						input#scaling-triples(type="radio" name="scaling" value="Triples")
+						label.radio(for="scaling-triples")
+							span(lang="ja") トリプル
+							span(lang="en") Triples
+					dd
+						input#scaling-classes(type="radio" name="scaling" value="Classes")
+						label.radio(for="scaling-classes")
+							span(lang="ja") クラス
+							span(lang="en") Classes
+					dd
+						input#scaling-instances(type="radio" name="scaling" value="Instances")
+						label.radio(for="scaling-instances")
+							span(lang="ja") インスタンス
+							span(lang="en") Instances
+					dd
+						input#scaling-literals(type="radio" name="scaling" value="Literals")
+						label.radio(for="scaling-literals")
+							span(lang="ja") リテラル
+							span(lang="en") Literals
+					dd
+						input#scaling-objects(type="radio" name="scaling" value="Objects")
+						label.radio(for="scaling-objects")
+							span(lang="ja") オブジェクト
+							span(lang="en") Objects
+					dd
+						input#scaling-properties(type="radio" name="scaling" value="Properties")
+						label.radio(for="scaling-properties")
+							span(lang="ja") プロパティ
+							span(lang="en") Properties
+					dd
+						input#scaling-subjects(type="radio" name="scaling" value="Subjects")
+						label.radio(for="scaling-subjects")
+							span(lang="ja") サブジェクト
+							span(lang="en") Subjects
+				dl#control-panel-tag-filter
+					dt
+						span(lang="ja") フィルター
+						span(lang="en") Filter
+					dd
+						button#tag-filter-button-all(type="button" value="All")
+							span(lang="ja") 全選択
+							span(lang="en") Select all
+						button#tag-filter-button-all-deselected(type="button" value="All")
+							span(lang="ja") 選択解除
+							span(lang="en") Clear all
+					br
+				dl#control-panel-tag-marker
+					dt
+						span(lang="ja") マーカー
+						span(lang="en") Marker
+					dd(data-value="Invalid")
+						label.radio
+							span.color-ball(style="border-color: #CCC;")
+							span(lang="ja") 無効
+							span(lang="en") None
+					hr
+			#control-panel-display
+				dl#control-panel-display-list-view-sort-by
+					dt
+						span(lang="ja") ソート
+						span(lang="en") Sort by
+					dd
+				dl#control-panel-display-list-view-sort-order
+					dt
+						span(lang="ja") 昇降順
+						span(lang="en") Sort order
+					dd
+				dl#control-panel-display-graph-view-scaling-by
+					dt
+						span(lang="ja") ノードの大きさ
+						span(lang="en") Scaling by
+					dd
+				dl#control-panel-display-graph-view-marked
+					dt
+						span(lang="ja") タグ
+						span(lang="en") Marked tag
+					dd
+			p#copyright
+				strong NBDC RDF Portal
+				| &copy; 2015
+				a(href="//biosciencedbc.jp/en/" target="_blank" lang="en") NBDC
+				a(href="//biosciencedbc.jp" target="_blank" lang="ja") NBDC
+				| &nbsp; / &nbsp;
+				a(href="//biosciencedbc.jp/en/sitepolicies" target="_blank" lang="en") Site policy
+				a(href="//biosciencedbc.jp/sitepolicies" target="_blank" lang="ja") サイトポリシー
+
+		#offscreen-canvas-container
+

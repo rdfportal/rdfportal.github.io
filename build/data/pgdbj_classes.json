@@ -1,0 +1,90 @@
+[
+    {
+        "class": "http://purl.jp/bio/11/orth#OrthologGroup", 
+        "label": {
+            "en": "OrthologGroup", 
+            "ja": "OrthologGroup"
+        }, 
+        "number_of_instances": 1275707
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/orth#Protein", 
+        "label": {
+            "en": "Protein", 
+            "ja": "Protein"
+        }, 
+        "number_of_instances": 499798
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/orth#ParalogGroup", 
+        "label": {
+            "en": "ParalogGroup", 
+            "ja": "ParalogGroup"
+        }, 
+        "number_of_instances": 188078
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/orth#Taxon", 
+        "label": {
+            "en": "Taxon", 
+            "ja": "Taxon"
+        }, 
+        "number_of_instances": 109
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 16
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#ObjectProperty", 
+        "label": {
+            "en": "ObjectProperty", 
+            "ja": "ObjectProperty"
+        }, 
+        "number_of_instances": 15
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#DatatypeProperty", 
+        "label": {
+            "en": "DatatypeProperty", 
+            "ja": "DatatypeProperty"
+        }, 
+        "number_of_instances": 5
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#SymmetricProperty", 
+        "label": {
+            "en": "SymmetricProperty", 
+            "ja": "SymmetricProperty"
+        }, 
+        "number_of_instances": 3
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Restriction", 
+        "label": {
+            "en": "Restriction", 
+            "ja": "Restriction"
+        }, 
+        "number_of_instances": 3
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Ontology", 
+        "label": {
+            "en": "Ontology", 
+            "ja": "Ontology"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://rdfs.org/ns/void#Dataset", 
+        "label": {
+            "en": "dataset", 
+            "ja": "dataset"
+        }, 
+        "number_of_instances": 1
+    }
+]

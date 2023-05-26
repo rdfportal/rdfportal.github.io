@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "icgc_protein_mutations",
+  "stanza:label": "ICGC protein mutations stats",
+  "stanza:definition": "Visualization of the donor number of each amino acid mutation.",
+  "stanza:parameter": [
+    {
+      "stanza:key": "ncbi_gene_id",
+      "stanza:example": "3417",
+      "stanza:description": "NCBI gene identifier.",
+      "stanza:required": true
+    }
+  ],
+  "stanza:usage": "<togostanza-icgc_protein_mutations ncbi_gene_id=\"3417\"></togostanza-icgc_protein_mutations>",
+  "stanza:type": "Stanza",
+  "stanza:context": "",
+  "stanza:display": "",
+  "stanza:provider": "provider of this stanza",
+  "stanza:license": "",
+  "stanza:author": "author name",
+  "stanza:address": "name@example.org",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2016-02-11",
+  "stanza:updated": "2016-02-11"
+}

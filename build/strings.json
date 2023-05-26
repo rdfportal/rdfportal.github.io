@@ -1,0 +1,182 @@
+{
+    "launch": {
+        "en": "Original site",
+        "ja": "オリジナルサイト"
+    },
+    "specification": {
+        "en": "Specification",
+        "ja": "詳細"
+    },
+    "creators": {
+        "en": "Creators",
+        "ja": "制作者"
+    },
+    "dataProvider": {
+        "en": "Data provider",
+        "ja": "データ提供者"
+    },
+    "version": {
+        "en": "Version",
+        "ja": "バージョン"
+    },
+    "issued": {
+        "en": "Issued",
+        "ja": "発行日"
+    },
+    "license": {
+        "en": "License",
+        "ja": "ライセンス"
+    },
+    "status": {
+        "en": "Status",
+        "ja": "ステータス"
+    },
+    "reviewed": {
+        "en": "Reviewed",
+        "ja": "レビュー済み"
+    },
+    "unreviewed": {
+        "en": "Unreviewed",
+        "ja": "未レビュー"
+    },
+    "originalDataset": {
+        "en": "Original dataset",
+        "ja": "オリジナルデータセット"
+    },
+    "thirdPartyDataset": {
+        "en": "3rd party dataset",
+        "ja": "第三者のデータセット"
+    },
+    "downloadFile": {
+        "en": "Download file",
+        "ja": "データ一括ダウンロード"
+    },
+    "responseToRDFGuideline": {
+        "en": "DBCLS RDF guideline",
+        "ja": "DBCLS RDF ガイドライン対応状況"
+    },
+    "tags": {
+        "en": "Tags",
+        "ja": "タグ"
+    },
+    "connectedDatasetIDs": {
+        "en": "Linked datasets",
+        "ja": "関連するデータセット"
+    },
+    "statistics": {
+        "en": "Statistics",
+        "ja": "統計情報"
+    },
+    "triples": {
+        "en": "Triples",
+        "ja": "トリプル"
+    },
+    "instances": {
+        "en": "Instances",
+        "ja": "インスタンス"
+    },
+    "subjects": {
+        "en": "Subjects",
+        "ja": "サブジェクト"
+    },
+    "objects": {
+        "en": "Objects",
+        "ja": "オブジェクト"
+    },
+    "literals": {
+        "en": "Literals",
+        "ja": "リテラル"
+    },
+    "classes": {
+        "en": "Classes",
+        "ja": "クラス"
+    },
+    "domainClasses": {
+        "en": "Domain classes",
+        "ja": "ドメインクラス"
+    },
+    "rangeClasses": {
+        "en": "Range classes",
+        "ja": "レンジクラス"
+    },
+    "properties": {
+        "en": "Properties",
+        "ja": "プロパティ"
+    },
+    "datatypes": {
+        "en": "Datatypes",
+        "ja": "データタイプ"
+    },
+    "ontologies": {
+        "en": "Ontologies",
+        "ja": "オントロジー"
+    },
+    "graphs": {
+        "en": "Graphs",
+        "ja": "グラフ"
+    },
+    "files": {
+        "en": "Files",
+        "ja": "ファイル"
+    },
+    "numberOfTriples": {
+        "en": "Triples",
+        "ja": "トリプル数"
+    },
+    "numberOfInstances": {
+        "en": "Instances",
+        "ja": "インスタンス数"
+    },
+    "numberOfSubjects": {
+        "en": "Subjects",
+        "ja": "サブジェクト数"
+    },
+    "numberOfObjects": {
+        "en": "Objects",
+        "ja": "オブジェクト数"
+    },
+    "numberOfLiterals": {
+        "en": "Literals",
+        "ja": "リテラル数"
+    },
+    "numberOfClasses": {
+        "en": "Classes",
+        "ja": "クラス数"
+    },
+    "numberOfProperties": {
+        "en": "Properties",
+        "ja": "プロパティ数"
+    },
+    "numberOfLinks": {
+        "en": "Links",
+        "ja": "リンク数"
+    },
+    "schema": {
+        "en": "Schema",
+        "ja": "スキーマ図"
+    },
+    "sparqlExamples": {
+        "en": "SPARQL examples",
+        "ja": "SPARQL例"
+    },
+    "sparqlEndpoint": {
+        "en": "SPARQL endpoint",
+        "ja": "SPARQLエンドポイント"
+    },
+    "stanzas": {
+        "en": "Stanzas",
+        "ja": "スタンザ"
+    },
+    "open": {
+        "en": "Open",
+        "ja": "開く"
+    },
+    "more": {
+        "en": "More",
+        "ja": "さらに表示"
+    },
+    "name": {
+        "en": "Name",
+        "ja": "名前"
+    }
+}

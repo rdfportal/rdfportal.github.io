@@ -1,0 +1,185 @@
+#control-panel
+  position: fixed
+  bottom: 0
+  left: 0
+  width: 100%
+  min-height: 36px
+  background-color: #fff
+  color: $color-dark
+  padding: 0 0 0 60px
+  box-sizing: border-box
+  z-index: $z-index-edge
+  transition: box-shadow $transition-duration *3 ease-out
+  dl
+    display: none
+  hr
+    border-top: dashed 1px rgba(0, 0, 0, 0.25)
+    border-left: none
+    border-bottom: none
+    border-right: none
+    margin: 3px 0
+#control-panel-icon
+  position: absolute
+  left: 0
+  bottom: 0
+  font-size: 18px
+  line-height: 36px
+  width: 60px
+  text-align: center
+  cursor: pointer
+  height: 36px
+  display: none
+  transition: color $transition-duration * 0.5 ease-out
+  &:before
+    content: $char-menu-console
+    font-family: "fontello"
+  &:after
+    content: ""
+    position: absolute
+    right: -1px
+    height: 100%
+    border-left: solid 1px rgba($color-dark, 0.15)
+  &:hover
+    color: $color-bright
+#control-panel-items
+  display: block
+  font-size: 14px
+  line-height: 18px
+  position: relative
+  padding: 6px 0
+  margin-bottom: -100%
+  opacity: 0
+  box-sizing: border-box
+  pointer-events: none
+  transition: margin-bottom $transition-duration ease-out, opacity $transition-duration ease-out
+  &:before
+    content: ""
+    position: absolute
+    left: 0
+    height: 100%
+    border-left: solid 1px #ddd
+  dl
+    position: relative
+    padding: 4px 30px 4px 120px
+    min-height: 20px
+    border-bottom: solid 1px #ddd
+    &:last-child
+      border-bottom: none
+    dt
+      position: absolute
+      left: 0
+      text-align: right
+      width: 114px
+      opacity: 0.5
+    dd
+      display: inline-block
+      white-space: nowrap
+      margin-left: 1em
+      input
+        cursor: pointer
+      label
+        font-weight: bold
+        cursor: pointer
+    &#control-panel-tag-filter
+      input
+        &:checked
+          + label
+            color: $color-bright
+    &#control-panel-tag-marker
+      label
+        span
+          &.color-ball
+            opacity: 1
+            display: inline-block
+            width: 12px
+            height: 12px
+            border-radius: 6px
+            border-style: solid
+            border-width: 1px
+            margin: 0 2px
+            position: relative
+            top: 2px
+            box-sizing: border-box
+            margin-right: 4px
+#control-panel-display
+  position: absolute
+  bottom: 0
+  padding-left: 6px
+  cursor: pointer
+  transition: opacity $transition-duration ease-out
+  dl
+    margin-left: 20px
+    font-size: 12px
+    line-height: 37px
+    dt, dd
+      display: inline-block
+    dt
+      opacity: 0.5
+    margin-right: 5px
+    dd
+#copyright
+  position: absolute
+  bottom: 7px
+  right: 30px
+  font-size: 12px
+  color: $color-dark
+  line-height: 20px
+  transition: opacity $transition-duration ease-out
+  strong
+    font-weight: bold
+    margin-right: 1em
+  a
+    color: $color-dark
+    text-decoration: underline
+    cursor: pointer
+    &:after
+      content: none
+#control-panel.opened
+  #control-panel-icon
+    &:before
+      content: $char-close
+  #control-panel-display
+    opacity: 0
+    pointer-events: none
+#control-panel-icon:hover
+  + #control-panel-items
+    opacity: 0.25
+    + #control-panel-display
+      opacity: 0
+body[data-kind-of-view="datasets"],
+body[data-kind-of-view="network"]
+  #control-panel.opened
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.25)
+    #control-panel-icon:hover + #control-panel-items
+      opacity: 1
+      margin-bottom: 0%
+    #control-panel-items
+      height: auto
+      opacity: 1
+      pointer-events: auto
+      margin-bottom: 0%
+    #copyright
+      opacity: 0
+      pointer-events: none
+  #control-panel-icon
+    display: block
+body[data-kind-of-view="datasets"]
+  dl#control-panel-provided-as-filter
+    display: block
+  dl#control-panel-sort
+    display: block
+  dl#control-panel-display-list-view-sort-by,
+  dl#control-panel-display-list-view-sort-order
+    display: inline-block
+body[data-kind-of-view="network"]
+  dl#control-panel-scaling
+    display: block
+  dl#control-panel-display-graph-view-scaling-by,
+  dl#control-panel-display-graph-view-marked
+    display: inline-block
+body[data-kind-of-view="datasets"]
+  dl#control-panel-tag-filter
+    display: block
+body[data-kind-of-view="network"]
+  dl#control-panel-tag-marker
+    display: block

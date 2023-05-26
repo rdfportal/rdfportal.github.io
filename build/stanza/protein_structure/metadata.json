@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "protein_structure",
+  "stanza:label": "Protein 3D structure",
+  "stanza:definition": "Visualize the protein 3D structure of a given uniprot id",
+  "stanza:parameter": [
+    {
+      "stanza:key": "up_id",
+      "stanza:example": "P00533",
+      "stanza:description": "UniProt identifier",
+      "stanza:required": true
+    },
+    {
+      "stanza:key": "start_pos",
+      "stanza:example": "58",
+      "stanza:description": "Start position of the protein sequence region to be redered",
+      "stanza:required": false
+    },
+    {
+      "stanza:key": "end_pos",
+      "stanza:example": "250",
+      "stanza:description": "End position of the protein sequence region to be rendered",
+      "stanza:required": false
+    }
+  ],
+  "stanza:usage": "<togostanza-protein_structure up_id=\"P00533\" start_pos=\"58\" end_pos=\"250\"></togostanza-protein_structure>",
+  "stanza:type": "Stanza",
+  "stanza:context": "",
+  "stanza:display": "",
+  "stanza:provider": "DBCLS, ROIS, Japan",
+  "stanza:license": "",
+  "stanza:author": "DBCLS, ROIS, Japan",
+  "stanza:address": "kwsm@dbcls.rois.ac.jp",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2016-02-04",
+  "stanza:updated": "2016-02-04"
+}

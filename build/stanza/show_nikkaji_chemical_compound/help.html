@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="../assets/components/webcomponentsjs/webcomponents-loader.js"></script>
+    <link rel="import" href="../show_nikkaji_chemical_compound/">
+    <link rel="stylesheet" href="../assets/css/ts.css">
+    <title>Nikkaji chemical image</title>
+  </head>
+
+  <body>
+    <div id="contents">
+      <h1 class="page_ttl">Nikkaji chemical image</h1>
+
+      <ul class="showcase_icn">
+        
+      </ul>
+
+      <p class="lead">Images of chemicals which is matched the specified search term. </p>
+
+      <div class="showcase_detail">
+        <ul class="showcase_id">
+          
+            <li>
+              <dl>
+                <dt>text</dt>
+
+                <dd>
+                  <p class="id_box">
+                    <input type="text" value="benzen" data-param-key="text">
+
+                    
+                      <span class="required">required</span>
+                    
+                  </p>
+
+                  <p class="eg">
+                    chemical label for search
+                  </p>
+                </dd>
+              </dl>
+            </li>
+          
+        </ul>
+
+        <div class="showcase_code">
+          <code>&lt;togostanza-show_nikkaji_chemical_compound text=&#34;benzen&#34;&gt;&lt;/togostanza-show_nikkaji_chemical_compound&gt;</code>
+        </div>
+
+        <p class="explain">
+          The above element will automatically embed the following Stanza in your HTML page.
+        </p>
+
+        <div class="showcase_box">
+          <togostanza-show_nikkaji_chemical_compound text="benzen"></togostanza-show_nikkaji_chemical_compound>
+        </div>
+      </div>
+      <script>
+        const stanza = document.querySelector('togostanza-show_nikkaji_chemical_compound');
+        const inputs = document.querySelectorAll('.showcase_id input');
+
+        inputs.forEach(function(input) {
+          const onParamChange = function() {
+            stanza.setAttribute(input.dataset.paramKey, input.value);
+          };
+
+          input.addEventListener('input', onParamChange);
+          onParamChange();
+        });
+      </script>
+  </body>
+</html>

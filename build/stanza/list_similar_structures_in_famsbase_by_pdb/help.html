@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="../assets/components/webcomponentsjs/webcomponents-loader.js"></script>
+    <link rel="import" href="../list_similar_structures_in_famsbase_by_pdb/">
+    <link rel="stylesheet" href="../assets/css/ts.css">
+    <title>Similar structures in FAMSBASE by PDB</title>
+  </head>
+
+  <body>
+    <div id="contents">
+      <h1 class="page_ttl">Similar structures in FAMSBASE by PDB</h1>
+
+      <ul class="showcase_icn">
+        
+      </ul>
+
+      <p class="lead">Similar structures in FAMSBASE by PDB.</p>
+
+      <div class="showcase_detail">
+        <ul class="showcase_id">
+          
+            <li>
+              <dl>
+                <dt>pdb_id</dt>
+
+                <dd>
+                  <p class="id_box">
+                    <input type="text" value="3OE8_A" data-param-key="pdb_id">
+
+                    
+                      <span class="required">required</span>
+                    
+                  </p>
+
+                  <p class="eg">
+                    PDB ID with chain name.
+                  </p>
+                </dd>
+              </dl>
+            </li>
+          
+        </ul>
+
+        <div class="showcase_code">
+          <code>&lt;togostanza-list_similar_structures_in_famsbase_by_pdb pdb_id=&#34;3OE8_A&#34;&gt;&lt;/togostanza-list_similar_structures_in_famsbase_by_pdb&gt;</code>
+        </div>
+
+        <p class="explain">
+          The above element will automatically embed the following Stanza in your HTML page.
+        </p>
+
+        <div class="showcase_box">
+          <togostanza-list_similar_structures_in_famsbase_by_pdb pdb_id="3OE8_A"></togostanza-list_similar_structures_in_famsbase_by_pdb>
+        </div>
+      </div>
+      <script>
+        const stanza = document.querySelector('togostanza-list_similar_structures_in_famsbase_by_pdb');
+        const inputs = document.querySelectorAll('.showcase_id input');
+
+        inputs.forEach(function(input) {
+          const onParamChange = function() {
+            stanza.setAttribute(input.dataset.paramKey, input.value);
+          };
+
+          input.addEventListener('input', onParamChange);
+          onParamChange();
+        });
+      </script>
+  </body>
+</html>

@@ -1,0 +1,398 @@
+[
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 51410015, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/mutation", 
+        "number_of_triples": 41402467, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/gene_build_version", 
+        "number_of_triples": 30725124, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/consequence_type", 
+        "number_of_triples": 30725124, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/gene_affected", 
+        "number_of_triples": 30725124, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/transcript_affected", 
+        "number_of_triples": 30725124, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/mutation_id", 
+        "number_of_triples": 20609922, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/donor_id", 
+        "number_of_triples": 10694698, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/project", 
+        "number_of_triples": 10694698, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/raw_data_accession", 
+        "number_of_triples": 10684034, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/sequencing_strategy", 
+        "number_of_triples": 10680144, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/sample_id", 
+        "number_of_triples": 10680108, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/submitted_sample_id", 
+        "number_of_triples": 10680108, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/platform", 
+        "number_of_triples": 10679561, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/verification_status", 
+        "number_of_triples": 10678983, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/atched_icgc_sample_id", 
+        "number_of_triples": 10677650, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/submitted_matched_sample_id", 
+        "number_of_triples": 10677650, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/project_code", 
+        "number_of_triples": 10677403, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/donor", 
+        "number_of_triples": 10677343, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/specimen_id", 
+        "number_of_triples": 10677343, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/raw_data_repository", 
+        "number_of_triples": 10677343, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/biological_validation_status", 
+        "number_of_triples": 10624349, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 10007477, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/identifier", 
+        "number_of_triples": 10007477, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/experimental_protocol", 
+        "number_of_triples": 9944145, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/assembly_version", 
+        "number_of_triples": 9932579, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/chromosome_strand", 
+        "number_of_triples": 9932579, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/mutated_from_allele", 
+        "number_of_triples": 9932579, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/mutated_to_allele", 
+        "number_of_triples": 9932579, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/reference_genome_allele", 
+        "number_of_triples": 9932579, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/chromosome", 
+        "number_of_triples": 9932579, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/chromosome_end", 
+        "number_of_triples": 9932579, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/chromosome_start", 
+        "number_of_triples": 9932579, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/mutation_type", 
+        "number_of_triples": 9932579, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/alignment_algorithm", 
+        "number_of_triples": 9588661, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/base_calling_algorithm", 
+        "number_of_triples": 8664956, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/variation_calling_algorithm", 
+        "number_of_triples": 8632101, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/total_read_count", 
+        "number_of_triples": 6902781, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/mutant_allele_read_count", 
+        "number_of_triples": 6893678, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/other_analysis_algorithm", 
+        "number_of_triples": 4662305, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/aa_mutation", 
+        "number_of_triples": 3677757, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/cds_mutation", 
+        "number_of_triples": 3513915, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/seq_coverage", 
+        "number_of_triples": 3032869, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/probability", 
+        "number_of_triples": 2757901, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/verification_platform", 
+        "number_of_triples": 1910719, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/quality_score", 
+        "number_of_triples": 633049, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso", 
+        "number_of_triples": 172449, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/biological_validation_platform", 
+        "number_of_triples": 71651, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/sex", 
+        "number_of_triples": 17055, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/age_at_diagnosis", 
+        "number_of_triples": 16495, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/diagnosis_icd10", 
+        "number_of_triples": 16185, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/vital_status", 
+        "number_of_triples": 15896, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/age_at_last_followup", 
+        "number_of_triples": 13840, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/interval_of_last_followup", 
+        "number_of_triples": 12714, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/disease_status_last_followup", 
+        "number_of_triples": 10265, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/survival_time", 
+        "number_of_triples": 8071, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/age_at_enrollment", 
+        "number_of_triples": 6149, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/tumour_staging_system_at_diagnosis", 
+        "number_of_triples": 4832, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/tumour_stage_at_diagnosis", 
+        "number_of_triples": 4259, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/relapse_interval", 
+        "number_of_triples": 2866, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/relapse_type", 
+        "number_of_triples": 1738, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/tumour_stage_at_diagnosis_supplemental", 
+        "number_of_triples": 811, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/countries", 
+        "number_of_triples": 60, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/primary_site", 
+        "number_of_triples": 60, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://icgc.link/vocab/project_name", 
+        "number_of_triples": 60, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/license", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

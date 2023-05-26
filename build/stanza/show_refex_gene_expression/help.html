@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="../assets/components/webcomponentsjs/webcomponents-loader.js"></script>
+    <link rel="import" href="../show_refex_gene_expression/">
+    <link rel="stylesheet" href="../assets/css/ts.css">
+    <title>RefEX gene expression</title>
+  </head>
+
+  <body>
+    <div id="contents">
+      <h1 class="page_ttl">RefEX gene expression</h1>
+
+      <ul class="showcase_icn">
+        
+      </ul>
+
+      <p class="lead">Expression number of specified gene in each anatomy.</p>
+
+      <div class="showcase_detail">
+        <ul class="showcase_id">
+          
+            <li>
+              <dl>
+                <dt>ncbi_gene_id</dt>
+
+                <dd>
+                  <p class="id_box">
+                    <input type="text" value="439" data-param-key="ncbi_gene_id">
+
+                    
+                      <span class="required">required</span>
+                    
+                  </p>
+
+                  <p class="eg">
+                    NCBI gene identifier.
+                  </p>
+                </dd>
+              </dl>
+            </li>
+          
+            <li>
+              <dl>
+                <dt>class_type</dt>
+
+                <dd>
+                  <p class="id_box">
+                    <input type="text" value="10" data-param-key="class_type">
+
+                    
+                  </p>
+
+                  <p class="eg">
+                    Class10 or Class40.
+                  </p>
+                </dd>
+              </dl>
+            </li>
+          
+        </ul>
+
+        <div class="showcase_code">
+          <code>&lt;togostanza-show_refex_gene_expression ncbi_gene_id=&#34;439&#34; class_type=&#34;Class10&#34;&gt;&lt;/togostanza-show_refex_gene_expression&gt;</code>
+        </div>
+
+        <p class="explain">
+          The above element will automatically embed the following Stanza in your HTML page.
+        </p>
+
+        <div class="showcase_box">
+          <togostanza-show_refex_gene_expression ncbi_gene_id="439" class_type="Class10"></togostanza-show_refex_gene_expression>
+        </div>
+      </div>
+      <script>
+        const stanza = document.querySelector('togostanza-show_refex_gene_expression');
+        const inputs = document.querySelectorAll('.showcase_id input');
+
+        inputs.forEach(function(input) {
+          const onParamChange = function() {
+            stanza.setAttribute(input.dataset.paramKey, input.value);
+          };
+
+          input.addEventListener('input', onParamChange);
+          onParamChange();
+        });
+      </script>
+  </body>
+</html>

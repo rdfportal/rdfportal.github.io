@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="../assets/components/webcomponentsjs/webcomponents-loader.js"></script>
+    <link rel="import" href="../refex_vs_atlas/">
+    <link rel="stylesheet" href="../assets/css/ts.css">
+    <title>The expression profile of a gene by 10 tissue classes: RefEx and ExpressionAtlas</title>
+  </head>
+
+  <body>
+    <div id="contents">
+      <h1 class="page_ttl">The expression profile of a gene by 10 tissue classes: RefEx and ExpressionAtlas</h1>
+
+      <ul class="showcase_icn">
+        
+      </ul>
+
+      <p class="lead">Show the expression profile of the user-specified gene from the RefEx and ExpressionAtlas databases in terms of the 10 tissue-category defined in the RefEx.</p>
+
+      <div class="showcase_detail">
+        <ul class="showcase_id">
+          
+            <li>
+              <dl>
+                <dt>ncbi_gene_id</dt>
+
+                <dd>
+                  <p class="id_box">
+                    <input type="text" value="439" data-param-key="ncbi_gene_id">
+
+                    
+                      <span class="required">required</span>
+                    
+                  </p>
+
+                  <p class="eg">
+                    NCBI gene identifier.
+                  </p>
+                </dd>
+              </dl>
+            </li>
+          
+        </ul>
+
+        <div class="showcase_code">
+          <code>&lt;togostanza-profile_refex_atlas_10_tissue_category ncbi_gene_id=&#34;439&#34;&gt;&lt;/togostanza-profile_refex_atlas_10_tissue_category&gt;</code>
+        </div>
+
+        <p class="explain">
+          The above element will automatically embed the following Stanza in your HTML page.
+        </p>
+
+        <div class="showcase_box">
+          <togostanza-profile_refex_atlas_10_tissue_category ncbi_gene_id="439"></togostanza-profile_refex_atlas_10_tissue_category>
+        </div>
+      </div>
+      <script>
+        const stanza = document.querySelector('togostanza-profile_refex_atlas_10_tissue_category');
+        const inputs = document.querySelectorAll('.showcase_id input');
+
+        inputs.forEach(function(input) {
+          const onParamChange = function() {
+            stanza.setAttribute(input.dataset.paramKey, input.value);
+          };
+
+          input.addEventListener('input', onParamChange);
+          onParamChange();
+        });
+      </script>
+  </body>
+</html>

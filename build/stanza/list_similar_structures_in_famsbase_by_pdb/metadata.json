@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "list_similar_structures_in_famsbase_by_pdb",
+  "stanza:label": "Similar structures in FAMSBASE by PDB",
+  "stanza:definition": "Similar structures in FAMSBASE by PDB.",
+  "stanza:parameter": [
+    {
+      "stanza:key": "pdb_id",
+      "stanza:example": "3OE8_A",
+      "stanza:description": "PDB ID with chain name.",
+      "stanza:required": true
+    }
+  ],
+  "stanza:usage": "<togostanza-list_similar_structures_in_famsbase_by_pdb pdb_id=\"3OE8_A\"></togostanza-list_similar_structures_in_famsbase_by_pdb>",
+  "stanza:type": "Stanza",
+  "stanza:context": "",
+  "stanza:display": "",
+  "stanza:provider": "provider of this stanza",
+  "stanza:license": "",
+  "stanza:author": "author name",
+  "stanza:address": "name@example.org",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2016-02-07",
+  "stanza:updated": "2016-02-07"
+}

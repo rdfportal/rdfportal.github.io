@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "protein_assay_compound",
+  "stanza:label": "Protein compounds which is exist assay data",
+  "stanza:definition": "List of related compounds of the specified protein. From ChEMBL and PubChem",
+  "stanza:parameter": [
+    {
+      "stanza:key": "up_id",
+      "stanza:example": "P00533",
+      "stanza:description": "Uniport identifier.",
+      "stanza:required": true
+    }
+  ],
+  "stanza:usage": "<togostanza-protein_assay_compound up_id=\"P00533\"></togostanza-protein_assay_compound>",
+  "stanza:type": "Stanza",
+  "stanza:context": "",
+  "stanza:display": "",
+  "stanza:provider": "provider of this stanza",
+  "stanza:license": "",
+  "stanza:author": "author name",
+  "stanza:address": "name@example.org",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2016-02-24",
+  "stanza:updated": "2016-02-24"
+}

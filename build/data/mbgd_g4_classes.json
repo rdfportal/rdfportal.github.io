@@ -1,0 +1,58 @@
+[
+    {
+        "class": "http://purl.jp/bio/11/mbgd#Linear", 
+        "label": {
+            "en": "Linear", 
+            "ja": "Linear"
+        }, 
+        "number_of_instances": 1897812
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#Contig", 
+        "label": {
+            "en": "Contig", 
+            "ja": "Contig"
+        }, 
+        "number_of_instances": 1894494
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#Circular", 
+        "label": {
+            "en": "Circular", 
+            "ja": "Circular"
+        }, 
+        "number_of_instances": 6205
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#Chromosome", 
+        "label": {
+            "en": "Chromosome", 
+            "ja": "Chromosome"
+        }, 
+        "number_of_instances": 5608
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#Plasmid", 
+        "label": {
+            "en": "Plasmid", 
+            "ja": "Plasmid"
+        }, 
+        "number_of_instances": 3894
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#Mitochondrion", 
+        "label": {
+            "en": "Mitochondrion", 
+            "ja": "Mitochondrion"
+        }, 
+        "number_of_instances": 21
+    }, 
+    {
+        "class": "http://rdfs.org/ns/void#Dataset", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1
+    }
+]

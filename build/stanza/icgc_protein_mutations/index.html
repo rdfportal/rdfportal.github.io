@@ -1,0 +1,299 @@
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="assets/chartmaker.js"></script>
+
+<script src="../assets/components/handlebars/handlebars.min.js"></script>
+<script>
+(function(descriptor) {
+  function Stanza(execute) {
+  var proto = Object.create(HTMLElement.prototype);
+  var development = descriptor.development;
+
+  function template(name) {
+    var t = descriptor.templates[name];
+    if (!t) {
+      throw new Error("template \"" + name + "\" is not found");
+    }
+    return t;
+  }
+
+  function createStanzaHelper(element) {
+    return {
+      query: function(params) {
+        if (development) {
+          console.log("query: called", params);
+        }
+        var t = template(params.template);
+        var queryTemplate = Handlebars.compile(t, {noEscape: true});
+        var query = queryTemplate(params.parameters);
+        var data = new URLSearchParams();
+        data.set("query", query);
+
+        if (development) {
+          console.log("query: query built:\n" + query);
+          console.log("query: sending to", params.endpoint);
+        }
+
+        // NOTE specifying Content-Type explicitly because some browsers sends `application/x-www-form-urlencoded;charset=UTF-8` without this, and some endpoints may not support this form.
+        var options = {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+            "Accept": "application/sparql-results+json"
+          },
+          body: data,
+        };
+        var p = fetch(params.endpoint, options)
+
+        if (development) {
+          p.then(function(response) {
+            console.log("query:", response.statusText, response);
+          });
+        }
+
+        return p.then(function(response) {
+          return response.json();
+        });
+      },
+      render: function(params) {
+        if (development) {
+          console.log("render: called", params)
+        }
+        var t = template(params.template);
+        var htmlTemplate = Handlebars.compile(t);
+        var htmlFragment = htmlTemplate(params.parameters);
+        if (development) {
+          console.log("render: built:\n", htmlFragment)
+        }
+        var selector = params.selector || "main";
+        element.shadowRoot.querySelector(selector).innerHTML = htmlFragment;
+        if (development) {
+          console.log("render: wrote to \"" + selector + "\"")
+        }
+      },
+      root: element.shadowRoot,
+      select: function(selector) {
+        return this.root.querySelector(selector);
+      },
+      selectAll: function(selector) {
+        return this.root.querySelectorAll(selector);
+      },
+      grouping: function(rows /* , ...keys */) {
+        var _this = this;
+
+        var normalizedKeys = Array.prototype.slice.call(arguments, 1).reduce(function(acc, key) {
+          if (key instanceof Array) {
+            return acc.concat({key: key, alias: key.join('_')});
+          } else if (key instanceof Object) {
+            return acc.concat(key);
+          } else {
+            return acc.concat({key: key, alias: key});
+          }
+        }, []);
+
+        return (function(rows, keys) {
+          function fetch(row, key) {
+            if (key instanceof Array) {
+              return key.map(function(k) {
+                return row[k];
+              });
+            } else {
+              return row[currentKey.key]
+            }
+          }
+
+          var callee     = arguments.callee;
+          var currentKey = keys[0];
+
+          if (keys.length === 1) return rows.map(function(row) { return fetch(row, currentKey.key) });
+
+          return _this.groupBy(rows, function(row) {
+            return fetch(row, currentKey.key);
+          }).map(function(group) {
+            var currentValue = group[0];
+            var remainValues = group[1];
+            var remainKeys   = keys.slice(1);
+            var nextKey      = remainKeys[0];
+            var ret          = {};
+
+            ret[currentKey.alias] = currentValue;
+            ret[nextKey.alias]    = callee(remainValues, remainKeys)
+
+            return ret;
+          });
+        })(rows, normalizedKeys);
+      },
+      groupBy: function(array, func) {
+        var ret = [];
+
+        array.forEach(function(item) {
+          var key = func(item);
+
+          var entry = ret.filter(function(e) {
+            return e[0] === key;
+          })[0];
+
+          if (entry) {
+            entry[1].push(item);
+          } else {
+            ret.push([key, [item]]);
+          }
+        });
+
+        return ret;
+      },
+      unwrapValueFromBinding: function(queryResult) {
+        var bindings = queryResult.results.bindings;
+
+        return bindings.map(function(binding) {
+          var ret = {};
+
+          Object.keys(binding).forEach(function(key) {
+            ret[key] = binding[key].value;
+          });
+
+          return ret;
+        });
+      }
+    };
+  }
+
+  function update(element) {
+    var params = {};
+    descriptor.parameters.forEach(function(key) {
+      params[key] = element.getAttribute(key);
+    });
+    execute(createStanzaHelper(element), params);
+  }
+
+  class StanzaElement extends HTMLElement {
+    constructor() {
+      super();
+      var shadow = this.attachShadow({mode: "open"});
+      var style = document.createElement("style");
+      style.appendChild(document.createTextNode(descriptor.stylesheet));
+      shadow.appendChild(style);
+      var main = document.createElement("main");
+      shadow.appendChild(main);
+
+      update(this);
+    }
+    static get observedAttributes() {
+      return descriptor.parameters;
+    }
+    attributeChangedCallback(attrName, oldVal, newVal) {
+      var found = false;
+      descriptor.parameters.forEach(function(key) {
+        if (attrName == key) {
+          found = true;
+        }
+      });
+      if (found) {
+        update(this);
+      }
+    }
+  }
+
+  if ('customElements' in window && !window.customElements.get(descriptor.elementName)) {
+    window.customElements.define(descriptor.elementName, StanzaElement);
+  }
+};
+
+  Stanza(function(stanza, params) {
+  var get_ensembl_id = {
+    endpoint: "http://ep.dbcls.jp/sparql71ebi",
+    template: "get_ensembl_id.rq",
+    parameters: params
+  }
+  var get_transcript_info = {
+    endpoint: "https://integbio.jp/rdf/sparql",
+    template: "get_transcript_info.rq",
+    parameters: params
+  }
+  var get_protein_mutation_stats = {
+    endpoint: "https://integbio.jp/rdf/sparql",
+    template: "get_protein_mutation_stats.rq",
+    parameters: params
+  }
+
+  stanza.render({
+    template: "loading.html",
+  });
+
+  var current_transcript ;
+  var transcript_list;
+  var q1 = stanza.query(get_ensembl_id);
+  q1.then(function(data) {
+    //TODO null check
+    var ensembl_gene_id = stanza.unwrapValueFromBinding(data)[0].ensembl_id.split("/").pop();
+    params.ensembl_gene_id = ensembl_gene_id;
+    var q2 = stanza.query(get_transcript_info);   
+    q2.then(function(data) {
+       transcript_list = stanza.unwrapValueFromBinding(data);
+       current_transcript = transcript_list[0];
+       params.ensembl_transcript_id = current_transcript.transcript_id
+       transcript_render();
+    });
+  });
+
+  var transcript_render = function() {
+    var q = stanza.query(get_protein_mutation_stats);
+    q.then(function(data) {
+      var mutations = stanza.unwrapValueFromBinding(data).map(function(row){
+        var mutation = {};
+        mutation.id = row.mutation.split("/").pop();
+        mutation.position = Number(row.mutation_pos);
+        mutation.url = "";
+        mutation.value = Number(row.cnt);
+        return mutation;
+      }); 
+      //TODO need to obtain from endpoint
+      var domains = [ {id: "UNKNOWN", label:"UNKNOWN", url:"http://localhost/", start: 20, stop: current_transcript.length - 10  }];
+      var transcriptData = {
+        start: 0,
+        stop: current_transcript.length,
+        mutations: mutations,
+        domains: domains
+      };
+      var markerCircleClassFn = function (d) {
+        if ( d.value > 100 ){
+          return 'high';
+        } else if ( d.value > 10 ){
+          return 'low';
+        } else {
+        return 'unknown';
+        }
+      }
+      var chartOptions = {markerCircleClassFn: markerCircleClassFn};   
+      var chart = new ProteinStructureChart(chartOptions, transcriptData)
+
+      stanza.render({
+        template: "stanza.html",
+        parameters: {
+          transcript_list : transcript_list
+        }
+      });
+      
+      $(stanza.select('#select_transcript')).val(params.ensembl_transcript_id);
+      chart.display(stanza.select("#chart"));
+
+      $(stanza.select('#select_transcript')).on('change', function(e) {
+        var transcript_id = stanza.select('#select_transcript').value;
+        //選択したtranscriptをcurrentとparamにセット
+        transcript_list.forEach(function(row){//find?
+          if (transcript_id === row.transcript_id ) {
+            current_transcript = row;
+            params.ensembl_transcript_id = current_transcript.transcript_id
+          }
+        });
+        transcript_render(); 
+      });
+    });
+  };
+ /*  var mutations = [ {id: "MU866", position: 132, url: "http://localhost/", value: 216}, 
+                    {id: "MU197", position: 132, url: "http://localhost/", value: 63},
+                    {id: "MU2708533", position: 49, url: "http://localhost/", value: 2},
+                  ];*/
+});
+
+})({"templates":{"get_ensembl_id.rq":"PREFIX ensembl: \u003chttp://rdf.ebi.ac.uk/terms/ensembl/\u003e\nPREFIX ncbigene: \u003chttp://identifiers.org/ncbigene/\u003e\nPREFIX rdf: \u003chttp://www.w3.org/1999/02/22-rdf-syntax-ns#\u003e\n\nSELECT ?ensembl_id\nFROM \u003chttp://rdf.ebi.ac.uk/dataset/ensembl\u003e\nWHERE\n{\n  ?ensembl_id ensembl:DEPENDENT ncbigene:{{ncbi_gene_id}} ;\n    rdf:type ensembl:protein_coding .\n}\n","get_protein_mutation_stats.rq":"DEFINE sql:select-option \"order\"\nPREFIX icgc: \u003chttp://icgc.link/vocab/\u003e\nPREFIX icgc-gene: \u003chttp://icgc.link/Gene/\u003e\n\nSELECT ?mutation ?aa_mutation\n (SUBSTR(?aa_mutation, 2, STRLEN(?aa_mutation) - 2) AS ?mutation_pos)\n (COUNT(DISTINCT ?donor) AS ?cnt)\n{\n  ?ef icgc:gene_affected icgc-gene:{{ensembl_gene_id}} ;\n    a \u003chttp://icgc.link/Effect\u003e ;\n    icgc:mutation ?mutation .\n  ?mutation a \u003chttp://icgc.link/Mutation\u003e .\n  ?detect icgc:mutation ?mutation ;\n    a \u003chttp://icgc.link/Detection\u003e ;\n    icgc:donor ?donor .\n  ?ssm_effect icgc:mutation ?mutation ;\n    a \u003chttp://icgc.link/Effect\u003e ;\n    icgc:transcript_affected \"{{ensembl_transcript_id}}\" ;\n    icgc:aa_mutation ?aa_mutation .\n  ?detect icgc:mutation ?mutation ;\n    a \u003chttp://icgc.link/Detection\u003e ;\n    icgc:donor ?donor\n} GROUP BY ?mutation ?aa_mutation\n","get_transcript_info.rq":"DEFINE sql:select-option \"order\"\nPREFIX icgc: \u003chttp://icgc.link/vocab/\u003e\nPREFIX icgc-gene: \u003chttp://icgc.link/Gene/\u003e\nPREFIX up: \u003chttp://purl.uniprot.org/core/\u003e\nPREFIX rdf: \u003chttp://www.w3.org/1999/02/22-rdf-syntax-ns#\u003e\n\nSELECT ?transcript_id ?transcript_uri ?uniprot (STRLEN(?aminoacid) AS ?length) ?transcript_label\nWHERE\n{\n  GRAPH \u003chttp://icgc.link/release_20\u003e\n  {\n    {\n      SELECT DISTINCT ?transcript_id\n      {\n        ?ef icgc:gene_affected icgc-gene:{{ensembl_gene_id}} ;\n          a \u003chttp://icgc.link/Effect\u003e ;\n          icgc:mutation ?mutation .\n        ?mutation a \u003chttp://icgc.link/Mutation\u003e .\n        ?detect icgc:mutation ?mutation ;\n          a \u003chttp://icgc.link/Detection\u003e ;\n          icgc:donor ?donor .\n        ?ssm_effect icgc:mutation ?mutation ;\n          a \u003chttp://icgc.link/Effect\u003e ;\n          icgc:transcript_affected ?transcript_id ;\n          icgc:aa_mutation ?aa_mutation .\n      }\n    }\n  }\n  BIND (URI(CONCAT(\"http://purl.uniprot.org/ensembl/\",?transcript_id)) AS ?transcript_uri)\n  SERVICE \u003chttp://sparql.uniprot.org/sparql\u003e\n  {\n    OPTIONAL\n    {\n      ?uniprot rdfs:seeAlso ?transcript_uri ;\n        a up:Protein ;\n        up:sequence ?isoform .\n      ?isoform rdf:value ?aminoacid\n    }\n  }\n  BIND (URI(CONCAT(\"http://rdf.ebi.ac.uk/resource/ensembl.transcript/\",?transcript_id)) AS ?transcript_ens_uri)\n  SERVICE \u003chttp://ep.dbcls.jp/sparql71ebi\u003e\n  {\n    OPTIONAL\n    { \n      ?transcript_ens_uri rdfs:label ?transcript_label .\n    }\n  }\n}\n","loading.html":"\u003ch2\u003eLoading....\u003c/h2\u003e\n","stanza.html":"\u003cstyle\u003e\n@import url(\"./assets/styles.809a7881.css\");\n\u003c/style\u003e\n{{#if transcript_list}}\n  \u003cselect id='select_transcript'\u003e\n    {{#each transcript_list}}\n    \u003coption value='{{transcript_id}}'\u003e{{transcript_label}} ({{length}} aa)\u003c/option\u003e\n    {{/each}}\n  \u003c/select\u003e\n{{/if}}\n\u003cdiv id=\"chart\"\u003e\u003c/div\u003e\n"},"parameters":["ncbi_gene_id"],"elementName":"togostanza-icgc_protein_mutations","stylesheet":"@charset \"UTF-8\";\n\n* {\n  background-color: transparent;\n  padding: 1px 2px 3px;\n  font-family: \"Myriad Pro\",\"Helvetica Neue\",san-serif;\n  font-size: 16px;\n  line-height: 20px;\n}\na {\n  color:#45b8cc;\n}\n\nul, ol {\n  padding:0;\n  margin:0 0 0 16px;\n}\ndl {\n  margin: 0;\n  padding: 0;\n}\ndd {\n  margin: 0;\n}\ndt + dt, dd + dt,\ndt + dd, dd + dd {\n  margin-top: 8px;\n}\n\n\nmain {\n  -webkit-border-radius: 4px;\n  -moz-border-radius: 4px;\n  border-radius: 4px;\n  -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.2);\n  -moz-box-shadow: 0 2px 2px rgba(0,0,0,.2);\n  box-shadow: 0 2px 2px rgba(0,0,0,.2);\n  background-color: #fff;\n  overflow: auto;\n}\n.table + .table, .table + div,\ndiv + .table, div + div {\n  margin-top: 5px;\n}\n\ndiv {\n  padding: 10px 20px;\n}\n\n.table {\n  border-style: solid;\n  border-color: #fff;\n  border-top-width: 5px;\n  border-bottom-width: 5px;\n  border-left-width: 20px;\n  border-right-width: 20px;\n}\n.table {\n  margin-bottom: 0;\n  word-break:break-all;\n}\n.table caption {\n  background-color: #8ac8d1;\n  text-align: left;\n  color: white;\n  font-size: 18px;\n  line-height: 22px;\n  height: 22px;\n  font-weight: bold;\n  padding: 10px 24px 4px;\n  margin: 0;\n  border-top-left-radius: 4px;\n  border-top-right-radius: 4px;\n}\n.table thead th, .table thead td {\n  border-bottom: 1px solid #555;\n}\n.table th, .table td,\n.table \u003e tth, .table \u003e ttd {\n  padding: 10px 4px;\n  line-height: 20px;\n  text-align: left;\n  vertical-align: top;\n  border-top: 1px solid #9fadad;\n}\n.table \u003e tr:first-child \u003e th, .table \u003e tr:first-child \u003e td,\n.table \u003e ttr:first-child \u003e th, .table \u003e ttr:first-child \u003e td {\n  border-top: none;\n}\nth \u003e .table, td \u003e .table {\n  margin: -10px -4px;\n  width: 100%;\n}\n.table li + li {\n  margin-top: 4px;\n}\ntd.numeric {\n  text-align: right;\n}\nth.nowrap,\ntd.nowrap {\n  white-space: nowrap;\n}\n\npre {\n  background-color:#daf1f5;\n  border:1px solid #ccc;\n  border:1px solid rgba(0,0,0,0.15);\n  padding: 8px 16px;\n}\n\n/* grid */\n.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\n.span1 { width: 8.3333%; }\n.span2 { width: 16.6666%; }\n.span3 { width: 25%; }\n.span4 { width: 33.3333%; }\n.span5 { width: 41.6666%; }\n.span6 { width: 50%; }\n.span7 { width: 58.3333%; }\n.span8 { width: 66.6666%; }\n.span9 { width: 75%; }\n.span10 { width: 83.3333%; }\n.span11 { width: 91.6666%; }\n.span12 { width: 100%; }\n\ndiv#stanza_buttons {\n  margin: 0 0;\n  padding: 0 0;\n}\n\n/* tool bar */\n/* line 134, ../sass/stanza.scss */\n#tool_bar {\n  margin-top: 0;\n  border-top-left-radius: 0;\n  border-top-right-radius: 0;\n  font-size: 12px;\n  line-height: 30px;\n  color: #999;\n  background-color: #fff;\n  padding-top: 2px;\n  border-top: dashed 1px #ccc;\n  /*@include box-shadow(0 1px 2px rgba(0, 0, 0, 0.2), inset 0 10px 8px -8px rgba(0, 0, 0, 0.12));*/\n  z-index: 1000;\n  position: relative;\n}\n/* line 145, ../sass/stanza.scss */\n#tool_bar a {\n  color: #45b8cc;\n  margin-right: 1.5em;\n}\n/* line 148, ../sass/stanza.scss */\n#tool_bar a:hover {\n  color: #005580;\n}\n/* line 152, ../sass/stanza.scss */\n#tool_bar p {\n  margin-bottom: 0;\n}\n/* line 155, ../sass/stanza.scss */\n#tool_bar:before, #tool_bar:after {\n  display: table;\n  line-height: 0;\n  content: \"\";\n}\n/* line 160, ../sass/stanza.scss */\n#tool_bar:after {\n  clear: both;\n}\n","development":false});
+</script>

@@ -1,0 +1,66 @@
+[
+    {
+        "class": "http://www.w3.org/2002/07/owl#Restriction", 
+        "label": {
+            "en": "Restriction", 
+            "ja": "Restriction"
+        }, 
+        "number_of_instances": 8591
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#DatatypeProperty", 
+        "label": {
+            "en": "DatatypeProperty", 
+            "ja": "DatatypeProperty"
+        }, 
+        "number_of_instances": 4461
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 1412
+    }, 
+    {
+        "class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1378
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#ObjectProperty", 
+        "label": {
+            "en": "ObjectProperty", 
+            "ja": "ObjectProperty"
+        }, 
+        "number_of_instances": 728
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#InverseFunctionalProperty", 
+        "label": {
+            "en": "InverseFunctionalProperty", 
+            "ja": "InverseFunctionalProperty"
+        }, 
+        "number_of_instances": 706
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#DataRange", 
+        "label": {
+            "en": "DataRange", 
+            "ja": "DataRange"
+        }, 
+        "number_of_instances": 232
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Ontology", 
+        "label": {
+            "en": "Ontology", 
+            "ja": "Ontology"
+        }, 
+        "number_of_instances": 1
+    }
+]

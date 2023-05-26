@@ -1,0 +1,50 @@
+[
+    {
+        "class": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/mic_2", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1044
+    }, 
+    {
+        "class": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/mic_mic_3", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 331
+    }, 
+    {
+        "class": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/mic_3", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 331
+    }, 
+    {
+        "class": "http://www.w3.org/2000/01/rdf-schema#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 267
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 135
+    }, 
+    {
+        "class": "http://xmlns.com/foaf/0.1/Image", 
+        "label": {
+            "en": "Image", 
+            "ja": "Image"
+        }, 
+        "number_of_instances": 12
+    }
+]

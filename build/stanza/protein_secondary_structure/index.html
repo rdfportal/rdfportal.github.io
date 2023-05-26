@@ -1,0 +1,410 @@
+
+<script src="../assets/components/handlebars/handlebars.min.js"></script>
+<script>
+(function(descriptor) {
+  function Stanza(execute) {
+  var proto = Object.create(HTMLElement.prototype);
+  var development = descriptor.development;
+
+  function template(name) {
+    var t = descriptor.templates[name];
+    if (!t) {
+      throw new Error("template \"" + name + "\" is not found");
+    }
+    return t;
+  }
+
+  function createStanzaHelper(element) {
+    return {
+      query: function(params) {
+        if (development) {
+          console.log("query: called", params);
+        }
+        var t = template(params.template);
+        var queryTemplate = Handlebars.compile(t, {noEscape: true});
+        var query = queryTemplate(params.parameters);
+        var data = new URLSearchParams();
+        data.set("query", query);
+
+        if (development) {
+          console.log("query: query built:\n" + query);
+          console.log("query: sending to", params.endpoint);
+        }
+
+        // NOTE specifying Content-Type explicitly because some browsers sends `application/x-www-form-urlencoded;charset=UTF-8` without this, and some endpoints may not support this form.
+        var options = {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+            "Accept": "application/sparql-results+json"
+          },
+          body: data,
+        };
+        var p = fetch(params.endpoint, options)
+
+        if (development) {
+          p.then(function(response) {
+            console.log("query:", response.statusText, response);
+          });
+        }
+
+        return p.then(function(response) {
+          return response.json();
+        });
+      },
+      render: function(params) {
+        if (development) {
+          console.log("render: called", params)
+        }
+        var t = template(params.template);
+        var htmlTemplate = Handlebars.compile(t);
+        var htmlFragment = htmlTemplate(params.parameters);
+        if (development) {
+          console.log("render: built:\n", htmlFragment)
+        }
+        var selector = params.selector || "main";
+        element.shadowRoot.querySelector(selector).innerHTML = htmlFragment;
+        if (development) {
+          console.log("render: wrote to \"" + selector + "\"")
+        }
+      },
+      root: element.shadowRoot,
+      select: function(selector) {
+        return this.root.querySelector(selector);
+      },
+      selectAll: function(selector) {
+        return this.root.querySelectorAll(selector);
+      },
+      grouping: function(rows /* , ...keys */) {
+        var _this = this;
+
+        var normalizedKeys = Array.prototype.slice.call(arguments, 1).reduce(function(acc, key) {
+          if (key instanceof Array) {
+            return acc.concat({key: key, alias: key.join('_')});
+          } else if (key instanceof Object) {
+            return acc.concat(key);
+          } else {
+            return acc.concat({key: key, alias: key});
+          }
+        }, []);
+
+        return (function(rows, keys) {
+          function fetch(row, key) {
+            if (key instanceof Array) {
+              return key.map(function(k) {
+                return row[k];
+              });
+            } else {
+              return row[currentKey.key]
+            }
+          }
+
+          var callee     = arguments.callee;
+          var currentKey = keys[0];
+
+          if (keys.length === 1) return rows.map(function(row) { return fetch(row, currentKey.key) });
+
+          return _this.groupBy(rows, function(row) {
+            return fetch(row, currentKey.key);
+          }).map(function(group) {
+            var currentValue = group[0];
+            var remainValues = group[1];
+            var remainKeys   = keys.slice(1);
+            var nextKey      = remainKeys[0];
+            var ret          = {};
+
+            ret[currentKey.alias] = currentValue;
+            ret[nextKey.alias]    = callee(remainValues, remainKeys)
+
+            return ret;
+          });
+        })(rows, normalizedKeys);
+      },
+      groupBy: function(array, func) {
+        var ret = [];
+
+        array.forEach(function(item) {
+          var key = func(item);
+
+          var entry = ret.filter(function(e) {
+            return e[0] === key;
+          })[0];
+
+          if (entry) {
+            entry[1].push(item);
+          } else {
+            ret.push([key, [item]]);
+          }
+        });
+
+        return ret;
+      },
+      unwrapValueFromBinding: function(queryResult) {
+        var bindings = queryResult.results.bindings;
+
+        return bindings.map(function(binding) {
+          var ret = {};
+
+          Object.keys(binding).forEach(function(key) {
+            ret[key] = binding[key].value;
+          });
+
+          return ret;
+        });
+      }
+    };
+  }
+
+  function update(element) {
+    var params = {};
+    descriptor.parameters.forEach(function(key) {
+      params[key] = element.getAttribute(key);
+    });
+    execute(createStanzaHelper(element), params);
+  }
+
+  class StanzaElement extends HTMLElement {
+    constructor() {
+      super();
+      var shadow = this.attachShadow({mode: "open"});
+      var style = document.createElement("style");
+      style.appendChild(document.createTextNode(descriptor.stylesheet));
+      shadow.appendChild(style);
+      var main = document.createElement("main");
+      shadow.appendChild(main);
+
+      update(this);
+    }
+    static get observedAttributes() {
+      return descriptor.parameters;
+    }
+    attributeChangedCallback(attrName, oldVal, newVal) {
+      var found = false;
+      descriptor.parameters.forEach(function(key) {
+        if (attrName == key) {
+          found = true;
+        }
+      });
+      if (found) {
+        update(this);
+      }
+    }
+  }
+
+  if ('customElements' in window && !window.customElements.get(descriptor.elementName)) {
+    window.customElements.define(descriptor.elementName, StanzaElement);
+  }
+};
+
+  Stanza(function(stanza, params) {
+  //endpoint: "http://sparql.uniprot.org/sparql",
+  var q_aminoseq = {
+    endpoint: "http://togogenome.org/sparql-test",
+    template: "get_amino_seq.rq",
+    parameters: params
+  };
+  var q_secondarystructure = {
+    endpoint: "http://togogenome.org/sparql-test",
+    template: "get_secondarystructure.rq",
+    parameters: params
+  };
+
+  var q = $.when(stanza.query(q_aminoseq), stanza.query(q_secondarystructure));
+  var aminoseq_length = 0;
+  q.then(function(data1, data2) {
+    var aminoseq = data1[0].results.bindings[0].aminoacid.value;
+    aminoseq_length = aminoseq.length;
+    var second_structure_list = stanza.unwrapValueFromBinding(data2[0]);
+    var current_pos = 0;
+    second_structure_with_buf = [];
+    second_structure_list.forEach(function(row) {
+       if (row.begin_pos > current_pos) { //append buffer range
+         var strct_length = (row.begin_pos -1 ) - current_pos; 
+         var width_ratio = ((strct_length / aminoseq.length) * 100).toFixed(2);
+         second_structure_with_buf.push({"strct_class": "buffer", "width_ratio": width_ratio});
+       } 
+       var strct_length = row.end_pos - row.begin_pos + 1; 
+       row.width_ratio = ((strct_length / aminoseq.length) * 100).toFixed(2);
+       if (row.structure.endsWith("Beta_Strand_Annotation")) {
+         row.strct_class = "STRAND";
+       } else if (row.structure.endsWith("Helix_Annotation")) {
+         row.strct_class = "HELIX";
+       } else if (row.structure.endsWith("Turn_Annotation")) {
+         row.strct_class = "TURN";
+       }
+       second_structure_with_buf.push(row);
+       current_pos = row.end_pos;
+    });
+    if (current_pos < aminoseq.length) {//append last buffer range
+       var strct_length = aminoseq.length - current_pos + 1; 
+       var width_ratio = ((strct_length / aminoseq.length) * 100).toFixed(2);
+       second_structure_with_buf.push({"strct_class": "buffer", "width_ratio": width_ratio});
+    }
+    function draw_selected_position (start_pos, end_pos) {
+      //remove current selected bar 
+      Array.prototype.forEach.call(stanza.selectAll('.selected_bar'),function(elem){
+        $(elem).remove();
+      });  
+      if(start_pos > 0 ) {
+        var width_ratio = (((start_pos - 1) / aminoseq.length) * 100).toFixed(2);
+        $(stanza.select('#selected_range')).append('<div style="width:' + width_ratio + '%" class="selected_bar"></div>');
+      }
+      var width_ratio = (((end_pos - start_pos)/ aminoseq.length) * 100).toFixed(2);
+      $(stanza.select('#selected_range')).append('<div style="width:' + width_ratio + '%" class="selected selected_bar"></div>');
+      if(end_pos < aminoseq.length  ) {
+        var width_ratio = (((aminoseq.length - end_pos) / aminoseq.length) * 100).toFixed(2);
+        $(stanza.select('#selected_range')).append('<div style="width:' + width_ratio + '%" class="selected_bar"></div>');
+      }
+    }
+
+    function remove_selection() {
+      //remove current selected bar 
+      Array.prototype.forEach.call(stanza.selectAll('.selected_bar'),function(elem){
+        $(elem).remove();
+      });
+      $(stanza.select('#selected_range')).append('<div style="width:100%" class="selected_bar"></div>'); 
+      $(stanza.select('#input_start_pos')).val('');
+      $(stanza.select('#input_end_pos')).val('');
+    }
+
+    stanza.render({
+      template: "stanza.html",
+      parameters: {
+        second_structure_list: second_structure_with_buf,
+      }
+    });
+
+    if (params.start_pos !== null && params.end_pos !== null ) {
+      draw_selected_position(params.start_pos, params.end_pos);
+      $(stanza.select('#input_start_pos')).val(params.start_pos);
+      $(stanza.select('#input_end_pos')).val(params.end_pos);
+    }
+    var select_range_mode = false;
+    var selecting_start_pos = - 1;
+    $(stanza.select('#selected_range')).on('mousedown', function(e){
+      $(stanza.select('#pos_line')).remove();
+      var offset_left = stanza.select('#selected_range').offsetLeft; 
+      selecting_start_pos = e.clientX - offset_left;
+      select_range_mode = true;
+    });
+    // when mouse upped, reset selection
+    $(stanza.select('main')).on('mouseup', function(e){
+      var is_selected_place = false;
+      $(stanza.select('#selecting_pos')).remove();
+      select_range_mode = false;
+    });
+
+    // when mouse upped on select place, redraw new selected range
+    $(stanza.select('#selected_range')).on('mouseup', function(e){
+      //redraw selected bar 
+      var offset_left = stanza.select('#selected_range').offsetLeft; 
+      var selecting_end_pos = e.clientX - offset_left;
+      var from_pos = Math.min(selecting_start_pos, selecting_end_pos);
+      var to_pos = Math.max(selecting_start_pos, selecting_end_pos);
+
+      var bar_width = $(stanza.select('#selected_range')).width();
+      var start_pos = Math.floor((from_pos / bar_width) * aminoseq_length);
+      var end_pos = Math.floor((to_pos / bar_width) * aminoseq_length);
+      if (start_pos == end_pos) {
+        remove_selection();
+        //redraw related stanza
+        redraw_sequence_stanza(params.up_id);
+        redraw_structure_stanza(params.up_id);
+
+      } else {
+        draw_selected_position(start_pos, end_pos);
+        $(stanza.select('#input_start_pos')).val(start_pos);
+        $(stanza.select('#input_end_pos')).val(end_pos);
+        //redraw related stanza
+        redraw_sequence_stanza(params.up_id, start_pos, end_pos);
+        redraw_structure_stanza(params.up_id, start_pos, end_pos);
+      }
+    });
+
+    /**
+      
+    **/
+   // $(stanza.select('#selected_range')).on('mousemove', function(e){
+    $(stanza.select('main')).on('mousemove', function(e){
+      if (select_range_mode) {
+        $(stanza.select('#selecting_pos')).remove();
+        var offset_left = stanza.select('#selected_range').offsetLeft; 
+        var start_pos = Math.min(selecting_start_pos, e.clientX - offset_left);
+        var width = Math.abs(selecting_start_pos - (e.clientX - offset_left));
+        var pos_bar_elem = '<div id="selecting_pos" style="position: absolute; top: '+ 5 + 'px; left: ' + start_pos +'px; width: ' + width + 'px; " ></div>'
+        $(stanza.select('#selected_range')).append(pos_bar_elem); 
+      } else {
+        $(stanza.select('#pos_line')).remove();
+        var offset_left = stanza.select('#selected_range').offsetLeft; 
+        var pos_bar_elem = '<div id="pos_line" style="position: absolute; top: '+ 5 + 'px; left: ' + (e.clientX - offset_left) +'px;" ></div>'
+        $(stanza.select('#selected_range')).append(pos_bar_elem); 
+      }
+    });
+    /**
+      マウスが選択矩形から外れた場合
+    **/
+    $(stanza.select('#selected_range')).on('mouseleave', function(e){
+      $(stanza.select('#pos_line')).remove();
+      $(stanza.select('#selecting_pos')).remove();
+    //  select_range_mode = false;
+    });
+
+    $(stanza.select('#update_selection')).on('click', function(e){
+      var start_pos = $(stanza.select('#input_start_pos')).val();
+      var end_pos = $(stanza.select('#input_end_pos')).val();
+      draw_selected_position(start_pos, end_pos);
+      //redraw related stanza
+      redraw_sequence_stanza(params.up_id, start_pos, end_pos);
+      redraw_structure_stanza(params.up_id, start_pos, end_pos);
+    })
+    $(stanza.select('#reset_selection')).on('click', function(e){
+      remove_selection();
+      //reset range on related stanza
+      redraw_sequence_stanza(params.up_id);
+      redraw_structure_stanza(params.up_id);
+    });
+
+
+    //tooltips
+    $(stanza.selectAll('.graphicalview')).on('mouseenter', function(e){
+      var elem = $(e.target);
+      if (elem.hasClass("STRAND") || elem.hasClass("HELIX") || elem.hasClass("TURN")) {
+        var range_text = elem.attr('data-struct_type') + ':' + elem.attr('data-start_pos') + ' - ' + elem.attr('data-end_pos');
+        var offset_left = stanza.select('#secondarystructure').offsetLeft; 
+        var start_pos = e.clientX - offset_left;
+        var pos_bar_elem = '<div id="pos_label_tips" style="position: absolute; top: '+ 20 + 'px; left: ' + start_pos +'px; z-index: 1" >' + range_text + '</div>'
+        $(stanza.select('#secondarystructure')).append(pos_bar_elem); 
+      } 
+    });
+
+    $(stanza.selectAll('.graphicalview')).on('mouseleave', function(e){
+      $(stanza.select('#pos_label_tips')).remove();
+    });
+
+    //protein_sequenceスタンザの再描画
+    function redraw_sequence_stanza (up_id, start_pos, end_pos) {
+      if ( start_pos && end_pos ) {
+        var stanza_elem = '<togostanza-protein_sequence up_id="' + up_id + '" start_pos="' + start_pos + '" end_pos= "' + end_pos + '"></togostanza-protein_sequence>'
+      } else {
+        var stanza_elem = '<togostanza-protein_sequence up_id="' + up_id + '"></togostanza-protein_sequence>'
+      }
+      var current_elem = $("togostanza-protein_sequence")
+      current_elem.before(stanza_elem);
+      current_elem.remove();
+    }
+    //protein_structureスタンザの再描画
+    function redraw_structure_stanza (up_id, start_pos, end_pos) {
+      if ( start_pos && end_pos ) {
+        var stanza_elem = '<togostanza-protein_structure up_id="' + up_id + '" start_pos="' + start_pos + '" end_pos= "' + end_pos + '"></togostanza-protein_structure>'
+      } else {
+        var stanza_elem = '<togostanza-protein_structure up_id="' + up_id + '"></togostanza-protein_structure>'
+      }
+      var current_elem = $("togostanza-protein_structure")
+      current_elem.before(stanza_elem);
+      current_elem.remove();
+    }
+  });
+});
+
+})({"templates":{"get_amino_seq.rq":"PREFIX up: \u003chttp://purl.uniprot.org/core/\u003e\n\nSELECT ?aminoacid\nWHERE\n{\n  \u003chttp://purl.uniprot.org/uniprot/{{up_id}}\u003e up:sequence ?isoform .\n  ?isoform rdf:value ?aminoacid\n}\n","get_secondarystructure.rq":"PREFIX up: \u003chttp://purl.uniprot.org/core/\u003e\nPREFIX faldo: \u003chttp://biohackathon.org/resource/faldo#\u003e\n\nSELECT ?structure (STR(?begin) AS ?begin_pos) (STR(?end) AS ?end_pos)\nWHERE\n{\n  \u003chttp://purl.uniprot.org/uniprot/{{up_id}}\u003e up:annotation ?annotation .\n  ?annotation a ?structure .\n  ?structure rdfs:subClassOf up:Secondary_Structure_Annotation .\n  ?annotation up:range ?range .\n  ?range faldo:begin/faldo:position ?begin .\n  ?range faldo:end/faldo:position ?end .\n} ORDER BY ?begin ?end\n","stanza.html":"\u003cstyle\u003e\n  #secondarystructure {\n    position: relative;\n  }\n  .graphicalview {\n    float: left;\n    padding: 0px 0px 0px 0px;\n    margin: 0px 0px 0px 0px;\n    height: 20px;\n  }\n  div.buffer {\n    background-color: #f1f1f1;\n  }\n  div.HELIX {\n    background-color: #7eb6ff;\n  }\n  div.STRAND {\n    background-color: #9aff9a;\n  }\n  div.TURN {\n    background-color: #F0A;\n  }\n\n  #selected_range {\n    position: relative;\n    height: 5px;\n    margin: 10px 20px;\n    padding: 10px 0px;\n    cursor: ew-resize;\n  }\n  .selected_bar {\n    float: left;\n    padding: 0px;\n    margin: 0px;\n    height: 5px;\n    background-color: #dddddd;\n  }\n  .selected {\n    background-color: #ffff00;\n  }\n\n  .legends {\n    margin-top: 10px;\n    margin-bottom: 10px;\n  }\n  #HELIX_legend {\n    border-left: .5em solid #7eb6ff;\n  }\n  #TURN_legend {\n    border-left: .5em solid #F0A;\n  }\n  #BETA_STRAND_legend {\n    border-left: .5em solid #9aff9a;\n  }\n  #SELECTED_legend {\n    border-left: .5em solid #ffff00;\n  }\n  #pos_line {\n    background-color: rgba(150, 150, 150, 0.3);\n    padding: 0px 0px 0px 0px;\n    margin: 0px;\n    width: 1px; \n    height: 15px; \n  }\n  #selecting_pos {\n    background-color: rgba(150, 150, 150, 0.3);\n    padding: 0px 0px 0px 0px;\n    margin: 0px;\n    height: 15px; \n  }\n  #pos_label_tips {\n    background-color: rgba(0, 0, 0, 0.7);\n    padding: 2px;\n    color: white;\n    font-size: 10px;\n  }\n  .input_pos {\n    text-align: right;\n  }\n\u003c/style\u003e\n\u003cdiv id=\"secondarystructure\" style=\"width:800px\"\u003e\n{{#each second_structure_list}}\n  \u003cdiv style=\"width:{{width_ratio}}%\" class=\"{{strct_class}} graphicalview\" data-start_pos=\"{{begin_pos}}\" data-end_pos=\"{{end_pos}}\" data-struct_type=\"{{strct_class}}\"\u003e\u003c/div\u003e\n{{/each}}\n\u003c/div\u003e\n\u003cdiv id=\"selected_range\" style=\"width:800px\"\u003e\n  \u003cdiv style=\"width:100%\" class=\"selected_bar\"\u003e\u003c/div\u003e\n\u003c/div\u003e\n\u003cdiv class=\"legends\"\u003e\n  Legend:\n  \u003cspan id=\"HELIX_legend\"\u003eHelix\u003c/span\u003e\n  \u003cspan id=\"TURN_legend\"\u003eTurn\u003c/span\u003e\n  \u003cspan id=\"BETA_STRAND_legend\"\u003eBeta strand\u003c/span\u003e\n  \u003cspan id=\"SELECTED_legend\"\u003eCurrent selected position\u003c/span\u003e\n\u003c/div\u003e\n\u003cdiv\u003e\n  Position:\n  \u003cinput id=\"input_start_pos\" class=\"input_pos\" type=\"text\" name=\"namae\" size=\"8\" maxlength=\"8\"\u003e - \n  \u003cinput id=\"input_end_pos\" class=\"input_pos\" type=\"text\" name=\"namae\" size=\"8\" maxlength=\"8\"\u003e\n  \u003cbutton id=\"update_selection\" type=\"button\"\u003eUpdate selection\u003c/button\u003e\n  \u003cbutton id=\"reset_selection\" type=\"button\"\u003eReset selection\u003c/button\u003e\n\u003c/div\u003e\n"},"parameters":["up_id","start_pos","end_pos"],"elementName":"togostanza-protein_secondary_structure","stylesheet":"@charset \"UTF-8\";\n\n* {\n  background-color: transparent;\n  padding: 1px 2px 3px;\n  font-family: \"Myriad Pro\",\"Helvetica Neue\",san-serif;\n  font-size: 16px;\n  line-height: 20px;\n}\na {\n  color:#45b8cc;\n}\n\nul, ol {\n  padding:0;\n  margin:0 0 0 16px;\n}\ndl {\n  margin: 0;\n  padding: 0;\n}\ndd {\n  margin: 0;\n}\ndt + dt, dd + dt,\ndt + dd, dd + dd {\n  margin-top: 8px;\n}\n\n\nmain {\n  -webkit-border-radius: 4px;\n  -moz-border-radius: 4px;\n  border-radius: 4px;\n  -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.2);\n  -moz-box-shadow: 0 2px 2px rgba(0,0,0,.2);\n  box-shadow: 0 2px 2px rgba(0,0,0,.2);\n  background-color: #fff;\n  overflow: auto;\n}\n.table + .table, .table + div,\ndiv + .table, div + div {\n  margin-top: 5px;\n}\n\ndiv {\n  padding: 10px 20px;\n}\n\n.table {\n  border-style: solid;\n  border-color: #fff;\n  border-top-width: 5px;\n  border-bottom-width: 5px;\n  border-left-width: 20px;\n  border-right-width: 20px;\n}\n.table {\n  margin-bottom: 0;\n  word-break:break-all;\n}\n.table caption {\n  background-color: #8ac8d1;\n  text-align: left;\n  color: white;\n  font-size: 18px;\n  line-height: 22px;\n  height: 22px;\n  font-weight: bold;\n  padding: 10px 24px 4px;\n  margin: 0;\n  border-top-left-radius: 4px;\n  border-top-right-radius: 4px;\n}\n.table thead th, .table thead td {\n  border-bottom: 1px solid #555;\n}\n.table th, .table td,\n.table \u003e tth, .table \u003e ttd {\n  padding: 10px 4px;\n  line-height: 20px;\n  text-align: left;\n  vertical-align: top;\n  border-top: 1px solid #9fadad;\n}\n.table \u003e tr:first-child \u003e th, .table \u003e tr:first-child \u003e td,\n.table \u003e ttr:first-child \u003e th, .table \u003e ttr:first-child \u003e td {\n  border-top: none;\n}\nth \u003e .table, td \u003e .table {\n  margin: -10px -4px;\n  width: 100%;\n}\n.table li + li {\n  margin-top: 4px;\n}\ntd.numeric {\n  text-align: right;\n}\nth.nowrap,\ntd.nowrap {\n  white-space: nowrap;\n}\n\npre {\n  background-color:#daf1f5;\n  border:1px solid #ccc;\n  border:1px solid rgba(0,0,0,0.15);\n  padding: 8px 16px;\n}\n\n/* grid */\n.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\n.span1 { width: 8.3333%; }\n.span2 { width: 16.6666%; }\n.span3 { width: 25%; }\n.span4 { width: 33.3333%; }\n.span5 { width: 41.6666%; }\n.span6 { width: 50%; }\n.span7 { width: 58.3333%; }\n.span8 { width: 66.6666%; }\n.span9 { width: 75%; }\n.span10 { width: 83.3333%; }\n.span11 { width: 91.6666%; }\n.span12 { width: 100%; }\n\ndiv#stanza_buttons {\n  margin: 0 0;\n  padding: 0 0;\n}\n\n/* tool bar */\n/* line 134, ../sass/stanza.scss */\n#tool_bar {\n  margin-top: 0;\n  border-top-left-radius: 0;\n  border-top-right-radius: 0;\n  font-size: 12px;\n  line-height: 30px;\n  color: #999;\n  background-color: #fff;\n  padding-top: 2px;\n  border-top: dashed 1px #ccc;\n  /*@include box-shadow(0 1px 2px rgba(0, 0, 0, 0.2), inset 0 10px 8px -8px rgba(0, 0, 0, 0.12));*/\n  z-index: 1000;\n  position: relative;\n}\n/* line 145, ../sass/stanza.scss */\n#tool_bar a {\n  color: #45b8cc;\n  margin-right: 1.5em;\n}\n/* line 148, ../sass/stanza.scss */\n#tool_bar a:hover {\n  color: #005580;\n}\n/* line 152, ../sass/stanza.scss */\n#tool_bar p {\n  margin-bottom: 0;\n}\n/* line 155, ../sass/stanza.scss */\n#tool_bar:before, #tool_bar:after {\n  display: table;\n  line-height: 0;\n  content: \"\";\n}\n/* line 160, ../sass/stanza.scss */\n#tool_bar:after {\n  clear: both;\n}\n","development":false});
+</script>

@@ -1,0 +1,486 @@
+<script src="http://52.69.96.109/3Dmol/3Dmol_ex.js" charset="utf-8"></script>
+
+<script src="../assets/components/handlebars/handlebars.min.js"></script>
+<script>
+(function(descriptor) {
+  function Stanza(execute) {
+  var proto = Object.create(HTMLElement.prototype);
+  var development = descriptor.development;
+
+  function template(name) {
+    var t = descriptor.templates[name];
+    if (!t) {
+      throw new Error("template \"" + name + "\" is not found");
+    }
+    return t;
+  }
+
+  function createStanzaHelper(element) {
+    return {
+      query: function(params) {
+        if (development) {
+          console.log("query: called", params);
+        }
+        var t = template(params.template);
+        var queryTemplate = Handlebars.compile(t, {noEscape: true});
+        var query = queryTemplate(params.parameters);
+        var data = new URLSearchParams();
+        data.set("query", query);
+
+        if (development) {
+          console.log("query: query built:\n" + query);
+          console.log("query: sending to", params.endpoint);
+        }
+
+        // NOTE specifying Content-Type explicitly because some browsers sends `application/x-www-form-urlencoded;charset=UTF-8` without this, and some endpoints may not support this form.
+        var options = {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+            "Accept": "application/sparql-results+json"
+          },
+          body: data,
+        };
+        var p = fetch(params.endpoint, options)
+
+        if (development) {
+          p.then(function(response) {
+            console.log("query:", response.statusText, response);
+          });
+        }
+
+        return p.then(function(response) {
+          return response.json();
+        });
+      },
+      render: function(params) {
+        if (development) {
+          console.log("render: called", params)
+        }
+        var t = template(params.template);
+        var htmlTemplate = Handlebars.compile(t);
+        var htmlFragment = htmlTemplate(params.parameters);
+        if (development) {
+          console.log("render: built:\n", htmlFragment)
+        }
+        var selector = params.selector || "main";
+        element.shadowRoot.querySelector(selector).innerHTML = htmlFragment;
+        if (development) {
+          console.log("render: wrote to \"" + selector + "\"")
+        }
+      },
+      root: element.shadowRoot,
+      select: function(selector) {
+        return this.root.querySelector(selector);
+      },
+      selectAll: function(selector) {
+        return this.root.querySelectorAll(selector);
+      },
+      grouping: function(rows /* , ...keys */) {
+        var _this = this;
+
+        var normalizedKeys = Array.prototype.slice.call(arguments, 1).reduce(function(acc, key) {
+          if (key instanceof Array) {
+            return acc.concat({key: key, alias: key.join('_')});
+          } else if (key instanceof Object) {
+            return acc.concat(key);
+          } else {
+            return acc.concat({key: key, alias: key});
+          }
+        }, []);
+
+        return (function(rows, keys) {
+          function fetch(row, key) {
+            if (key instanceof Array) {
+              return key.map(function(k) {
+                return row[k];
+              });
+            } else {
+              return row[currentKey.key]
+            }
+          }
+
+          var callee     = arguments.callee;
+          var currentKey = keys[0];
+
+          if (keys.length === 1) return rows.map(function(row) { return fetch(row, currentKey.key) });
+
+          return _this.groupBy(rows, function(row) {
+            return fetch(row, currentKey.key);
+          }).map(function(group) {
+            var currentValue = group[0];
+            var remainValues = group[1];
+            var remainKeys   = keys.slice(1);
+            var nextKey      = remainKeys[0];
+            var ret          = {};
+
+            ret[currentKey.alias] = currentValue;
+            ret[nextKey.alias]    = callee(remainValues, remainKeys)
+
+            return ret;
+          });
+        })(rows, normalizedKeys);
+      },
+      groupBy: function(array, func) {
+        var ret = [];
+
+        array.forEach(function(item) {
+          var key = func(item);
+
+          var entry = ret.filter(function(e) {
+            return e[0] === key;
+          })[0];
+
+          if (entry) {
+            entry[1].push(item);
+          } else {
+            ret.push([key, [item]]);
+          }
+        });
+
+        return ret;
+      },
+      unwrapValueFromBinding: function(queryResult) {
+        var bindings = queryResult.results.bindings;
+
+        return bindings.map(function(binding) {
+          var ret = {};
+
+          Object.keys(binding).forEach(function(key) {
+            ret[key] = binding[key].value;
+          });
+
+          return ret;
+        });
+      }
+    };
+  }
+
+  function update(element) {
+    var params = {};
+    descriptor.parameters.forEach(function(key) {
+      params[key] = element.getAttribute(key);
+    });
+    execute(createStanzaHelper(element), params);
+  }
+
+  class StanzaElement extends HTMLElement {
+    constructor() {
+      super();
+      var shadow = this.attachShadow({mode: "open"});
+      var style = document.createElement("style");
+      style.appendChild(document.createTextNode(descriptor.stylesheet));
+      shadow.appendChild(style);
+      var main = document.createElement("main");
+      shadow.appendChild(main);
+
+      update(this);
+    }
+    static get observedAttributes() {
+      return descriptor.parameters;
+    }
+    attributeChangedCallback(attrName, oldVal, newVal) {
+      var found = false;
+      descriptor.parameters.forEach(function(key) {
+        if (attrName == key) {
+          found = true;
+        }
+      });
+      if (found) {
+        update(this);
+      }
+    }
+  }
+
+  if ('customElements' in window && !window.customElements.get(descriptor.elementName)) {
+    window.customElements.define(descriptor.elementName, StanzaElement);
+  }
+};
+
+  Stanza(function(stanza, params) {
+  /**
+  *
+  *
+  */
+  var draw =(function(elem, option){
+    /**
+    * 描画用指定を解釈してviewerオブジェクトにセットする
+    *
+    * @cmds
+    * @viewer
+    */
+    var runcmds = function(cmds, viewer) {
+      var currentsel = {};
+
+      for (var i = 0; i < cmds.length; i++) {
+        var kv = cmds[i].split('=');
+        var cmdname = kv[0];
+        var cmdobj = $3Dmol.specStringToObject(kv[1]);
+
+        if (cmdname == 'select')
+          currentsel = cmdobj;
+        else if (cmdname == 'surface') {
+          viewer.addSurface($3Dmol.SurfaceType.VDW, cmdobj, currentsel,currentsel);
+        } else if (cmdname == 'style') {
+          viewer.setStyle(currentsel, cmdobj);
+        } else if (cmdname == 'addstyle') {
+          viewer.addStyle(currentsel, cmdobj);
+        } else if (cmdname == 'labelres') {
+          viewer.addResLabels(currentsel, cmdobj);
+        } else if (cmdname == 'colorbyelement') {
+          if (typeof ($3Dmol.elementColors[cmdobj.colorscheme]) != "undefined") {
+            viewer.setColorByElement(currentsel,
+              $3Dmol.elementColors[cmdobj.colorscheme]);
+          }
+        } else if (cmdname == 'colorbyproperty') {
+          if (typeof (cmdobj.prop) != "undefined"
+                && typeof ($3Dmol.Gradient[cmdobj.scheme]) != "undefined") {
+            viewer.setColorByProperty(currentsel, cmdobj.prop,
+              new $3Dmol.Gradient[cmdobj.scheme]());
+          }
+        }
+      }
+    };
+
+    //表示オプションの抽出
+    var cmds = option.split("&");
+    var first = cmds.splice(0, 1)[0];
+    var pos = first.indexOf('=');
+    var src = first.substring(0, pos), data = first.substring(pos + 1);
+    var type = "";
+
+    // pdb, cid, urlのいずれかを判定し、構造ファイルダウンロード先を決定
+    if (src == 'pdb') {
+      data = data.toUpperCase();
+      if (!data.match(/^[1-9][A-Za-z0-9]{3}$/)) {
+        alert("Wrong PDB ID");
+        return;
+      }
+      data = "http://www.pdb.org/pdb/files/" + data + ".pdb";
+      type = "pdb";
+    } else if (src == 'cid') {
+      type = "sdf";
+      data = "http://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/"
+               + data + "/SDF?record_type=3d";
+    } else { //url
+      //try to extract extension
+      type = data.substr(data.lastIndexOf('.') + 1);
+    }
+
+    //描画オブジェクト生成
+    var glviewer = $3Dmol.createViewer($(elem), {
+        defaultcolors : $3Dmol.rasmolElementColors
+    });
+    glviewer.setBackgroundColor(0xffffff);
+
+    //ajaxで構造ファイルを取得して描画
+    $.get(data, function(ret, txt, response) {
+      glviewer.addModel(ret, type);
+      runcmds(cmds, glviewer);
+      glviewer.render();
+      glviewer.zoomTo();
+    }).fail(function() {
+      //if couldn't get url natively, go through echo server
+      $.post("echo.cgi", {
+        'url' : data
+      }, function(ret, txt, response) {
+        glviewer.addModel(ret, type);
+        runcmds(cmds, glviewer);
+        glviewer.render();
+        glviewer.zoomTo();
+      })
+    });
+  });
+
+  /**
+  * パラメータを受け取り、表示を切り替える。
+  *
+  */
+  function update_view (pdb_id, chain, start_pos, end_pos) {
+    var pdb_info = find_pdbinfo_by_id(pdb_list, pdb_id);
+    if (chain === 'All') {
+      selected_chains = pdb_info.chain_list.join(",");//all chain
+    } else {
+      selected_chains = chain;
+    }
+    if (start_pos && end_pos) {
+      var resi_pos = get_resi_position(pdb_info, start_pos, end_pos);
+      var option = get3dmol_param(pdb_id, selected_chains, resi_pos.start, resi_pos.end);
+    } else {
+      var option = get3dmol_param(pdb_id, selected_chains);
+    }
+    console.log(option);
+    //再描画
+    $(stanza.select('#chart')).empty();
+    draw(stanza.select('#chart'), option);
+    //選択行の強調
+    Array.prototype.forEach.call(stanza.selectAll('.selected'),function(elem){
+      $(elem).removeClass("selected");
+    }); 
+    $(stanza.select('#tr_' + pdb_id)).addClass("selected"); 
+    //プルダウンの更新
+    $(stanza.select('#disp_pdb')).val(pdb_id);//chain選択
+    draw_chain_selection(pdb_info, chain);//chainの選択状態更新
+  }
+  /**
+  * パラメータを受け取り、3dmolのviewer用パラメータを組み立てて返す
+  *
+  */
+  function get3dmol_param(pdb_id, chain, start_pos, end_pos) {
+    console.log(start_pos + ":::" + end_pos);    
+    var view_param = 'pdb=' + pdb_id;
+    if (start_pos != null  && end_pos != null ) {
+      view_param += '&select=chain:' + chain + '&style=cartoon:spectrum';
+      if (start_pos >= 0 && end_pos >= 0 ) {
+        var resi = "";
+        for ( var i = start_pos; i <= end_pos; i++ ) {
+          resi += i.toString();
+          if (i !== end_pos ) {
+            resi += ",";
+          }
+        }
+        view_param += '&select=resi:' + resi + ';chain:' + chain + '&style=cartoon:color~spectrum';
+      }
+    } else if (chain) {//specified only chain
+      view_param += '&select=chain:' + chain + '&style=cartoon:color~spectrum';
+    } else {//no chain and no pos
+      view_param += '&style=cartoon:color~spectrum';
+    }
+    return view_param;
+  }
+  function find_pdbinfo_by_id(pdb_list, selected_pdb_id) {
+    var selected_pdb = pdb_list.find(function(pdb){
+      return pdb.pdb_id === selected_pdb_id;
+    });
+    return selected_pdb;
+  }
+
+  //chain選択のSelectエレメントを再描画する
+  function draw_chain_selection(pdb_info, selected_chain_id) {
+    $(stanza.select('#disp_chain')).empty();
+    if (!selected_chain_id) {
+      selected_chain_id = 'All';
+    }
+    var option_html = '<option value="All">All</option>';
+    pdb_info.chain_list.forEach(function(chain){
+      option_html += '<option value="' + chain + '">'+ chain + '</option>';
+    });
+    $(stanza.select('#disp_chain')).append(option_html);
+    $(stanza.select('#disp_chain')).val(selected_chain_id);//chain選択
+  }
+  /**
+   calculate resi pos from seq pos
+  **/
+  function get_resi_position(pdb_info, start_pos, end_pos) {
+    var start = Math.min(parseInt(start_pos), parseInt(end_pos));
+    var end = Math.max(parseInt(start_pos), parseInt(end_pos));
+    var start_resi = Math.max(start,  parseInt(pdb_info.begin_pos));
+    var end_resi = Math.min(end, parseInt(pdb_info.end_pos));
+    return {"start": start_resi, "end": end_resi }; 
+  }
+
+  //query to endpoint
+  var q = stanza.query({
+    endpoint: "https://integbio.jp/rdf/sparql",
+    template: "stanza.rq",
+    parameters: params
+  });
+ 
+  var pdb_lis ;
+  // render
+  q.then(function(data) {
+    var values = stanza.unwrapValueFromBinding(data);
+    pdb_list = $.map(values, function(pdb){
+      pdb.chain_list = pdb.chain_chars.split('/').sort();
+      return pdb;
+    });
+
+    stanza.render({
+      template: "stanza.html",
+      parameters: {
+        pdb_list: values
+      }
+    });
+    //初回表示オプションを設定
+    var first_item = pdb_list[0];
+    var pdb_id = first_item.pdb_id;
+    var chain = "All";
+    $(stanza.select('#tr_' + pdb_id)).addClass("selected"); 
+    draw_chain_selection(first_item, 'All');
+
+    var option = get3dmol_param(pdb_list[0].pdb_id);
+    if (params.start_pos && params.end_pos) {
+      var resi_pos = get_resi_position(first_item, params.start_pos, params.end_pos);
+      chain = first_item.chain_list.join(",");//all chain
+      option = get3dmol_param(first_item.pdb_id, chain, resi_pos.start, resi_pos.end);
+      $(stanza.select('#input_start_pos')).val(params.start_pos);
+      $(stanza.select('#input_end_pos')).val(params.end_pos);
+    }
+    draw(stanza.select('#chart'), option);
+
+    //change structure by pdb_id
+    $(stanza.selectAll('.pdb_entry')).on('click', function(e) {
+      var pdb_id = $(this).attr('data-pdb_id');
+      var start_pos = $(stanza.select('#input_start_pos')).val(); 
+      var end_pos = $(stanza.select('#input_end_pos')).val(); 
+      update_view(pdb_id, 'All', start_pos, end_pos);
+    });
+   
+    //change structure by pdb_id and chain
+    $(stanza.selectAll('.chain')).on('click', function(e) {
+      var pdb_id = $(this).attr('data-pdb_id');
+      var chain = $(this).attr('data-chain');
+      var start_pos = $(stanza.select('#input_start_pos')).val(); 
+      var end_pos = $(stanza.select('#input_end_pos')).val(); 
+      update_view(pdb_id, chain, start_pos, end_pos);
+    });
+    //change by update button
+    $(stanza.select('#update_selection')).on('click', function(e) {
+      var pdb_id = $(stanza.select('#disp_pdb')).val(); 
+      var chain = $(stanza.select('#disp_chain')).val(); 
+      var start_pos = $(stanza.select('#input_start_pos')).val(); 
+      var end_pos = $(stanza.select('#input_end_pos')).val(); 
+      update_view(pdb_id, chain, start_pos, end_pos);
+      //redraw related stanza
+      redraw_sequence_stanza(params.up_id, start_pos, end_pos);
+      redraw_secondary_structure_stanza(params.up_id, start_pos, end_pos);
+    });
+    //reset button
+    $(stanza.select('#reset_selection')).on('click', function(e) {
+      var pdb_id = $(stanza.select('#disp_pdb')).val(); 
+      var chain = $(stanza.select('#disp_chain')).val(); 
+      $(stanza.select('#input_start_pos')).val(''); 
+      $(stanza.select('#input_end_pos')).val(''); 
+      update_view(pdb_id, chain);
+      //redraw related stanza
+      redraw_sequence_stanza(params.up_id);
+      redraw_secondary_structure_stanza(params.up_id);
+    });
+
+    //protein_sequenceスタンザの再描画
+    function redraw_sequence_stanza (up_id, start_pos, end_pos) {
+      if ( start_pos && end_pos ) {
+        var stanza_elem = '<togostanza-protein_sequence up_id="' + up_id + '" start_pos="' + start_pos + '" end_pos= "' + end_pos + '"></togostanza-protein_sequence>'
+      } else {
+        var stanza_elem = '<togostanza-protein_sequence up_id="' + up_id + '"></togostanza-protein_sequence>'
+      }
+      var current_elem = $("togostanza-protein_sequence")
+      current_elem.before(stanza_elem);
+      current_elem.remove();
+    }
+    //protein_secondary_structureスタンザの再描画
+    function redraw_secondary_structure_stanza (up_id, start_pos, end_pos) {
+      if ( start_pos && end_pos ) {
+        var stanza_elem = '<togostanza-protein_secondary_structure up_id="' + up_id + '" start_pos="' + start_pos + '" end_pos= "' + end_pos + '"></togostanza-protein_secondary_structure>'
+      } else {
+        var stanza_elem = '<togostanza-protein_secondary_structure up_id="' + up_id + '"></togostanza-protein_secondary_structure>'
+      }
+      var current_elem = $("togostanza-protein_secondary_structure")
+      current_elem.before(stanza_elem);
+      current_elem.remove();
+    }
+  });
+});
+
+})({"templates":{"stanza.html":"\u003cstyle\u003e\nth {\n  background-color: rgba(0,101,150,0.5);\n}\ntable {\n  border-collapse: collapse;\n}\ntable, td, th {\n  border: 1px #dddddd solid;\n}\ntr.selected {\n  background-color: rgba(239,193,196,0.5);\n}\ntd.number {\n  text-align: right;\n}\n#chart {\n  width: 400px;\n  height: 400px;\n  border:#dddddd solid 1px;\n}\n\u003c/style\u003e\n{{#if pdb_list}}\n  \u003cdiv name=\"plot\" id=\"plot\" /\u003e\n  \u003cdiv\u003e\n    PDB:\n    \u003cselect id='disp_pdb'\u003e\n    {{#each pdb_list}}\n      \u003coption value='{{pdb_id}}'\u003e{{pdb_id}}\u003c/option\u003e\n    {{/each}}\n    \u003c/select\u003e\n    Chain:\n    \u003cselect id='disp_chain'\u003e\n    \u003c/select\u003e\n    Amino acid position:\n    \u003cinput id=\"input_start_pos\" class=\"input_pos\" type=\"text\" name=\"namae\" size=\"8\" maxlength=\"8\"\u003e -\n    \u003cinput id=\"input_end_pos\" class=\"input_pos\" type=\"text\" name=\"namae\" size=\"8\" maxlength=\"8\"\u003e\n    \u003cbutton id=\"update_selection\" type=\"button\"\u003eUpdate selection\u003c/button\u003e\n    \u003cbutton id=\"reset_selection\" type=\"button\"\u003eReset position\u003c/button\u003e\n  \u003c/div\u003e\n  \u003cdiv id=\"chart\"\u003e\u003c/div\u003e\n  \u003ch2\u003e[Structure list]\u003c/h2\u003e\n  \u003ctable\u003e \n    \u003cthead\u003e\n      \u003cth\u003ePDB ID\u003c/th\u003e\n      \u003cth\u003eMethod\u003c/th\u003e\n      \u003cth\u003eResolution (Å)\u003c/th\u003e\n      \u003cth\u003eChain\u003c/th\u003e\n      \u003cth\u003ePositions\u003c/th\u003e\n      \u003cth\u003eLink\u003c/th\u003e\n    \u003c/thead\u003e\n    \u003ctbody\u003e\n    {{#each pdb_list}}\n      \u003ctr id=\"tr_{{pdb_id}}\"\u003e\n        \u003ctd\u003e\u003ca href='#plot' data-pdb_id='{{pdb_id}}' class='pdb_entry'\u003e{{pdb_id}}\u003c/a\u003e\u003c/td\u003e\n        \u003ctd\u003e{{method}}\u003c/td\u003e\n        \u003ctd\u003e{{resolution}}\u003c/td\u003e\n        \u003ctd\u003e\n        {{#if chain_list}}\n          {{#each chain_list}}\n            \u003ca href='#plot' data-pdb_id='{{../pdb_id}}' data-chain='{{this}}' class='chain'\u003e{{this}}\u003c/a\u003e \n          {{/each}}\n        {{/if}}\n        \u003c/td\u003e\n        \u003ctd\u003e{{begin_pos}} - {{end_pos}}\u003c/td\u003e\n        \u003ctd\u003e\u003ca href='http://pdbj.org/mine/summary/{{pdb_id}}' target='_blank'\u003e{{pdb_id}}\u003c/a\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n    {{/each}}\n    \u003c/tbody\u003e\n  \u003c/table\u003e\n{{else}}\n  \u003cdiv\u003eNo data\u003c/div\u003e\n{{/if}}\n","stanza.rq":"PREFIX PDBo: \u003chttp://rdf.wwpdb.org/schema/pdbx-v40.owl#\u003e\nPREFIX up: \u003chttp://purl.uniprot.org/uniprot/\u003e\n\nSELECT ?pdb_id ?method ?resolution\n (GROUP_CONCAT(?chain ; separator=\"/\") AS ?chain_chars)\n (MIN(?begin) AS ?begin_pos) (MAX(?end) AS ?end_pos)\nFROM \u003chttp://rdf.integbio.jp/dataset/pdbj\u003e\nWHERE {\n ?pdb_str PDBo:link_to_uniprot up:{{up_id}} .\n ?pdb_str PDBo:of_datablock ?pdb .\n ?str_ref PDBo:reference_to_struct_ref ?pdb_str .\n ?str_ref PDBo:struct_ref_seq.pdbx_strand_id ?chain .\n ?pdb PDBo:has_exptlCategory/PDBo:has_exptl/PDBo:exptl.method ?method .\n OPTIONAL {\n   ?pdb PDBo:has_refineCategory/PDBo:has_refine/PDBo:refine.ls_d_res_high ?resolution .\n }\n ?str_ref PDBo:struct_ref_seq.db_align_beg ?begin .\n ?str_ref PDBo:struct_ref_seq.db_align_end ?end .\n BIND (replace(STR(?pdb), \"http://rdf.wwpdb.org/pdb/\", \"\") AS ?pdb_id)\n} GROUP BY ?pdb_id ?method ?resolution ORDER BY ?pdb_id\n"},"parameters":["up_id","start_pos","end_pos"],"elementName":"togostanza-protein_structure","stylesheet":"@charset \"UTF-8\";\n\n* {\n  background-color: transparent;\n  padding: 1px 2px 3px;\n  font-family: \"Myriad Pro\",\"Helvetica Neue\",san-serif;\n  font-size: 16px;\n  line-height: 20px;\n}\na {\n  color:#45b8cc;\n}\n\nul, ol {\n  padding:0;\n  margin:0 0 0 16px;\n}\ndl {\n  margin: 0;\n  padding: 0;\n}\ndd {\n  margin: 0;\n}\ndt + dt, dd + dt,\ndt + dd, dd + dd {\n  margin-top: 8px;\n}\n\n\nmain {\n  -webkit-border-radius: 4px;\n  -moz-border-radius: 4px;\n  border-radius: 4px;\n  -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.2);\n  -moz-box-shadow: 0 2px 2px rgba(0,0,0,.2);\n  box-shadow: 0 2px 2px rgba(0,0,0,.2);\n  background-color: #fff;\n  overflow: auto;\n}\n.table + .table, .table + div,\ndiv + .table, div + div {\n  margin-top: 5px;\n}\n\ndiv {\n  padding: 10px 20px;\n}\n\n.table {\n  border-style: solid;\n  border-color: #fff;\n  border-top-width: 5px;\n  border-bottom-width: 5px;\n  border-left-width: 20px;\n  border-right-width: 20px;\n}\n.table {\n  margin-bottom: 0;\n  word-break:break-all;\n}\n.table caption {\n  background-color: #8ac8d1;\n  text-align: left;\n  color: white;\n  font-size: 18px;\n  line-height: 22px;\n  height: 22px;\n  font-weight: bold;\n  padding: 10px 24px 4px;\n  margin: 0;\n  border-top-left-radius: 4px;\n  border-top-right-radius: 4px;\n}\n.table thead th, .table thead td {\n  border-bottom: 1px solid #555;\n}\n.table th, .table td,\n.table \u003e tth, .table \u003e ttd {\n  padding: 10px 4px;\n  line-height: 20px;\n  text-align: left;\n  vertical-align: top;\n  border-top: 1px solid #9fadad;\n}\n.table \u003e tr:first-child \u003e th, .table \u003e tr:first-child \u003e td,\n.table \u003e ttr:first-child \u003e th, .table \u003e ttr:first-child \u003e td {\n  border-top: none;\n}\nth \u003e .table, td \u003e .table {\n  margin: -10px -4px;\n  width: 100%;\n}\n.table li + li {\n  margin-top: 4px;\n}\ntd.numeric {\n  text-align: right;\n}\nth.nowrap,\ntd.nowrap {\n  white-space: nowrap;\n}\n\npre {\n  background-color:#daf1f5;\n  border:1px solid #ccc;\n  border:1px solid rgba(0,0,0,0.15);\n  padding: 8px 16px;\n}\n\n/* grid */\n.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\n.span1 { width: 8.3333%; }\n.span2 { width: 16.6666%; }\n.span3 { width: 25%; }\n.span4 { width: 33.3333%; }\n.span5 { width: 41.6666%; }\n.span6 { width: 50%; }\n.span7 { width: 58.3333%; }\n.span8 { width: 66.6666%; }\n.span9 { width: 75%; }\n.span10 { width: 83.3333%; }\n.span11 { width: 91.6666%; }\n.span12 { width: 100%; }\n\ndiv#stanza_buttons {\n  margin: 0 0;\n  padding: 0 0;\n}\n\n/* tool bar */\n/* line 134, ../sass/stanza.scss */\n#tool_bar {\n  margin-top: 0;\n  border-top-left-radius: 0;\n  border-top-right-radius: 0;\n  font-size: 12px;\n  line-height: 30px;\n  color: #999;\n  background-color: #fff;\n  padding-top: 2px;\n  border-top: dashed 1px #ccc;\n  /*@include box-shadow(0 1px 2px rgba(0, 0, 0, 0.2), inset 0 10px 8px -8px rgba(0, 0, 0, 0.12));*/\n  z-index: 1000;\n  position: relative;\n}\n/* line 145, ../sass/stanza.scss */\n#tool_bar a {\n  color: #45b8cc;\n  margin-right: 1.5em;\n}\n/* line 148, ../sass/stanza.scss */\n#tool_bar a:hover {\n  color: #005580;\n}\n/* line 152, ../sass/stanza.scss */\n#tool_bar p {\n  margin-bottom: 0;\n}\n/* line 155, ../sass/stanza.scss */\n#tool_bar:before, #tool_bar:after {\n  display: table;\n  line-height: 0;\n  content: \"\";\n}\n/* line 160, ../sass/stanza.scss */\n#tool_bar:after {\n  clear: both;\n}\n","development":false});
+</script>

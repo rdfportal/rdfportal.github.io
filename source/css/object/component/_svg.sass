@@ -1,0 +1,30 @@
+// svg
+svg
+  position: absolute
+  top: 0
+  left: 114px
+  margin-left: $margin-left-main
+  z-index: $z-index-svg
+  g.edges
+    line.edge
+      +transition(opacity $transition-duration ease-out)
+    text
+      opacity: 0
+      fill: #fff
+      font-size: 10px
+      text-anchor: middle
+      +text-outline()
+      +transition( fill $transition-duration ease-out, text-shadow $transition-duration ease-out, opacity $transition-duration ease-out )
+      .number-of-triples
+      .type
+        font-style: oblique
+        font-weight: lighter
+  g.edges, g.corn
+    opacity: 0
+    +transition(opacity $transition-duration ease-out)
+  g.corn
+    line
+      stroke-width: 1
+    ellipse
+      fill: transparent
+      stroke-width: 1

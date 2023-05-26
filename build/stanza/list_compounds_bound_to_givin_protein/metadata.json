@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "list_compounds_bound_to_givin_protein",
+  "stanza:label": "Protein compound",
+  "stanza:definition": "protein compound of ChEMBL.",
+  "stanza:parameter": [
+    {
+      "stanza:key": "up_id",
+      "stanza:example": "P00533",
+      "stanza:description": "Uniport identifier.",
+      "stanza:required": true
+    },
+    {
+      "stanza:key": "standard_type",
+      "stanza:example": "IC_50",
+      "stanza:description": "Standard type.",
+      "stanza:required": true
+    },
+    {
+      "stanza:key": "condition",
+      "stanza:example": "lessthanequal",
+      "stanza:description": "Filter condition.",
+      "stanza:required": true 
+    },
+    {
+      "stanza:key": "variable",
+      "stanza:example": "50",
+      "stanza:description": "Filter variable.",
+      "stanza:required": false
+    }
+  ],
+  "stanza:usage": "<togostanza-list_compounds_bound_to_givin_protein up_id=\"P00533\" standard_type=\"IC50\"></togostanza-list_compounds_bound_to_givin_protein>",
+  "stanza:type": "Stanza",
+  "stanza:context": "",
+  "stanza:display": "",
+  "stanza:provider": "provider of this stanza",
+  "stanza:license": "",
+  "stanza:author": "author name",
+  "stanza:address": "name@example.org",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2016-02-03",
+  "stanza:updated": "2016-02-03"
+}

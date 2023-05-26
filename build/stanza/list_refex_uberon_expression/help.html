@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="../assets/components/webcomponentsjs/webcomponents-loader.js"></script>
+    <link rel="import" href="../list_refex_uberon_expression/">
+    <link rel="stylesheet" href="../assets/css/ts.css">
+    <title>RefEx anatomy expression</title>
+  </head>
+
+  <body>
+    <div id="contents">
+      <h1 class="page_ttl">RefEx anatomy expression</h1>
+
+      <ul class="showcase_icn">
+        
+      </ul>
+
+      <p class="lead">List of genes which has been expressed on the specified anatomy part(Uberon) .</p>
+
+      <div class="showcase_detail">
+        <ul class="showcase_id">
+          
+            <li>
+              <dl>
+                <dt>uberon_id</dt>
+
+                <dd>
+                  <p class="id_box">
+                    <input type="text" value="UBERON_0001890" data-param-key="uberon_id">
+
+                    
+                      <span class="required">required</span>
+                    
+                  </p>
+
+                  <p class="eg">
+                    UBERON identifier.
+                  </p>
+                </dd>
+              </dl>
+            </li>
+          
+        </ul>
+
+        <div class="showcase_code">
+          <code>&lt;togostanza-list_refex_uberon_expression uberon_id=&#34;UBERON_0001890&#34;&gt;&lt;/togostanza-list_refex_uberon_expression&gt;</code>
+        </div>
+
+        <p class="explain">
+          The above element will automatically embed the following Stanza in your HTML page.
+        </p>
+
+        <div class="showcase_box">
+          <togostanza-list_refex_uberon_expression uberon_id="UBERON_0001890"></togostanza-list_refex_uberon_expression>
+        </div>
+      </div>
+      <script>
+        const stanza = document.querySelector('togostanza-list_refex_uberon_expression');
+        const inputs = document.querySelectorAll('.showcase_id input');
+
+        inputs.forEach(function(input) {
+          const onParamChange = function() {
+            stanza.setAttribute(input.dataset.paramKey, input.value);
+          };
+
+          input.addEventListener('input', onParamChange);
+          onParamChange();
+        });
+      </script>
+  </body>
+</html>

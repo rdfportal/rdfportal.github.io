@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "icgc_gene_mutation",
+  "stanza:label": "ICGC gene mutations",
+  "stanza:definition": "Most frequent mutations in the specified gene.",
+  "stanza:parameter": [
+    {
+      "stanza:key": "ncbi_gene_id",
+      "stanza:example": "3417",
+      "stanza:description": "NCBI gene identifier.",
+      "stanza:required": true
+    }
+  ],
+  "stanza:usage": "<togostanza-icgc_gene_mutation ncbi_gene_id=\"3417\"></togostanza-icgc_gene_mutation>",
+  "stanza:type": "Stanza",
+  "stanza:context": "",
+  "stanza:display": "",
+  "stanza:provider": "provider of this stanza",
+  "stanza:license": "",
+  "stanza:author": "author name",
+  "stanza:address": "name@example.org",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2016-02-07",
+  "stanza:updated": "2016-02-07"
+}

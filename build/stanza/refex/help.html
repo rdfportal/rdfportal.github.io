@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="../assets/components/webcomponentsjs/webcomponents-loader.js"></script>
+    <link rel="import" href="../refex/">
+    <link rel="stylesheet" href="../assets/css/ts.css">
+    <title>RefEx entry</title>
+  </head>
+
+  <body>
+    <div id="contents">
+      <h1 class="page_ttl">RefEx entry</h1>
+
+      <ul class="showcase_icn">
+        
+      </ul>
+
+      <p class="lead">Show a RefEx entry of a user specified identifier</p>
+
+      <div class="showcase_detail">
+        <ul class="showcase_id">
+          
+            <li>
+              <dl>
+                <dt>refex_id</dt>
+
+                <dd>
+                  <p class="id_box">
+                    <input type="text" value="RFX0000062082" data-param-key="refex_id">
+
+                    
+                      <span class="required">required</span>
+                    
+                  </p>
+
+                  <p class="eg">
+                    refex entry ID
+                  </p>
+                </dd>
+              </dl>
+            </li>
+          
+        </ul>
+
+        <div class="showcase_code">
+          <code>&lt;togostanza-refex refex_id=&#34;RFX0000062082&#34;&gt;&lt;/togostanza-refex&gt;</code>
+        </div>
+
+        <p class="explain">
+          The above element will automatically embed the following Stanza in your HTML page.
+        </p>
+
+        <div class="showcase_box">
+          <togostanza-refex refex_id="RFX0000062082"></togostanza-refex>
+        </div>
+      </div>
+      <script>
+        const stanza = document.querySelector('togostanza-refex');
+        const inputs = document.querySelectorAll('.showcase_id input');
+
+        inputs.forEach(function(input) {
+          const onParamChange = function() {
+            stanza.setAttribute(input.dataset.paramKey, input.value);
+          };
+
+          input.addEventListener('input', onParamChange);
+          onParamChange();
+        });
+      </script>
+  </body>
+</html>

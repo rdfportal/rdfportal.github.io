@@ -1,0 +1,478 @@
+[
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso", 
+        "number_of_triples": 35226939, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 19828635, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/identifier", 
+        "number_of_triples": 19828606, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/refexo#refexSample", 
+        "number_of_triples": 19827609, 
+        "domain_classes": [
+            {
+                "domain_class": "http://purl.jp/bio/01/refexo#RefExEntry", 
+                "label": {
+                    "en": "RefEx entry", 
+                    "ja": "RefEx entry"
+                }, 
+                "number_of_instances": 19827609
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://purl.jp/bio/01/refexo#RefExSample", 
+                "label": {
+                    "en": "RefEx sample", 
+                    "ja": "RefEx sample"
+                }, 
+                "number_of_instances": 947
+            }
+        ]
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/refexo#expValue", 
+        "number_of_triples": 15396788, 
+        "domain_classes": [
+            {
+                "domain_class": "http://purl.jp/bio/01/refexo#RefExEntry", 
+                "label": {
+                    "en": "RefEx entry", 
+                    "ja": "RefEx entry"
+                }, 
+                "number_of_instances": 19827609
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://www.w3.org/2001/XMLSchema#decimal", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 0
+            }, 
+            {
+                "range_class": "http://www.w3.org/2001/XMLSchema#float", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 0
+            }, 
+            {
+                "range_class": "http://www.w3.org/2001/XMLSchema#double", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 0
+            }
+        ]
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000216", 
+        "number_of_triples": 4430821, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000221", 
+        "number_of_triples": 4430821, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value", 
+        "number_of_triples": 4430821, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/refexo#belongsToAnatomy", 
+        "number_of_triples": 23118, 
+        "domain_classes": [
+            {
+                "domain_class": "http://purl.jp/bio/01/refexo#RefExSample", 
+                "label": {
+                    "en": "RefEx sample", 
+                    "ja": "RefEx sample"
+                }, 
+                "number_of_instances": 947
+            }
+        ], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/refexo#belongsToCellType", 
+        "number_of_triples": 9022, 
+        "domain_classes": [
+            {
+                "domain_class": "http://purl.jp/bio/01/refexo#RefExSample", 
+                "label": {
+                    "en": "RefEx sample", 
+                    "ja": "RefEx sample"
+                }, 
+                "number_of_instances": 947
+            }
+        ], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/refexo#belongsToDevelopmentSite", 
+        "number_of_triples": 3393, 
+        "domain_classes": [
+            {
+                "domain_class": "http://purl.jp/bio/01/refexo#RefExSample", 
+                "label": {
+                    "en": "RefEx sample", 
+                    "ja": "RefEx sample"
+                }, 
+                "number_of_instances": 947
+            }
+        ], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/refexo#belongsToDisease", 
+        "number_of_triples": 1861, 
+        "domain_classes": [
+            {
+                "domain_class": "http://purl.jp/bio/01/refexo#RefExSample", 
+                "label": {
+                    "en": "RefEx sample", 
+                    "ja": "RefEx sample"
+                }, 
+                "number_of_instances": 947
+            }
+        ], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/refexo#sample", 
+        "number_of_triples": 1278, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/refexo#sampleReference", 
+        "number_of_triples": 1278, 
+        "domain_classes": [
+            {
+                "domain_class": "http://purl.jp/bio/01/refexo#RefExEntry", 
+                "label": {
+                    "en": "RefEx entry", 
+                    "ja": "RefEx entry"
+                }, 
+                "number_of_instances": 19827609
+            }
+        ], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/refexo#organism", 
+        "number_of_triples": 947, 
+        "domain_classes": [
+            {
+                "domain_class": "http://purl.jp/bio/01/refexo#RefExSample", 
+                "label": {
+                    "en": "RefEx sample", 
+                    "ja": "RefEx sample"
+                }, 
+                "number_of_instances": 947
+            }
+        ], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/refexo#refexRefinedDescription", 
+        "number_of_triples": 842, 
+        "domain_classes": [
+            {
+                "domain_class": "http://purl.jp/bio/01/refexo#RefExEntry", 
+                "label": {
+                    "en": "RefEx entry", 
+                    "ja": "RefEx entry"
+                }, 
+                "number_of_instances": 19827609
+            }, 
+            {
+                "domain_class": "http://purl.jp/bio/01/refexo#RefExSample", 
+                "label": {
+                    "en": "RefEx sample", 
+                    "ja": "RefEx sample"
+                }, 
+                "number_of_instances": 947
+            }
+        ], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/refexo#refexSampleCategory", 
+        "number_of_triples": 842, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/refexo#refexAlphabeticalUniqOrder", 
+        "number_of_triples": 842, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/refexo#originalDescription", 
+        "number_of_triples": 842, 
+        "domain_classes": [
+            {
+                "domain_class": "http://purl.jp/bio/01/refexo#RefExEntry", 
+                "label": {
+                    "en": "RefEx entry", 
+                    "ja": "RefEx entry"
+                }, 
+                "number_of_instances": 19827609
+            }, 
+            {
+                "domain_class": "http://purl.jp/bio/01/refexo#RefExSample", 
+                "label": {
+                    "en": "RefEx sample", 
+                    "ja": "RefEx sample"
+                }, 
+                "number_of_instances": 947
+            }
+        ], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/refexo#sex", 
+        "number_of_triples": 571, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/refexo#age", 
+        "number_of_triples": 446, 
+        "domain_classes": [
+            {
+                "domain_class": "http://purl.jp/bio/01/refexo#RefExSample", 
+                "label": {
+                    "en": "RefEx sample", 
+                    "ja": "RefEx sample"
+                }, 
+                "number_of_instances": 947
+            }
+        ], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/refexo#developmentalStage", 
+        "number_of_triples": 264, 
+        "domain_classes": [
+            {
+                "domain_class": "http://purl.jp/bio/01/refexo#RefExSample", 
+                "label": {
+                    "en": "RefEx sample", 
+                    "ja": "RefEx sample"
+                }, 
+                "number_of_instances": 947
+            }
+        ], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#comments", 
+        "number_of_triples": 210, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/refexo#refexTissueClass40", 
+        "number_of_triples": 159, 
+        "domain_classes": [
+            {
+                "domain_class": "http://purl.jp/bio/01/refexo#RefExSample", 
+                "label": {
+                    "en": "RefEx sample", 
+                    "ja": "RefEx sample"
+                }, 
+                "number_of_instances": 947
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://purl.jp/bio/01/refexo#AnatomicalClassification40", 
+                "label": {
+                    "en": "AnatomicalClassification40", 
+                    "ja": "AnatomicalClassification40"
+                }, 
+                "number_of_instances": 40
+            }
+        ]
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 127, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/refexo#refexTissueClass10", 
+        "number_of_triples": 106, 
+        "domain_classes": [
+            {
+                "domain_class": "http://purl.jp/bio/01/refexo#RefExSample", 
+                "label": {
+                    "en": "RefEx sample", 
+                    "ja": "RefEx sample"
+                }, 
+                "number_of_instances": 947
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://purl.jp/bio/01/refexo#AnatomicalClassification10", 
+                "label": {
+                    "en": "AnatomicalClassification10", 
+                    "ja": "AnatomicalClassification10"
+                }, 
+                "number_of_instances": 10
+            }
+        ]
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#prefLabel", 
+        "number_of_triples": 73, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#definition", 
+        "number_of_triples": 52, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#domain", 
+        "number_of_triples": 16, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#range", 
+        "number_of_triples": 6, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#subClassOf", 
+        "number_of_triples": 5, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/description", 
+        "number_of_triples": 5, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/contributor", 
+        "number_of_triples": 4, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2002/07/owl#onProperty", 
+        "number_of_triples": 3, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/publisher", 
+        "number_of_triples": 2, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/license", 
+        "number_of_triples": 2, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/pav/version", 
+        "number_of_triples": 2, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/created", 
+        "number_of_triples": 2, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2002/07/owl#cardinality", 
+        "number_of_triples": 2, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#comment", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/elements/1.1/creator", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/references", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2002/07/owl#versionInfo", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2002/07/owl#allValuesFrom", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/date", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/page", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1page", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

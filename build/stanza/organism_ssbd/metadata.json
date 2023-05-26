@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "organism_ssbd",
+  "stanza:label": "Hello Example",
+  "stanza:definition": "Greeting.",
+  "stanza:parameter": [
+    {
+      "stanza:key": "tax_id",
+      "stanza:example": "10090",
+      "stanza:description": "NCBI taxonomy identifier.",
+      "stanza:required": true
+    }
+  ],
+  "stanza:usage": "<togostanza-organism_ssbd tax_id=\"10090\"></togostanza-organism_ssbd>",
+  "stanza:type": "Stanza",
+  "stanza:context": "",
+  "stanza:display": "",
+  "stanza:provider": "provider of this stanza",
+  "stanza:license": "",
+  "stanza:author": "author name",
+  "stanza:address": "name@example.org",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2016-02-24",
+  "stanza:updated": "2016-02-24"
+}

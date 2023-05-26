@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "show_icgc_gene_cancer_distribution",
+  "stanza:label": "ICGC gene cancer distribution",
+  "stanza:definition": "Cancer distribution of the specified gene.",
+  "stanza:parameter": [
+    {
+      "stanza:key": "ncbi_gene_id",
+      "stanza:example": "3417",
+      "stanza:description": "NCBI gene identifier.",
+      "stanza:required": true
+    }
+  ],
+  "stanza:usage": "<togostanza-show_icgc_gene_cancer_distribution ncbi_gene_id=\"3417\"></togostanza-show_icgc_gene_cancer_distribution>",
+  "stanza:type": "Stanza",
+  "stanza:context": "",
+  "stanza:display": "",
+  "stanza:provider": "provider of this stanza",
+  "stanza:license": "",
+  "stanza:author": "author name",
+  "stanza:address": "name@example.org",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2016-02-08",
+  "stanza:updated": "2016-02-08"
+}

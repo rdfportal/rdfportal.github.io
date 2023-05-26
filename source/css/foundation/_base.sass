@@ -1,0 +1,78 @@
+@font-face
+  font-family: 'M+P'
+  font-weight: 100
+  src: url('../fonts/mplus-1p-thin.ttf') format('truetype')
+@font-face
+  font-family: 'M+P'
+  font-weight: 400
+  src: url('../fonts/mplus-1p-regular.ttf') format('truetype')
+@font-face
+  font-family: 'M+P'
+  font-weight: 700
+  src: url('../fonts/mplus-1p-bold.ttf') format('truetype')
+
+html
+  height: 100%
+  &[lang="ja"] [lang="en"]
+    display: none
+  &[lang="en"] [lang="ja"]
+    display: none
+  &[lang="ja"] ul#language-switch li[data-lang="ja"],
+  &[lang="en"] ul#language-switch li[data-lang="en"]
+    opacity: 1
+
+body
+  font-family: 'Lato', 'M+P', sans-serif
+  height: 100%
+  background-color: #0F2135
+  background: -webkit-gradient(radial, 100% 100%, 0, 100% 100%, 241, color-stop(0.88, #000000), color-stop(0.73, #0F2135), color-stop(0.00, #006596))
+  background: -webkit-radial-gradient(75% 10%, circle, #006596 0%, #0F2135 73%, #000000 88%)
+  background: -moz-radial-gradient(75% 10%, circle, #006596 0%, #0F2135 73%, #000000 88%)
+  background: -o-radial-gradient(75% 10%, circle, #006596 0%, #0F2135 73%, #000000 88%)
+  background: -ms-radial-gradient(75% 10%, circle, #006596 0%, #0F2135 73%, #000000 88%)
+  background: radial-gradient(75% 10%, circle, #006596 0%, #0F2135 73%, #000000 88%)
+  background-attachment: fixed
+  color: #fff
+  z-index: $z-index-background
+  &:before
+    content: ""
+    display: block
+    background: url(../images/space.jpg) repeat-y 50% 50%
+    background-size: cover
+    opacity: 0.5
+    width: 100%
+    height: 100%
+    position: fixed
+    z-index: $z-index-background
+
+// general
+a
+  color: #fff
+  &:hover
+    color: $color-emphasis
+  &[target="_blank"]
+    display: inline-block
+    &:after
+      content: $char-external
+      font-family: "fontello"
+      margin-left: 0.5em
+      font-size: 85%
+      text-decoration: none
+      display: inline-block
+
+table
+  width: 100%
+td.numeral
+  padding: 8px 0 !important
+  text-align: right
+  font-size: 24px
+span.hyphen
+  &:before
+    content: ""
+    display: inline-block
+    vertical-align: middle
+    width: 16px
+    height: 1px
+    border-top: solid 1px #fff
+    margin: 0 6px
+    +transform( rotate(135deg) )

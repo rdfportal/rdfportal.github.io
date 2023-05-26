@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="../assets/components/webcomponentsjs/webcomponents-loader.js"></script>
+    <link rel="import" href="../list_compounds_bound_to_givin_protein/">
+    <link rel="stylesheet" href="../assets/css/ts.css">
+    <title>Protein compound</title>
+  </head>
+
+  <body>
+    <div id="contents">
+      <h1 class="page_ttl">Protein compound</h1>
+
+      <ul class="showcase_icn">
+        
+      </ul>
+
+      <p class="lead">protein compound of ChEMBL.</p>
+
+      <div class="showcase_detail">
+        <ul class="showcase_id">
+          
+            <li>
+              <dl>
+                <dt>up_id</dt>
+
+                <dd>
+                  <p class="id_box">
+                    <input type="text" value="P00533" data-param-key="up_id">
+
+                    
+                      <span class="required">required</span>
+                    
+                  </p>
+
+                  <p class="eg">
+                    Uniport identifier.
+                  </p>
+                </dd>
+              </dl>
+            </li>
+          
+            <li>
+              <dl>
+                <dt>standard_type</dt>
+
+                <dd>
+                  <p class="id_box">
+                    <input type="text" value="IC_50" data-param-key="standard_type">
+
+                    
+                      <span class="required">required</span>
+                    
+                  </p>
+
+                  <p class="eg">
+                    Standard type.
+                  </p>
+                </dd>
+              </dl>
+            </li>
+          
+            <li>
+              <dl>
+                <dt>condition</dt>
+
+                <dd>
+                  <p class="id_box">
+                    <input type="text" value="lessthanequal" data-param-key="condition">
+
+                    
+                      <span class="required">required</span>
+                    
+                  </p>
+
+                  <p class="eg">
+                    Filter condition.
+                  </p>
+                </dd>
+              </dl>
+            </li>
+          
+            <li>
+              <dl>
+                <dt>variable</dt>
+
+                <dd>
+                  <p class="id_box">
+                    <input type="text" value="50" data-param-key="variable">
+
+                    
+                  </p>
+
+                  <p class="eg">
+                    Filter variable.
+                  </p>
+                </dd>
+              </dl>
+            </li>
+          
+        </ul>
+
+        <div class="showcase_code">
+          <code>&lt;togostanza-list_compounds_bound_to_givin_protein up_id=&#34;P00533&#34; standard_type=&#34;IC50&#34;&gt;&lt;/togostanza-list_compounds_bound_to_givin_protein&gt;</code>
+        </div>
+
+        <p class="explain">
+          The above element will automatically embed the following Stanza in your HTML page.
+        </p>
+
+        <div class="showcase_box">
+          <togostanza-list_compounds_bound_to_givin_protein up_id="P00533" standard_type="IC50"></togostanza-list_compounds_bound_to_givin_protein>
+        </div>
+      </div>
+      <script>
+        const stanza = document.querySelector('togostanza-list_compounds_bound_to_givin_protein');
+        const inputs = document.querySelectorAll('.showcase_id input');
+
+        inputs.forEach(function(input) {
+          const onParamChange = function() {
+            stanza.setAttribute(input.dataset.paramKey, input.value);
+          };
+
+          input.addEventListener('input', onParamChange);
+          onParamChange();
+        });
+      </script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="../assets/components/webcomponentsjs/webcomponents-loader.js"></script>
+    <link rel="import" href="../list_gene_expressions_per_body_part_by_gene/">
+    <link rel="stylesheet" href="../assets/css/ts.css">
+    <title>List of transcriptomes by a selected property type</title>
+  </head>
+
+  <body>
+    <div id="contents">
+      <h1 class="page_ttl">List of transcriptomes by a selected property type</h1>
+
+      <ul class="showcase_icn">
+        
+      </ul>
+
+      <p class="lead">List of transcriptome experiments in the ExpressionAtlas by a user specified property type</p>
+
+      <div class="showcase_detail">
+        <ul class="showcase_id">
+          
+            <li>
+              <dl>
+                <dt>ncbi_gene_id</dt>
+
+                <dd>
+                  <p class="id_box">
+                    <input type="text" value="439" data-param-key="ncbi_gene_id">
+
+                    
+                      <span class="required">required</span>
+                    
+                  </p>
+
+                  <p class="eg">
+                    NCBI gene identifier.
+                  </p>
+                </dd>
+              </dl>
+            </li>
+          
+            <li>
+              <dl>
+                <dt>property_type</dt>
+
+                <dd>
+                  <p class="id_box">
+                    <input type="text" value="organism_part" data-param-key="property_type">
+
+                    
+                  </p>
+
+                  <p class="eg">
+                    property type of experimental factor.
+                  </p>
+                </dd>
+              </dl>
+            </li>
+          
+        </ul>
+
+        <div class="showcase_code">
+          <code>&lt;togostanza-list_gene_expressions_per_body_part_by_gene ncbi_gene_id=&#34;439&#34; property_type=&#34;organism_part&#34;&gt;&lt;/togostanza-list_gene_expressions_per_body_part_by_gene&gt;</code>
+        </div>
+
+        <p class="explain">
+          The above element will automatically embed the following Stanza in your HTML page.
+        </p>
+
+        <div class="showcase_box">
+          <togostanza-list_gene_expressions_per_body_part_by_gene ncbi_gene_id="439" property_type="organism_part"></togostanza-list_gene_expressions_per_body_part_by_gene>
+        </div>
+      </div>
+      <script>
+        const stanza = document.querySelector('togostanza-list_gene_expressions_per_body_part_by_gene');
+        const inputs = document.querySelectorAll('.showcase_id input');
+
+        inputs.forEach(function(input) {
+          const onParamChange = function() {
+            stanza.setAttribute(input.dataset.paramKey, input.value);
+          };
+
+          input.addEventListener('input', onParamChange);
+          onParamChange();
+        });
+      </script>
+  </body>
+</html>

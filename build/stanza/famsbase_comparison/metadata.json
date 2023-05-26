@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "famsbase_comparison",
+  "stanza:label": "Hello Example",
+  "stanza:definition": "Greeting.",
+  "stanza:parameter": [
+    {
+      "stanza:key": "ref_id",
+      "stanza:example": "2RH1_A_ref_NP_000673.2",
+      "stanza:description": "",
+      "stanza:required": true
+    }
+  ],
+  "stanza:usage": "<togostanza-famsbase_comparison ref_id=\"2RH1_A_ref_NP_000673.2\"></togostanza-famsbase_comparison>",
+  "stanza:type": "Stanza",
+  "stanza:context": "",
+  "stanza:display": "",
+  "stanza:provider": "provider of this stanza",
+  "stanza:license": "",
+  "stanza:author": "author name",
+  "stanza:address": "name@example.org",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2016-03-15",
+  "stanza:updated": "2016-03-15"
+}

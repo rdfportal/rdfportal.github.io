@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "quanto",
+  "stanza:label": "Quanto entry",
+  "stanza:definition": "Show the Quanto entry of a user specified identifier",
+  "stanza:parameter": [
+    {
+      "stanza:key": "quanto_entry_id",
+      "stanza:example": "ERR026579_1_fastqc",
+      "stanza:description": "quanto entry ID",
+      "stanza:required": true
+    }
+  ],
+  "stanza:usage": "<togostanza-quanto quanto_entry_id=\"ERR026579_1_fastqc\"></togostanza-quanto>",
+  "stanza:type": "Stanza",
+  "stanza:context": "",
+  "stanza:display": "",
+  "stanza:provider": "DBCLS",
+  "stanza:license": "",
+  "stanza:author": "Shuichi Kawashima",
+  "stanza:address": "kwsm@dbcls.rois.ac.jp",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2016-08-04",
+  "stanza:updated": "2016-08-04"
+}

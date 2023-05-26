@@ -1,0 +1,248 @@
+[
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 46415836, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#closeMatch", 
+        "number_of_triples": 34211396, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 33817861, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000300", 
+        "number_of_triples": 19757747, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first", 
+        "number_of_triples": 18198805, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest", 
+        "number_of_triples": 18198805, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/identifier", 
+        "number_of_triples": 17026548, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/CHEMINF_000200", 
+        "number_of_triples": 16726088, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#exactMatch", 
+        "number_of_triples": 16584163, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#chem-formula", 
+        "number_of_triples": 13663348, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2002/07/owl#sameAs", 
+        "number_of_triples": 9234136, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2008/05/skos-xl#literalForm", 
+        "number_of_triples": 9046751, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/elements/1.1/language", 
+        "number_of_triples": 8833183, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso", 
+        "number_of_triples": 7285369, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#material-type", 
+        "number_of_triples": 6976986, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#molar-weight", 
+        "number_of_triples": 6831402, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/depiction", 
+        "number_of_triples": 6646108, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#common-name", 
+        "number_of_triples": 4662244, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://ndl.go.jp/dcndl/terms/transcription", 
+        "number_of_triples": 4471139, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#systematic-name", 
+        "number_of_triples": 4170226, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#nikkaji-ID-registry", 
+        "number_of_triples": 3488493, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#nikkaji-number", 
+        "number_of_triples": 3488493, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2008/05/skos-xl#altLabel", 
+        "number_of_triples": 3488488, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/vlist#systematic-name", 
+        "number_of_triples": 3469682, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/vlist#common-name", 
+        "number_of_triples": 3428485, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000221", 
+        "number_of_triples": 3363043, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#smiles", 
+        "number_of_triples": 3323050, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#InChI", 
+        "number_of_triples": 3319627, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#InChIKey", 
+        "number_of_triples": 3319627, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#regulation-number", 
+        "number_of_triples": 323290, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#component-nikkaji-number", 
+        "number_of_triples": 146634, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#use-for", 
+        "number_of_triples": 44484, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/vlist#use-for", 
+        "number_of_triples": 6445, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/title", 
+        "number_of_triples": 41, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/publisher", 
+        "number_of_triples": 4, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/license", 
+        "number_of_triples": 4, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/pav/version", 
+        "number_of_triples": 4, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/ns/dcat#landingPage", 
+        "number_of_triples": 4, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2002/07/owl#versionInfo", 
+        "number_of_triples": 4, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/description", 
+        "number_of_triples": 4, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/pav/contributedBy", 
+        "number_of_triples": 4, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

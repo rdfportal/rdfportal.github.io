@@ -1,0 +1,74 @@
+[
+    {
+        "class": "http://purl.jp/bio/01/refexo#RefExEntry", 
+        "label": {
+            "en": "RefEx entry", 
+            "ja": "RefEx entry"
+        }, 
+        "number_of_instances": 19827609
+    }, 
+    {
+        "class": "http://purl.jp/bio/01/refexo#RefExSample", 
+        "label": {
+            "en": "RefEx sample", 
+            "ja": "RefEx sample"
+        }, 
+        "number_of_instances": 947
+    }, 
+    {
+        "class": "http://purl.jp/bio/01/refexo#AnatomicalClassification40", 
+        "label": {
+            "en": "AnatomicalClassification40", 
+            "ja": "AnatomicalClassification40"
+        }, 
+        "number_of_instances": 40
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#ObjectProperty", 
+        "label": {
+            "en": "ObjectProperty", 
+            "ja": "ObjectProperty"
+        }, 
+        "number_of_instances": 13
+    }, 
+    {
+        "class": "http://purl.jp/bio/01/refexo#AnatomicalClassification10", 
+        "label": {
+            "en": "AnatomicalClassification10", 
+            "ja": "AnatomicalClassification10"
+        }, 
+        "number_of_instances": 10
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 7
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#DatatypeProperty", 
+        "label": {
+            "en": "DatatypeProperty", 
+            "ja": "DatatypeProperty"
+        }, 
+        "number_of_instances": 5
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Restriction", 
+        "label": {
+            "en": "Restriction", 
+            "ja": "Restriction"
+        }, 
+        "number_of_instances": 3
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Ontology", 
+        "label": {
+            "en": "Ontology", 
+            "ja": "Ontology"
+        }, 
+        "number_of_instances": 1
+    }
+]

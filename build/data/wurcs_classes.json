@@ -1,0 +1,114 @@
+[
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#RES", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 291467
+    }, 
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#LIN", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 256643
+    }, 
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#UniqueRES", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 165973
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#saccharide", 
+        "label": {
+            "en": "Saccharide", 
+            "ja": "Saccharide"
+        }, 
+        "number_of_instances": 39964
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#glycosequence", 
+        "label": {
+            "en": "Glycosequence", 
+            "ja": "Glycosequence"
+        }, 
+        "number_of_instances": 39964
+    }, 
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#Monosaccharide", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 21135
+    }, 
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#GLIPS", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 759
+    }, 
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#basetype", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 673
+    }, 
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#GLIP", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 528
+    }, 
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#MOD", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 264
+    }, 
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#LIPS", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 83
+    }, 
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#LIP", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 78
+    }, 
+    {
+        "class": "http://rdfs.org/ns/void#Dataset", 
+        "label": {
+            "en": "dataset", 
+            "ja": "dataset"
+        }, 
+        "number_of_instances": 3
+    }, 
+    {
+        "class": "http://xmlns.com/foaf/0.1/Person", 
+        "label": {
+            "en": "Person", 
+            "ja": "Person"
+        }, 
+        "number_of_instances": 1
+    }
+]
