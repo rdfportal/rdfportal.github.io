@@ -2,7 +2,7 @@ doctype html
 html
 	head
 		meta(charset="UTF-8")
-		title NBDC RDF Portal
+		title RDF Portal
 		link(href="//fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet" type="text/css")
 		base(href="/")
 		link(href="css/codemirror.css" rel="stylesheet")
@@ -20,15 +20,15 @@ html
 		script(src="js/vendor/marked.min.js")
 		script(src="js/main.js")
 	body.preparing
-		h1#logotype NBDC RDF Portal
+		h1#logotype RDF Portal
 		#splash-screen
-			img(src="images/logotype-white.svg" alt="NBDC RDF Portal")
+			img(src="images/logotype-white.svg" alt="RDF Portal")
 		main#main-view(data-kind-of-view)
 			article#home-view
 				img.logotype(src="images/logotype-white.svg" width="96")
 				section#home-introduction
-					p(lang="ja") NBDC RDF Portalは、RDF形式の生命科学データベースを集積したポータルサイトです。RDF形式のデータは相互に参照したり連結することが容易であるため、多種多様な生命科学のデータベースを統合的に活用することが可能となります。本サイトでは、さまざまな研究機関から提供されたRDFデータセットをダウンロードしたり、SPARQL言語による検索を行うことができます。
-					p(lang="en") The NBDC RDF Portal provides a collection of life science datasets in RDF (Resource Description Framework). The portal aims to accelerate integrative utilization of the heterogeneous datasets deposited by various research institutions and groups. In this portal, each dataset comes with a summary, downloadable files and a SPARQL endpoint.
+					p(lang="ja") RDF Portalは、RDF形式の生命科学データベースを集積したポータルサイトです。RDF形式のデータは相互に参照したり連結することが容易であるため、多種多様な生命科学のデータベースを統合的に活用することが可能となります。本サイトでは、さまざまな研究機関から提供されたRDFデータセットをダウンロードしたり、SPARQL言語による検索を行うことができます。
+					p(lang="en") The RDF Portal provides a collection of life science datasets in RDF (Resource Description Framework). The portal aims to accelerate integrative utilization of the heterogeneous datasets deposited by various research institutions and groups. In this portal, each dataset comes with a summary, downloadable files and a SPARQL endpoint.
 				section#home-statistics
 					h2
 						span.first-letter S
@@ -112,7 +112,7 @@ html
 						//		p Schema section shows the schematic image of the RDF model.
 						//	section
 						//		h5 SPARQL examples
-						//		p SPARQL examples section shows example SPARQL queries against the dataset. By clicking the SPARQL button below each query new browser window of the NBDC SPARQL endpoints service will be opened with the example query filled in the query from. User can directly execute the query by clicking the Run Query  button below the query form.
+						//		p SPARQL examples section shows example SPARQL queries against the dataset. By clicking the SPARQL button below each query new browser window of the SPARQL endpoints service will be opened with the example query filled in the query from. User can directly execute the query by clicking the Run Query  button below the query form.
 						//	section
 						//		h5 Stanzas
 						//		p Stanza is a web application querying SPRQL endpoints, which is developed by the TogoStanza framework. Stanzas section shows the stanzas using the RDF dataset.
@@ -422,13 +422,13 @@ html
 						span(lang="en") Marked tag
 					dd
 			p#copyright
-				strong NBDC RDF Portal
-				| &copy; 2015
-				a(href="//biosciencedbc.jp/en/" target="_blank" lang="en") NBDC
-				a(href="//biosciencedbc.jp" target="_blank" lang="ja") NBDC
+				strong RDF Portal
+				| &copy; 2015&nbsp;
+				a(href="//dbcls.rois.ac.jp/index-en.html" target="_blank" lang="en") DBCLS
+				a(href="//dbcls.rois.ac.jp" target="_blank" lang="ja") DBCLS
 				| &nbsp; / &nbsp;
-				a(href="//biosciencedbc.jp/en/sitepolicies" target="_blank" lang="en") Site policy
-				a(href="//biosciencedbc.jp/sitepolicies" target="_blank" lang="ja") サイトポリシー
+				a(href="//dbcls.rois.ac.jp/policy-en.html" target="_blank" lang="en") Site policy
+				a(href="//dbcls.rois.ac.jp/policy.html" target="_blank" lang="ja") サイトポリシー
 
 		#offscreen-canvas-container
 
