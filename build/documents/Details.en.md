@@ -20,7 +20,7 @@ Schema section shows the schematic image of the RDF model.
 
 ### SPARQL examples
 
-SPARQL examples section shows example SPARQL queries against the dataset. By clicking the SPARQL button below each query new browser window of the NBDC SPARQL endpoints service will be opened with the example query filled in the query from. User can directly execute the query by clicking the Run Query button below the query form.
+SPARQL examples section shows example SPARQL queries against the dataset. By clicking the SPARQL button below each query new browser window of the SPARQL endpoints service will be opened with the example query filled in the query from. User can directly execute the query by clicking the Run Query button below the query form.
 
 ### Stanzas
 

@@ -2,7 +2,7 @@
 
 ### Sample 1
 
-Here are some SPARQL query samples against the NBDC RDF portal.
+Here are some SPARQL query samples against the RDF portal.
 
 ```
 PREFIX up:<http://purl.uniprot.org/core/>
