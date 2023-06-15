@@ -2897,7 +2897,7 @@
     ],
     "version": "0.4.3",
     "issued": "2020-11-11",
-    "logo_url": "",
+    "logo_url": "./logo/nando.png",
     "schema_image_urls": [
       "./schema/nando/2020-11-11/nando_20200806.svg"
     ],
