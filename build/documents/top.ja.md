@@ -1,16 +1,10 @@
-## Index
+## RDF portal
 
-<div class="documents-index">
+RDF portal は、DBCLSが開発・運用している、多種多様な生命科学データベースが提供するRDFファイルを網羅的に収集することを目指したサービスです。当初は、NBDCの統合化推進プログラム（Database Integration Coordination Program）でファンディングされている研究プロジェクトから投稿されたデータを受け付けるサービスとして開始されましたが、その後、世界中のオープンな生命科学データベースも収集するようになりました。現在では、世界でも有数の生命科学RDFデータコレクションに成長しました。また、DBCLSが運用する各種データベースサービスの基盤的なデータシステムとして機能しています。
 
-- [Submitting a RDF dataset](Submitting_a_RDF_dataset)
-- [Useful links](Useful_links)
-- [Datasets](Datasets)
-- [Statistics](Statistics)
-- [Links](Links)
-- [SPARQL](SPARQL)
-- [Details](Details)
-- [SPARQL samples](SPARQL_samples)
-- [Sample text](Sample_text)
+## RDFデータセットのサブミット方法
+RDF portal は、RDFデータのサブミットを受け付けています。投稿できるデータは、生命科学分野の知識ベースをRDF化したものに限ります。実験機器が産出する生データをRDF化しただけのようなRDFデータは、対象外です。
 
-</div>
+サブミットの際には、RDFファイル以外に、RDF-config (https://github.com/dbcls/rdf-config) の仕様に従った、一連の設定ファイルの提出も必要になります。
 
+RDFポータルにサブミットされたRDFデータは、RDFポータルチームのレビュープロセスを経る必要があります。レビューは、DBCLSデータベースRDF化ガイドラインに照らし合わせて、適切なRDFデータであるかどうかが審査されます。レビューされることに同意できる場合のみ、https://dbcls.rois.ac.jp/contact.html からご連絡ください。
