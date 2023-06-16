@@ -1,135 +1,14 @@
 {
     "change_log": [
         {
-            "date": "20016/10/11",
+            "date": "2023/7/1",
             "title": {
-                "en": "Update: wwPDB/RDF",
-                "ja": "更新: wwPDB/RDF"
+                "en": "Important announecement: Change to a new URL",
+                "ja": "重要なお知らせ: 新URLへの変更"
             },
             "article": {
-                "en": "In the midst of a years-long legal battle attempting to prohibit Katy Perry from purchasing a former Catholic convent, one of the nuns involved in the case died while attending a court hearing related to the case.<br>CBS News reported that on Friday, Sister Catherine Rose Holzman, 89, collapsed during a court hearing in Los Angeles.<br>“Sister Catherine Rose Holzman, IHM passed away suddenly today at the age of 89,” Archbishop José H. Gomez wrote in a statement on her passing obtained by PEOPLE.",
-                "ja": "河北新報社とマーケティング・リサーチ会社マクロミル（東京）は東日本大震災に関するネットアンケートを東北6県と首都圏で実施し、「復興五輪」を掲げる2020年東京大会への評価や東京電力福島第1原発事故を受けた福島の風評被害の現状を探った。"
-            }
-        },
-        {
-            "date": "20016/10/1",
-            "title": {
-                "en": "New dataset: Open TG-GATEs",
-                "ja": "新規公開: Open TG-GATEs"
-            },
-            "article": {
-                "en": "Custom, extra-secure BlackBerry phones remain a staple of the criminal underworld, and a recent bust just illustrated this point. Motherboard has learned that the FBI arrested Vincent Ramos, the founder of the well-established phone mod seller Phantom Secure, for allegedly aiding criminal organizations that include the Sinaloa drug cartel. The company altered BlackBerry and Android devices to disable common features (including the camera and web browsing) while adding Pretty Good Privacy for encrypted conversations. And it wasn't just turning a blind eye to the shady backgrounds of its customers, according to investigators -- it was fully aware of who was involved.",
-                "ja": "トランプ米大統領が8日に韓国の鄭義溶国家安保室長と会談し、北朝鮮の金正恩朝鮮労働党委員長からの会談要請を受け入れた際、同席したマティス国防長官らが「（首脳会談の）危険性とマイナス面」への懸念を訴えたが、トランプ氏は取り合わずに決断したことが分かった。<br>10日付の米紙ニューヨーク・タイムズ（電子版）が伝えた。<br>ホワイトハウスの大統領執務室で行われた鄭氏との会談は45分続き、マティス氏のほか、ペンス副大統領、マクマスター大統領補佐官（国家安全保障担当）、コーツ国家情報長官、ダンフォード統合参謀本部議長らが同席した。トランプ氏の即断は鄭氏だけでなく、側近らも驚かせたという。"
-            }
-        },
-        {
-            "date": "20016/10/11",
-            "title": {
-                "en": "Update: wwPDB/RDF",
-                "ja": "更新: wwPDB/RDF"
-            },
-            "article": {
-                "en": "In the midst of a years-long legal battle attempting to prohibit Katy Perry from purchasing a former Catholic convent, one of the nuns involved in the case died while attending a court hearing related to the case.<br>CBS News reported that on Friday, Sister Catherine Rose Holzman, 89, collapsed during a court hearing in Los Angeles.<br>“Sister Catherine Rose Holzman, IHM passed away suddenly today at the age of 89,” Archbishop José H. Gomez wrote in a statement on her passing obtained by PEOPLE.",
-                "ja": "河北新報社とマーケティング・リサーチ会社マクロミル（東京）は東日本大震災に関するネットアンケートを東北6県と首都圏で実施し、「復興五輪」を掲げる2020年東京大会への評価や東京電力福島第1原発事故を受けた福島の風評被害の現状を探った。"
-            }
-        },
-        {
-            "date": "20016/10/1",
-            "title": {
-                "en": "New dataset: Open TG-GATEs",
-                "ja": "新規公開: Open TG-GATEs"
-            },
-            "article": {
-                "en": "Custom, extra-secure BlackBerry phones remain a staple of the criminal underworld, and a recent bust just illustrated this point. Motherboard has learned that the FBI arrested Vincent Ramos, the founder of the well-established phone mod seller Phantom Secure, for allegedly aiding criminal organizations that include the Sinaloa drug cartel. The company altered BlackBerry and Android devices to disable common features (including the camera and web browsing) while adding Pretty Good Privacy for encrypted conversations. And it wasn't just turning a blind eye to the shady backgrounds of its customers, according to investigators -- it was fully aware of who was involved.",
-                "ja": "トランプ米大統領が8日に韓国の鄭義溶国家安保室長と会談し、北朝鮮の金正恩朝鮮労働党委員長からの会談要請を受け入れた際、同席したマティス国防長官らが「（首脳会談の）危険性とマイナス面」への懸念を訴えたが、トランプ氏は取り合わずに決断したことが分かった。<br>10日付の米紙ニューヨーク・タイムズ（電子版）が伝えた。<br>ホワイトハウスの大統領執務室で行われた鄭氏との会談は45分続き、マティス氏のほか、ペンス副大統領、マクマスター大統領補佐官（国家安全保障担当）、コーツ国家情報長官、ダンフォード統合参謀本部議長らが同席した。トランプ氏の即断は鄭氏だけでなく、側近らも驚かせたという。"
-            }
-        },
-        {
-            "date": "20016/10/11",
-            "title": {
-                "en": "Update: wwPDB/RDF",
-                "ja": "更新: wwPDB/RDF"
-            },
-            "article": {
-                "en": "In the midst of a years-long legal battle attempting to prohibit Katy Perry from purchasing a former Catholic convent, one of the nuns involved in the case died while attending a court hearing related to the case.<br>CBS News reported that on Friday, Sister Catherine Rose Holzman, 89, collapsed during a court hearing in Los Angeles.<br>“Sister Catherine Rose Holzman, IHM passed away suddenly today at the age of 89,” Archbishop José H. Gomez wrote in a statement on her passing obtained by PEOPLE.",
-                "ja": "河北新報社とマーケティング・リサーチ会社マクロミル（東京）は東日本大震災に関するネットアンケートを東北6県と首都圏で実施し、「復興五輪」を掲げる2020年東京大会への評価や東京電力福島第1原発事故を受けた福島の風評被害の現状を探った。"
-            }
-        },
-        {
-            "date": "20016/10/1",
-            "title": {
-                "en": "New dataset: Open TG-GATEs",
-                "ja": "新規公開: Open TG-GATEs"
-            },
-            "article": {
-                "en": "Custom, extra-secure BlackBerry phones remain a staple of the criminal underworld, and a recent bust just illustrated this point. Motherboard has learned that the FBI arrested Vincent Ramos, the founder of the well-established phone mod seller Phantom Secure, for allegedly aiding criminal organizations that include the Sinaloa drug cartel. The company altered BlackBerry and Android devices to disable common features (including the camera and web browsing) while adding Pretty Good Privacy for encrypted conversations. And it wasn't just turning a blind eye to the shady backgrounds of its customers, according to investigators -- it was fully aware of who was involved.",
-                "ja": "トランプ米大統領が8日に韓国の鄭義溶国家安保室長と会談し、北朝鮮の金正恩朝鮮労働党委員長からの会談要請を受け入れた際、同席したマティス国防長官らが「（首脳会談の）危険性とマイナス面」への懸念を訴えたが、トランプ氏は取り合わずに決断したことが分かった。<br>10日付の米紙ニューヨーク・タイムズ（電子版）が伝えた。<br>ホワイトハウスの大統領執務室で行われた鄭氏との会談は45分続き、マティス氏のほか、ペンス副大統領、マクマスター大統領補佐官（国家安全保障担当）、コーツ国家情報長官、ダンフォード統合参謀本部議長らが同席した。トランプ氏の即断は鄭氏だけでなく、側近らも驚かせたという。"
-            }
-        },
-        {
-            "date": "20016/10/11",
-            "title": {
-                "en": "Update: wwPDB/RDF",
-                "ja": "更新: wwPDB/RDF"
-            },
-            "article": {
-                "en": "In the midst of a years-long legal battle attempting to prohibit Katy Perry from purchasing a former Catholic convent, one of the nuns involved in the case died while attending a court hearing related to the case.<br>CBS News reported that on Friday, Sister Catherine Rose Holzman, 89, collapsed during a court hearing in Los Angeles.<br>“Sister Catherine Rose Holzman, IHM passed away suddenly today at the age of 89,” Archbishop José H. Gomez wrote in a statement on her passing obtained by PEOPLE.",
-                "ja": "河北新報社とマーケティング・リサーチ会社マクロミル（東京）は東日本大震災に関するネットアンケートを東北6県と首都圏で実施し、「復興五輪」を掲げる2020年東京大会への評価や東京電力福島第1原発事故を受けた福島の風評被害の現状を探った。"
-            }
-        },
-        {
-            "date": "20016/10/1",
-            "title": {
-                "en": "New dataset: Open TG-GATEs",
-                "ja": "新規公開: Open TG-GATEs"
-            },
-            "article": {
-                "en": "Custom, extra-secure BlackBerry phones remain a staple of the criminal underworld, and a recent bust just illustrated this point. Motherboard has learned that the FBI arrested Vincent Ramos, the founder of the well-established phone mod seller Phantom Secure, for allegedly aiding criminal organizations that include the Sinaloa drug cartel. The company altered BlackBerry and Android devices to disable common features (including the camera and web browsing) while adding Pretty Good Privacy for encrypted conversations. And it wasn't just turning a blind eye to the shady backgrounds of its customers, according to investigators -- it was fully aware of who was involved.",
-                "ja": "トランプ米大統領が8日に韓国の鄭義溶国家安保室長と会談し、北朝鮮の金正恩朝鮮労働党委員長からの会談要請を受け入れた際、同席したマティス国防長官らが「（首脳会談の）危険性とマイナス面」への懸念を訴えたが、トランプ氏は取り合わずに決断したことが分かった。<br>10日付の米紙ニューヨーク・タイムズ（電子版）が伝えた。<br>ホワイトハウスの大統領執務室で行われた鄭氏との会談は45分続き、マティス氏のほか、ペンス副大統領、マクマスター大統領補佐官（国家安全保障担当）、コーツ国家情報長官、ダンフォード統合参謀本部議長らが同席した。トランプ氏の即断は鄭氏だけでなく、側近らも驚かせたという。"
-            }
-        },
-        {
-            "date": "20016/10/11",
-            "title": {
-                "en": "Update: wwPDB/RDF",
-                "ja": "更新: wwPDB/RDF"
-            },
-            "article": {
-                "en": "In the midst of a years-long legal battle attempting to prohibit Katy Perry from purchasing a former Catholic convent, one of the nuns involved in the case died while attending a court hearing related to the case.<br>CBS News reported that on Friday, Sister Catherine Rose Holzman, 89, collapsed during a court hearing in Los Angeles.<br>“Sister Catherine Rose Holzman, IHM passed away suddenly today at the age of 89,” Archbishop José H. Gomez wrote in a statement on her passing obtained by PEOPLE.",
-                "ja": "河北新報社とマーケティング・リサーチ会社マクロミル（東京）は東日本大震災に関するネットアンケートを東北6県と首都圏で実施し、「復興五輪」を掲げる2020年東京大会への評価や東京電力福島第1原発事故を受けた福島の風評被害の現状を探った。"
-            }
-        },
-        {
-            "date": "20016/10/1",
-            "title": {
-                "en": "New dataset: Open TG-GATEs",
-                "ja": "新規公開: Open TG-GATEs"
-            },
-            "article": {
-                "en": "Custom, extra-secure BlackBerry phones remain a staple of the criminal underworld, and a recent bust just illustrated this point. Motherboard has learned that the FBI arrested Vincent Ramos, the founder of the well-established phone mod seller Phantom Secure, for allegedly aiding criminal organizations that include the Sinaloa drug cartel. The company altered BlackBerry and Android devices to disable common features (including the camera and web browsing) while adding Pretty Good Privacy for encrypted conversations. And it wasn't just turning a blind eye to the shady backgrounds of its customers, according to investigators -- it was fully aware of who was involved.",
-                "ja": "トランプ米大統領が8日に韓国の鄭義溶国家安保室長と会談し、北朝鮮の金正恩朝鮮労働党委員長からの会談要請を受け入れた際、同席したマティス国防長官らが「（首脳会談の）危険性とマイナス面」への懸念を訴えたが、トランプ氏は取り合わずに決断したことが分かった。<br>10日付の米紙ニューヨーク・タイムズ（電子版）が伝えた。<br>ホワイトハウスの大統領執務室で行われた鄭氏との会談は45分続き、マティス氏のほか、ペンス副大統領、マクマスター大統領補佐官（国家安全保障担当）、コーツ国家情報長官、ダンフォード統合参謀本部議長らが同席した。トランプ氏の即断は鄭氏だけでなく、側近らも驚かせたという。"
-            }
-        },
-        {
-            "date": "20016/10/11",
-            "title": {
-                "en": "Update: wwPDB/RDF",
-                "ja": "更新: wwPDB/RDF"
-            },
-            "article": {
-                "en": "In the midst of a years-long legal battle attempting to prohibit Katy Perry from purchasing a former Catholic convent, one of the nuns involved in the case died while attending a court hearing related to the case.<br>CBS News reported that on Friday, Sister Catherine Rose Holzman, 89, collapsed during a court hearing in Los Angeles.<br>“Sister Catherine Rose Holzman, IHM passed away suddenly today at the age of 89,” Archbishop José H. Gomez wrote in a statement on her passing obtained by PEOPLE.",
-                "ja": "河北新報社とマーケティング・リサーチ会社マクロミル（東京）は東日本大震災に関するネットアンケートを東北6県と首都圏で実施し、「復興五輪」を掲げる2020年東京大会への評価や東京電力福島第1原発事故を受けた福島の風評被害の現状を探った。"
-            }
-        },
-        {
-            "date": "20016/10/1",
-            "title": {
-                "en": "New dataset: Open TG-GATEs",
-                "ja": "新規公開: Open TG-GATEs"
-            },
-            "article": {
-                "en": "Custom, extra-secure BlackBerry phones remain a staple of the criminal underworld, and a recent bust just illustrated this point. Motherboard has learned that the FBI arrested Vincent Ramos, the founder of the well-established phone mod seller Phantom Secure, for allegedly aiding criminal organizations that include the Sinaloa drug cartel. The company altered BlackBerry and Android devices to disable common features (including the camera and web browsing) while adding Pretty Good Privacy for encrypted conversations. And it wasn't just turning a blind eye to the shady backgrounds of its customers, according to investigators -- it was fully aware of who was involved.",
-                "ja": "トランプ米大統領が8日に韓国の鄭義溶国家安保室長と会談し、北朝鮮の金正恩朝鮮労働党委員長からの会談要請を受け入れた際、同席したマティス国防長官らが「（首脳会談の）危険性とマイナス面」への懸念を訴えたが、トランプ氏は取り合わずに決断したことが分かった。<br>10日付の米紙ニューヨーク・タイムズ（電子版）が伝えた。<br>ホワイトハウスの大統領執務室で行われた鄭氏との会談は45分続き、マティス氏のほか、ペンス副大統領、マクマスター大統領補佐官（国家安全保障担当）、コーツ国家情報長官、ダンフォード統合参謀本部議長らが同席した。トランプ氏の即断は鄭氏だけでなく、側近らも驚かせたという。"
+                "en": "We have an important announcement regarding the RDF portal. Starting in the fiscal year 2023, the management entity of the RDF portal has been changed from NBDC, JST to DBCLS. Consequently, the service name has been updated from 'NBDC RDF portal' to 'RDF portal'. Furthermore, effective from July 2023, the URL for the RDF portal has been changed from https://integbio.jp/rdf/ to https://rdfportal.org.<br> We kindly request all users to take note of this change and update their bookmarks, saved links, or any references to the RDF portal accordingly. This will ensure uninterrupted access to the service. Should you encounter any difficulties or have any questions regarding this URL transition, please feel free to reach out to our support team for assistance at https://dbcls.rois.ac.jp/contact-en.html.<br>We apologize for any inconvenience caused and appreciate your cooperation during this transition period.",
+                "ja": "2023年度より、RDF portal の管理主体が、NBDCからDBCLSへ変更になりました。それにともなって、サービス名が、NBDC RDF portalから、RDF portalに変更されました。また、2023年7月より、RDF portalのURLが、https://integbio.jp/rdf/ から、https://rdfportal.org に変更になりました。<br>この変更にご留意いただき、ブックマーク、保存されたリンク、その他RDF portalへの参照を適宜更新してくださいますようお願いします。このURLの移行に関して何か問題が発生した場合、またはご質問がある場合は、弊社のサポートチーム（https://dbcls.rois.ac.jp/contact-en.html）までご連絡ください。"
             }
         }
     ]
