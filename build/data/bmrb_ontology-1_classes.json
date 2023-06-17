@@ -1,0 +1,34 @@
+[
+    {
+        "class": "http://www.w3.org/2002/07/owl#Restriction",
+        "number_of_instances": 11730
+    },
+    {
+        "class": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "number_of_instances": 6297
+    },
+    {
+        "class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+        "number_of_instances": 2037
+    },
+    {
+        "class": "http://www.w3.org/2002/07/owl#Class",
+        "number_of_instances": 1828
+    },
+    {
+        "class": "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "number_of_instances": 916
+    },
+    {
+        "class": "http://www.w3.org/2002/07/owl#InverseFunctionalProperty",
+        "number_of_instances": 914
+    },
+    {
+        "class": "http://www.w3.org/2002/07/owl#DataRange",
+        "number_of_instances": 302
+    },
+    {
+        "class": "http://www.w3.org/2002/07/owl#Ontology",
+        "number_of_instances": 1
+    }
+]

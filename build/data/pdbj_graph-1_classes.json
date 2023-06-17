@@ -352,7 +352,11 @@
         "number_of_instances": 204594
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#audit_conformCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_struct_oper_listCategory",
+        "number_of_instances": 204375
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#database_2Category",
         "number_of_instances": 204375
     },
     {
@@ -360,15 +364,23 @@
         "number_of_instances": 204375
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#struct",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_database_statusCategory",
         "number_of_instances": 204375
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_asymCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_audit_revision_historyCategory",
         "number_of_instances": 204375
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_struct_assemblyCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#entry",
+        "number_of_instances": 204375
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_database_status",
+        "number_of_instances": 204375
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_keywordsCategory",
         "number_of_instances": 204375
     },
     {
@@ -380,59 +392,7 @@
         "number_of_instances": 204375
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#atom_sitesCategory",
-        "number_of_instances": 204375
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#entityCategory",
-        "number_of_instances": 204375
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_database_status",
-        "number_of_instances": 204375
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#entryCategory",
-        "number_of_instances": 204375
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_struct_oper_listCategory",
-        "number_of_instances": 204375
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#entry",
-        "number_of_instances": 204375
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_keywords",
-        "number_of_instances": 204375
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_database_statusCategory",
-        "number_of_instances": 204375
-    },
-    {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#exptlCategory",
-        "number_of_instances": 204375
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#database_2Category",
-        "number_of_instances": 204375
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#atom_typeCategory",
-        "number_of_instances": 204375
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#structCategory",
-        "number_of_instances": 204375
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_keywordsCategory",
-        "number_of_instances": 204375
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#audit_authorCategory",
         "number_of_instances": 204375
     },
     {
@@ -440,8 +400,56 @@
         "number_of_instances": 204375
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_audit_revision_historyCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_asymCategory",
         "number_of_instances": 204375
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#entryCategory",
+        "number_of_instances": 204375
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#entityCategory",
+        "number_of_instances": 204375
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#atom_typeCategory",
+        "number_of_instances": 204375
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_keywords",
+        "number_of_instances": 204375
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#struct",
+        "number_of_instances": 204375
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#audit_authorCategory",
+        "number_of_instances": 204375
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_struct_assemblyCategory",
+        "number_of_instances": 204375
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#audit_conformCategory",
+        "number_of_instances": 204375
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#atom_sitesCategory",
+        "number_of_instances": 204375
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#structCategory",
+        "number_of_instances": 204375
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#entity_poly_seqCategory",
+        "number_of_instances": 204349
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#entity_polyCategory",
+        "number_of_instances": 204349
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_poly_seq_schemeCategory",
@@ -452,23 +460,15 @@
         "number_of_instances": 204349
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#entity_polyCategory",
-        "number_of_instances": 204349
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#entity_poly_seqCategory",
-        "number_of_instances": 204349
-    },
-    {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_ref_seqCategory",
         "number_of_instances": 204348
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#datablock",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_validation_softwareCategory",
         "number_of_instances": 204345
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_validation_softwareCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#entry",
         "number_of_instances": 204345
     },
     {
@@ -476,7 +476,7 @@
         "number_of_instances": 204345
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#entry",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#entryCategory",
         "number_of_instances": 204345
     },
     {
@@ -492,7 +492,7 @@
         "number_of_instances": 204345
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#entryCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#datablock",
         "number_of_instances": 204345
     },
     {
@@ -560,11 +560,11 @@
         "number_of_instances": 192176
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#symmetry",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#symmetryCategory",
         "number_of_instances": 191989
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#symmetryCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#symmetry",
         "number_of_instances": 191989
     },
     {
@@ -720,7 +720,7 @@
         "number_of_instances": 163692
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_dcc_density_corrCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_dcc_density_corr",
         "number_of_instances": 163692
     },
     {
@@ -728,7 +728,7 @@
         "number_of_instances": 163692
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_dcc_density_corr",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_dcc_density_corrCategory",
         "number_of_instances": 163692
     },
     {
@@ -740,11 +740,11 @@
         "number_of_instances": 160340
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_dcc_map_overall",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_dcc_map_overallCategory",
         "number_of_instances": 160299
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_dcc_map_overallCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_dcc_map_overall",
         "number_of_instances": 160299
     },
     {
@@ -876,11 +876,11 @@
         "number_of_instances": 86023
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#database_PDB_matrix",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#database_PDB_matrixCategory",
         "number_of_instances": 85907
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#database_PDB_matrixCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#database_PDB_matrix",
         "number_of_instances": 85907
     },
     {
@@ -1168,19 +1168,7 @@
         "number_of_instances": 15267
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_specimenCategory",
-        "number_of_instances": 15258
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_imagingCategory",
-        "number_of_instances": 15258
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_experimentCategory",
-        "number_of_instances": 15258
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_entity_assemblyCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_experiment",
         "number_of_instances": 15258
     },
     {
@@ -1188,7 +1176,19 @@
         "number_of_instances": 15258
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_experiment",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_imagingCategory",
+        "number_of_instances": 15258
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_entity_assemblyCategory",
+        "number_of_instances": 15258
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_specimenCategory",
+        "number_of_instances": 15258
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_experimentCategory",
         "number_of_instances": 15258
     },
     {
@@ -1236,11 +1236,11 @@
         "number_of_instances": 14967
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#em_adminCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#em_admin",
         "number_of_instances": 14956
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#em_admin",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#em_adminCategory",
         "number_of_instances": 14956
     },
     {
@@ -1248,15 +1248,11 @@
         "number_of_instances": 14846
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_volume_estimate_markerCategory",
-        "number_of_instances": 14828
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_density_distribution_markerCategory",
-        "number_of_instances": 14828
-    },
-    {
         "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_density_distributionCategory",
+        "number_of_instances": 14828
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_density_distribution",
         "number_of_instances": 14828
     },
     {
@@ -1268,15 +1264,19 @@
         "number_of_instances": 14828
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_density_distribution",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_volume_estimate_markerCategory",
         "number_of_instances": 14828
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_atom_inclusionCategory",
-        "number_of_instances": 14826
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_density_distribution_markerCategory",
+        "number_of_instances": 14828
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_atom_inclusion_markerCategory",
+        "number_of_instances": 14826
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_atom_inclusionCategory",
         "number_of_instances": 14826
     },
     {
@@ -1316,6 +1316,10 @@
         "number_of_instances": 14254
     },
     {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_raps",
+        "number_of_instances": 14211
+    },
+    {
         "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_rapsCategory",
         "number_of_instances": 14211
     },
@@ -1324,20 +1328,12 @@
         "number_of_instances": 14211
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_raps",
-        "number_of_instances": 14211
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_nmr_ensemble",
-        "number_of_instances": 14099
-    },
-    {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_nmr_ensembleCategory",
         "number_of_instances": 14099
     },
     {
-        "class": "http://www.w3.org/2002/07/owl#Restriction",
-        "number_of_instances": 13852
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_nmr_ensemble",
+        "number_of_instances": 14099
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_nmr_softwareCategory",
@@ -1420,19 +1416,19 @@
         "number_of_instances": 11627
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_struct_nmr_ens_dom_limCategory",
-        "number_of_instances": 11238
-    },
-    {
         "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_struct_nmr_ens_domCategory",
         "number_of_instances": 11238
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_entity_branchCategory",
-        "number_of_instances": 11103
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_struct_nmr_ens_dom_limCategory",
+        "number_of_instances": 11238
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_branch_schemeCategory",
+        "number_of_instances": 11103
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_entity_branchCategory",
         "number_of_instances": 11103
     },
     {
@@ -1496,6 +1492,10 @@
         "number_of_instances": 8768
     },
     {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_fsc_cutoff_curveCategory",
+        "number_of_instances": 8676
+    },
+    {
         "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_fsc_curve_markerCategory",
         "number_of_instances": 8676
     },
@@ -1505,10 +1505,6 @@
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_fsc_cutoff_curve_markerCategory",
-        "number_of_instances": 8676
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_fsc_cutoff_curveCategory",
         "number_of_instances": 8676
     },
     {
@@ -1540,11 +1536,11 @@
         "number_of_instances": 7547
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_phasing_MRCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_phasing_MR",
         "number_of_instances": 7544
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_phasing_MR",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_phasing_MRCategory",
         "number_of_instances": 7544
     },
     {
@@ -1562,10 +1558,6 @@
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_single_particle_entityCategory",
         "number_of_instances": 7243
-    },
-    {
-        "class": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-        "number_of_instances": 7175
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_ncs_operCategory",
@@ -1592,11 +1584,11 @@
         "number_of_instances": 6725
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_raw_raps_markerCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_raw_raps",
         "number_of_instances": 6172
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_raw_raps",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_em_raw_raps_markerCategory",
         "number_of_instances": 6172
     },
     {
@@ -1636,11 +1628,11 @@
         "number_of_instances": 4900
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_deposit_group",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_deposit_groupCategory",
         "number_of_instances": 4863
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_deposit_groupCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_deposit_group",
         "number_of_instances": 4863
     },
     {
@@ -1696,11 +1688,11 @@
         "number_of_instances": 3369
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_nmr_detailsCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_nmr_details",
         "number_of_instances": 3319
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_nmr_details",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_nmr_detailsCategory",
         "number_of_instances": 3319
     },
     {
@@ -1718,10 +1710,6 @@
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_phasing_MAD_shell",
         "number_of_instances": 3128
-    },
-    {
-        "class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
-        "number_of_instances": 3101
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_imaging_optics",
@@ -1750,10 +1738,6 @@
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_validate_rmsd_ring",
         "number_of_instances": 2486
-    },
-    {
-        "class": "http://www.w3.org/2002/07/owl#Class",
-        "number_of_instances": 2372
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#atom_sites_footnoteCategory",
@@ -1796,11 +1780,11 @@
         "number_of_instances": 1595
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_nmr_constraints",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_nmr_constraintsCategory",
         "number_of_instances": 1424
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_nmr_constraintsCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_nmr_constraints",
         "number_of_instances": 1424
     },
     {
@@ -1820,10 +1804,6 @@
         "number_of_instances": 1256
     },
     {
-        "class": "http://www.w3.org/2002/07/owl#ObjectProperty",
-        "number_of_instances": 1239
-    },
-    {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_virus_entityCategory",
         "number_of_instances": 1225
     },
@@ -1836,19 +1816,15 @@
         "number_of_instances": 1212
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_validate_rmsd_rings_atomCategory",
-        "number_of_instances": 1186
-    },
-    {
         "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_validate_rmsd_ringCategory",
         "number_of_instances": 1186
     },
     {
-        "class": "http://www.w3.org/2002/07/owl#InverseFunctionalProperty",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_validate_rmsd_rings_atomCategory",
         "number_of_instances": 1186
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_moleculeCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_prd_auditCategory",
         "number_of_instances": 1112
     },
     {
@@ -1860,23 +1836,23 @@
         "number_of_instances": 1112
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_prd_auditCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_moleculeCategory",
         "number_of_instances": 1112
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_entity_poly",
-        "number_of_instances": 1110
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_entity_sequence",
         "number_of_instances": 1110
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_entity_sequenceCategory",
-        "number_of_instances": 1107
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_entity_poly",
+        "number_of_instances": 1110
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_entity_poly_seqCategory",
+        "number_of_instances": 1107
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_entity_sequenceCategory",
         "number_of_instances": 1107
     },
     {
@@ -1936,11 +1912,11 @@
         "number_of_instances": 666
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_phasing_dm",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_phasing_dmCategory",
         "number_of_instances": 660
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_phasing_dmCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_phasing_dm",
         "number_of_instances": 660
     },
     {
@@ -1966,10 +1942,6 @@
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#phasing_set",
         "number_of_instances": 568
-    },
-    {
-        "class": "http://www.w3.org/2002/07/owl#DataRange",
-        "number_of_instances": 507
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_molecule_list",
@@ -2032,16 +2004,20 @@
         "number_of_instances": 364
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_entity_subcomponentsCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_entity_subcomponents",
         "number_of_instances": 362
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_entity_subcomponents",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_entity_subcomponentsCategory",
         "number_of_instances": 362
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#citation_editorCategory",
         "number_of_instances": 333
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_chem_comp_relatedCategory",
+        "number_of_instances": 308
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_chem_comp_atom_relatedCategory",
@@ -2052,15 +2028,11 @@
         "number_of_instances": 308
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_chem_comp_relatedCategory",
-        "number_of_instances": 308
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#phasing_MAD",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#phasing_MADCategory",
         "number_of_instances": 305
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#phasing_MADCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#phasing_MAD",
         "number_of_instances": 305
     },
     {
@@ -2132,19 +2104,19 @@
         "number_of_instances": 214
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_volume_selection",
-        "number_of_instances": 208
-    },
-    {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_volume_selectionCategory",
         "number_of_instances": 208
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_serial_crystallography_measurement",
-        "number_of_instances": 197
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_volume_selection",
+        "number_of_instances": 208
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_serial_crystallography_measurementCategory",
+        "number_of_instances": 197
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_serial_crystallography_measurement",
         "number_of_instances": 197
     },
     {
@@ -2152,15 +2124,7 @@
         "number_of_instances": 195
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_molecule_familyCategory",
-        "number_of_instances": 193
-    },
-    {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_molecule_annotationCategory",
-        "number_of_instances": 193
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_molecule_family",
         "number_of_instances": 193
     },
     {
@@ -2172,11 +2136,19 @@
         "number_of_instances": 193
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_diffraction",
-        "number_of_instances": 191
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_molecule_familyCategory",
+        "number_of_instances": 193
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_molecule_family",
+        "number_of_instances": 193
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_diffractionCategory",
+        "number_of_instances": 191
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_diffraction",
         "number_of_instances": 191
     },
     {
@@ -2188,11 +2160,11 @@
         "number_of_instances": 185
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_serial_crystallography_data_reduction",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_serial_crystallography_data_reductionCategory",
         "number_of_instances": 183
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_serial_crystallography_data_reductionCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_serial_crystallography_data_reduction",
         "number_of_instances": 183
     },
     {
@@ -2204,15 +2176,15 @@
         "number_of_instances": 179
     },
     {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_crystal_formationCategory",
+        "number_of_instances": 174
+    },
+    {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_crystal_formation",
         "number_of_instances": 174
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_diffraction_shellCategory",
-        "number_of_instances": 174
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_crystal_formationCategory",
         "number_of_instances": 174
     },
     {
@@ -2248,11 +2220,11 @@
         "number_of_instances": 151
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#diffrn_measurementCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#phasing_MAD_expt",
         "number_of_instances": 149
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#phasing_MAD_clust",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#diffrn_measurementCategory",
         "number_of_instances": 149
     },
     {
@@ -2260,8 +2232,12 @@
         "number_of_instances": 149
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#phasing_MAD_expt",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#phasing_MAD_clust",
         "number_of_instances": 149
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#phasing_MAD_clustCategory",
+        "number_of_instances": 147
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#phasing_MAD_exptCategory",
@@ -2269,10 +2245,6 @@
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#phasing_MAD_setCategory",
-        "number_of_instances": 147
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#phasing_MAD_clustCategory",
         "number_of_instances": 147
     },
     {
@@ -2288,31 +2260,31 @@
         "number_of_instances": 137
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_embeddingCategory",
-        "number_of_instances": 133
-    },
-    {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_embedding",
         "number_of_instances": 133
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_staining",
-        "number_of_instances": 125
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_embeddingCategory",
+        "number_of_instances": 133
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_stainingCategory",
         "number_of_instances": 125
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_serial_crystallography_sample_delivery_fixed_target",
-        "number_of_instances": 99
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_staining",
+        "number_of_instances": 125
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_serial_crystallography_sample_delivery_fixed_targetCategory",
         "number_of_instances": 99
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_dihedral_angle_violation_ensemble",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_serial_crystallography_sample_delivery_fixed_target",
+        "number_of_instances": 99
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_entity_nonpoly",
         "number_of_instances": 90
     },
     {
@@ -2320,7 +2292,7 @@
         "number_of_instances": 90
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_entity_nonpoly",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_dihedral_angle_violation_ensemble",
         "number_of_instances": 90
     },
     {
@@ -2348,11 +2320,11 @@
         "number_of_instances": 55
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_entity_nonpolyCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_restraint_violation",
         "number_of_instances": 54
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_restraint_violation",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_reference_entity_nonpolyCategory",
         "number_of_instances": 54
     },
     {
@@ -2388,7 +2360,11 @@
         "number_of_instances": 42
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#phasing_MIR",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#reflns_scaleCategory",
+        "number_of_instances": 39
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#phasing_MIRCategory",
         "number_of_instances": 39
     },
     {
@@ -2396,11 +2372,7 @@
         "number_of_instances": 39
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#reflns_scaleCategory",
-        "number_of_instances": 39
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#phasing_MIRCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#phasing_MIR",
         "number_of_instances": 39
     },
     {
@@ -2448,7 +2420,15 @@
         "number_of_instances": 15
     },
     {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_restraint_summaryCategory",
+        "number_of_instances": 14
+    },
+    {
         "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_distance_violation_modelCategory",
+        "number_of_instances": 14
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_distance_violation_summaryCategory",
         "number_of_instances": 14
     },
     {
@@ -2464,20 +2444,16 @@
         "number_of_instances": 14
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_restraint_summaryCategory",
-        "number_of_instances": 14
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_distance_violation_summaryCategory",
-        "number_of_instances": 14
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_2d_crystal_entityCategory",
+        "number_of_instances": 13
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_2d_crystal_entity",
         "number_of_instances": 13
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#em_2d_crystal_entityCategory",
-        "number_of_instances": 13
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_distance_violation_pluralCategory",
+        "number_of_instances": 12
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_restraint_violationCategory",
@@ -2492,15 +2468,11 @@
         "number_of_instances": 12
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_distance_violation_pluralCategory",
-        "number_of_instances": 12
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#database_PDB_tvectCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#database_PDB_tvect",
         "number_of_instances": 11
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#database_PDB_tvect",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#database_PDB_tvectCategory",
         "number_of_instances": 11
     },
     {
@@ -2516,15 +2488,7 @@
         "number_of_instances": 7
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_dihedral_angle_violation_summaryCategory",
-        "number_of_instances": 6
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_dihedral_angle_violation_ensembleCategory",
-        "number_of_instances": 6
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_dihedral_angle_violation_modelCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_dihedral_angle_violation_pluralCategory",
         "number_of_instances": 6
     },
     {
@@ -2532,8 +2496,20 @@
         "number_of_instances": 6
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_dihedral_angle_violation_pluralCategory",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_dihedral_angle_violation_summaryCategory",
         "number_of_instances": 6
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_dihedral_angle_violation_modelCategory",
+        "number_of_instances": 6
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-validation-v4.owl#pdbx_nmr_dihedral_angle_violation_ensembleCategory",
+        "number_of_instances": 6
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_exptl_crystal_grow_solCategory",
+        "number_of_instances": 5
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_exptl_crystal_grow_compCategory",
@@ -2544,16 +2520,20 @@
         "number_of_instances": 5
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_exptl_crystal_grow_solCategory",
-        "number_of_instances": 5
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#chem_link",
+        "number_of_instances": 4
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#reflnCategory",
         "number_of_instances": 4
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#chem_link",
-        "number_of_instances": 4
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_buffer_components",
+        "number_of_instances": 3
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_buffer_componentsCategory",
+        "number_of_instances": 3
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_biol_keywordsCategory",
@@ -2564,19 +2544,19 @@
         "number_of_instances": 3
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_buffer_componentsCategory",
-        "number_of_instances": 3
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_buffer_components",
-        "number_of_instances": 3
-    },
-    {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_bufferCategory",
         "number_of_instances": 3
     },
     {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#publ",
+        "number_of_instances": 2
+    },
+    {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#publCategory",
+        "number_of_instances": 2
+    },
+    {
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#chem_linkCategory",
         "number_of_instances": 2
     },
     {
@@ -2588,23 +2568,11 @@
         "number_of_instances": 2
     },
     {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#publ",
-        "number_of_instances": 2
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#chem_linkCategory",
-        "number_of_instances": 2
-    },
-    {
-        "class": "http://www.w3.org/2002/07/owl#Ontology",
+        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_struct_entity_instCategory",
         "number_of_instances": 1
     },
     {
         "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_struct_msym_genCategory",
-        "number_of_instances": 1
-    },
-    {
-        "class": "http://rdf.wwpdb.org/schema/pdbx-v50.owl#pdbx_struct_entity_instCategory",
         "number_of_instances": 1
     }
 ]
