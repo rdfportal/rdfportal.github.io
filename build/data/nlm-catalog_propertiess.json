@@ -1,0 +1,26 @@
+[
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "number_of_triples": 39010
+    },
+    {
+        "property": "http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId",
+        "number_of_triples": 39010
+    },
+    {
+        "property": "http://purl.org/spar/fabio/hasNLMJournalTitleAbbreviation",
+        "number_of_triples": 39010
+    },
+    {
+        "property": "http://purl.org/dc/terms/title",
+        "number_of_triples": 39010
+    },
+    {
+        "property": "http://purl.org/ontology/bibo/isbn",
+        "number_of_triples": 29164
+    },
+    {
+        "property": "http://prismstandard.org/namespaces/1.2/basic/eISSN",
+        "number_of_triples": 18276
+    }
+]
