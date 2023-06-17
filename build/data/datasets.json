@@ -135,23 +135,23 @@
         }
       }
     ],
-    "version": "2023-03-08",
-    "issued": "2023-03-08",
+    "version": "2023-04-29",
+    "issued": "2023-04-29",
     "logo_url": "./logo/bmrb.png",
     "schema_image_urls": [],
     "download_file": {
-      "name": "2023-03-08",
-      "url": "./download/bmrb/2023-03-08/",
+      "name": "2023-04-29",
+      "url": "./download/bmrb/2023-04-29/",
       "size": "-"
     },
-    "number_of_triples": 592675928,
-    "number_of_instances": 32817166,
-    "number_of_subjects": 33062695,
-    "number_of_objects": 34986211,
-    "number_of_literals": 1844206,
-    "number_of_classes": 419,
+    "number_of_triples": 643511337,
+    "number_of_instances": 35671672,
+    "number_of_subjects": 35925543,
+    "number_of_objects": 38021747,
+    "number_of_literals": 2025054,
+    "number_of_classes": 411,
     "classes": "./data/bmrb_classes.json",
-    "number_of_properties": 2824,
+    "number_of_properties": 2761,
     "properties": "./data/bmrb_propertiess.json",
     "number_of_datatypes": 5,
     "datatypes": [
@@ -163,96 +163,83 @@
     ],
     "xrefs": [
       {
-        "uri_space": "http://identifiers.org/isbn/",
-        "title": "ISBN",
-        "number_of_triples": 6
-      },
-      {
-        "uri_space": "http://identifiers.org/pdb-ccd/",
-        "title": "Chemical Component Dictionary",
-        "number_of_triples": 4754
-      },
-      {
-        "uri_space": "http://identifiers.org/pubchem.compound/",
-        "title": "PubChem-compound",
-        "number_of_triples": 1510
-      },
-      {
-        "uri_space": "http://identifiers.org/pubchem.substance/",
-        "title": "PubChem-substance",
-        "number_of_triples": 6604
-      },
-      {
-        "uri_space": "http://identifiers.org/refseq/",
-        "title": "RefSeq",
-        "number_of_triples": 26241
-      },
-      {
-        "uri_space": "http://identifiers.org/issn/",
-        "title": "ISSN",
-        "number_of_triples": 13577
-      },
-      {
-        "uri_space": "http://identifiers.org/uniprot/",
-        "title": "UniProt Knowledgebase",
-        "number_of_triples": 14742
-      },
-      {
-        "uri_space": "http://identifiers.org/pdb/",
-        "title": "Protein Data Bank",
-        "number_of_triples": 310775
-      },
-      {
-        "uri_space": "http://identifiers.org/taxonomy/",
-        "title": "Taxonomy",
-        "number_of_triples": 22403
-      },
-      {
-        "uri_space": "http://identifiers.org/orcid/",
-        "title": "ORCID",
-        "number_of_triples": 180
-      },
-      {
-        "uri_space": "http://identifiers.org/pubmed/",
-        "title": "PubMed",
-        "number_of_triples": 14589
-      },
-      {
-        "uri_space": "http://identifiers.org/ncbiprotein/",
-        "title": "NCBI Protein",
-        "number_of_triples": 65544
-      },
-      {
         "uri_space": "http://identifiers.org/doi/",
-        "title": "DOI",
-        "number_of_triples": 15622
-      },
-      {
-        "uri_space": "http://identifiers.org/pdb.ligand/",
-        "title": "Protein Data Bank Ligand",
-        "number_of_triples": 4757
+        "number_of_triples": 16027,
+        "title": "DOI"
       },
       {
         "uri_space": "http://identifiers.org/ec-code/",
-        "title": "Enzyme Nomenclature",
-        "number_of_triples": 885
+        "number_of_triples": 955,
+        "title": "Enzyme Nomenclature"
+      },
+      {
+        "uri_space": "http://identifiers.org/issn/",
+        "number_of_triples": 14864,
+        "title": "ISSN"
+      },
+      {
+        "uri_space": "http://identifiers.org/ncbiprotein/",
+        "number_of_triples": 65076,
+        "title": "NCBI Protein"
+      },
+      {
+        "uri_space": "http://identifiers.org/pdb/",
+        "number_of_triples": 320085,
+        "title": "Protein Data Bank"
+      },
+      {
+        "uri_space": "http://identifiers.org/pubmed/",
+        "number_of_triples": 16504,
+        "title": "PubMed"
+      },
+      {
+        "uri_space": "http://identifiers.org/refseq/",
+        "number_of_triples": 26104,
+        "title": "RefSeq"
+      },
+      {
+        "uri_space": "http://identifiers.org/taxonomy/",
+        "number_of_triples": 25684,
+        "title": "Taxonomy"
+      },
+      {
+        "uri_space": "http://identifiers.org/uniprot/",
+        "number_of_triples": 14870,
+        "title": "UniProt Knowledgebase"
+      },
+      {
+        "uri_space": "http://identifiers.org/pdb-ccd/",
+        "number_of_triples": 5475,
+        "title": "Chemical Component Dictionary"
+      },
+      {
+        "uri_space": "http://identifiers.org/pdb.ligand/",
+        "number_of_triples": 5475,
+        "title": "Protein Data Bank Ligand"
+      },
+      {
+        "uri_space": "http://identifiers.org/orcid/",
+        "number_of_triples": 1990,
+        "title": "ORCID"
+      },
+      {
+        "uri_space": "http://identifiers.org/pubchem.substance/",
+        "number_of_triples": 6605,
+        "title": "PubChem-substance"
+      },
+      {
+        "uri_space": "http://identifiers.org/isbn/",
+        "number_of_triples": 6,
+        "title": "ISBN"
       }
     ],
     "connected_dataset_ids": [
       {
         "id": "pdbj",
-        "number_of_triples": 21889681
-      },
-      {
-        "id": "mbgd",
-        "number_of_triples": 86
-      },
-      {
-        "id": "dbcatalog",
-        "number_of_triples": 1314
+        "number_of_triples": 22939304
       }
     ],
-    "number_of_links": 22393270,
+    "number_of_links": 23459024,
     "ontologies": [
       {
         "uri": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl",
@@ -267,11 +254,11 @@
             "size": 8441280
           }
         ],
-        "number_of_triples": 114400,
-        "number_of_instances": 24086,
-        "number_of_subjects": 36728,
-        "number_of_objects": 50797,
-        "number_of_literals": 14089,
+        "number_of_triples": 119521,
+        "number_of_instances": 24025,
+        "number_of_subjects": 36667,
+        "number_of_objects": 56003,
+        "number_of_literals": 14054,
         "number_of_classes": 8,
         "classes": "./data/bmrb_ontology-1_classes.json",
         "number_of_properties": 21,
@@ -301,14 +288,14 @@
             "size": 1174723558
           }
         ],
-        "number_of_triples": 584488975,
-        "number_of_instances": 31979886,
-        "number_of_subjects": 32195723,
-        "number_of_objects": 33966795,
-        "number_of_literals": 1701109,
-        "number_of_classes": 396,
+        "number_of_triples": 635432954,
+        "number_of_instances": 34858488,
+        "number_of_subjects": 35094836,
+        "number_of_objects": 37055075,
+        "number_of_literals": 1896913,
+        "number_of_classes": 398,
         "classes": "./data/bmrb_graph-1_classes.json",
-        "number_of_properties": 2717,
+        "number_of_properties": 2688,
         "properties": "./data/bmrb_graph-1_propertiess.json",
         "number_of_datatypes": 1,
         "datatypes": [
@@ -316,79 +303,74 @@
         ],
         "xrefs": [
           {
-            "uri_space": "http://identifiers.org/isbn/",
-            "title": "ISBN",
-            "number_of_triples": 6
-          },
-          {
-            "uri_space": "http://identifiers.org/pdb-ccd/",
-            "title": "Chemical Component Dictionary",
-            "number_of_triples": 4743
-          },
-          {
-            "uri_space": "http://identifiers.org/pubchem.compound/",
-            "title": "PubChem-compound",
-            "number_of_triples": 6
-          },
-          {
-            "uri_space": "http://identifiers.org/pubchem.substance/",
-            "title": "PubChem-substance",
-            "number_of_triples": 7
-          },
-          {
-            "uri_space": "http://identifiers.org/refseq/",
-            "title": "RefSeq",
-            "number_of_triples": 26241
-          },
-          {
-            "uri_space": "http://identifiers.org/issn/",
-            "title": "ISSN",
-            "number_of_triples": 11806
-          },
-          {
-            "uri_space": "http://identifiers.org/uniprot/",
-            "title": "UniProt Knowledgebase",
-            "number_of_triples": 14742
-          },
-          {
-            "uri_space": "http://identifiers.org/pdb/",
-            "title": "Protein Data Bank",
-            "number_of_triples": 310775
-          },
-          {
-            "uri_space": "http://identifiers.org/taxonomy/",
-            "title": "Taxonomy",
-            "number_of_triples": 22403
-          },
-          {
-            "uri_space": "http://identifiers.org/orcid/",
-            "title": "ORCID",
-            "number_of_triples": 180
-          },
-          {
-            "uri_space": "http://identifiers.org/pubmed/",
-            "title": "PubMed",
-            "number_of_triples": 12657
-          },
-          {
-            "uri_space": "http://identifiers.org/ncbiprotein/",
-            "title": "NCBI Protein",
-            "number_of_triples": 65544
-          },
-          {
             "uri_space": "http://identifiers.org/doi/",
-            "title": "DOI",
-            "number_of_triples": 11992
-          },
-          {
-            "uri_space": "http://identifiers.org/pdb.ligand/",
-            "title": "Protein Data Bank Ligand",
-            "number_of_triples": 4746
+            "number_of_triples": 12397,
+            "title": "DOI"
           },
           {
             "uri_space": "http://identifiers.org/ec-code/",
-            "title": "Enzyme Nomenclature",
-            "number_of_triples": 885
+            "number_of_triples": 955,
+            "title": "Enzyme Nomenclature"
+          },
+          {
+            "uri_space": "http://identifiers.org/issn/",
+            "number_of_triples": 13091,
+            "title": "ISSN"
+          },
+          {
+            "uri_space": "http://identifiers.org/ncbiprotein/",
+            "number_of_triples": 65076,
+            "title": "NCBI Protein"
+          },
+          {
+            "uri_space": "http://identifiers.org/pdb/",
+            "number_of_triples": 320085,
+            "title": "Protein Data Bank"
+          },
+          {
+            "uri_space": "http://identifiers.org/pubmed/",
+            "number_of_triples": 14568,
+            "title": "PubMed"
+          },
+          {
+            "uri_space": "http://identifiers.org/refseq/",
+            "number_of_triples": 26104,
+            "title": "RefSeq"
+          },
+          {
+            "uri_space": "http://identifiers.org/taxonomy/",
+            "number_of_triples": 25684,
+            "title": "Taxonomy"
+          },
+          {
+            "uri_space": "http://identifiers.org/uniprot/",
+            "number_of_triples": 14870,
+            "title": "UniProt Knowledgebase"
+          },
+          {
+            "uri_space": "http://identifiers.org/pdb-ccd/",
+            "number_of_triples": 5464,
+            "title": "Chemical Component Dictionary"
+          },
+          {
+            "uri_space": "http://identifiers.org/pdb.ligand/",
+            "number_of_triples": 5464,
+            "title": "Protein Data Bank Ligand"
+          },
+          {
+            "uri_space": "http://identifiers.org/orcid/",
+            "number_of_triples": 1990,
+            "title": "ORCID"
+          },
+          {
+            "uri_space": "http://identifiers.org/isbn/",
+            "number_of_triples": 6,
+            "title": "ISBN"
+          },
+          {
+            "uri_space": "http://identifiers.org/pubchem.substance/",
+            "number_of_triples": 8,
+            "title": "PubChem-substance"
           }
         ]
       },
@@ -405,14 +387,14 @@
             "size": 33162809
           }
         ],
-        "number_of_triples": 8072553,
-        "number_of_instances": 813194,
-        "number_of_subjects": 830284,
-        "number_of_objects": 1027214,
-        "number_of_literals": 187044,
+        "number_of_triples": 8078383,
+        "number_of_instances": 813184,
+        "number_of_subjects": 830749,
+        "number_of_objects": 1026376,
+        "number_of_literals": 187693,
         "number_of_classes": 123,
         "classes": "./data/bmrb_graph-2_classes.json",
-        "number_of_properties": 670,
+        "number_of_properties": 673,
         "properties": "./data/bmrb_graph-2_propertiess.json",
         "number_of_datatypes": 1,
         "datatypes": [
@@ -420,39 +402,34 @@
         ],
         "xrefs": [
           {
-            "uri_space": "http://identifiers.org/issn/",
-            "title": "ISSN",
-            "number_of_triples": 1771
-          },
-          {
-            "uri_space": "http://identifiers.org/pdb-ccd/",
-            "title": "Chemical Component Dictionary",
-            "number_of_triples": 11
-          },
-          {
-            "uri_space": "http://identifiers.org/pubchem.compound/",
-            "title": "PubChem-compound",
-            "number_of_triples": 1504
-          },
-          {
-            "uri_space": "http://identifiers.org/pubmed/",
-            "title": "PubMed",
-            "number_of_triples": 1932
+            "uri_space": "http://identifiers.org/doi/",
+            "number_of_triples": 3630,
+            "title": "DOI"
           },
           {
             "uri_space": "http://identifiers.org/pubchem.substance/",
-            "title": "PubChem-substance",
-            "number_of_triples": 6597
+            "number_of_triples": 6597,
+            "title": "PubChem-substance"
+          },
+          {
+            "uri_space": "http://identifiers.org/issn/",
+            "number_of_triples": 1773,
+            "title": "ISSN"
+          },
+          {
+            "uri_space": "http://identifiers.org/pubmed/",
+            "number_of_triples": 1936,
+            "title": "PubMed"
+          },
+          {
+            "uri_space": "http://identifiers.org/pdb-ccd/",
+            "number_of_triples": 11,
+            "title": "Chemical Component Dictionary"
           },
           {
             "uri_space": "http://identifiers.org/pdb.ligand/",
-            "title": "Protein Data Bank Ligand",
-            "number_of_triples": 11
-          },
-          {
-            "uri_space": "http://identifiers.org/doi/",
-            "title": "DOI",
-            "number_of_triples": 3630
+            "number_of_triples": 11,
+            "title": "Protein Data Bank Ligand"
           }
         ]
       }
@@ -4170,20 +4147,20 @@
         }
       }
     ],
-    "version": "release_20230315",
-    "issued": "2023-03-15",
+    "version": "release_20230508",
+    "issued": "2023-05-08",
     "logo_url": "./logo/pdbj.png",
     "schema_image_urls": [],
     "download_file": {
-      "name": "2023-03-15",
-      "url": "./download/pdbj/2023-03-15/",
+      "name": "2023-05-08",
+      "url": "./download/pdbj/2023-05-08/",
       "size": "-"
     },
-    "number_of_triples": 11712725191,
-    "number_of_instances": 842651852,
-    "number_of_subjects": 843215597,
-    "number_of_objects": 858506056,
-    "number_of_literals": 12949022,
+    "number_of_triples": 16203298274,
+    "number_of_instances": 1165827243,
+    "number_of_subjects": 1166981613,
+    "number_of_objects": 1191396660,
+    "number_of_literals": 22436874,
     "number_of_classes": 597,
     "classes": "./data/pdbj_classes.json",
     "number_of_properties": 3588,
@@ -4196,58 +4173,153 @@
     ],
     "xrefs": [
       {
-        "uri_space": "http://identifiers.org/scop/",
-        "title": "SCOP",
-        "number_of_triples": 104553
+        "uri_space": "http://identifiers.org/ec-code/",
+        "number_of_triples": 123827,
+        "title": "Enzyme Nomenclature"
       },
       {
-        "uri_space": "http://identifiers.org/cath.domain/",
-        "title": "CATH domain",
-        "number_of_triples": 388511
-      },
-      {
-        "uri_space": "http://identifiers.org/pfam/",
-        "title": "Pfam",
-        "number_of_triples": 278328
-      },
-      {
-        "uri_space": "http://identifiers.org/pubmed/",
-        "title": "PubMed",
-        "number_of_triples": 554288
+        "uri_space": "http://identifiers.org/ncbiprotein/",
+        "number_of_triples": 6137,
+        "title": "NCBI Protein"
       },
       {
         "uri_space": "http://identifiers.org/uniprot/",
-        "title": "UniProt Knowledgebase",
-        "number_of_triples": 519887
-      },
-      {
-        "uri_space": "http://identifiers.org/insdc/",
-        "title": "Nucleotide Sequence Database",
-        "number_of_triples": 4729
-      },
-      {
-        "uri_space": "http://identifiers.org/go/",
-        "title": "Gene Ontology",
-        "number_of_triples": 781545
-      },
-      {
-        "uri_space": "http://identifiers.org/ec-code/",
-        "title": "Enzyme Nomenclature",
-        "number_of_triples": 143957
-      },
-      {
-        "uri_space": "http://identifiers.org/interpro/",
-        "title": "InterPro",
-        "number_of_triples": 825125
+        "number_of_triples": 987385,
+        "title": "UniProt Knowledgebase"
       },
       {
         "uri_space": "http://identifiers.org/taxonomy/",
-        "title": "Taxonomy",
-        "number_of_triples": 731659
+        "number_of_triples": 597549,
+        "title": "Taxonomy"
+      },
+      {
+        "uri_space": "http://identifiers.org/orcid/",
+        "number_of_triples": 262622,
+        "title": "ORCID"
+      },
+      {
+        "uri_space": "http://identifiers.org/cas/",
+        "number_of_triples": 138,
+        "title": "CAS"
+      },
+      {
+        "uri_space": "http://identifiers.org/chebi/",
+        "number_of_triples": 98,
+        "title": "ChEBI"
+      },
+      {
+        "uri_space": "http://identifiers.org/chembl/",
+        "number_of_triples": 59,
+        "title": "ChEMBL"
+      },
+      {
+        "uri_space": "http://identifiers.org/chemspider/",
+        "number_of_triples": 238,
+        "title": "ChemSpider"
+      },
+      {
+        "uri_space": "http://identifiers.org/pubchem.substance/",
+        "number_of_triples": 434,
+        "title": "PubChem-substance"
+      },
+      {
+        "uri_space": "http://identifiers.org/mesh/",
+        "number_of_triples": 69,
+        "title": "MeSH"
+      },
+      {
+        "uri_space": "http://identifiers.org/scop/",
+        "number_of_triples": 121414,
+        "title": "SCOP"
+      },
+      {
+        "uri_space": "http://identifiers.org/interpro/",
+        "number_of_triples": 3285819,
+        "title": "InterPro"
+      },
+      {
+        "uri_space": "http://identifiers.org/pfam/",
+        "number_of_triples": 768300,
+        "title": "Pfam"
+      },
+      {
+        "uri_space": "http://identifiers.org/ensembl/",
+        "number_of_triples": 1767239,
+        "title": "Ensembl"
+      },
+      {
+        "uri_space": "http://identifiers.org/cath/",
+        "number_of_triples": 599773,
+        "title": "CATH Protein Structural Domain Superfamily"
+      },
+      {
+        "uri_space": "http://identifiers.org/go/",
+        "number_of_triples": 57120998,
+        "title": "Gene Ontology"
+      },
+      {
+        "uri_space": "http://identifiers.org/emdb/",
+        "number_of_triples": 31565,
+        "title": "Electron Microscopy Data Bank"
+      },
+      {
+        "uri_space": "http://identifiers.org/glytoucan/",
+        "number_of_triples": 18061,
+        "title": "GlyTouCan"
+      },
+      {
+        "uri_space": "http://identifiers.org/bmrb/",
+        "number_of_triples": 7186,
+        "title": "Biological Magnetic Resonance Data Bank"
+      },
+      {
+        "uri_space": "http://identifiers.org/sasbdb/",
+        "number_of_triples": 228,
+        "title": "SASBDB"
+      },
+      {
+        "uri_space": "http://identifiers.org/norine/",
+        "number_of_triples": 399,
+        "title": "NORINE"
+      },
+      {
+        "uri_space": "http://identifiers.org/kegg.drug/",
+        "number_of_triples": 14,
+        "title": "KEGG Drug"
+      },
+      {
+        "uri_space": "http://identifiers.org/chemdb/",
+        "number_of_triples": 25,
+        "title": "ChemDB"
+      },
+      {
+        "uri_space": "http://identifiers.org/drugbank/",
+        "number_of_triples": 40,
+        "title": "DrugBank"
+      },
+      {
+        "uri_space": "http://identifiers.org/kegg.compound/",
+        "number_of_triples": 25,
+        "title": "KEGG Compound"
+      },
+      {
+        "uri_space": "http://identifiers.org/ccdc/",
+        "number_of_triples": 2,
+        "title": "CCDC Number"
+      },
+      {
+        "uri_space": "http://identifiers.org/refseq/",
+        "number_of_triples": 49,
+        "title": "RefSeq"
+      },
+      {
+        "uri_space": "http://identifiers.org/pubmed/",
+        "number_of_triples": 181704,
+        "title": "PubMed"
       }
     ],
     "connected_dataset_ids": [],
-    "number_of_links": 4332582,
+    "number_of_links": 65881397,
     "ontologies": [
       {
         "uri": "https://rdf.wwpdb.org/schema/pdbx-v50.owl",
@@ -4262,11 +4334,11 @@
             "size": 574049
           }
         ],
-        "number_of_triples": 126699,
-        "number_of_instances": 27156,
-        "number_of_subjects": 41129,
-        "number_of_objects": 58847,
-        "number_of_literals": 18819,
+        "number_of_triples": 136964,
+        "number_of_instances": 29433,
+        "number_of_subjects": 44469,
+        "number_of_objects": 63556,
+        "number_of_literals": 20298,
         "number_of_classes": 8,
         "classes": "./data/pdbj_ontology-1_classes.json",
         "number_of_properties": 17,
@@ -4282,7 +4354,7 @@
     ],
     "graphs": [
       {
-        "uri": "http://rdf.integbio.jp/dataset/pdbj",
+        "uri": "http://rdfportal.org/dataset/pdbj",
         "description": {
           "en": "",
           "ja": ""
@@ -4314,11 +4386,11 @@
             "size": 14579285348
           }
         ],
-        "number_of_triples": 11712598492,
-        "number_of_instances": 842624696,
-        "number_of_subjects": 843174468,
-        "number_of_objects": 858447849,
-        "number_of_literals": 12930404,
+        "number_of_triples": 16203161310,
+        "number_of_instances": 1165797810,
+        "number_of_subjects": 1166937144,
+        "number_of_objects": 1191333806,
+        "number_of_literals": 22416767,
         "number_of_classes": 589,
         "classes": "./data/pdbj_graph-1_classes.json",
         "number_of_properties": 3574,
@@ -4330,54 +4402,149 @@
         ],
         "xrefs": [
           {
-            "uri_space": "http://identifiers.org/scop/",
-            "title": "SCOP",
-            "number_of_triples": 104553
+            "uri_space": "http://identifiers.org/ec-code/",
+            "number_of_triples": 123827,
+            "title": "Enzyme Nomenclature"
           },
           {
-            "uri_space": "http://identifiers.org/cath.domain/",
-            "title": "CATH domain",
-            "number_of_triples": 388511
-          },
-          {
-            "uri_space": "http://identifiers.org/pfam/",
-            "title": "Pfam",
-            "number_of_triples": 278328
-          },
-          {
-            "uri_space": "http://identifiers.org/pubmed/",
-            "title": "PubMed",
-            "number_of_triples": 554288
+            "uri_space": "http://identifiers.org/ncbiprotein/",
+            "number_of_triples": 6137,
+            "title": "NCBI Protein"
           },
           {
             "uri_space": "http://identifiers.org/uniprot/",
-            "title": "UniProt Knowledgebase",
-            "number_of_triples": 519887
-          },
-          {
-            "uri_space": "http://identifiers.org/insdc/",
-            "title": "Nucleotide Sequence Database",
-            "number_of_triples": 4729
-          },
-          {
-            "uri_space": "http://identifiers.org/go/",
-            "title": "Gene Ontology",
-            "number_of_triples": 781545
-          },
-          {
-            "uri_space": "http://identifiers.org/ec-code/",
-            "title": "Enzyme Nomenclature",
-            "number_of_triples": 143957
-          },
-          {
-            "uri_space": "http://identifiers.org/interpro/",
-            "title": "InterPro",
-            "number_of_triples": 825125
+            "number_of_triples": 987385,
+            "title": "UniProt Knowledgebase"
           },
           {
             "uri_space": "http://identifiers.org/taxonomy/",
-            "title": "Taxonomy",
-            "number_of_triples": 731659
+            "number_of_triples": 597549,
+            "title": "Taxonomy"
+          },
+          {
+            "uri_space": "http://identifiers.org/orcid/",
+            "number_of_triples": 262622,
+            "title": "ORCID"
+          },
+          {
+            "uri_space": "http://identifiers.org/cas/",
+            "number_of_triples": 138,
+            "title": "CAS"
+          },
+          {
+            "uri_space": "http://identifiers.org/chebi/",
+            "number_of_triples": 98,
+            "title": "ChEBI"
+          },
+          {
+            "uri_space": "http://identifiers.org/chembl/",
+            "number_of_triples": 59,
+            "title": "ChEMBL"
+          },
+          {
+            "uri_space": "http://identifiers.org/chemspider/",
+            "number_of_triples": 238,
+            "title": "ChemSpider"
+          },
+          {
+            "uri_space": "http://identifiers.org/pubchem.substance/",
+            "number_of_triples": 434,
+            "title": "PubChem-substance"
+          },
+          {
+            "uri_space": "http://identifiers.org/mesh/",
+            "number_of_triples": 69,
+            "title": "MeSH"
+          },
+          {
+            "uri_space": "http://identifiers.org/scop/",
+            "number_of_triples": 121414,
+            "title": "SCOP"
+          },
+          {
+            "uri_space": "http://identifiers.org/interpro/",
+            "number_of_triples": 3285819,
+            "title": "InterPro"
+          },
+          {
+            "uri_space": "http://identifiers.org/pfam/",
+            "number_of_triples": 768300,
+            "title": "Pfam"
+          },
+          {
+            "uri_space": "http://identifiers.org/ensembl/",
+            "number_of_triples": 1767239,
+            "title": "Ensembl"
+          },
+          {
+            "uri_space": "http://identifiers.org/cath/",
+            "number_of_triples": 599773,
+            "title": "CATH Protein Structural Domain Superfamily"
+          },
+          {
+            "uri_space": "http://identifiers.org/go/",
+            "number_of_triples": 57120998,
+            "title": "Gene Ontology"
+          },
+          {
+            "uri_space": "http://identifiers.org/emdb/",
+            "number_of_triples": 31565,
+            "title": "Electron Microscopy Data Bank"
+          },
+          {
+            "uri_space": "http://identifiers.org/glytoucan/",
+            "number_of_triples": 18061,
+            "title": "GlyTouCan"
+          },
+          {
+            "uri_space": "http://identifiers.org/bmrb/",
+            "number_of_triples": 7186,
+            "title": "Biological Magnetic Resonance Data Bank"
+          },
+          {
+            "uri_space": "http://identifiers.org/sasbdb/",
+            "number_of_triples": 228,
+            "title": "SASBDB"
+          },
+          {
+            "uri_space": "http://identifiers.org/norine/",
+            "number_of_triples": 399,
+            "title": "NORINE"
+          },
+          {
+            "uri_space": "http://identifiers.org/kegg.drug/",
+            "number_of_triples": 14,
+            "title": "KEGG Drug"
+          },
+          {
+            "uri_space": "http://identifiers.org/chemdb/",
+            "number_of_triples": 25,
+            "title": "ChemDB"
+          },
+          {
+            "uri_space": "http://identifiers.org/drugbank/",
+            "number_of_triples": 40,
+            "title": "DrugBank"
+          },
+          {
+            "uri_space": "http://identifiers.org/kegg.compound/",
+            "number_of_triples": 25,
+            "title": "KEGG Compound"
+          },
+          {
+            "uri_space": "http://identifiers.org/ccdc/",
+            "number_of_triples": 2,
+            "title": "CCDC Number"
+          },
+          {
+            "uri_space": "http://identifiers.org/refseq/",
+            "number_of_triples": 49,
+            "title": "RefSeq"
+          },
+          {
+            "uri_space": "http://identifiers.org/pubmed/",
+            "number_of_triples": 181704,
+            "title": "PubMed"
           }
         ]
       }
