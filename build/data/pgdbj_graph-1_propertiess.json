@@ -1,0 +1,110 @@
+[
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 1963693, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/description", 
+        "number_of_triples": 1963584, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/11/orth#member", 
+        "number_of_triples": 1905823, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/11/orth#taxon", 
+        "number_of_triples": 1463786, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/page", 
+        "number_of_triples": 1463786, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 1463785, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdfs.org/ns/void#inDataset", 
+        "number_of_triples": 1463785, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/identifier", 
+        "number_of_triples": 1463785, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso", 
+        "number_of_triples": 499798, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.uniprot.org/core/organism", 
+        "number_of_triples": 110, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/pav/derivedFrom", 
+        "number_of_triples": 2, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/publisher", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/creator", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/title", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/license", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/source", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/pav/version", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/created", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

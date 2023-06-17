@@ -1,0 +1,58 @@
+[
+    {
+        "class": "http://www.w3.org/ns/dcat#CatalogRecord", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 3434
+    }, 
+    {
+        "class": "http://purl.org/ontology/bibo/Article", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 2246
+    }, 
+    {
+        "class": "http://xmlns.com/foaf/0.1/Organization", 
+        "label": {
+            "en": "Organization", 
+            "ja": "Organization"
+        }, 
+        "number_of_instances": 1959
+    }, 
+    {
+        "class": "http://www.w3.org/ns/dcat#Dataset", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1916
+    }, 
+    {
+        "class": "http://www.w3.org/ns/dcat#Distribution", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 709
+    }, 
+    {
+        "class": "http://www.w3.org/2004/02/skos/core#ConceptScheme", 
+        "label": {
+            "en": "Concept Scheme", 
+            "ja": "Concept Scheme"
+        }, 
+        "number_of_instances": 2
+    }, 
+    {
+        "class": "http://www.w3.org/ns/dcat#Catalog", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1
+    }
+]

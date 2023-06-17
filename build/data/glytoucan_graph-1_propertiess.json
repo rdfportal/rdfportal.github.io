@@ -1,0 +1,152 @@
+[
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 375700, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/elements/1.1/format", 
+        "number_of_triples": 242256, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_symbol_format", 
+        "number_of_triples": 242256, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_image", 
+        "number_of_triples": 242256, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_component", 
+        "number_of_triples": 166481, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_motif", 
+        "number_of_triples": 70084, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#in_glycan_database", 
+        "number_of_triples": 40376, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glytoucan.org/glyco/owl/glytoucan#date_registered", 
+        "number_of_triples": 40376, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_resource_entry", 
+        "number_of_triples": 40376, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glytoucan.org/glyco/owl/glytoucan#has_primary_id", 
+        "number_of_triples": 40376, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_glycosequence", 
+        "number_of_triples": 40376, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_sequence", 
+        "number_of_triples": 40376, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#in_carbohydrate_format", 
+        "number_of_triples": 40376, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glytoucan.org/glyco/owl/glytoucan#contributor", 
+        "number_of_triples": 40376, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso", 
+        "number_of_triples": 40224, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glytoucan.org/glyco/owl/glytoucan#has_derivatized_mass", 
+        "number_of_triples": 25767, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_monosaccharide", 
+        "number_of_triples": 4018, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_cardinality", 
+        "number_of_triples": 4018, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glytoucan.org/glyco/owl/glytoucan#has_derivatization_type", 
+        "number_of_triples": 3433, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.glytoucan.org/glyco/owl/glytoucan#has_mass", 
+        "number_of_triples": 3433, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_alias", 
+        "number_of_triples": 2198, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_alias_name", 
+        "number_of_triples": 2188, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_monosaccharide_notation_scheme", 
+        "number_of_triples": 2188, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 61, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/name", 
+        "number_of_triples": 11, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

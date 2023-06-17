@@ -1,0 +1,110 @@
+[
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 1372, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/identifier", 
+        "number_of_triples": 795, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.obolibrary.org/obo/RO_0000057", 
+        "number_of_triples": 744, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000300", 
+        "number_of_triples": 533, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/referecens", 
+        "number_of_triples": 514, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 462, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000008", 
+        "number_of_triples": 448, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://prismstandard.org/namespaces/basic/2.0/doi", 
+        "number_of_triples": 328, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.obolibrary.org/obo/BFO_0000051", 
+        "number_of_triples": 176, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/title", 
+        "number_of_triples": 13, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/creator", 
+        "number_of_triples": 12, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://prismstandard.org/namespaces/basic/2.0/volume", 
+        "number_of_triples": 11, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://prismstandard.org/namespaces/basic/2.0/pageRange", 
+        "number_of_triples": 11, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://prismstandard.org/namespaces/basic/2.0/publicationDate", 
+        "number_of_triples": 11, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://prismstandard.org/namespaces/basic/2.0/publicationName", 
+        "number_of_triples": 11, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2002/07/owl#versionInfo", 
+        "number_of_triples": 2, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/description", 
+        "number_of_triples": 2, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/license", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

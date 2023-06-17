@@ -1,0 +1,20 @@
+[
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#closeMatch", 
+        "number_of_triples": 18860947, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 24990, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/identifier", 
+        "number_of_triples": 24990, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

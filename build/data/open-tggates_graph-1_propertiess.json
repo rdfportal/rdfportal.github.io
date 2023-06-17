@@ -1,0 +1,230 @@
+[
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 1497955718, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000300", 
+        "number_of_triples": 1497758897, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/probe", 
+        "number_of_triples": 1497203811, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000216", 
+        "number_of_triples": 807765281, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/pacall", 
+        "number_of_triples": 807124421, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/000216", 
+        "number_of_triples": 689993616, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso", 
+        "number_of_triples": 1123607, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000221", 
+        "number_of_triples": 640860, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/identifier", 
+        "number_of_triples": 196821, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/geneSymbol", 
+        "number_of_triples": 91734, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 86991, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/taxon", 
+        "number_of_triples": 85774, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/experimentalCondition", 
+        "number_of_triples": 44338, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/hasSample", 
+        "number_of_triples": 44275, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/organ", 
+        "number_of_triples": 24564, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/normalizationMethod", 
+        "number_of_triples": 24023, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/isPartOf", 
+        "number_of_triples": 24023, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/sample", 
+        "number_of_triples": 24023, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/chip", 
+        "number_of_triples": 24023, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/digitizedBy", 
+        "number_of_triples": 24023, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/depiction", 
+        "number_of_triples": 21911, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/hasControlSample", 
+        "number_of_triples": 17893, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/hasTestSample", 
+        "number_of_triples": 17886, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/admRoute", 
+        "number_of_triples": 7760, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/doseLevel", 
+        "number_of_triples": 7760, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/exposedCompound", 
+        "number_of_triples": 7760, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/testType", 
+        "number_of_triples": 7760, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/isDerivedFrom", 
+        "number_of_triples": 6697, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/hasUnitSetProfile", 
+        "number_of_triples": 6697, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/grade", 
+        "number_of_triples": 5620, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/findings", 
+        "number_of_triples": 5620, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/sinRepType", 
+        "number_of_triples": 4771, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/topography", 
+        "number_of_triples": 4691, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/lesion", 
+        "number_of_triples": 778, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#altLabel", 
+        "number_of_triples": 170, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/created", 
+        "number_of_triples": 5, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/101/opentggates/ontology/gradeLabel", 
+        "number_of_triples": 5, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#exactMatch", 
+        "number_of_triples": 2, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

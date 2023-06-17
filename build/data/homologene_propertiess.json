@@ -1,0 +1,50 @@
+[
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 319471, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_010078", 
+        "number_of_triples": 275237, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 275237, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/net/orth#hasHomologousMember", 
+        "number_of_triples": 275237, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.obolibrary.org/obo/RO_0002162", 
+        "number_of_triples": 275237, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/net/orth#inDataset", 
+        "number_of_triples": 44233, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/license", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/title", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

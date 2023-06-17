@@ -1,0 +1,224 @@
+[
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 335329, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000024", 
+        "number_of_triples": 64209, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000026", 
+        "number_of_triples": 64209, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 53893, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000071", 
+        "number_of_triples": 39576, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#subClassOf", 
+        "number_of_triples": 38724, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000023", 
+        "number_of_triples": 27048, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.obolibrary.org/obo/RO_0002162", 
+        "number_of_triples": 27048, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000018", 
+        "number_of_triples": 26460, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000011", 
+        "number_of_triples": 21873, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000077", 
+        "number_of_triples": 20756, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/identifier", 
+        "number_of_triples": 20721, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000221", 
+        "number_of_triples": 19357, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000010", 
+        "number_of_triples": 19357, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000027", 
+        "number_of_triples": 19357, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000076", 
+        "number_of_triples": 19357, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000014", 
+        "number_of_triples": 19357, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000012", 
+        "number_of_triples": 19357, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value", 
+        "number_of_triples": 19357, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000073", 
+        "number_of_triples": 19357, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000038", 
+        "number_of_triples": 19357, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://metadb.riken.jp/terms/xsearch#resourceTypeLink", 
+        "number_of_triples": 19357, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/homepage", 
+        "number_of_triples": 19357, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/net/cito/citesAsAuthority", 
+        "number_of_triples": 17502, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/references", 
+        "number_of_triples": 17502, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000019", 
+        "number_of_triples": 17058, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000030", 
+        "number_of_triples": 16860, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000028", 
+        "number_of_triples": 16860, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000072", 
+        "number_of_triples": 16296, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000025", 
+        "number_of_triples": 11921, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000017", 
+        "number_of_triples": 9406, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/brso/organism", 
+        "number_of_triples": 9016, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/thumbnail", 
+        "number_of_triples": 8637, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/depiction", 
+        "number_of_triples": 8637, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000034", 
+        "number_of_triples": 1523, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/10/mccv#MCCV_000033", 
+        "number_of_triples": 1421, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso", 
+        "number_of_triples": 1364, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

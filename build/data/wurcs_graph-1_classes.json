@@ -1,0 +1,74 @@
+[
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#RES", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 291467
+    }, 
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#LIN", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 256643
+    }, 
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#UniqueRES", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 165973
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#saccharide", 
+        "label": {
+            "en": "Saccharide", 
+            "ja": "Saccharide"
+        }, 
+        "number_of_instances": 39964
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#glycosequence", 
+        "label": {
+            "en": "Glycosequence", 
+            "ja": "Glycosequence"
+        }, 
+        "number_of_instances": 39964
+    }, 
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#GLIPS", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 759
+    }, 
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#GLIP", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 528
+    }, 
+    {
+        "class": "http://rdfs.org/ns/void#Dataset", 
+        "label": {
+            "en": "dataset", 
+            "ja": "dataset"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://xmlns.com/foaf/0.1/Person", 
+        "label": {
+            "en": "Person", 
+            "ja": "Person"
+        }, 
+        "number_of_instances": 1
+    }
+]

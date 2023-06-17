@@ -1,0 +1,200 @@
+[
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 753541, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000300", 
+        "number_of_triples": 405433, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso", 
+        "number_of_triples": 374019, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/CHEMINF_000200", 
+        "number_of_triples": 289595, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/references", 
+        "number_of_triples": 254148, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000255", 
+        "number_of_triples": 176117, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/format", 
+        "number_of_triples": 173757, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/hasPart", 
+        "number_of_triples": 173757, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000008", 
+        "number_of_triples": 173757, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/isReferencedBy", 
+        "number_of_triples": 143130, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000254", 
+        "number_of_triples": 137348, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/homepage", 
+        "number_of_triples": 123313, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 66285, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/knapsack/resource#references", 
+        "number_of_triples": 63117, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/elements/1.1/identifier", 
+        "number_of_triples": 57922, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000221", 
+        "number_of_triples": 57919, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/knapsack/resource#fid", 
+        "number_of_triples": 57919, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#closeMatch", 
+        "number_of_triples": 57346, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/elements/1.1/title", 
+        "number_of_triples": 38443, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/knapsack/resource#activity", 
+        "number_of_triples": 30788, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/knapsack/resource#sp", 
+        "number_of_triples": 29951, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/knapsack/resource#sp1", 
+        "number_of_triples": 28052, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/knapsack/resource#kingdom", 
+        "number_of_triples": 28052, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/knapsack/resource#family", 
+        "number_of_triples": 28052, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/primaryTopic", 
+        "number_of_triples": 14242, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000225", 
+        "number_of_triples": 8861, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/knapsack/resource#function", 
+        "number_of_triples": 8861, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/knapsack/resource#category", 
+        "number_of_triples": 7278, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/knapsack/resource#targetsp", 
+        "number_of_triples": 6780, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_001278", 
+        "number_of_triples": 5467, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#altLabel", 
+        "number_of_triples": 1889, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/knapsack/resource#sp2", 
+        "number_of_triples": 1397, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#subClassOf", 
+        "number_of_triples": 2, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "class": "http://www.w3.org/2004/02/skos/core#Concept", 
+        "label": {
+            "en": "Concept", 
+            "ja": "Concept"
+        }, 
+        "number_of_instances": 32
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Ontology", 
+        "label": {
+            "en": "Ontology", 
+            "ja": "Ontology"
+        }, 
+        "number_of_instances": 1
+    }
+]

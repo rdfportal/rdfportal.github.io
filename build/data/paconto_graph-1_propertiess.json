@@ -1,0 +1,560 @@
+[
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 11867, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/references", 
+        "number_of_triples": 5953, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#describedInReference", 
+        "number_of_triples": 5953, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#interactingMolecule", 
+        "number_of_triples": 5122, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#adherenceInteractionType", 
+        "number_of_triples": 5032, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#interactionType", 
+        "number_of_triples": 5031, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#inScheme", 
+        "number_of_triples": 2700, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#conceptType", 
+        "number_of_triples": 2700, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 2664, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/identifier", 
+        "number_of_triples": 2661, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#affinityInReference", 
+        "number_of_triples": 2561, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#interactionInReference", 
+        "number_of_triples": 2561, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#inBioSource", 
+        "number_of_triples": 2477, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#hasInteractionWith", 
+        "number_of_triples": 1237, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_affinity_to", 
+        "number_of_triples": 1233, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso", 
+        "number_of_triples": 1158, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#strainName", 
+        "number_of_triples": 908, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.uniprot.org/core/scientificName", 
+        "number_of_triples": 879, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#occurInOrganismInReference", 
+        "number_of_triples": 864, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#pathogenAdherMolecType", 
+        "number_of_triples": 754, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#pathogenAdherMolecName", 
+        "number_of_triples": 754, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#pathogenAdherMolecForm", 
+        "number_of_triples": 741, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#broader", 
+        "number_of_triples": 630, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.uniprot.org/core/organism", 
+        "number_of_triples": 626, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#targetClassification", 
+        "number_of_triples": 550, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#organismForm", 
+        "number_of_triples": 522, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#tropismInReference", 
+        "number_of_triples": 521, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_component", 
+        "number_of_triples": 501, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.uniprot.org/core/rank", 
+        "number_of_triples": 496, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#umlsCUI", 
+        "number_of_triples": 454, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#carbohydrateLigandName", 
+        "number_of_triples": 402, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#glycanType", 
+        "number_of_triples": 397, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/gmncbi-schema#causedBy", 
+        "number_of_triples": 388, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/gmncbi-schema#causes", 
+        "number_of_triples": 388, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_strain", 
+        "number_of_triples": 371, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#pathogenMaterialType", 
+        "number_of_triples": 371, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#speciesForStrain", 
+        "number_of_triples": 371, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.uniprot.org/core/strain", 
+        "number_of_triples": 371, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#prefLabel", 
+        "number_of_triples": 342, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/gdgdb-schema#diseaseNames", 
+        "number_of_triples": 316, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#hasTropismTo", 
+        "number_of_triples": 296, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_glycoconjugate_sequence", 
+        "number_of_triples": 241, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_sequence", 
+        "number_of_triples": 241, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#in_carbohydrate_format", 
+        "number_of_triples": 241, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#bioSourceName", 
+        "number_of_triples": 225, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#meshUniqueID", 
+        "number_of_triples": 215, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#articleInfo", 
+        "number_of_triples": 214, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://prismstandard.org/namespaces/basic/2.0/publicationDate", 
+        "number_of_triples": 214, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://prismstandard.org/namespaces/basic/2.0/startingPage", 
+        "number_of_triples": 214, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/title", 
+        "number_of_triples": 214, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://prismstandard.org/namespaces/basic/2.0/volume", 
+        "number_of_triples": 214, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#journalTitleIso", 
+        "number_of_triples": 214, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#pacdbRefId", 
+        "number_of_triples": 214, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://prismstandard.org/namespaces/basic/2.0/endingPage", 
+        "number_of_triples": 214, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://prismstandard.org/namespaces/basic/2.0/number", 
+        "number_of_triples": 214, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://prismstandard.org/namespaces/basic/2.0/publicationName", 
+        "number_of_triples": 214, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/date", 
+        "number_of_triples": 214, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#articleTitle", 
+        "number_of_triples": 214, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#journalTitle", 
+        "number_of_triples": 214, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/ontology/bibo/pmid", 
+        "number_of_triples": 214, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#hasStructuralFeature", 
+        "number_of_triples": 177, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#inDiseasesClassification", 
+        "number_of_triples": 165, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2002/07/owl#sameAs", 
+        "number_of_triples": 153, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_epitope", 
+        "number_of_triples": 152, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#broaderInDisClassifSystems", 
+        "number_of_triples": 152, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#hasStructuralDetail", 
+        "number_of_triples": 138, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#pathogenAdherMolecGenomicName", 
+        "number_of_triples": 136, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#hasStructuralPartName", 
+        "number_of_triples": 132, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#jcggdbMotifId", 
+        "number_of_triples": 128, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_motif", 
+        "number_of_triples": 128, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#jcggdbGlycanId", 
+        "number_of_triples": 123, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#ncbiTaxonomyId", 
+        "number_of_triples": 123, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_attached_glycan", 
+        "number_of_triples": 120, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#diseasesClassificationSystems", 
+        "number_of_triples": 106, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#diseaseClass", 
+        "number_of_triples": 97, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#broaderInDisClassifPathogens", 
+        "number_of_triples": 89, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#epitopeID", 
+        "number_of_triples": 78, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#epitopeName", 
+        "number_of_triples": 78, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_monosaccharide_notation_scheme", 
+        "number_of_triples": 75, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#isPreferredName", 
+        "number_of_triples": 75, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#diseasesClassificationPathogens", 
+        "number_of_triples": 65, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_alias", 
+        "number_of_triples": 57, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#altLabel", 
+        "number_of_triples": 29, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/12/glyco/glycan#has_monosaccharide", 
+        "number_of_triples": 25, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/gmncbi-schema#hasConceptualPart", 
+        "number_of_triples": 25, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/gmncbi-schema#conceptualPartOf", 
+        "number_of_triples": 25, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#isSameAsMonosaccharide", 
+        "number_of_triples": 19, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#structuralDetail", 
+        "number_of_triples": 13, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#diseasesClassificationAnimal", 
+        "number_of_triples": 13, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#broaderStructuralFeature", 
+        "number_of_triples": 12, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#broaderInDisClassifAnimal", 
+        "number_of_triples": 10, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2002/07/owl#imports", 
+        "number_of_triples": 4, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/paconto-schema#structuralFeature", 
+        "number_of_triples": 3, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

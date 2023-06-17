@@ -1,0 +1,200 @@
+[
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 14089670, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#reference", 
+        "number_of_triples": 6807568, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#position", 
+        "number_of_triples": 6807568, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/identifier", 
+        "number_of_triples": 3878317, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/11/orth#member", 
+        "number_of_triples": 3779012, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 3779011, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/11/orth#organism", 
+        "number_of_triples": 3404571, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#end", 
+        "number_of_triples": 3403784, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/11/orth#gene", 
+        "number_of_triples": 3403784, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/11/mbgd#domainBegin", 
+        "number_of_triples": 3403784, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/11/mbgd#domainEnd", 
+        "number_of_triples": 3403784, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#begin", 
+        "number_of_triples": 3403784, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/11/mbgd#domain", 
+        "number_of_triples": 3403784, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/11/orth#inDataset", 
+        "number_of_triples": 474533, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/11/mbgd#memberCount", 
+        "number_of_triples": 474533, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/description", 
+        "number_of_triples": 375228, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/page", 
+        "number_of_triples": 375228, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/11/mbgd#funcCog", 
+        "number_of_triples": 375227, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/11/mbgd#funcKegg", 
+        "number_of_triples": 375227, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/11/mbgd#funcTigr", 
+        "number_of_triples": 375227, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/11/mbgd#dist", 
+        "number_of_triples": 375227, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/11/mbgd#funcMbgd", 
+        "number_of_triples": 375227, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/11/mbgd#score", 
+        "number_of_triples": 375227, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/publisher", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/creator", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/pav/derivedFrom", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/title", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/license", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/source", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdfs.org/ns/void#dataDump", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/pav/version", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/11/mbgd#organismCount", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/created", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

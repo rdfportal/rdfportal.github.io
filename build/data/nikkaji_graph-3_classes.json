@@ -1,0 +1,42 @@
+[
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000007", 
+        "label": {
+            "en": "canonical SMILES descriptor", 
+            "ja": "canonical SMILES descriptor"
+        }, 
+        "number_of_instances": 3582148
+    }, 
+    {
+        "class": "http://vocab.jst.go.jp/terms/sti#Chemical", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 3582148
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#ObjectProperty", 
+        "label": {
+            "en": "ObjectProperty", 
+            "ja": "ObjectProperty"
+        }, 
+        "number_of_instances": 2
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#DatatypeProperty", 
+        "label": {
+            "en": "DatatypeProperty", 
+            "ja": "DatatypeProperty"
+        }, 
+        "number_of_instances": 1
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "class": "http://icgc.link/Effect", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 30725124
+    }, 
+    {
+        "class": "http://icgc.link/Detection", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 10677343
+    }, 
+    {
+        "class": "http://icgc.link/Mutation", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 9932579
+    }, 
+    {
+        "class": "http://icgc.link/Gene", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 57483
+    }, 
+    {
+        "class": "http://icgc.link/Donor", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 17355
+    }, 
+    {
+        "class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", 
+        "label": {
+            "en": "Property", 
+            "ja": "Property"
+        }, 
+        "number_of_instances": 65
+    }, 
+    {
+        "class": "http://icgc.link/Project", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 60
+    }, 
+    {
+        "class": "http://www.w3.org/2000/01/rdf-schema#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 5
+    }, 
+    {
+        "class": "http://purl.org/dc/terms/LicenseDocument", 
+        "label": {
+            "en": "License Document", 
+            "ja": "License Document"
+        }, 
+        "number_of_instances": 1
+    }
+]

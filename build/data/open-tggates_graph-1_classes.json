@@ -1,0 +1,522 @@
+[
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/NormalizedSignalIntensity", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 807124421
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/Log2Ratio", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 229997872
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/CustomizedPACall", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 229997872
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/PValue", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 229997872
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/Probe", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 85729
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/Sample", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 24023
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/Array/Rat230_2", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 21418
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/IndividualAnimal", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 20315
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000667", 
+        "label": {
+            "en": "plasma lactate dehydrogenase activity level", 
+            "ja": "plasma lactate dehydrogenase activity level"
+        }, 
+        "number_of_instances": 20306
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/Pathology", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 20252
+    }, 
+    {
+        "class": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C90464", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 14340
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000092", 
+        "label": {
+            "en": "liver weight", 
+            "ja": "liver weight"
+        }, 
+        "number_of_instances": 14339
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000548", 
+        "label": {
+            "en": "plasma triglyceride level", 
+            "ja": "plasma triglyceride level"
+        }, 
+        "number_of_instances": 14338
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000586", 
+        "label": {
+            "en": "plasma urea nitrogen level", 
+            "ja": "plasma urea nitrogen level"
+        }, 
+        "number_of_instances": 14338
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000060", 
+        "label": {
+            "en": "plasma sodium level", 
+            "ja": "plasma sodium level"
+        }, 
+        "number_of_instances": 14338
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000537", 
+        "label": {
+            "en": "plasma creatinine level", 
+            "ja": "plasma creatinine level"
+        }, 
+        "number_of_instances": 14338
+    }, 
+    {
+        "class": "http://purl.bioontology.org/ontology/MEDDRA/10001562", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 14338
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0001170", 
+        "label": {
+            "en": "plasma phospholipid level", 
+            "ja": "plasma phospholipid level"
+        }, 
+        "number_of_instances": 14338
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000044", 
+        "label": {
+            "en": "plasma alanine aminotransferase activity level", 
+            "ja": "plasma alanine aminotransferase activity level"
+        }, 
+        "number_of_instances": 14338
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000056", 
+        "label": {
+            "en": "plasma albumin level", 
+            "ja": "plasma albumin level"
+        }, 
+        "number_of_instances": 14338
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000054", 
+        "label": {
+            "en": "plasma total protein level", 
+            "ja": "plasma total protein level"
+        }, 
+        "number_of_instances": 14338
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000061", 
+        "label": {
+            "en": "plasma potassium level", 
+            "ja": "plasma potassium level"
+        }, 
+        "number_of_instances": 14338
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000065", 
+        "label": {
+            "en": "plasma calcium level", 
+            "ja": "plasma calcium level"
+        }, 
+        "number_of_instances": 14338
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000043", 
+        "label": {
+            "en": "plasma aspartate aminotransferase activity level", 
+            "ja": "plasma aspartate aminotransferase activity level"
+        }, 
+        "number_of_instances": 14338
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0002240", 
+        "label": {
+            "en": "plasma gamma-glutamyltransferase activity level", 
+            "ja": "plasma gamma-glutamyltransferase activity level"
+        }, 
+        "number_of_instances": 14338
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000045", 
+        "label": {
+            "en": "plasma alkaline phosphatase activity level", 
+            "ja": "plasma alkaline phosphatase activity level"
+        }, 
+        "number_of_instances": 14338
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/ChlorineMeasurement", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 14338
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000058", 
+        "label": {
+            "en": "plasma phosphate level", 
+            "ja": "plasma phosphate level"
+        }, 
+        "number_of_instances": 14338
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000585", 
+        "label": {
+            "en": "plasma total cholesterol level", 
+            "ja": "plasma total cholesterol level"
+        }, 
+        "number_of_instances": 14338
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000042", 
+        "label": {
+            "en": "plasma glucose level", 
+            "ja": "plasma glucose level"
+        }, 
+        "number_of_instances": 14338
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000588", 
+        "label": {
+            "en": "plasma hemoglobin level", 
+            "ja": "plasma hemoglobin level"
+        }, 
+        "number_of_instances": 14335
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000291", 
+        "label": {
+            "en": "mean corpuscular hemoglobin concentration", 
+            "ja": "mean corpuscular hemoglobin concentration"
+        }, 
+        "number_of_instances": 14335
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000038", 
+        "label": {
+            "en": "mean corpuscular volume", 
+            "ja": "mean corpuscular volume"
+        }, 
+        "number_of_instances": 14335
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000037", 
+        "label": {
+            "en": "hematocrit", 
+            "ja": "hematocrit"
+        }, 
+        "number_of_instances": 14335
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000025", 
+        "label": {
+            "en": "red blood cell count", 
+            "ja": "red blood cell count"
+        }, 
+        "number_of_instances": 14335
+    }, 
+    {
+        "class": "http://purl.bioontology.org/ontology/MEDDRA/10038787", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 14335
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000290", 
+        "label": {
+            "en": "mean corpuscular hemoglobin level", 
+            "ja": "mean corpuscular hemoglobin level"
+        }, 
+        "number_of_instances": 14335
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000027", 
+        "label": {
+            "en": "white blood cell count", 
+            "ja": "white blood cell count"
+        }, 
+        "number_of_instances": 14335
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000029", 
+        "label": {
+            "en": "platelet count", 
+            "ja": "platelet count"
+        }, 
+        "number_of_instances": 14334
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000369", 
+        "label": {
+            "en": "blood eosinophil count to total leukocyte count ratio", 
+            "ja": "blood eosinophil count to total leukocyte count ratio"
+        }, 
+        "number_of_instances": 14299
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000030", 
+        "label": {
+            "en": "blood neutrophil count", 
+            "ja": "blood neutrophil count"
+        }, 
+        "number_of_instances": 14299
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000374", 
+        "label": {
+            "en": "blood monocyte count to total leukocyte count ratio", 
+            "ja": "blood monocyte count to total leukocyte count ratio"
+        }, 
+        "number_of_instances": 14299
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000368", 
+        "label": {
+            "en": "blood basophil count to total leukocyte count ratio", 
+            "ja": "blood basophil count to total leukocyte count ratio"
+        }, 
+        "number_of_instances": 14299
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000371", 
+        "label": {
+            "en": "blood lymphocyte count to total leukocyte count ratio", 
+            "ja": "blood lymphocyte count to total leukocyte count ratio"
+        }, 
+        "number_of_instances": 14299
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000048", 
+        "label": {
+            "en": "direct plasma bilirubin level", 
+            "ja": "direct plasma bilirubin level"
+        }, 
+        "number_of_instances": 14267
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0002334", 
+        "label": {
+            "en": "total plasma bilirubin level", 
+            "ja": "total plasma bilirubin level"
+        }, 
+        "number_of_instances": 14267
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000081", 
+        "label": {
+            "en": "kidney weight", 
+            "ja": "kidney weight"
+        }, 
+        "number_of_instances": 14148
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000082", 
+        "label": {
+            "en": "right kidney wet weight", 
+            "ja": "right kidney wet weight"
+        }, 
+        "number_of_instances": 14004
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000083", 
+        "label": {
+            "en": "left kidney wet weight", 
+            "ja": "left kidney wet weight"
+        }, 
+        "number_of_instances": 14004
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000211", 
+        "label": {
+            "en": "prothrombin time", 
+            "ja": "prothrombin time"
+        }, 
+        "number_of_instances": 13921
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000209", 
+        "label": {
+            "en": "blood fibrinogen level", 
+            "ja": "blood fibrinogen level"
+        }, 
+        "number_of_instances": 13921
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CMO_0000210", 
+        "label": {
+            "en": "activated partial thromboplastin time", 
+            "ja": "activated partial thromboplastin time"
+        }, 
+        "number_of_instances": 13918
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/Dosage", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 7760
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/ExperimentalCondition", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 7760
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/SacrificePeriod", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 7760
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/UnitSet", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 6697
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/UnitSetProfile", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 6697
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/ERO_0001187", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 5312
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/Array/HG-U133_Plus_2", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 2605
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/ExperimentSet", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 607
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/PathologicalFindings", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 389
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/ChemicalCompound", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 170
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/Topography", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 152
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/PathologicalGrade", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 5
+    }, 
+    {
+        "class": "http://purl.jp/bio/101/opentggates/ontology/Array", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 2
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "class": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15206", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 43
+    }, 
+    {
+        "class": "http://purl.org/innovation/Innovation", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 43
+    }, 
+    {
+        "class": "http://vocab.jst.go.jp/terms/sti#Chemical", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 43
+    }, 
+    {
+        "class": "http://purl.org/innovation/Innovator", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 26
+    }, 
+    {
+        "class": "http://xmlns.com/foaf/0.1/Organization", 
+        "label": {
+            "en": "Organization", 
+            "ja": "Organization"
+        }, 
+        "number_of_instances": 26
+    }
+]

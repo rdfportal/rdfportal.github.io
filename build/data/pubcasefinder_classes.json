@@ -1,0 +1,66 @@
+[
+    {
+        "class": "http://purl.org/ontology/bibo/Article", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1223574
+    }, 
+    {
+        "class": "http://www.w3.org/ns/oa#Annotation", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 379263
+    }, 
+    {
+        "class": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43568", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 42427
+    }, 
+    {
+        "class": "http://med2rdf.org/ontology/Gene", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 40479
+    }, 
+    {
+        "class": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 40479
+    }, 
+    {
+        "class": "http://med2rdf.org/ontology/Disease", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 18375
+    }, 
+    {
+        "class": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7057", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 18375
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_000983", 
+        "label": {
+            "en": "gene-disease association", 
+            "ja": "gene-disease association"
+        }, 
+        "number_of_instances": 15446
+    }
+]

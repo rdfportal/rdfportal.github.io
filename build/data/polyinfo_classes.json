@@ -1,0 +1,114 @@
+[
+    {
+        "class": "http://dice.nims.go.jp/ontology/polymer-bio-ont/Schema#BioDegradation", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 372
+    }, 
+    {
+        "class": "http://purl.org/ontology/bibo/Article", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 335
+    }, 
+    {
+        "class": "http://dice.nims.go.jp/ontology/PoLyInfo-ont/Schema#StructureBasedName", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 99
+    }, 
+    {
+        "class": "http://dice.nims.go.jp/ontology/PoLyInfo-ont/Schema#JapaneseName", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 93
+    }, 
+    {
+        "class": "http://dice.nims.go.jp/ontology/PoLyInfo-ont/Schema#OtherName", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 80
+    }, 
+    {
+        "class": "http://dice.nims.go.jp/ontology/PoLyInfo-ont/Schema#MonomerBasedName", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 61
+    }, 
+    {
+        "class": "http://dice.nims.go.jp/ontology/PoLyInfo-ont/Schema#ConstitutionalUnit", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 44
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/CHEBI_33839", 
+        "label": {
+            "en": "macromolecule", 
+            "ja": "macromolecule"
+        }, 
+        "number_of_instances": 44
+    }, 
+    {
+        "class": "http://dice.nims.go.jp/ontology/PoLyInfo-ont/Schema#RationalFormula", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 44
+    }, 
+    {
+        "class": "http://dice.nims.go.jp/ontology/PoLyInfo-ont/Schema#Homopolymer", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 44
+    }, 
+    {
+        "class": "http://dice.nims.go.jp/ontology/PoLyInfo-ont/Schema#MolecularWeight", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 44
+    }, 
+    {
+        "class": "http://dice.nims.go.jp/ontology/PoLyInfo-ont/Schema#MolecularFormula", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 44
+    }, 
+    {
+        "class": "http://dice.nims.go.jp/ontology/PoLyInfo-ont/Schema#Smiles", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 44
+    }, 
+    {
+        "class": "http://dice.nims.go.jp/ontology/PoLyInfo-ont/Schema#Abbreviation", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 24
+    }
+]

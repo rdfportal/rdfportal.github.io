@@ -1,0 +1,1057 @@
+[
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 71795945, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000216", 
+        "number_of_triples": 33824954, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000300", 
+        "number_of_triples": 33824954, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000221", 
+        "number_of_triples": 14539914, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#reference", 
+        "number_of_triples": 10400621, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#position", 
+        "number_of_triples": 10376511, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/identifier", 
+        "number_of_triples": 6999971, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#location", 
+        "number_of_triples": 6998907, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 5111336, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasPsm", 
+        "number_of_triples": 4877094, 
+        "domain_classes": [], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#PeptideSpectrumMatch", 
+                "label": {
+                    "en": "Peptide spectrum match", 
+                    "ja": "Peptide spectrum match"
+                }, 
+                "number_of_instances": 4846638
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasSpectrum", 
+        "number_of_triples": 4846638, 
+        "domain_classes": [], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Spectrum", 
+                "label": {
+                    "en": "Spectrum", 
+                    "ja": "Spectrum"
+                }, 
+                "number_of_instances": 4411540
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasPeptide", 
+        "number_of_triples": 4809891, 
+        "domain_classes": [
+            {
+                "domain_class": "nodeID://b4845845756", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 0
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Peptide", 
+                "label": {
+                    "en": "Peptide", 
+                    "ja": "Peptide"
+                }, 
+                "number_of_instances": 1454490
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#modificationSite", 
+        "number_of_triples": 4700838, 
+        "domain_classes": [], 
+        "range_classes": [
+            {
+                "range_class": "http://www.w3.org/2001/XMLSchema#string", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 0
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasModification", 
+        "number_of_triples": 4700670, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Peptide", 
+                "label": {
+                    "en": "Peptide", 
+                    "ja": "Peptide"
+                }, 
+                "number_of_instances": 1454490
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://www.unimod.org/obo/unimod.obo#UNIMOD_0", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 0
+            }, 
+            {
+                "range_class": "http://purl.obolibrary.org/obo/MOD_00000", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 0
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#inRawData", 
+        "number_of_triples": 4459422, 
+        "domain_classes": [], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#RawData", 
+                "label": {
+                    "en": "Raw data", 
+                    "ja": "Raw data"
+                }, 
+                "number_of_instances": 814
+            }
+        ]
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#end", 
+        "number_of_triples": 3377604, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#begin", 
+        "number_of_triples": 3377604, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasPeptideEvidence", 
+        "number_of_triples": 3355401, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Protein", 
+                "label": {
+                    "en": "Protein", 
+                    "ja": "Protein"
+                }, 
+                "number_of_instances": 387418
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#PeptideEvidence", 
+                "label": {
+                    "en": "Peptide evidence", 
+                    "ja": "Peptide evidence"
+                }, 
+                "number_of_instances": 3355401
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#representativePsm", 
+        "number_of_triples": 1500690, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#PeptideSpectrumMatch", 
+                "label": {
+                    "en": "Peptide spectrum match", 
+                    "ja": "Peptide spectrum match"
+                }, 
+                "number_of_instances": 4846638
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://www.w3.org/2001/XMLSchema#boolean", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 0
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasSequence", 
+        "number_of_triples": 1454490, 
+        "domain_classes": [
+            {
+                "domain_class": "nodeID://b4845845763", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 0
+            }
+        ], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value", 
+        "number_of_triples": 1454490, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso", 
+        "number_of_triples": 1086161, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasDatabaseSequence", 
+        "number_of_triples": 698642, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Protein", 
+                "label": {
+                    "en": "Protein", 
+                    "ja": "Protein"
+                }, 
+                "number_of_instances": 387418
+            }
+        ], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#inProteinGroup", 
+        "number_of_triples": 387418, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Protein", 
+                "label": {
+                    "en": "Protein", 
+                    "ja": "Protein"
+                }, 
+                "number_of_instances": 387418
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#ProteinGroup", 
+                "label": {
+                    "en": "Protein group", 
+                    "ja": "Protein group"
+                }, 
+                "number_of_instances": 121
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasProtein", 
+        "number_of_triples": 387418, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Dataset", 
+                "label": {
+                    "en": "jPOST dataset", 
+                    "ja": "jPOST dataset"
+                }, 
+                "number_of_instances": 121
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Protein", 
+                "label": {
+                    "en": "Protein", 
+                    "ja": "Protein"
+                }, 
+                "number_of_instances": 387418
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasIsoform", 
+        "number_of_triples": 311224, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasLeadingProtein", 
+        "number_of_triples": 140229, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Protein", 
+                "label": {
+                    "en": "Protein", 
+                    "ja": "Protein"
+                }, 
+                "number_of_instances": 387418
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Protein", 
+                "label": {
+                    "en": "Protein", 
+                    "ja": "Protein"
+                }, 
+                "number_of_instances": 387418
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasIndistinguishablePeptide", 
+        "number_of_triples": 14422, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#UniquePeptide", 
+                "label": {
+                    "en": "Unique peptide", 
+                    "ja": "Unique peptide"
+                }, 
+                "number_of_instances": 1283144
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#UniquePeptide", 
+                "label": {
+                    "en": "Unique peptide", 
+                    "ja": "Unique peptide"
+                }, 
+                "number_of_instances": 1283144
+            }
+        ]
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/page", 
+        "number_of_triples": 854, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasRawData", 
+        "number_of_triples": 814, 
+        "domain_classes": [], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#RawData", 
+                "label": {
+                    "en": "Raw data", 
+                    "ja": "Raw data"
+                }, 
+                "number_of_instances": 814
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasDataset", 
+        "number_of_triples": 121, 
+        "domain_classes": [], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Dataset", 
+                "label": {
+                    "en": "jPOST dataset", 
+                    "ja": "jPOST dataset"
+                }, 
+                "number_of_instances": 121
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasEnzymeAndModification", 
+        "number_of_triples": 121, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Profile", 
+                "label": {
+                    "en": "Profile", 
+                    "ja": "Profile"
+                }, 
+                "number_of_instances": 121
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#EnzymeAndModification", 
+                "label": {
+                    "en": "Enzyme/Modification", 
+                    "ja": "Enzyme/Modification"
+                }, 
+                "number_of_instances": 42
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasFractionation", 
+        "number_of_triples": 121, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Profile", 
+                "label": {
+                    "en": "Profile", 
+                    "ja": "Profile"
+                }, 
+                "number_of_instances": 121
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Fractionation", 
+                "label": {
+                    "en": "Fractionation", 
+                    "ja": "Fractionation"
+                }, 
+                "number_of_instances": 58
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasSample", 
+        "number_of_triples": 121, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Profile", 
+                "label": {
+                    "en": "Profile", 
+                    "ja": "Profile"
+                }, 
+                "number_of_instances": 121
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Sample", 
+                "label": {
+                    "en": "Sample", 
+                    "ja": "Sample"
+                }, 
+                "number_of_instances": 77
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasMsMode", 
+        "number_of_triples": 121, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Profile", 
+                "label": {
+                    "en": "Profile", 
+                    "ja": "Profile"
+                }, 
+                "number_of_instances": 121
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#MsMode", 
+                "label": {
+                    "en": "MS instrument mode", 
+                    "ja": "MS instrument mode"
+                }, 
+                "number_of_instances": 48
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasProfile", 
+        "number_of_triples": 121, 
+        "domain_classes": [
+            {
+                "domain_class": "nodeID://b4845845760", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 0
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Profile", 
+                "label": {
+                    "en": "Profile", 
+                    "ja": "Profile"
+                }, 
+                "number_of_instances": 121
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#modificationClass", 
+        "number_of_triples": 119, 
+        "domain_classes": [], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#ModificationClass", 
+                "label": {
+                    "en": "Modifiaction class", 
+                    "ja": "Modifiaction class"
+                }, 
+                "number_of_instances": 18
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#species", 
+        "number_of_triples": 118, 
+        "domain_classes": [
+            {
+                "domain_class": "nodeID://b4845845769", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 0
+            }
+        ], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/description", 
+        "number_of_triples": 111, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#comment", 
+        "number_of_triples": 102, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#subClassOf", 
+        "number_of_triples": 102, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/elements/1.1/description", 
+        "number_of_triples": 87, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#variableModification", 
+        "number_of_triples": 84, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#EnzymeAndModification", 
+                "label": {
+                    "en": "Enzyme/Modification", 
+                    "ja": "Enzyme/Modification"
+                }, 
+                "number_of_instances": 42
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#VariableModification", 
+                "label": {
+                    "en": "Variable modification", 
+                    "ja": "Variable modification"
+                }, 
+                "number_of_instances": 0
+            }
+        ]
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/contributor", 
+        "number_of_triples": 80, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/name", 
+        "number_of_triples": 80, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasFractionationType", 
+        "number_of_triples": 73, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Fractionation", 
+                "label": {
+                    "en": "Fractionation", 
+                    "ja": "Fractionation"
+                }, 
+                "number_of_instances": 58
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#FractionationType", 
+                "label": {
+                    "en": "Fractionation type", 
+                    "ja": "Fractionation type"
+                }, 
+                "number_of_instances": 0
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#sampleType", 
+        "number_of_triples": 72, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Sample", 
+                "label": {
+                    "en": "Sample", 
+                    "ja": "Sample"
+                }, 
+                "number_of_instances": 77
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#SampleType", 
+                "label": {
+                    "en": "Sample type", 
+                    "ja": "Sample type"
+                }, 
+                "number_of_instances": 0
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasPlex", 
+        "number_of_triples": 67, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Profile", 
+                "label": {
+                    "en": "Profile", 
+                    "ja": "Profile"
+                }, 
+                "number_of_instances": 121
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Plex", 
+                "label": {
+                    "en": "Plex", 
+                    "ja": "Plex"
+                }, 
+                "number_of_instances": 67
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#enzyme", 
+        "number_of_triples": 66, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#EnzymeAndModification", 
+                "label": {
+                    "en": "Enzyme/Modification", 
+                    "ja": "Enzyme/Modification"
+                }, 
+                "number_of_instances": 42
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Enzyme", 
+                "label": {
+                    "en": "Enzyme", 
+                    "ja": "Enzyme"
+                }, 
+                "number_of_instances": 0
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#replicates", 
+        "number_of_triples": 60, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#FractionationType", 
+                "label": {
+                    "en": "Fractionation type", 
+                    "ja": "Fractionation type"
+                }, 
+                "number_of_instances": 0
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://www.w3.org/2001/XMLSchema#integer", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 0
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#fractions", 
+        "number_of_triples": 60, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#FractionationType", 
+                "label": {
+                    "en": "Fractionation type", 
+                    "ja": "Fractionation type"
+                }, 
+                "number_of_instances": 0
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://www.w3.org/2001/XMLSchema#integer", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 0
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#instrument", 
+        "number_of_triples": 48, 
+        "domain_classes": [
+            {
+                "domain_class": "nodeID://b4845845766", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 0
+            }
+        ], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#instrumentMode", 
+        "number_of_triples": 46, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#MsMode", 
+                "label": {
+                    "en": "MS instrument mode", 
+                    "ja": "MS instrument mode"
+                }, 
+                "number_of_instances": 48
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#InstrumentMode", 
+                "label": {
+                    "en": "Instrument mode", 
+                    "ja": "Instrument mode"
+                }, 
+                "number_of_instances": 4
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#organ", 
+        "number_of_triples": 43, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Sample", 
+                "label": {
+                    "en": "Sample", 
+                    "ja": "Sample"
+                }, 
+                "number_of_instances": 77
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Organ", 
+                "label": {
+                    "en": "Organ", 
+                    "ja": "Organ"
+                }, 
+                "number_of_instances": 0
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#diseaseClass", 
+        "number_of_triples": 42, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Sample", 
+                "label": {
+                    "en": "Sample", 
+                    "ja": "Sample"
+                }, 
+                "number_of_instances": 77
+            }
+        ], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#cellLine", 
+        "number_of_triples": 41, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Sample", 
+                "label": {
+                    "en": "Sample", 
+                    "ja": "Sample"
+                }, 
+                "number_of_instances": 77
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#CellLine", 
+                "label": {
+                    "en": "Cell line", 
+                    "ja": "Cell line"
+                }, 
+                "number_of_instances": 9
+            }
+        ]
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/title", 
+        "number_of_triples": 40, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/date", 
+        "number_of_triples": 40, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/dateSubmitted", 
+        "number_of_triples": 40, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2006/vcard/ns#organization-name", 
+        "number_of_triples": 40, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#range", 
+        "number_of_triples": 39, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#domain", 
+        "number_of_triples": 37, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#fixedModification", 
+        "number_of_triples": 35, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#EnzymeAndModification", 
+                "label": {
+                    "en": "Enzyme/Modification", 
+                    "ja": "Enzyme/Modification"
+                }, 
+                "number_of_instances": 42
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#FixedModification", 
+                "label": {
+                    "en": "Fixed modification", 
+                    "ja": "Fixed modification"
+                }, 
+                "number_of_instances": 0
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#instrumentPurpose", 
+        "number_of_triples": 30, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#MsMode", 
+                "label": {
+                    "en": "MS instrument mode", 
+                    "ja": "MS instrument mode"
+                }, 
+                "number_of_instances": 48
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#InstrumentPurpose", 
+                "label": {
+                    "en": "Instrument purpose", 
+                    "ja": "Instrument purpose"
+                }, 
+                "number_of_instances": 3
+            }
+        ]
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#disease", 
+        "number_of_triples": 22, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#Sample", 
+                "label": {
+                    "en": "Sample", 
+                    "ja": "Sample"
+                }, 
+                "number_of_instances": 77
+            }
+        ], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/references", 
+        "number_of_triples": 18, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#quantificationMethod", 
+        "number_of_triples": 13, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#plexNumber", 
+        "number_of_triples": 13, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first", 
+        "number_of_triples": 11, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest", 
+        "number_of_triples": 11, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#quantificationPlatform", 
+        "number_of_triples": 10, 
+        "domain_classes": [
+            {
+                "domain_class": "http://rdf.jpostdb.org/ontology/jpost.owl#MsMode", 
+                "label": {
+                    "en": "MS instrument mode", 
+                    "ja": "MS instrument mode"
+                }, 
+                "number_of_instances": 48
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://rdf.jpostdb.org/ontology/jpost.owl#QuantificationPlatform", 
+                "label": {
+                    "en": "Quantification platform", 
+                    "ja": "Quantification platform"
+                }, 
+                "number_of_instances": 5
+            }
+        ]
+    }, 
+    {
+        "property": "http://www.w3.org/2002/07/owl#unionOf", 
+        "number_of_triples": 5, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2002/07/owl#imports", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/elements/1.1/creator", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/license", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2002/07/owl#versionInfo", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#prefLabel", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

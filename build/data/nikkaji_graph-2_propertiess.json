@@ -1,0 +1,50 @@
+[
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 10746446, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 7164298, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000300", 
+        "number_of_triples": 7164294, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso", 
+        "number_of_triples": 7164294, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/CHEMINF_000200", 
+        "number_of_triples": 7164294, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#InChIKey", 
+        "number_of_triples": 3582147, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#InChI", 
+        "number_of_triples": 3582147, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/identifier", 
+        "number_of_triples": 3582147, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

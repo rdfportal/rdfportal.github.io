@@ -1,0 +1,50 @@
+[
+    {
+        "class": "http://biohackathon.org/resource/faldo#ExactPosition", 
+        "label": {
+            "en": "Exact position", 
+            "ja": "Exact position"
+        }, 
+        "number_of_instances": 6807568
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/mbgd#Domain", 
+        "label": {
+            "en": "Domain", 
+            "ja": "Domain"
+        }, 
+        "number_of_instances": 3403784
+    }, 
+    {
+        "class": "http://biohackathon.org/resource/faldo#Region", 
+        "label": {
+            "en": "Region", 
+            "ja": "Region"
+        }, 
+        "number_of_instances": 3403784
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/orth#OrthologGroup", 
+        "label": {
+            "en": "OrthologGroup", 
+            "ja": "OrthologGroup"
+        }, 
+        "number_of_instances": 375227
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/orth#HomologGroup", 
+        "label": {
+            "en": "HomologGroup", 
+            "ja": "HomologGroup"
+        }, 
+        "number_of_instances": 99306
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/orth#Dataset", 
+        "label": {
+            "en": "Dataset", 
+            "ja": "Dataset"
+        }, 
+        "number_of_instances": 1
+    }
+]

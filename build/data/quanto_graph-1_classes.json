@@ -1,0 +1,42 @@
+[
+    {
+        "class": "http://purl.jp/bio/01/quanto/ontology/sos#SequenceReadLength", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 7983892
+    }, 
+    {
+        "class": "http://purl.jp/bio/01/quanto/ontology/sos#SequenceReadAmount", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 3991946
+    }, 
+    {
+        "class": "http://purl.jp/bio/01/quanto/ontology/sos#PhredQualityScore", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 3991946
+    }, 
+    {
+        "class": "http://purl.jp/bio/01/quanto/ontology/sos#BaseRatio", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 3991946
+    }, 
+    {
+        "class": "http://purl.jp/bio/01/quanto/ontology/sos#SequenceStatisticsReport", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1995973
+    }
+]

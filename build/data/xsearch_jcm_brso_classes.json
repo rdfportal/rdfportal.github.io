@@ -1,0 +1,146 @@
+[
+    {
+        "class": "http://purl.jp/bio/10/mccv#MCCV_000001", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 64209
+    }, 
+    {
+        "class": "http://www.w3.org/2000/01/rdf-schema#Resource", 
+        "label": {
+            "en": "Resource", 
+            "ja": "Resource"
+        }, 
+        "number_of_instances": 57524
+    }, 
+    {
+        "class": "http://www.w3.org/2000/01/rdf-schema#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 19361
+    }, 
+    {
+        "class": "http://purl.jp/bio/10/mpo#MPO_00102", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 19357
+    }, 
+    {
+        "class": "http://purl.jp/bio/10/mccv#MCCV_000005", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 19357
+    }, 
+    {
+        "class": "http://purl.jp/bio/10/brso/BiologicalResource", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 19357
+    }, 
+    {
+        "class": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/mic_5", 
+        "label": {
+            "en": "Culture condition", 
+            "ja": "Culture condition"
+        }, 
+        "number_of_instances": 19357
+    }, 
+    {
+        "class": "http://xmlns.com/foaf/0.1/Image", 
+        "label": {
+            "en": "Image", 
+            "ja": "Image"
+        }, 
+        "number_of_instances": 17274
+    }, 
+    {
+        "class": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/mic_6", 
+        "label": {
+            "en": "Sample", 
+            "ja": "Sample"
+        }, 
+        "number_of_instances": 16860
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001050", 
+        "label": {
+            "en": "sample", 
+            "ja": "sample"
+        }, 
+        "number_of_instances": 16860
+    }, 
+    {
+        "class": "http://purl.jp/bio/10/mccv#MCCV_000006", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 16860
+    }, 
+    {
+        "class": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/mic_7", 
+        "label": {
+            "en": "Habitat", 
+            "ja": "Habitat"
+        }, 
+        "number_of_instances": 16298
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 10978
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_010000", 
+        "label": {
+            "en": "organism", 
+            "ja": "organism"
+        }, 
+        "number_of_instances": 9016
+    }, 
+    {
+        "class": "http://rdf.ncbi.nlm.nih.gov/pubmed", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 5645
+    }, 
+    {
+        "class": "http://purl.org/ontology/bibo/Article", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 5645
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/gm/Medium", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1364
+    }, 
+    {
+        "class": "http://metadb.riken.jp/terms/xsearch#resourceType", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 7
+    }
+]

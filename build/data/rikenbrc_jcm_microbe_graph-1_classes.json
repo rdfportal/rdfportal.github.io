@@ -1,0 +1,82 @@
+[
+    {
+        "class": "http://purl.jp/bio/10/mccv#MCCV_000001", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 79178
+    }, 
+    {
+        "class": "http://purl.jp/bio/10/mccv#MCCV_000005", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 17535
+    }, 
+    {
+        "class": "http://purl.jp/bio/10/mpo/MPO_00102", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 17535
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001050", 
+        "label": {
+            "en": "sample", 
+            "ja": "sample"
+        }, 
+        "number_of_instances": 15099
+    }, 
+    {
+        "class": "http://purl.jp/bio/10/mccv#MCCV_000006", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 15099
+    }, 
+    {
+        "class": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/mic_6", 
+        "label": {
+            "en": "Sample", 
+            "ja": "Sample"
+        }, 
+        "number_of_instances": 15099
+    }, 
+    {
+        "class": "http://purl.jp/bio/10/mccv#MCCV_000007", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 14549
+    }, 
+    {
+        "class": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/mic_7", 
+        "label": {
+            "en": "Habitat", 
+            "ja": "Habitat"
+        }, 
+        "number_of_instances": 14549
+    }, 
+    {
+        "class": "http://purl.jp/bio/10/gmo/GMO_000001", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1237
+    }, 
+    {
+        "class": "http://www.w3.org/2000/01/rdf-schema#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 5
+    }
+]

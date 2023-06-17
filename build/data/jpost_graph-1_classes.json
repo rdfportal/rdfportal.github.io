@@ -1,0 +1,618 @@
+[
+    {
+        "class": "http://biohackathon.org/resource/faldo#ExactPosition", 
+        "label": {
+            "en": "Exact position", 
+            "ja": "Exact position"
+        }, 
+        "number_of_instances": 10376511
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#JpostScore", 
+        "label": {
+            "en": "jPOST score", 
+            "ja": "jPOST score"
+        }, 
+        "number_of_instances": 6354754
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#ExperimentalMassToCharge", 
+        "label": {
+            "en": "Experimental mass-to-charge ratio", 
+            "ja": "Experimental mass-to-charge ratio"
+        }, 
+        "number_of_instances": 4846638
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#PeptideSpectrumMatch", 
+        "label": {
+            "en": "Peptide spectrum match", 
+            "ja": "Peptide spectrum match"
+        }, 
+        "number_of_instances": 4846638
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#CalculatedMassToCharge", 
+        "label": {
+            "en": "Calculated mass-to-charge ratio", 
+            "ja": "Calculated mass-to-charge ratio"
+        }, 
+        "number_of_instances": 4846638
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1000894", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 4846638
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1000041", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 4846638
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#Spectrum", 
+        "label": {
+            "en": "Spectrum", 
+            "ja": "Spectrum"
+        }, 
+        "number_of_instances": 4411540
+    }, 
+    {
+        "class": "http://biohackathon.org/resource/faldo#Region", 
+        "label": {
+            "en": "Region", 
+            "ja": "Region"
+        }, 
+        "number_of_instances": 3377604
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#PeptideEvidence", 
+        "label": {
+            "en": "Peptide evidence", 
+            "ja": "Peptide evidence"
+        }, 
+        "number_of_instances": 3355401
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1001364", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1508116
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#NumOfPsms", 
+        "label": {
+            "en": "Number of PSMs", 
+            "ja": "Number of PSMs"
+        }, 
+        "number_of_instances": 1454611
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1001344", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1454490
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#Peptide", 
+        "label": {
+            "en": "Peptide", 
+            "ja": "Peptide"
+        }, 
+        "number_of_instances": 1454490
+    }, 
+    {
+        "class": "http://www.unimod.org/obo/unimod.obo#UNIMOD_214", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1403958
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#UniquePeptide", 
+        "label": {
+            "en": "Unique peptide", 
+            "ja": "Unique peptide"
+        }, 
+        "number_of_instances": 1283144
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#UniquePeptideAtMsLevel", 
+        "label": {
+            "en": "Unique peptide at MS level", 
+            "ja": "Unique peptide at MS level"
+        }, 
+        "number_of_instances": 1274068
+    }, 
+    {
+        "class": "http://www.unimod.org/obo/unimod.obo#UNIMOD_4", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1083992
+    }, 
+    {
+        "class": "http://www.unimod.org/obo/unimod.obo#UNIMOD_21", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 837665
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1001901", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 701754
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1002338", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 701754
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1001097", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 700299
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1002153", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 700299
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1002252", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 617383
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1002257", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 617383
+    }, 
+    {
+        "class": "http://www.unimod.org/obo/unimod.obo#UNIMOD_1031", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 576535
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1001171", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 443271
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1001172", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 443271
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#Protein", 
+        "label": {
+            "en": "Protein", 
+            "ja": "Protein"
+        }, 
+        "number_of_instances": 387418
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#ProteinIsoform", 
+        "label": {
+            "en": "Protein isoform", 
+            "ja": "Protein isoform"
+        }, 
+        "number_of_instances": 311224
+    }, 
+    {
+        "class": "http://www.unimod.org/obo/unimod.obo#UNIMOD_35", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 310230
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1002401", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 281897
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#SharedPeptide", 
+        "label": {
+            "en": "Shared peptide", 
+            "ja": "Shared peptide"
+        }, 
+        "number_of_instances": 171346
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#RepresentativeIsoform", 
+        "label": {
+            "en": "Representative isoform", 
+            "ja": "Representative isoform"
+        }, 
+        "number_of_instances": 144767
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1001330", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 95127
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1001331", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 95127
+    }, 
+    {
+        "class": "http://www.unimod.org/obo/unimod.obo#UNIMOD_188", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 86345
+    }, 
+    {
+        "class": "http://www.unimod.org/obo/unimod.obo#UNIMOD_730", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 80640
+    }, 
+    {
+        "class": "http://www.unimod.org/obo/unimod.obo#UNIMOD_267", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 80388
+    }, 
+    {
+        "class": "http://www.unimod.org/obo/unimod.obo#UNIMOD_737", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 76165
+    }, 
+    {
+        "class": "http://www.unimod.org/obo/unimod.obo#UNIMOD_1", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 68539
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1001597", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 61655
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1001595", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 42508
+    }, 
+    {
+        "class": "http://www.unimod.org/obo/unimod.obo#UNIMOD_28", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 39836
+    }, 
+    {
+        "class": "http://www.unimod.org/obo/unimod.obo#UNIMOD_385", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 23981
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1001591", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 22971
+    }, 
+    {
+        "class": "http://www.unimod.org/obo/unimod.obo#UNIMOD_259", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 21926
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#SharedPeptideAtMsLevel", 
+        "label": {
+            "en": "Shared peptide at MS level", 
+            "ja": "Shared peptide at MS level"
+        }, 
+        "number_of_instances": 9076
+    }, 
+    {
+        "class": "http://www.unimod.org/obo/unimod.obo#UNIMOD_39", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 7438
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1001167", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 4527
+    }, 
+    {
+        "class": "http://www.unimod.org/obo/unimod.obo#UNIMOD_27", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 3151
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1001599", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1412
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#RawData", 
+        "label": {
+            "en": "Raw data", 
+            "ja": "Raw data"
+        }, 
+        "number_of_instances": 814
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#ProteinGroup", 
+        "label": {
+            "en": "Protein group", 
+            "ja": "Protein group"
+        }, 
+        "number_of_instances": 121
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#NumOfSpectra", 
+        "label": {
+            "en": "Number of spectra", 
+            "ja": "Number of spectra"
+        }, 
+        "number_of_instances": 121
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#Dataset", 
+        "label": {
+            "en": "jPOST dataset", 
+            "ja": "jPOST dataset"
+        }, 
+        "number_of_instances": 121
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#NumOfLeadingProteins", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 121
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#NumOfProteinsWithUniquePeptide", 
+        "label": {
+            "en": "Number of proteins with unique peptide", 
+            "ja": "Number of proteins with unique peptide"
+        }, 
+        "number_of_instances": 121
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#Profile", 
+        "label": {
+            "en": "Profile", 
+            "ja": "Profile"
+        }, 
+        "number_of_instances": 121
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#NumOfRawData", 
+        "label": {
+            "en": "Number of raw data", 
+            "ja": "Number of raw data"
+        }, 
+        "number_of_instances": 121
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#NumOfPeptides", 
+        "label": {
+            "en": "Number of peptides", 
+            "ja": "Number of peptides"
+        }, 
+        "number_of_instances": 121
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#NumOfMatchedProteins", 
+        "label": {
+            "en": "Number of matched proteins", 
+            "ja": "Number of matched proteins"
+        }, 
+        "number_of_instances": 121
+    }, 
+    {
+        "class": "http://xmlns.com/foaf/0.1/Person", 
+        "label": {
+            "en": "Person", 
+            "ja": "Person"
+        }, 
+        "number_of_instances": 80
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#Sample", 
+        "label": {
+            "en": "Sample", 
+            "ja": "Sample"
+        }, 
+        "number_of_instances": 77
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001050", 
+        "label": {
+            "en": "sample", 
+            "ja": "sample"
+        }, 
+        "number_of_instances": 77
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#Plex", 
+        "label": {
+            "en": "Plex", 
+            "ja": "Plex"
+        }, 
+        "number_of_instances": 67
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#Fractionation", 
+        "label": {
+            "en": "Fractionation", 
+            "ja": "Fractionation"
+        }, 
+        "number_of_instances": 58
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#MsMode", 
+        "label": {
+            "en": "MS instrument mode", 
+            "ja": "MS instrument mode"
+        }, 
+        "number_of_instances": 48
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#EnzymeAndModification", 
+        "label": {
+            "en": "Enzyme/Modification", 
+            "ja": "Enzyme/Modification"
+        }, 
+        "number_of_instances": 42
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#Project", 
+        "label": {
+            "en": "jPOST project", 
+            "ja": "jPOST project"
+        }, 
+        "number_of_instances": 40
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#PeptideFractionation", 
+        "label": {
+            "en": "Peptide fractionation", 
+            "ja": "Peptide fractionation"
+        }, 
+        "number_of_instances": 40
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1002037", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 40
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/MS_1002332", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 40
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#SubcellularFractionation", 
+        "label": {
+            "en": "Subcellular fractionation", 
+            "ja": "Subcellular fractionation"
+        }, 
+        "number_of_instances": 32
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#CellLine", 
+        "label": {
+            "en": "Cell line", 
+            "ja": "Cell line"
+        }, 
+        "number_of_instances": 9
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#Disease", 
+        "label": {
+            "en": "Disease", 
+            "ja": "Disease"
+        }, 
+        "number_of_instances": 4
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#ProteinFractionation", 
+        "label": {
+            "en": "Protein fractionation", 
+            "ja": "Protein fractionation"
+        }, 
+        "number_of_instances": 1
+    }
+]

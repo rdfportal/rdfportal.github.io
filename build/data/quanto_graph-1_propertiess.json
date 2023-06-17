@@ -1,0 +1,152 @@
+[
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 21955703, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/quanto/ontology/sos#hasUnit", 
+        "number_of_triples": 19959730, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value", 
+        "number_of_triples": 19959730, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/contributor", 
+        "number_of_triples": 3991946, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/publisher", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/quanto/ontology/sos#fastqcVersion", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/quanto/ontology/sos#meanSequenceLength", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/quanto/ontology/sos#overallMedianBaseCallQuality", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/license", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/pav/version", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/quanto/ontology/sos#fileType", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/quanto/ontology/sos#medianSequenceLength", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/quanto/ontology/sos#overallNContent", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/quanto/ontology/sos#percentGC", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/quanto/ontology/sos#totalSequences", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/created", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/identifier", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/page", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/quanto/ontology/sos#encoding", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/quanto/ontology/sos#filename", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/quanto/ontology/sos#filteredSequences", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/quanto/ontology/sos#maxSequenceLength", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/quanto/ontology/sos#minSequenceLength", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/quanto/ontology/sos#overallMeanBaseCallQuality", 
+        "number_of_triples": 1995973, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

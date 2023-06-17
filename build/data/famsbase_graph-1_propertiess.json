@@ -1,0 +1,140 @@
+[
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 7805248, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#position", 
+        "number_of_triples": 1946352, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://edamontology.org/hasInput", 
+        "number_of_triples": 1946352, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#reference", 
+        "number_of_triples": 1945206, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso", 
+        "number_of_triples": 1328293, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#end", 
+        "number_of_triples": 973176, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/famsbase/ontology/hasRegion", 
+        "number_of_triples": 973176, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#begin", 
+        "number_of_triples": 973176, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://edamontology.org/is_output_of", 
+        "number_of_triples": 973176, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/identifier", 
+        "number_of_triples": 486599, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/famsbase/ontology/evalue", 
+        "number_of_triples": 486588, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/famsbase/ontology/hasModel", 
+        "number_of_triples": 486588, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/famsbase/ontology/hasTemplateForAlignedRegion", 
+        "number_of_triples": 486588, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/famsbase/ontology/identity", 
+        "number_of_triples": 486588, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#comment", 
+        "number_of_triples": 573, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/famsbase/ontology/templateType", 
+        "number_of_triples": 29, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.jp/bio/01/famsbase/ontology/chain", 
+        "number_of_triples": 29, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/contributor", 
+        "number_of_triples": 2, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/publisher", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/license", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/pav/version", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/created", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

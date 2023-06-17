@@ -1,0 +1,146 @@
+[
+    {
+        "class": "http://med2rdf.org/ontology/med2rdf#Gene", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 42991
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0000704", 
+        "label": {
+            "en": "gene", 
+            "ja": "gene"
+        }, 
+        "number_of_instances": 42991
+    }, 
+    {
+        "class": "http://identifiers.org/ncbigene", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 42907
+    }, 
+    {
+        "class": "http://identifiers.org/refseq", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 40490
+    }, 
+    {
+        "class": "http://identifiers.org/ensembl", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 40081
+    }, 
+    {
+        "class": "http://identifiers.org/ccds", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 32992
+    }, 
+    {
+        "class": "http://identifiers.org/ena.embl", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 20732
+    }, 
+    {
+        "class": "http://identifiers.org/insdc", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 20732
+    }, 
+    {
+        "class": "http://identifiers.org/pubmed", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 20597
+    }, 
+    {
+        "class": "http://identifiers.org/uniprot", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 20177
+    }, 
+    {
+        "class": "http://identifiers.org/mgi", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 19212
+    }, 
+    {
+        "class": "http://identifiers.org/rgd", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 17934
+    }, 
+    {
+        "class": "http://identifiers.org/omim", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 16576
+    }, 
+    {
+        "class": "http://identifiers.org/orphanet", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 4418
+    }, 
+    {
+        "class": "http://identifiers.org/iuphar.receptor", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 3442
+    }, 
+    {
+        "class": "http://identifiers.org/mirbase", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1912
+    }, 
+    {
+        "class": "http://identifiers.org/lrg", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1325
+    }, 
+    {
+        "class": "http://identifiers.org/ec-code", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1049
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "class": "http://www.w3.org/2002/07/owl#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 105
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#ObjectProperty", 
+        "label": {
+            "en": "ObjectProperty", 
+            "ja": "ObjectProperty"
+        }, 
+        "number_of_instances": 38
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#NamedIndividual", 
+        "label": {
+            "en": "NamedIndividual", 
+            "ja": "NamedIndividual"
+        }, 
+        "number_of_instances": 30
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#ModificationClass", 
+        "label": {
+            "en": "Modifiaction class", 
+            "ja": "Modifiaction class"
+        }, 
+        "number_of_instances": 18
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#DatatypeProperty", 
+        "label": {
+            "en": "DatatypeProperty", 
+            "ja": "DatatypeProperty"
+        }, 
+        "number_of_instances": 6
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#QuantificationPlatform", 
+        "label": {
+            "en": "Quantification platform", 
+            "ja": "Quantification platform"
+        }, 
+        "number_of_instances": 5
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#InstrumentMode", 
+        "label": {
+            "en": "Instrument mode", 
+            "ja": "Instrument mode"
+        }, 
+        "number_of_instances": 4
+    }, 
+    {
+        "class": "http://rdf.jpostdb.org/ontology/jpost.owl#InstrumentPurpose", 
+        "label": {
+            "en": "Instrument purpose", 
+            "ja": "Instrument purpose"
+        }, 
+        "number_of_instances": 3
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Ontology", 
+        "label": {
+            "en": "Ontology", 
+            "ja": "Ontology"
+        }, 
+        "number_of_instances": 1
+    }
+]

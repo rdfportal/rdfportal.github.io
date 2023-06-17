@@ -1,0 +1,50 @@
+[
+    {
+        "class": "http://www.w3.org/2004/02/skos/core#Concept", 
+        "label": {
+            "en": "Concept", 
+            "ja": "Concept"
+        }, 
+        "number_of_instances": 649
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#ClinicalFindingsDescription", 
+        "label": {
+            "en": "Clinical Findings Description", 
+            "ja": "Clinical Findings Description"
+        }, 
+        "number_of_instances": 412
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#DiseaseDescriptionGGDonto", 
+        "label": {
+            "en": "GGDonto Disease Description", 
+            "ja": "GGDonto Disease Description"
+        }, 
+        "number_of_instances": 166
+    }, 
+    {
+        "class": "http://xmlns.com/foaf/0.1/Document", 
+        "label": {
+            "en": "Document", 
+            "ja": "Document"
+        }, 
+        "number_of_instances": 78
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#ClassificationDescription", 
+        "label": {
+            "en": "Classification Description", 
+            "ja": "Classification Description"
+        }, 
+        "number_of_instances": 71
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Ontology", 
+        "label": {
+            "en": "Ontology", 
+            "ja": "Ontology"
+        }, 
+        "number_of_instances": 1
+    }
+]
