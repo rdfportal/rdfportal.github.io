@@ -607,7 +607,7 @@
     "issued": "2023-03-02",
     "logo_url": "./logo/dbcatalog.png",
     "schema_image_urls": [
-      "./schema/dbcatalog/2023-03-02/IntegbioDBcatalog_schema.png"
+      "./schema/dbcatalog/IntegbioDBcatalog_schema.png"
     ],
     "download_file": {
       "name": "dbcatalog.tar.gz",
@@ -825,7 +825,7 @@
     "issued": "2016-03-24",
     "logo_url": "./logo/famsbase.png",
     "schema_image_urls": [
-      "./schema/famsbase/2016-03-24/FAMSBASERDF_schema_v0.3.png"
+      "./schema/famsbase/FAMSBASERDF_schema_v0.3.png"
     ],
     "download_file": {
       "name": "famsbase.tar.gz",
@@ -1090,7 +1090,7 @@
     "issued": "2017-01-25",
     "logo_url": "./logo/ggdonto.png",
     "schema_image_urls": [
-      "./schema/ggdonto/2017-01-25/ggdonto_diagram.png"
+      "./schema/ggdonto/ggdonto_diagram.png"
     ],
     "download_file": {
       "name": "ggdonto.tar.gz",
@@ -1331,7 +1331,7 @@
     "issued": "2015-11-18",
     "logo_url": "./logo/glycoepitope.png",
     "schema_image_urls": [
-      "./schema/glycoepitope/2015-11-18/glycoepitope_schema.png"
+      "./schema/glycoepitope/glycoepitope_schema.png"
     ],
     "download_file": {
       "name": "glycoepitope.tar.gz",
@@ -1551,7 +1551,7 @@
     "issued": "2015-09-04",
     "logo_url": "./logo/glytoucan.png",
     "schema_image_urls": [
-      "./schema/glytoucan/2015-09-04/GlyTouCan-RDF-09072015.png"
+      "./schema/glytoucan/GlyTouCan-RDF-09072015.png"
     ],
     "download_file": {
       "name": "glytoucan.tar.gz",
@@ -1774,7 +1774,7 @@
     "issued": "2016-01-04",
     "logo_url": "./logo/icgc.png",
     "schema_image_urls": [
-      "./schema/icgc/2016-01-04/ICGC%20RDF%20release_18.svg"
+      "./schema/icgc/ICGC%20RDF%20release_18.svg"
     ],
     "download_file": {
       "name": "icgc.tar.gz",
@@ -1972,7 +1972,7 @@
     "issued": "2020-06-09",
     "logo_url": "./logo/jpost.png",
     "schema_image_urls": [
-      "./schema/jpost/2020-06-09/jPOST_RDF_schema.png"
+      "./schema/jpost/jPOST_RDF_schema.png"
     ],
     "download_file": {
       "name": "jpost.tar.gz",
@@ -2218,7 +2218,7 @@
     "issued": "2015-06-20",
     "logo_url": "./logo/mbgd.png",
     "schema_image_urls": [
-      "./schema/mbgd/2015-06-20/38.MBGD_RDF.png"
+      "./schema/mbgd/38.MBGD_RDF.png"
     ],
     "download_file": {
       "name": "mbgd.tar.gz",
@@ -2634,7 +2634,7 @@
     "issued": "2019-05-14",
     "logo_url": "./logo/mnadd.png",
     "schema_image_urls": [
-      "./schema/mnadd/2019-05-14/NucleicAcidDrug_scheme.svg"
+      "./schema/mnadd/NucleicAcidDrug_scheme.svg"
     ],
     "download_file": {
       "name": "mnadd.tar.gz",
@@ -2899,7 +2899,7 @@
     "issued": "2020-11-11",
     "logo_url": "./logo/nando.png",
     "schema_image_urls": [
-      "./schema/nando/2020-11-11/nando_20200806.svg"
+      "./schema/nando/nando_20200806.svg"
     ],
     "download_file": {
       "name": "nand.tar.gz",
@@ -3073,7 +3073,7 @@
     "issued": "2023-03-13",
     "logo_url": "./logo/nbrc.png",
     "schema_image_urls": [
-      "./schema/nbrc/2023-03-13/nbrc_rdf_20220328.svg"
+      "./schema/nbrc/nbrc_rdf_20220328.svg"
     ],
     "download_file": {
       "name": "nbrc.ttl.gz",
@@ -3239,7 +3239,7 @@
     "issued": "2022-02-01",
     "logo_url": "",
     "schema_image_urls": [
-      "./schema/nikkaji/2022-02-01/Nikkaji_caffeine_20170302.svg"
+      "./schema/nikkaji/Nikkaji_caffeine_20170302.svg"
     ],
     "download_file": {
       "name": "nikkaji.tar.gz",
@@ -3675,7 +3675,7 @@
     "issued": "2017-03-17",
     "logo_url": "./logo/open-tggates.png",
     "schema_image_urls": [
-      "./schema/open-tggates/2017-03-17/otg_rdf_schema-1.png"
+      "./schema/open-tggates/otg_rdf_schema-1.png"
     ],
     "download_file": {
       "name": "open-tggates.tar.gz",
@@ -3959,8 +3959,8 @@
     "issued": "2016-06-01",
     "logo_url": "./logo/paconto.png",
     "schema_image_urls": [
-      "./schema/paconto/2016-06-01/paconto_diagram1.png",
-      "./schema/paconto/2016-06-01/paconto_diagram2.png"
+      "./schema/paconto/paconto_diagram1.png",
+      "./schema/paconto/paconto_diagram2.png"
     ],
     "download_file": {
       "name": "paconto.tar.gz",
@@ -4550,7 +4550,7 @@
     "issued": "2016-07-26",
     "logo_url": "./logo/pgdbj.png",
     "schema_image_urls": [
-      "./schema/pgdbj/2016-07-26/OrthO-1.png"
+      "./schema/pgdbj/OrthO-1.png"
     ],
     "download_file": {
       "name": "pgdbj.tar.gz",
@@ -4768,7 +4768,7 @@
     "issued": "2021-05-18",
     "logo_url": "./logo/pubcasefinder.png",
     "schema_image_urls": [
-      "./schema/pubcasefinder/2021-05-18/PubCaseFinder_Schema_1.3.0.png"
+      "./schema/pubcasefinder/PubCaseFinder_Schema_1.3.0.png"
     ],
     "download_file": {
       "name": "pubcasefinder.tar.gz",
@@ -4946,7 +4946,7 @@
     "issued": "2016-07-12",
     "logo_url": "",
     "schema_image_urls": [
-      "./schema/quanto/2016-07-12/quanto-scheme.png"
+      "./schema/quanto/quanto-scheme.png"
     ],
     "download_file": {
       "name": "quanto.tar.gz",
@@ -5158,7 +5158,7 @@
     "issued": "2017-04-07",
     "logo_url": "./logo/refex.png",
     "schema_image_urls": [
-      "./schema/refex/2017-04-07/RefExRDF_schema_v2.png"
+      "./schema/refex/RefExRDF_schema_v2.png"
     ],
     "download_file": {
       "name": "refex.tar.gz",
@@ -5493,7 +5493,7 @@
     "issued": "2022-09-18",
     "logo_url": "./logo/xsearch_jcm_brso.png",
     "schema_image_urls": [
-      "./schema/xsearch_jcm_brso/2022-10-03/jcm_brso_2104.svg"
+      "./schema/xsearch_jcm_brso/jcm_brso_2104.svg"
     ],
     "download_file": {
       "name": "xsearch_jcm_brso20220918.ttl.gz",
@@ -5689,7 +5689,7 @@
     "issued": "2018-03-24",
     "logo_url": "./logo/ssbd.png",
     "schema_image_urls": [
-      "./schema/ssbd/2018-03-24/SSBD%20RDF%20v20180324.svg"
+      "./schema/ssbd/SSBD%20RDF%20v20180324.svg"
     ],
     "download_file": {
       "name": "ssbd.tar.gz",
@@ -6110,7 +6110,7 @@
     "issued": "2016-07-30",
     "logo_url": "./logo/ddbj.png",
     "schema_image_urls": [
-      "./schema/ddbj/2016-07-30/schema_ddbj.png"
+      "./schema/ddbj/schema_ddbj.png"
     ],
     "download_file": {
       "name": "ddbj.tar.gz",
@@ -7480,13 +7480,13 @@
     "issued": "2020-06-10",
     "logo_url": "./logo/kero.png",
     "schema_image_urls": [
-      "./schema/kero/2020-06-10/kero_bs-seq.png",
-      "./schema/kero/2020-06-10/kero_chip-seq.png",
-      "./schema/kero/2020-06-10/kero_chromhmm.png",
-      "./schema/kero/2020-06-10/kero_metadata.png",
-      "./schema/kero/2020-06-10/kero_rna-seq.png",
-      "./schema/kero/2020-06-10/kero_snv.png",
-      "./schema/kero/2020-06-10/kero_tss-seq.png"
+      "./schema/kero/kero_bs-seq.png",
+      "./schema/kero/kero_chip-seq.png",
+      "./schema/kero/kero_chromhmm.png",
+      "./schema/kero/kero_metadata.png",
+      "./schema/kero/kero_rna-seq.png",
+      "./schema/kero/kero_snv.png",
+      "./schema/kero/kero_tss-seq.png"
     ],
     "download_file": {
       "name": "chip_seq_all",
@@ -8315,7 +8315,7 @@
     "issued": "2021-05-25",
     "logo_url": "./logo/ligandbox.png",
     "schema_image_urls": [
-      "./schema/ligandbox/2021-05-25/ligandbox_scheme.svg"
+      "./schema/ligandbox/ligandbox_scheme.svg"
     ],
     "download_file": {
       "name": "ligandbox.tar.gz",
@@ -8505,7 +8505,7 @@
     "issued": "2022-06-02",
     "logo_url": "./logo/togoid.png",
     "schema_image_urls": [
-      "./schema/togoid/2022-06-10/togoid.svg"
+      "./schema/togoid/togoid.svg"
     ],
     "download_file": {
       "name": "Link",
@@ -9482,7 +9482,7 @@
     "issued": "2020-02-06",
     "logo_url": "./logo/polyinfo.png",
     "schema_image_urls": [
-      "./schema/polyinfo/2020-02-06/polyinfo_biodeg.svg"
+      "./schema/polyinfo/polyinfo_biodeg.svg"
     ],
     "download_file": {
       "name": "polyinfo.tar.gz",
@@ -9667,7 +9667,7 @@
     "issued": "2023-03-01",
     "logo_url": "",
     "schema_image_urls": [
-      "./schema/homologene/2023-03-01/schema.svg"
+      "./schema/homologene/schema.svg"
     ],
     "download_file": {
       "name": "homologene.tar.gz",
@@ -9897,7 +9897,7 @@
     "issued": "2022-05-30",
     "logo_url": "./logo/knapsack.png",
     "schema_image_urls": [
-      "./schema/knapsack/2022-05-30/schema.svg"
+      "./schema/knapsack/schema.svg"
     ],
     "download_file": {
       "name": "knapsack.tar.gz",
