@@ -642,7 +642,7 @@
     "ontologies": [],
     "graphs": [
       {
-        "uri": "http://rdf.integbio.jp/dataset/dbcatalog/main",
+        "uri": "http://rdfportal.org/dataset/dbcatalog/main",
         "description": {
           "en": "It consists of explanation about Integbio Database Catalog, information about databases in the life science field, and information about each record.",
           "ja": "Integbioデータベースカタログについての説明、データベース情報、レコード情報から構成されています。"
@@ -684,7 +684,7 @@
         ]
       },
       {
-        "uri": "http://rdf.integbio.jp/dataset/dbcatalog/tag",
+        "uri": "http://rdfportal.org/dataset/dbcatalog/tag",
         "description": {
           "en": "The Vocabulary for Integbio Database Catalog provides a set of vocabularies that describe individual databases collected in the Integbio Database Catalog.",
           "ja": "Integbioデータベースカタログにおいて収集されたデータベースについて説明を付与するための語彙集です。"
@@ -1097,10 +1097,10 @@
       "url": "./download/ggdonto/2017-01-25/all/ggdonto.tar.gz",
       "size": 138620
     },
-    "number_of_triples": 39439,
+    "number_of_triples": 39440,
     "number_of_instances": 1705,
     "number_of_subjects": 1782,
-    "number_of_objects": 8978,
+    "number_of_objects": 8977,
     "number_of_literals": 4963,
     "number_of_classes": 23,
     "classes": "./data/ggdonto_classes.json",
@@ -1113,11 +1113,6 @@
     ],
     "xrefs": [
       {
-        "uri_space": "http://identifiers.org/omim/",
-        "title": "OMIM",
-        "number_of_triples": 304
-      },
-      {
         "uri_space": "http://identifiers.org/ncbigene/",
         "title": "NCBI Gene",
         "number_of_triples": 150
@@ -1126,10 +1121,15 @@
         "uri_space": "http://identifiers.org/mesh/",
         "title": "MeSH",
         "number_of_triples": 570
+      },
+      {
+        "uri_space": "http://identifiers.org/pubmed/",
+        "number_of_triples": 25,
+        "title": "PubMed"
       }
     ],
     "connected_dataset_ids": [],
-    "number_of_links": 1024,
+    "number_of_links": 745,
     "ontologies": [
       {
         "uri": "http://jcggdb.jp/rdf/diseases/ggdonto-schema.rdf",
@@ -1175,10 +1175,10 @@
             "size": 1438360
           }
         ],
-        "number_of_triples": 32977,
+        "number_of_triples": 32978,
         "number_of_instances": 728,
         "number_of_subjects": 793,
-        "number_of_objects": 7207,
+        "number_of_objects": 7206,
         "number_of_literals": 4121,
         "number_of_classes": 6,
         "classes": "./data/ggdonto_graph-1_classes.json",
@@ -1190,11 +1190,6 @@
         ],
         "xrefs": [
           {
-            "uri_space": "http://identifiers.org/omim/",
-            "title": "OMIM",
-            "number_of_triples": 304
-          },
-          {
             "uri_space": "http://identifiers.org/ncbigene/",
             "title": "NCBI Gene",
             "number_of_triples": 150
@@ -1203,6 +1198,11 @@
             "uri_space": "http://identifiers.org/mesh/",
             "title": "MeSH",
             "number_of_triples": 570
+          },
+          {
+            "uri_space": "http://identifiers.org/pubmed/",
+            "number_of_triples": 25,
+            "title": "PubMed"
           }
         ]
       }
@@ -1338,10 +1338,10 @@
       "url": "./download/glycoepitope/2015-11-18/all/glycoepitope.tar.gz",
       "size": 146071
     },
-    "number_of_triples": 27796,
+    "number_of_triples": 30150,
     "number_of_instances": 5726,
     "number_of_subjects": 8678,
-    "number_of_objects": 9769,
+    "number_of_objects": 10723,
     "number_of_literals": 5453,
     "number_of_classes": 24,
     "classes": "./data/glycoepitope_classes.json",
@@ -1352,9 +1352,15 @@
       "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_glycoepitope",
       "http://www.w3.org/2001/XMLSchema#string"
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "uri_space": "http://identifiers.org/pubmed/",
+        "number_of_triples": 4708,
+        "title": "PubMed"
+      }
+    ],
     "connected_dataset_ids": [],
-    "number_of_links": 0,
+    "number_of_links": 4708,
     "ontologies": [
       {
         "uri": "http://www.glycoepitope.jp/epitopes/glycoepitope.owl",
@@ -1404,10 +1410,10 @@
             "size": 46123
           }
         ],
-        "number_of_triples": 27576,
+        "number_of_triples": 29930,
         "number_of_instances": 5658,
         "number_of_subjects": 8606,
-        "number_of_objects": 9708,
+        "number_of_objects": 10662,
         "number_of_literals": 5419,
         "number_of_classes": 19,
         "classes": "./data/glycoepitope_graph-1_classes.json",
@@ -1418,7 +1424,13 @@
           "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_glycoepitope",
           "http://www.w3.org/2001/XMLSchema#string"
         ],
-        "xrefs": []
+        "xrefs": [
+          {
+            "uri_space": "http://identifiers.org/pubmed/",
+            "number_of_triples": 4708,
+            "title": "PubMed"
+          }
+        ]
       }
     ],
     "tags": {
@@ -2009,16 +2021,7 @@
         "number_of_triples": 9
       }
     ],
-    "connected_dataset_ids": [
-      {
-        "id": "pdbj",
-        "number_of_triples": 1761108
-      },
-      {
-        "id": "bmrb",
-        "number_of_triples": 397114
-      }
-    ],
+    "connected_dataset_ids": [],
     "number_of_links": 2545649,
     "ontologies": [
       {
@@ -3268,7 +3271,7 @@
     "ontologies": [],
     "graphs": [
       {
-        "uri": "http://rdf.integbio.jp/dataset/nikkaji/main",
+        "uri": "http://rdfportal.org/dataset/nikkaji/main",
         "description": {
           "en": "This RDF data includes the basic information of 3.4 million or more chemical substances, such as NIkkaji Number, molecular formula, molecular weight, English/Japanese name, and MOLfiles.",
           "ja": "340万件以上の化学物質の日化辞番号、分子式、分子量、和名、英名など基本情報のRDFデータです。"
@@ -3299,7 +3302,7 @@
         "xrefs": []
       },
       {
-        "uri": "http://rdf.integbio.jp/dataset/nikkaji/inchi",
+        "uri": "http://rdfportal.org/dataset/nikkaji/inchi",
         "description": {
           "en": "This RDF data includes InChI and InChIKey of chemical substances registered in Nikkaji by using CHEMINF, SIO and other ontologies.",
           "ja": "日化辞番号（日化辞の化学物質のID）とInChIおよびInChIKeyの関係のRDFデータ。Chemical Information Ontology（CHEMINF）やSemanticscience Integrated Ontology（SIO）などのオントロジーを使用。"
@@ -3327,7 +3330,7 @@
         "xrefs": []
       },
       {
-        "uri": "http://rdf.integbio.jp/dataset/nikkaji/canonical_smiles",
+        "uri": "http://rdfportal.org/dataset/nikkaji/canonical_smiles",
         "description": {
           "en": "This RDF data includes Canonical SMILES of chemical substances registered in Nikkaji by using CHEMINF, SIO and other ontologies.",
           "ja": "日化辞番号（日化辞の化学物質のID）とCanonical SMILESの関係のRDFデータ。Chemical Information Ontology（CHEMINF）やSemanticscience Integrated Ontology（SIO）などのオントロジーを使用。"
@@ -3355,7 +3358,7 @@
         "xrefs": []
       },
       {
-        "uri": "http://rdf.integbio.jp/dataset/nikkaji/link2jglobal",
+        "uri": "http://rdfportal.org/dataset/nikkaji/link2jglobal",
         "description": {
           "en": "This RDF data includes information of links to other databases, such as J-GLOBAL which contains information of chemical substances, genes, researchers, literature, patents, and other scientific and technologies information (http://jglobal.jst.go.jp/).",
           "ja": "日化辞の化学物質と、研究者、文献、特許、遺伝子など科学技術情報を関連づけて提供するJ-GLOBAL(http://jglobal.jst.go.jp/)のリンク情報のRDFデータ。"
@@ -3383,7 +3386,7 @@
         "xrefs": []
       },
       {
-        "uri": "http://rdf.integbio.jp/dataset/nikkaji/mwmf",
+        "uri": "http://rdfportal.org/dataset/nikkaji/mwmf",
         "description": {
           "en": "This RDF data includes molecular formula and molecular weight of chemical substances registered in Nikkaji by using CHEMINF, SIO and other ontologies.",
           "ja": "PubChemやChEMBLなど世界の主要な化合物DBのRDFで採用しているSemanticscience Integrated Ontology（SIO）およびChemical Information Ontology（CHEMINF）などを用いて記述した分子式と分子量とRDFデータ。"
@@ -3414,7 +3417,7 @@
         "xrefs": []
       },
       {
-        "uri": "http://rdf.integbio.jp/dataset/nikkaji/link2jglobal_basedon_unichem",
+        "uri": "http://rdfportal.org/dataset/nikkaji/link2jglobal_basedon_unichem",
         "description": {
           "en": "This RDF data includes information of links between Nikkaji substances and chemical substances registered in other databases* by using skos:closeMatch. This is based on a work at https://www.ebi.ac.uk/unichem/ .\nThe data was created from the mapping data between Nikkaji substances, and chemical substances in other databases which were acquired using UniChem FTP service (ftp://ftp.ebi.ac.uk/pub/databases/chembl/UniChem/). The mapping data between Nikkaji and KNApSAcK substances was created using the InChIKey provided by KNApSAcK (http://kanaya.naist.jp/KNApSAcK/).\n*: ChEMBL, DrugBank, PDB, Guide to Pharmacology, KEGG, ChEBI, ZINC, Gene Expression Atlas, PharmGKB, Human Metabolome Database (HMDB), PubChem, NMRShiftDB, Aggregated Computational Toxicology Resource (ACToR), BindingDB, and KNApSAcK. ",
           "ja": "InChIKeyの情報に基づき化合物データベース間の化合物IDのマッピング情報を提供しているUniChem(https://www.ebi.ac.uk/unichem/)のデータを活用し、日化辞化合物と他のデータベース*で収録されている化合物との対応関係をskos:closeMatchを用いて記述したRDFデータ。\nUniChemのFTPサイト（ftp://ftp.ebi.ac.uk/pub/databases/chembl/UniChem/）でダウンロードした日化辞化合物と他の化合物データベースの化合物のマッピングデータから作成。KNApSAcK (http://kanaya.naist.jp/KNApSAcK/)のマッピングデータは、KNApSAcKが提供するInChIKeyから生成。\n*: ChEMBL, DrugBank, PDB, Guide to Pharmacology, KEGG, ChEBI, ZINC, Gene Expression Atlas, PharmGKB, Human Metabolome Database (HMDB), PubChem, NMRShiftDB, Aggregated Computational Toxicology Resource (ACToR), BindingDB, KNApSAcK."
@@ -3442,7 +3445,7 @@
         "xrefs": []
       },
       {
-        "uri": "http://rdf.integbio.jp/dataset/nikkaji/link2jglobal_basedon_pubchem",
+        "uri": "http://rdfportal.org/dataset/nikkaji/link2jglobal_basedon_pubchem",
         "description": {
           "en": "This RDF data includes information of links between Nikkaji substances and PubChem substances, compounds and GlyTouCan (https://glytoucan.org/) by using skos:exactMatch and skos:closeMatch. The data was created from the mapping data between Nikkaji substances, and PubChem substances, and compounds which were acquired using UniChem FTP service (https://pubchem.ncbi.nlm.nih.gov/upload/). This is a result of BioHackathon 2015 (http://2015.biohackathon.org/hackathon). ",
           "ja": "日化辞の個々の化合物とPubChemのSubstance、CompoundおよびGlyTouCan (https://glytoucan.org/)の化合物の対応関係をskos:exactMatchやskos:closeMatchを用いて記述したRDFデータ。PubChem Upload (https://pubchem.ncbi.nlm.nih.gov/upload/)のサービスを使って収集した日化辞化合物とPubChem substance, compoundのマッピングデータから作成。これはBioHackathon 2015 (http://2015.biohackathon.org/hackathon)の成果の1つです。"
@@ -3468,7 +3471,7 @@
         "xrefs": []
       },
       {
-        "uri": "http://rdf.integbio.jp/dataset/nikkaji/core",
+        "uri": "http://rdfportal.org/dataset/nikkaji/core",
         "description": {
           "en": "This RDF data includes the core information of chemical substances such as NIkkaji Number, English/Japanese label, Type, Chemical structure diagram, and same object which were extracted extracted from the Basic Information RDF. We recommend to use this RDF together with the 'InChI and InChIKey' or 'Canonical SMILES' RDF.",
           "ja": "化学物質の日化辞番号（dcterms:identifier）、日英のラベル名（rdfs:label）、タイプ（rdf:type）、化学構造図（foaf:depiction）、同一のオブジェクト（owl:sameAs）など日化辞の本体のRDFデータから抽出したデータです。日化辞のInChIのRDFデータなどと組み合わせて使うことをお薦めします。"
@@ -3741,21 +3744,12 @@
         "number_of_triples": 115639
       }
     ],
-    "connected_dataset_ids": [
-      {
-        "id": "bmrb",
-        "number_of_triples": 145182
-      },
-      {
-        "id": "pdbj",
-        "number_of_triples": 652126
-      }
-    ],
-    "number_of_links": 1359103,
+    "connected_dataset_ids": [],
+    "number_of_links": 561795,
     "ontologies": [],
     "graphs": [
       {
-        "uri": "http://rdf.integbio.jp/dataset/open-tggates",
+        "uri": "http://rdfportal.org/dataset/open-tggates",
         "description": {
           "en": "",
           "ja": ""
@@ -3989,17 +3983,8 @@
         "number_of_triples": 373
       }
     ],
-    "connected_dataset_ids": [
-      {
-        "id": "bmrb",
-        "number_of_triples": 1955
-      },
-      {
-        "id": "pdbj",
-        "number_of_triples": 2988
-      }
-    ],
-    "number_of_links": 5316,
+    "connected_dataset_ids": [],
+    "number_of_links": 373,
     "ontologies": [
       {
         "uri": "http://jcggdb.jp/rdf/diseases/paconto-schema.rdf",
@@ -4791,6 +4776,11 @@
     ],
     "xrefs": [
       {
+        "uri_space": "http://identifiers.org/mim/",
+        "number_of_triples": 16360,
+        "title": "OMIM"
+      },
+      {
         "uri_space": "http://identifiers.org/pubmed/",
         "title": "PubMed",
         "number_of_triples": 645869
@@ -4828,6 +4818,11 @@
           "http://www.w3.org/2001/XMLSchema#string"
         ],
         "xrefs": [
+          {
+            "uri_space": "http://identifiers.org/mim/",
+            "number_of_triples": 16360,
+            "title": "OMIM"
+          },
           {
             "uri_space": "http://identifiers.org/pubmed/",
             "title": "PubMed",
@@ -5712,9 +5707,15 @@
       "http://www.w3.org/2001/XMLSchema#integer",
       "http://www.w3.org/2001/XMLSchema#string"
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "uri_space": "http://identifiers.org/pubmed/",
+        "number_of_triples": 1107,
+        "title": "PubMed"
+      }
+    ],
     "connected_dataset_ids": [],
-    "number_of_links": 0,
+    "number_of_links": 1107,
     "ontologies": [],
     "graphs": [
       {
@@ -5751,7 +5752,13 @@
           "http://www.w3.org/2001/XMLSchema#integer",
           "http://www.w3.org/2001/XMLSchema#string"
         ],
-        "xrefs": []
+        "xrefs": [
+          {
+            "uri_space": "http://identifiers.org/pubmed/",
+            "number_of_triples": 1107,
+            "title": "PubMed"
+          }
+        ]
       }
     ],
     "tags": {
@@ -7749,7 +7756,7 @@
     "ontologies": [],
     "graphs": [
       {
-        "uri": "http://rdf.integbio.jp/dataset/disgenet",
+        "uri": "http://rdfportal.org/dataset/disgenet",
         "description": {
           "en": "",
           "ja": ""
@@ -7958,8 +7965,8 @@
         }
       }
     ],
-    "version": "release_20211223",
-    "issued": "2021-12-23",
+    "version": "release_20230502",
+    "issued": "2023-05-02",
     "logo_url": "",
     "schema_image_urls": [],
     "download_file": {
@@ -7967,11 +7974,11 @@
       "url": "./download/hgnc/2021-12-23/all/hgnc.tar.gz",
       "size": 8620567
     },
-    "number_of_triples": 1284792,
-    "number_of_instances": 347567,
-    "number_of_subjects": 347567,
-    "number_of_objects": 758377,
-    "number_of_literals": 453783,
+    "number_of_triples": 1314653,
+    "number_of_instances": 355645,
+    "number_of_subjects": 355645,
+    "number_of_objects": 776470,
+    "number_of_literals": 464474,
     "number_of_classes": 18,
     "classes": "./data/hgnc_classes.json",
     "number_of_properties": 9,
@@ -7982,87 +7989,87 @@
     ],
     "xrefs": [
       {
-        "uri_space": "http://identifiers.org/ncbigene/",
-        "title": "NCBI Gene",
-        "number_of_triples": 42907
+        "uri_space": "http://identifiers.org/ccds/",
+        "number_of_triples": 35219,
+        "title": "Consensus CDS"
       },
       {
         "uri_space": "http://identifiers.org/ena.embl/",
-        "title": "ENA",
-        "number_of_triples": 21188
+        "number_of_triples": 21167,
+        "title": "ENA"
       },
       {
         "uri_space": "http://identifiers.org/ensembl/",
-        "title": "Ensembl",
-        "number_of_triples": 40085
-      },
-      {
-        "uri_space": "http://identifiers.org/omim/",
-        "title": "OMIM",
-        "number_of_triples": 16576
-      },
-      {
-        "uri_space": "http://identifiers.org/uniprot/",
-        "title": "UniProt Knowledgebase",
-        "number_of_triples": 20309
-      },
-      {
-        "uri_space": "http://identifiers.org/pubmed/",
-        "title": "PubMed",
-        "number_of_triples": 32683
-      },
-      {
-        "uri_space": "http://identifiers.org/refseq/",
-        "title": "RefSeq",
-        "number_of_triples": 41287
-      },
-      {
-        "uri_space": "http://identifiers.org/mirbase/",
-        "title": "miRBase Sequence",
-        "number_of_triples": 1912
+        "number_of_triples": 40970,
+        "title": "Ensembl"
       },
       {
         "uri_space": "http://identifiers.org/insdc/",
-        "title": "Nucleotide Sequence Database",
-        "number_of_triples": 21188
+        "number_of_triples": 21167,
+        "title": "Nucleotide Sequence Database"
       },
       {
-        "uri_space": "http://identifiers.org/ec-code/",
-        "title": "Enzyme Nomenclature",
-        "number_of_triples": 1959
+        "uri_space": "http://identifiers.org/mgi/",
+        "number_of_triples": 23383,
+        "title": "Mouse Genome Database"
       },
       {
-        "uri_space": "http://identifiers.org/lrg/",
-        "title": "Locus Reference Genomic",
-        "number_of_triples": 1325
-      },
-      {
-        "uri_space": "http://identifiers.org/orphanet/",
-        "title": "Orphanet",
-        "number_of_triples": 4418
+        "uri_space": "http://identifiers.org/refseq/",
+        "number_of_triples": 41864,
+        "title": "RefSeq"
       },
       {
         "uri_space": "http://identifiers.org/rgd/",
-        "title": "Rat Genome Database",
-        "number_of_triples": 17934
+        "number_of_triples": 18954,
+        "title": "Rat Genome Database"
+      },
+      {
+        "uri_space": "http://identifiers.org/ncbigene/",
+        "number_of_triples": 43615,
+        "title": "NCBI Gene"
+      },
+      {
+        "uri_space": "http://identifiers.org/uniprot/",
+        "number_of_triples": 20365,
+        "title": "UniProt Knowledgebase"
+      },
+      {
+        "uri_space": "http://identifiers.org/ec-code/",
+        "number_of_triples": 1995,
+        "title": "Enzyme Nomenclature"
       },
       {
         "uri_space": "http://identifiers.org/iuphar.receptor/",
-        "title": "IUPHAR receptor",
-        "number_of_triples": 3449
+        "number_of_triples": 3489,
+        "title": "IUPHAR receptor"
       },
       {
-        "uri_space": "http://identifiers.org/ccds/",
-        "title": "Consensus CDS",
-        "number_of_triples": 32992
+        "uri_space": "http://identifiers.org/orphanet/",
+        "number_of_triples": 4418,
+        "title": "Orphanet"
+      },
+      {
+        "uri_space": "http://identifiers.org/lrg/",
+        "number_of_triples": 1325,
+        "title": "Locus Reference Genomic"
+      },
+      {
+        "uri_space": "http://identifiers.org/mirbase/",
+        "number_of_triples": 1912,
+        "title": "miRBase Sequence"
+      },
+      {
+        "uri_space": "http://identifiers.org/pubmed/",
+        "number_of_triples": 33774,
+        "title": "PubMed"
       }
     ],
     "connected_dataset_ids": [],
-    "number_of_links": 300212,
+    "number_of_links": 313617,
     "ontologies": [],
     "graphs": [
       {
-        "uri": "http://rdf.integbio.jp/dataset/hgnc",
+        "uri": "http://rdfportal.org/dataset/hgnc",
         "description": {
           "en": "",
           "ja": ""
@@ -8089,79 +8096,79 @@
         ],
         "xrefs": [
           {
-            "uri_space": "http://identifiers.org/ncbigene/",
-            "title": "NCBI Gene",
-            "number_of_triples": 42907
+            "uri_space": "http://identifiers.org/ccds/",
+            "number_of_triples": 35219,
+            "title": "Consensus CDS"
           },
           {
             "uri_space": "http://identifiers.org/ena.embl/",
-            "title": "ENA",
-            "number_of_triples": 21188
+            "number_of_triples": 21167,
+            "title": "ENA"
           },
           {
             "uri_space": "http://identifiers.org/ensembl/",
-            "title": "Ensembl",
-            "number_of_triples": 40085
-          },
-          {
-            "uri_space": "http://identifiers.org/omim/",
-            "title": "OMIM",
-            "number_of_triples": 16576
-          },
-          {
-            "uri_space": "http://identifiers.org/uniprot/",
-            "title": "UniProt Knowledgebase",
-            "number_of_triples": 20309
-          },
-          {
-            "uri_space": "http://identifiers.org/pubmed/",
-            "title": "PubMed",
-            "number_of_triples": 32683
-          },
-          {
-            "uri_space": "http://identifiers.org/refseq/",
-            "title": "RefSeq",
-            "number_of_triples": 41287
-          },
-          {
-            "uri_space": "http://identifiers.org/mirbase/",
-            "title": "miRBase Sequence",
-            "number_of_triples": 1912
+            "number_of_triples": 40970,
+            "title": "Ensembl"
           },
           {
             "uri_space": "http://identifiers.org/insdc/",
-            "title": "Nucleotide Sequence Database",
-            "number_of_triples": 21188
+            "number_of_triples": 21167,
+            "title": "Nucleotide Sequence Database"
           },
           {
-            "uri_space": "http://identifiers.org/ec-code/",
-            "title": "Enzyme Nomenclature",
-            "number_of_triples": 1959
+            "uri_space": "http://identifiers.org/mgi/",
+            "number_of_triples": 23383,
+            "title": "Mouse Genome Database"
           },
           {
-            "uri_space": "http://identifiers.org/lrg/",
-            "title": "Locus Reference Genomic",
-            "number_of_triples": 1325
-          },
-          {
-            "uri_space": "http://identifiers.org/orphanet/",
-            "title": "Orphanet",
-            "number_of_triples": 4418
+            "uri_space": "http://identifiers.org/refseq/",
+            "number_of_triples": 41864,
+            "title": "RefSeq"
           },
           {
             "uri_space": "http://identifiers.org/rgd/",
-            "title": "Rat Genome Database",
-            "number_of_triples": 17934
+            "number_of_triples": 18954,
+            "title": "Rat Genome Database"
+          },
+          {
+            "uri_space": "http://identifiers.org/ncbigene/",
+            "number_of_triples": 43615,
+            "title": "NCBI Gene"
+          },
+          {
+            "uri_space": "http://identifiers.org/uniprot/",
+            "number_of_triples": 20365,
+            "title": "UniProt Knowledgebase"
+          },
+          {
+            "uri_space": "http://identifiers.org/ec-code/",
+            "number_of_triples": 1995,
+            "title": "Enzyme Nomenclature"
           },
           {
             "uri_space": "http://identifiers.org/iuphar.receptor/",
-            "title": "IUPHAR receptor",
-            "number_of_triples": 3449
+            "number_of_triples": 3489,
+            "title": "IUPHAR receptor"
           },
           {
-            "uri_space": "http://identifiers.org/ccds/",
-            "title": "Consensus CDS",
-            "number_of_triples": 32992
+            "uri_space": "http://identifiers.org/orphanet/",
+            "number_of_triples": 4418,
+            "title": "Orphanet"
+          },
+          {
+            "uri_space": "http://identifiers.org/lrg/",
+            "number_of_triples": 1325,
+            "title": "Locus Reference Genomic"
+          },
+          {
+            "uri_space": "http://identifiers.org/mirbase/",
+            "number_of_triples": 1912,
+            "title": "miRBase Sequence"
+          },
+          {
+            "uri_space": "http://identifiers.org/pubmed/",
+            "number_of_triples": 33774,
+            "title": "PubMed"
           }
         ]
       }
@@ -8343,7 +8350,7 @@
     "number_of_links": 0,
     "ontologies": [
       {
-        "uri": "https://integbio.jp/rdf/download/liganbox/2021-05-25/ontology-1/ligandbox.owl",
+        "uri": "http://rdfportal.org/rdf/download/liganbox/2021-05-25/ontology-1/ligandbox.owl",
         "description": {
           "en": "Ontology for LigandBox.",
           "ja": "LigandBoxのオントロジーです"
@@ -9510,7 +9517,7 @@
     "ontologies": [],
     "graphs": [
       {
-        "uri": "http://rdf.integbio.jp/dataset/polyinfo",
+        "uri": "http://rdfportal.org/dataset/polyinfo",
         "description": {
           "en": "",
           "ja": ""
@@ -9663,22 +9670,22 @@
         }
       }
     ],
-    "version": "release_20230301",
-    "issued": "2023-03-01",
+    "version": "release_20230517",
+    "issued": "2023-05-17",
     "logo_url": "",
     "schema_image_urls": [
       "./schema/homologene/schema.svg"
     ],
     "download_file": {
       "name": "homologene.tar.gz",
-      "url": "./download/homologene/2023-03-01/all/homologene.tar.gz",
+      "url": "./download/homologene/2023-05-17/all/homologene.tar.gz",
       "size": 5560587
     },
-    "number_of_triples": 1464654,
+    "number_of_triples": 1553120,
     "number_of_instances": 319471,
     "number_of_subjects": 319471,
-    "number_of_objects": 729099,
-    "number_of_literals": 178599,
+    "number_of_objects": 773372,
+    "number_of_literals": 222872,
     "number_of_classes": 3,
     "classes": "./data/homologene_classes.json",
     "number_of_properties": 8,
@@ -9693,7 +9700,7 @@
     "ontologies": [],
     "graphs": [
       {
-        "uri": "http://rdf.integbio.jp/dataset/homologene",
+        "uri": "http://rdfportal.org/dataset/homologene",
         "description": {
           "en": "",
           "ja": ""
@@ -9705,11 +9712,11 @@
             "size": 62112403
           }
         ],
-        "number_of_triples": 1464654,
+        "number_of_triples": 1553120,
         "number_of_instances": 319471,
         "number_of_subjects": 319471,
-        "number_of_objects": 729099,
-        "number_of_literals": 178599,
+        "number_of_objects": 773372,
+        "number_of_literals": 222872,
         "number_of_classes": 3,
         "classes": "./data/homologene_graph-1_classes.json",
         "number_of_properties": 8,
