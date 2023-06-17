@@ -6943,7 +6943,7 @@
         }
       }
     ],
-    "version": "2022-08-04",
+    "version": "2023-04-29",
     "issued": "2022-08-04",
     "logo_url": "",
     "schema_image_urls": [
@@ -6954,23 +6954,24 @@
       "url": "",
       "size": 0
     },
-    "number_of_triples": 11484688918,
-    "number_of_instances": 2815763079,
-    "number_of_subjects": 3539254440,
-    "number_of_objects": 3785164484,
-    "number_of_literals": 631121824,
-    "number_of_classes": 125668,
+    "number_of_triples": 15277890568,
+    "number_of_instances": 3242206543,
+    "number_of_subjects": 3961621679,
+    "number_of_objects": 4459433649,
+    "number_of_literals": 813082494,
+    "number_of_classes": 281938,
     "classes": "./data/pubchem_classes.json",
-    "number_of_properties": 67,
+    "number_of_properties": 127,
     "properties": "./data/pubchem_propertiess.json",
-    "number_of_datatypes": 6,
+    "number_of_datatypes": 7,
     "datatypes": [
-      "NULL",
       "http://www.w3.org/2001/XMLSchema#date",
-      "http://www.w3.org/2001/XMLSchema#float",
+      "http://www.w3.org/2001/XMLSchema#string",
+      "NULL",
       "http://www.w3.org/2001/XMLSchema#int",
-      "http://www.w3.org/2001/XMLSchema#long",
-      "http://www.w3.org/2001/XMLSchema#string"
+      "http://www.w3.org/2001/XMLSchema#float",
+      "http://www.w3.org/2001/XMLSchema#integer",
+      "http://www.w3.org/2001/XMLSchema#long"
     ],
     "xrefs": [],
     "connected_dataset_ids": [],
@@ -6984,12 +6985,12 @@
           "ja": "PubChemデータベースのグラフURI"
         },
         "files": [],
-        "number_of_triples": 2653437244,
-        "number_of_instances": 148369,
-        "number_of_subjects": 111386502,
-        "number_of_objects": 2583736104,
+        "number_of_triples": 2735395248,
+        "number_of_instances": 151688,
+        "number_of_subjects": 114901359,
+        "number_of_objects": 2665418288,
         "number_of_literals": 0,
-        "number_of_classes": 158141,
+        "number_of_classes": 162417,
         "classes": "./data/PubChem_graph-1_classes.json",
         "number_of_properties": 10,
         "properties": "./data/PubChem_graph-1_propertiess.json",
@@ -7004,12 +7005,12 @@
           "ja": "PubChemデータベースのグラフURI"
         },
         "files": [],
-        "number_of_triples": 1960047901,
-        "number_of_instances": 678686,
-        "number_of_subjects": 292359260,
-        "number_of_objects": 605661357,
-        "number_of_literals": 4556,
-        "number_of_classes": 137265,
+        "number_of_triples": 2045115723,
+        "number_of_instances": 4143650,
+        "number_of_subjects": 303914049,
+        "number_of_objects": 630049596,
+        "number_of_literals": 4819,
+        "number_of_classes": 141023,
         "classes": "./data/PubChem_graph-2_classes.json",
         "number_of_properties": 10,
         "properties": "./data/PubChem_graph-2_propertiess.json",
@@ -7026,11 +7027,11 @@
           "ja": "PubChemデータベースのグラフURI"
         },
         "files": [],
-        "number_of_triples": 5321567155,
-        "number_of_instances": 2438021936,
-        "number_of_subjects": 2438021936,
-        "number_of_objects": 354888776,
-        "number_of_literals": 354888751,
+        "number_of_triples": 5488296912,
+        "number_of_instances": 2514437818,
+        "number_of_subjects": 2514437818,
+        "number_of_objects": 366713819,
+        "number_of_literals": 366713794,
         "number_of_classes": 23,
         "classes": "./data/PubChem_graph-3_classes.json",
         "number_of_properties": 3,
@@ -7050,11 +7051,11 @@
           "ja": "PubChemデータベースのグラフURI"
         },
         "files": [],
-        "number_of_triples": 584691886,
-        "number_of_instances": 292345943,
-        "number_of_subjects": 292345943,
-        "number_of_objects": 229,
-        "number_of_literals": 228,
+        "number_of_triples": 607826912,
+        "number_of_instances": 303913456,
+        "number_of_subjects": 303913456,
+        "number_of_objects": 190,
+        "number_of_literals": 189,
         "number_of_classes": 1,
         "classes": "./data/PubChem_graph-4_classes.json",
         "number_of_properties": 2,
@@ -7072,11 +7073,11 @@
           "ja": "PubChemデータベースのグラフURI"
         },
         "files": [],
-        "number_of_triples": 512719060,
-        "number_of_instances": 197154500,
-        "number_of_subjects": 197156244,
-        "number_of_objects": 261869717,
-        "number_of_literals": 198748041,
+        "number_of_triples": 526084167,
+        "number_of_instances": 206149291,
+        "number_of_subjects": 206151020,
+        "number_of_objects": 272222807,
+        "number_of_literals": 207799948,
         "number_of_classes": 16,
         "classes": "./data/PubChem_graph-5_classes.json",
         "number_of_properties": 4,
@@ -7094,11 +7095,11 @@
           "ja": "PubChemデータベースのグラフURI"
         },
         "files": [],
-        "number_of_triples": 333481597,
-        "number_of_instances": 111045096,
-        "number_of_subjects": 111045143,
-        "number_of_objects": 222436502,
-        "number_of_literals": 111045096,
+        "number_of_triples": 344033123,
+        "number_of_instances": 114560780,
+        "number_of_subjects": 114571317,
+        "number_of_objects": 229472344,
+        "number_of_literals": 114560780,
         "number_of_classes": 1,
         "classes": "./data/PubChem_graph-6_classes.json",
         "number_of_properties": 4,
@@ -7116,18 +7117,18 @@
           "ja": "PubChemデータベースのグラフURI"
         },
         "files": [],
-        "number_of_triples": 258363895,
-        "number_of_instances": 1488952,
-        "number_of_subjects": 1490416,
-        "number_of_objects": 254268725,
-        "number_of_literals": 1248379,
+        "number_of_triples": 265791920,
+        "number_of_instances": 1575854,
+        "number_of_subjects": 1577316,
+        "number_of_objects": 260711731,
+        "number_of_literals": 1315741,
         "number_of_classes": 1,
         "classes": "./data/PubChem_graph-7_classes.json",
         "number_of_properties": 5,
         "properties": "./data/PubChem_graph-7_propertiess.json",
         "number_of_datatypes": 1,
         "datatypes": [
-          "NULL"
+          "http://www.w3.org/2001/XMLSchema#string"
         ],
         "xrefs": []
       },
@@ -7138,11 +7139,11 @@
           "ja": "PubChemデータベースのグラフURI"
         },
         "files": [],
-        "number_of_triples": 557395738,
-        "number_of_instances": 9280074,
-        "number_of_subjects": 252941859,
-        "number_of_objects": 6998181,
-        "number_of_literals": 215597,
+        "number_of_triples": 574034921,
+        "number_of_instances": 10194261,
+        "number_of_subjects": 259312760,
+        "number_of_objects": 7801025,
+        "number_of_literals": 220539,
         "number_of_classes": 27,
         "classes": "./data/PubChem_graph-8_classes.json",
         "number_of_properties": 7,
@@ -7150,7 +7151,8 @@
         "number_of_datatypes": 2,
         "datatypes": [
           "NULL",
-          "http://www.w3.org/2001/XMLSchema#float"
+          "http://www.w3.org/2001/XMLSchema#float",
+          "http://www.w3.org/2001/XMLSchema#string"
         ],
         "xrefs": []
       },
@@ -7161,18 +7163,18 @@
           "ja": "PubChemデータベースのグラフURI"
         },
         "files": [],
-        "number_of_triples": 7794396,
-        "number_of_instances": 1465984,
-        "number_of_subjects": 1465984,
-        "number_of_objects": 2785139,
-        "number_of_literals": 1280497,
+        "number_of_triples": 6302913,
+        "number_of_instances": 1552921,
+        "number_of_subjects": 1557029,
+        "number_of_objects": 2937409,
+        "number_of_literals": 1352057,
         "number_of_classes": 1,
         "classes": "./data/PubChem_graph-9_classes.json",
         "number_of_properties": 11,
         "properties": "./data/PubChem_graph-9_propertiess.json",
         "number_of_datatypes": 1,
         "datatypes": [
-          "NULL"
+          "http://www.w3.org/2001/XMLSchema#string"
         ],
         "xrefs": []
       },
@@ -7183,18 +7185,18 @@
           "ja": "PubChemデータベースのグラフURI"
         },
         "files": [],
-        "number_of_triples": 2376660,
-        "number_of_instances": 606938,
-        "number_of_subjects": 726220,
-        "number_of_objects": 756705,
-        "number_of_literals": 49093,
-        "number_of_classes": 118082,
+        "number_of_triples": 3479375,
+        "number_of_instances": 616187,
+        "number_of_subjects": 616203,
+        "number_of_objects": 1209540,
+        "number_of_literals": 285536,
+        "number_of_classes": 118119,
         "classes": "./data/PubChem_graph-10_classes.json",
-        "number_of_properties": 9,
+        "number_of_properties": 13,
         "properties": "./data/PubChem_graph-10_propertiess.json",
         "number_of_datatypes": 1,
         "datatypes": [
-          "NULL"
+          "http://www.w3.org/2001/XMLSchema#string"
         ],
         "xrefs": []
       },
@@ -7205,18 +7207,18 @@
           "ja": "PubChemデータベースのグラフURI"
         },
         "files": [],
-        "number_of_triples": 3075503,
-        "number_of_instances": 80323,
-        "number_of_subjects": 80359,
-        "number_of_objects": 876919,
-        "number_of_literals": 78990,
+        "number_of_triples": 2403485,
+        "number_of_instances": 80535,
+        "number_of_subjects": 80572,
+        "number_of_objects": 287558,
+        "number_of_literals": 79170,
         "number_of_classes": 1,
         "classes": "./data/PubChem_graph-11_classes.json",
         "number_of_properties": 9,
         "properties": "./data/PubChem_graph-11_propertiess.json",
         "number_of_datatypes": 1,
         "datatypes": [
-          "NULL"
+          "http://www.w3.org/2001/XMLSchema#string"
         ],
         "xrefs": []
       },
@@ -7227,18 +7229,18 @@
           "ja": "PubChemデータベースのグラフURI"
         },
         "files": [],
-        "number_of_triples": 234460,
-        "number_of_instances": 20028,
-        "number_of_subjects": 20028,
-        "number_of_objects": 105668,
-        "number_of_literals": 34407,
+        "number_of_triples": 43140,
+        "number_of_instances": 14380,
+        "number_of_subjects": 14380,
+        "number_of_objects": 27550,
+        "number_of_literals": 27549,
         "number_of_classes": 1,
         "classes": "./data/PubChem_graph-12_classes.json",
         "number_of_properties": 4,
         "properties": "./data/PubChem_graph-12_propertiess.json",
         "number_of_datatypes": 1,
         "datatypes": [
-          "NULL"
+          "http://www.w3.org/2001/XMLSchema#string"
         ],
         "xrefs": []
       },
@@ -7249,18 +7251,18 @@
           "ja": "PubChemデータベースのグラフURI"
         },
         "files": [],
-        "number_of_triples": 5882408,
-        "number_of_instances": 103628,
-        "number_of_subjects": 103628,
-        "number_of_objects": 1692895,
-        "number_of_literals": 339581,
-        "number_of_classes": 1,
+        "number_of_triples": 5039925,
+        "number_of_instances": 165217,
+        "number_of_subjects": 165743,
+        "number_of_objects": 1701994,
+        "number_of_literals": 472299,
+        "number_of_classes": 2,
         "classes": "./data/PubChem_graph-13_classes.json",
-        "number_of_properties": 10,
+        "number_of_properties": 13,
         "properties": "./data/PubChem_graph-13_propertiess.json",
         "number_of_datatypes": 1,
         "datatypes": [
-          "NULL"
+          "http://www.w3.org/2001/XMLSchema#string"
         ],
         "xrefs": []
       },
@@ -7271,14 +7273,14 @@
           "ja": "PubChemデータベースのグラフURI"
         },
         "files": [],
-        "number_of_triples": 326570360,
-        "number_of_instances": 14922342,
-        "number_of_subjects": 14922342,
-        "number_of_objects": 30333007,
-        "number_of_literals": 29634358,
-        "number_of_classes": 2,
+        "number_of_triples": 572216291,
+        "number_of_instances": 0,
+        "number_of_subjects": 14513852,
+        "number_of_objects": 74061549,
+        "number_of_literals": 30104080,
+        "number_of_classes": 0,
         "classes": "./data/PubChem_graph-14_classes.json",
-        "number_of_properties": 7,
+        "number_of_properties": 21,
         "properties": "./data/PubChem_graph-14_propertiess.json",
         "number_of_datatypes": 3,
         "datatypes": [
@@ -7295,18 +7297,18 @@
           "ja": "PubChemデータベースのグラフURI"
         },
         "files": [],
-        "number_of_triples": 4696,
-        "number_of_instances": 859,
-        "number_of_subjects": 859,
-        "number_of_objects": 2598,
-        "number_of_literals": 1670,
+        "number_of_triples": 4776,
+        "number_of_instances": 919,
+        "number_of_subjects": 919,
+        "number_of_objects": 2448,
+        "number_of_literals": 1802,
         "number_of_classes": 1,
         "classes": "./data/PubChem_graph-15_classes.json",
         "number_of_properties": 7,
         "properties": "./data/PubChem_graph-15_propertiess.json",
         "number_of_datatypes": 1,
         "datatypes": [
-          "NULL"
+          "http://www.w3.org/2001/XMLSchema#string"
         ],
         "xrefs": []
       },
@@ -7320,16 +7322,15 @@
         "number_of_triples": 30065,
         "number_of_instances": 6027,
         "number_of_subjects": 6027,
-        "number_of_objects": 6400,
-        "number_of_literals": 5247,
+        "number_of_objects": 6298,
+        "number_of_literals": 5145,
         "number_of_classes": 3,
         "classes": "./data/PubChem_graph-16_classes.json",
         "number_of_properties": 5,
         "properties": "./data/PubChem_graph-16_propertiess.json",
-        "number_of_datatypes": 2,
+        "number_of_datatypes": 1,
         "datatypes": [
-          "NULL",
-          "http://www.w3.org/2001/XMLSchema#string"
+          "NULL"
         ],
         "xrefs": []
       },
@@ -7340,19 +7341,20 @@
           "ja": "PubChemデータベースのグラフURI"
         },
         "files": [],
-        "number_of_triples": 1705230179,
-        "number_of_instances": 24031905,
-        "number_of_subjects": 113972513,
-        "number_of_objects": 123801459,
-        "number_of_literals": 61593814,
-        "number_of_classes": 1,
+        "number_of_triples": 1750072875,
+        "number_of_instances": 25831262,
+        "number_of_subjects": 117284450,
+        "number_of_objects": 131480669,
+        "number_of_literals": 65700769,
+        "number_of_classes": 7,
         "classes": "./data/PubChem_graph-17_classes.json",
-        "number_of_properties": 16,
+        "number_of_properties": 24,
         "properties": "./data/PubChem_graph-17_propertiess.json",
-        "number_of_datatypes": 2,
+        "number_of_datatypes": 3,
         "datatypes": [
-          "NULL",
-          "http://www.w3.org/2001/XMLSchema#date"
+          "http://www.w3.org/2001/XMLSchema#date",
+          "http://www.w3.org/2001/XMLSchema#string",
+          "http://www.w3.org/2001/XMLSchema#integer"
         ],
         "xrefs": []
       },
@@ -7363,18 +7365,219 @@
           "ja": "PubChemデータベースのグラフURI"
         },
         "files": [],
-        "number_of_triples": 917012,
-        "number_of_instances": 112603,
-        "number_of_subjects": 662527,
-        "number_of_objects": 801697,
-        "number_of_literals": 112601,
+        "number_of_triples": 1427956,
+        "number_of_instances": 112443,
+        "number_of_subjects": 508587,
+        "number_of_objects": 1210843,
+        "number_of_literals": 331573,
         "number_of_classes": 1,
         "classes": "./data/PubChem_graph-18_classes.json",
-        "number_of_properties": 3,
+        "number_of_properties": 6,
         "properties": "./data/PubChem_graph-18_propertiess.json",
         "number_of_datatypes": 1,
         "datatypes": [
-          "NULL"
+          "http://www.w3.org/2001/XMLSchema#string"
+        ],
+        "xrefs": []
+      },
+      {
+        "uri": "http://rdf.ncbi.nlm.nih.gov/pubchem/cell",
+        "description": {
+          "en": "PubChem Database",
+          "ja": "PubChemデータベースのグラフURI"
+        },
+        "files": [],
+        "number_of_triples": 334670,
+        "number_of_instances": 1986,
+        "number_of_subjects": 142307,
+        "number_of_objects": 296203,
+        "number_of_literals": 104420,
+        "number_of_classes": 2,
+        "classes": "./data/PubChem_graph-19_classes.json",
+        "number_of_properties": 7,
+        "properties": "./data/PubChem_graph-19_propertiess.json",
+        "number_of_datatypes": 1,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string"
+        ],
+        "xrefs": []
+      },
+      {
+        "uri": "http://rdf.ncbi.nlm.nih.gov/pubchem/cooccurrence",
+        "description": {
+          "en": "PubChem Database",
+          "ja": "PubChemデータベースのグラフURI"
+        },
+        "files": [],
+        "number_of_triples": 284749523,
+        "number_of_instances": 56949905,
+        "number_of_subjects": 56949905,
+        "number_of_objects": 435325,
+        "number_of_literals": 79760,
+        "number_of_classes": 6,
+        "classes": "./data/PubChem_graph-20_classes.json",
+        "number_of_properties": 5,
+        "properties": "./data/PubChem_graph-20_propertiess.json",
+        "number_of_datatypes": 1,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#integer"
+        ],
+        "xrefs": []
+      },
+      {
+        "uri": "http://rdf.ncbi.nlm.nih.gov/pubchem/disease",
+        "description": {
+          "en": "PubChem Database",
+          "ja": "PubChemデータベースのグラフURI"
+        },
+        "files": [],
+        "number_of_triples": 129072,
+        "number_of_instances": 11504,
+        "number_of_subjects": 11504,
+        "number_of_objects": 103426,
+        "number_of_literals": 40820,
+        "number_of_classes": 2,
+        "classes": "./data/PubChem_graph-21_classes.json",
+        "number_of_properties": 5,
+        "properties": "./data/PubChem_graph-21_propertiess.json",
+        "number_of_datatypes": 1,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string"
+        ],
+        "xrefs": []
+      },
+      {
+        "uri": "http://rdf.ncbi.nlm.nih.gov/pubchem/book",
+        "description": {
+          "en": "PubChem Database",
+          "ja": "PubChemデータベースのグラフURI"
+        },
+        "files": [],
+        "number_of_triples": 65629,
+        "number_of_instances": 6406,
+        "number_of_subjects": 6406,
+        "number_of_objects": 28433,
+        "number_of_literals": 9641,
+        "number_of_classes": 1,
+        "classes": "./data/PubChem_graph-22_classes.json",
+        "number_of_properties": 9,
+        "properties": "./data/PubChem_graph-22_propertiess.json",
+        "number_of_datatypes": 1,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string"
+        ],
+        "xrefs": []
+      },
+      {
+        "uri": "http://rdf.ncbi.nlm.nih.gov/pubchem/journal",
+        "description": {
+          "en": "PubChem Database",
+          "ja": "PubChemデータベースのグラフURI"
+        },
+        "files": [],
+        "number_of_triples": 244262,
+        "number_of_instances": 39297,
+        "number_of_subjects": 39297,
+        "number_of_objects": 203153,
+        "number_of_literals": 163855,
+        "number_of_classes": 1,
+        "classes": "./data/PubChem_graph-23_classes.json",
+        "number_of_properties": 7,
+        "properties": "./data/PubChem_graph-23_propertiess.json",
+        "number_of_datatypes": 1,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string"
+        ],
+        "xrefs": []
+      },
+      {
+        "uri": "http://rdf.ncbi.nlm.nih.gov/pubchem/author",
+        "description": {
+          "en": "PubChem Database",
+          "ja": "PubChemデータベースのグラフURI"
+        },
+        "files": [],
+        "number_of_triples": 59559499,
+        "number_of_instances": 0,
+        "number_of_subjects": 14859418,
+        "number_of_objects": 25210365,
+        "number_of_literals": 23910361,
+        "number_of_classes": 0,
+        "classes": "./data/PubChem_graph-24_classes.json",
+        "number_of_properties": 6,
+        "properties": "./data/PubChem_graph-24_propertiess.json",
+        "number_of_datatypes": 1,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string"
+        ],
+        "xrefs": []
+      },
+      {
+        "uri": "http://rdf.ncbi.nlm.nih.gov/pubchem/organization",
+        "description": {
+          "en": "PubChem Database",
+          "ja": "PubChemデータベースのグラフURI"
+        },
+        "files": [],
+        "number_of_triples": 2177032,
+        "number_of_instances": 689120,
+        "number_of_subjects": 689120,
+        "number_of_objects": 609845,
+        "number_of_literals": 588812,
+        "number_of_classes": 2,
+        "classes": "./data/PubChem_graph-25_classes.json",
+        "number_of_properties": 4,
+        "properties": "./data/PubChem_graph-25_propertiess.json",
+        "number_of_datatypes": 1,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string"
+        ],
+        "xrefs": []
+      },
+      {
+        "uri": "http://rdf.ncbi.nlm.nih.gov/pubchem/grant",
+        "description": {
+          "en": "PubChem Database",
+          "ja": "PubChemデータベースのグラフURI"
+        },
+        "files": [],
+        "number_of_triples": 3004821,
+        "number_of_instances": 1001607,
+        "number_of_subjects": 1001607,
+        "number_of_objects": 994016,
+        "number_of_literals": 993750,
+        "number_of_classes": 1,
+        "classes": "./data/PubChem_graph-26_classes.json",
+        "number_of_properties": 3,
+        "properties": "./data/PubChem_graph-26_propertiess.json",
+        "number_of_datatypes": 1,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string"
+        ],
+        "xrefs": []
+      },
+      {
+        "uri": "http://rdf.ncbi.nlm.nih.gov/pubchem/void",
+        "description": {
+          "en": "PubChem Database",
+          "ja": "PubChemデータベースのグラフURI"
+        },
+        "files": [],
+        "number_of_triples": 26333,
+        "number_of_instances": 29,
+        "number_of_subjects": 29,
+        "number_of_objects": 26304,
+        "number_of_literals": 144,
+        "number_of_classes": 2,
+        "classes": "./data/PubChem_graph-27_classes.json",
+        "number_of_properties": 24,
+        "properties": "./data/PubChem_graph-27_propertiess.json",
+        "number_of_datatypes": 4,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#date",
+          "NULL",
+          "http://www.w3.org/2001/XMLSchema#string",
+          "http://www.w3.org/2001/XMLSchema#long"
         ],
         "xrefs": []
       }
@@ -7414,8 +7617,8 @@
     "sparql_examples": [
       {
         "sparql": {
-          "en": "# Select tradename, SMILES and IUPAC InChI for FDA approved drugs\n# with TPSA (topological polar surface area) value less than 120\n\nPREFIX cpd: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/compound/&gt;\nPREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX sio: &lt;http://semanticscience.org/resource/&gt;\nPREFIX obo: &lt;http://purl.obolibrary.org/obo/&gt;\nPREFIX descriptor: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/descriptor/&gt;\nPREFIX compound: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/compound/&gt;\nPREFIX substance: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/substance/&gt;\nPREFIX pubchemv: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#&gt;\n\nSELECT DISTINCT ?tradename ?cid ?canonical_smiles ?iupac_inchi ?tpsa_value\nWHERE {\n  ?cid obo:has-role pubchemv:FDAApprovedDrugs ;\n       sio:has-attribute ?desc_canonical_smiles ;\n       sio:has-attribute ?desc_iupac_inchi ;\n       sio:has-attribute ?desc_tpsa .\n  ?desc_canonical_smiles a sio:CHEMINF_000376 ;\n                         sio:has-value ?canonical_smiles .\n  ?desc_iupac_inchi a sio:CHEMINF_000396 ;\n                    sio:has-value ?iupac_inchi .\n  ?desc_tpsa a sio:CHEMINF_000392 ;\n               sio:has-value ?tpsa .\n  FILTER(?tpsa &lt; 120.0)\n  ?sid sio:CHEMINF_000477 ?cid ;\n       sio:has-attribute ?desc_trade_name .\n  ?desc_trade_name a sio:CHEMINF_000561 ;\n                   sio:has-value ?tradename .\n  BIND(STR(?tpsa) AS ?tpsa_value)\n}\nLIMIT 100",
-          "ja": "# Select tradename, SMILES and IUPAC InChI for FDA approved drugs\n# with TPSA (topological polar surface area) value less than 120\n\nPREFIX cpd: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/compound/&gt;\nPREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX sio: &lt;http://semanticscience.org/resource/&gt;\nPREFIX obo: &lt;http://purl.obolibrary.org/obo/&gt;\nPREFIX descriptor: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/descriptor/&gt;\nPREFIX compound: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/compound/&gt;\nPREFIX substance: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/substance/&gt;\nPREFIX pubchemv: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#&gt;\n\nSELECT DISTINCT ?tradename ?cid ?canonical_smiles ?iupac_inchi ?tpsa_value\nWHERE {\n  ?cid obo:has-role pubchemv:FDAApprovedDrugs ;\n       sio:has-attribute ?desc_canonical_smiles ;\n       sio:has-attribute ?desc_iupac_inchi ;\n       sio:has-attribute ?desc_tpsa .\n  ?desc_canonical_smiles a sio:CHEMINF_000376 ;\n                         sio:has-value ?canonical_smiles .\n  ?desc_iupac_inchi a sio:CHEMINF_000396 ;\n                    sio:has-value ?iupac_inchi .\n  ?desc_tpsa a sio:CHEMINF_000392 ;\n               sio:has-value ?tpsa .\n  FILTER(?tpsa &lt; 120.0)\n  ?sid sio:CHEMINF_000477 ?cid ;\n       sio:has-attribute ?desc_trade_name .\n  ?desc_trade_name a sio:CHEMINF_000561 ;\n                   sio:has-value ?tradename .\n  BIND(STR(?tpsa) AS ?tpsa_value)\n}\nLIMIT 100"
+          "en": "# Select tradename, SMILES and IUPAC InChI for FDA approved drugs\n# with TPSA (topological polar surface area) value less than 120\n\nPREFIX cpd: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/compound/&gt;\nPREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX sio: &lt;http://semanticscience.org/resource/&gt;\nPREFIX obo: &lt;http://purl.obolibrary.org/obo/&gt;\nPREFIX descriptor: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/descriptor/&gt;\nPREFIX compound: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/compound/&gt;\nPREFIX substance: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/substance/&gt;\nPREFIX pubchemv: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#&gt;\n\nSELECT DISTINCT ?tradename ?cid ?canonical_smiles ?iupac_inchi ?tpsa_value\nWHERE {\n  ?cid obo:RO_0000087 pubchemv:FDAApprovedDrugs ;\n       sio:SIO_000008 ?desc_canonical_smiles ;\n       sio:SIO_000008 ?desc_iupac_inchi ;\n       sio:SIO_000008 ?desc_tpsa .\n  ?desc_canonical_smiles a sio:CHEMINF_000376 ;\n                         sio:SIO_000300 ?canonical_smiles .\n  ?desc_iupac_inchi a sio:CHEMINF_000396 ;\n                    sio:SIO_000300 ?iupac_inchi .\n  ?desc_tpsa a sio:CHEMINF_000392 ;\n               sio:SIO_000300 ?tpsa .\n  FILTER(?tpsa &lt; 120.0)\n  ?sid sio:CHEMINF_000477 ?cid ;\n       sio:SIO_000008 ?desc_trade_name .\n  ?desc_trade_name a sio:CHEMINF_000561 ;\n                   sio:SIO_000300 ?tradename .\n  BIND(STR(?tpsa) AS ?tpsa_value)\n}\nLIMIT 100",
+          "ja": "# Select tradename, SMILES and IUPAC InChI for FDA approved drugs\n# with TPSA (topological polar surface area) value less than 120\n\nPREFIX cpd: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/compound/&gt;\nPREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX sio: &lt;http://semanticscience.org/resource/&gt;\nPREFIX obo: &lt;http://purl.obolibrary.org/obo/&gt;\nPREFIX descriptor: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/descriptor/&gt;\nPREFIX compound: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/compound/&gt;\nPREFIX substance: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/substance/&gt;\nPREFIX pubchemv: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#&gt;\n\nSELECT DISTINCT ?tradename ?cid ?canonical_smiles ?iupac_inchi ?tpsa_value\nWHERE {\n  ?cid obo:RO_0000087 pubchemv:FDAApprovedDrugs ;\n       sio:SIO_000008 ?desc_canonical_smiles ;\n       sio:SIO_000008 ?desc_iupac_inchi ;\n       sio:SIO_000008 ?desc_tpsa .\n  ?desc_canonical_smiles a sio:CHEMINF_000376 ;\n                         sio:SIO_000300 ?canonical_smiles .\n  ?desc_iupac_inchi a sio:CHEMINF_000396 ;\n                    sio:SIO_000300 ?iupac_inchi .\n  ?desc_tpsa a sio:CHEMINF_000392 ;\n               sio:SIO_000300 ?tpsa .\n  FILTER(?tpsa &lt; 120.0)\n  ?sid sio:CHEMINF_000477 ?cid ;\n       sio:SIO_000008 ?desc_trade_name .\n  ?desc_trade_name a sio:CHEMINF_000561 ;\n                   sio:SIO_000300 ?tradename .\n  BIND(STR(?tpsa) AS ?tpsa_value)\n}\nLIMIT 100"
         },
         "url": "./pubchem/sparql?format=default&page=home"
       }
