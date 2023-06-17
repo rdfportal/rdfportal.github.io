@@ -9126,8 +9126,8 @@
         }
       }
     ],
-    "version": "release_20221006",
-    "issued": "2022-10-06",
+    "version": "release_20230410",
+    "issued": "2023-04-10",
     "logo_url": "",
     "schema_image_urls": [],
     "download_file": {
@@ -9135,14 +9135,14 @@
       "url": "./download/clinvar/2022-10-06/all/clinvar.tar.gz",
       "size": 2987641242
     },
-    "number_of_triples": 877294711,
-    "number_of_instances": 137092261,
-    "number_of_subjects": 155366213,
-    "number_of_objects": 216388541,
-    "number_of_literals": 55481085,
+    "number_of_triples": 1247658822,
+    "number_of_instances": 192529889,
+    "number_of_subjects": 218249949,
+    "number_of_objects": 303864454,
+    "number_of_literals": 78321575,
     "number_of_classes": 73,
     "classes": "./data/clinvar_classes.json",
-    "number_of_properties": 178,
+    "number_of_properties": 179,
     "properties": "./data/clinvar_propertiess.json",
     "number_of_datatypes": 3,
     "datatypes": [
@@ -9156,7 +9156,7 @@
     "ontologies": [],
     "graphs": [
       {
-        "uri": "http://rdf.integbio.jp/dataset/clinvar",
+        "uri": "http://rdfportal.org/dataset/clinvar",
         "description": {
           "en": "",
           "ja": ""
@@ -9168,14 +9168,14 @@
             "size": 3052779406
           }
         ],
-        "number_of_triples": 877294711,
-        "number_of_instances": 137092261,
-        "number_of_subjects": 155366213,
-        "number_of_objects": 216388541,
-        "number_of_literals": 55481085,
+        "number_of_triples": 1247658822,
+        "number_of_instances": 192529889,
+        "number_of_subjects": 218249949,
+        "number_of_objects": 303864454,
+        "number_of_literals": 78321575,
         "number_of_classes": 73,
         "classes": "./data/clinvar_graph-1_classes.json",
-        "number_of_properties": 178,
+        "number_of_properties": 179,
         "properties": "./data/clinvar_graph-1_propertiess.json",
         "number_of_datatypes": 3,
         "datatypes": [
@@ -9263,8 +9263,8 @@
         }
       }
     ],
-    "version": "release_20221101",
-    "issued": "2022-11-01",
+    "version": "release_20230605",
+    "issued": "2023-06-05",
     "logo_url": "",
     "schema_image_urls": [],
     "download_file": {
@@ -9272,14 +9272,14 @@
       "url": "./download/medgen/2022-11-01/all/medgen.tar.gz",
       "size": 508752726
     },
-    "number_of_triples": 189528429,
-    "number_of_instances": 2610726,
-    "number_of_subjects": 3723610,
-    "number_of_objects": 37636660,
-    "number_of_literals": 3998307,
+    "number_of_triples": 126664418,
+    "number_of_instances": 2717458,
+    "number_of_subjects": 3864020,
+    "number_of_objects": 30474902,
+    "number_of_literals": 4147574,
     "number_of_classes": 4,
     "classes": "./data/medgen_classes.json",
-    "number_of_properties": 66,
+    "number_of_properties": 65,
     "properties": "./data/medgen_propertiess.json",
     "number_of_datatypes": 1,
     "datatypes": [
@@ -9287,17 +9287,22 @@
     ],
     "xrefs": [
       {
+        "uri_space": "http://identifiers.org/mim/",
+        "number_of_triples": 56706,
+        "title": "OMIM"
+      },
+      {
         "uri_space": "http://identifiers.org/pubmed/",
-        "title": "PubMed",
-        "number_of_triples": 159989940
+        "number_of_triples": 95978324,
+        "title": "PubMed"
       }
     ],
     "connected_dataset_ids": [],
-    "number_of_links": 159989940,
+    "number_of_links": 96035030,
     "ontologies": [],
     "graphs": [
       {
-        "uri": "http://rdf.integbio.jp/dataset/medgen",
+        "uri": "http://rdfportal.org/dataset/medgen",
         "description": {
           "en": "",
           "ja": ""
@@ -9309,14 +9314,14 @@
             "size": 3710360168
           }
         ],
-        "number_of_triples": 189528429,
-        "number_of_instances": 2610726,
-        "number_of_subjects": 3723610,
-        "number_of_objects": 37636660,
-        "number_of_literals": 3998307,
+        "number_of_triples": 126664418,
+        "number_of_instances": 2717458,
+        "number_of_subjects": 3864020,
+        "number_of_objects": 30474902,
+        "number_of_literals": 4147574,
         "number_of_classes": 4,
         "classes": "./data/medgen_graph-1_classes.json",
-        "number_of_properties": 66,
+        "number_of_properties": 65,
         "properties": "./data/medgen_graph-1_propertiess.json",
         "number_of_datatypes": 1,
         "datatypes": [
@@ -9324,9 +9329,14 @@
         ],
         "xrefs": [
           {
+            "uri_space": "http://identifiers.org/mim/",
+            "number_of_triples": 56706,
+            "title": "OMIM"
+          },
+          {
             "uri_space": "http://identifiers.org/pubmed/",
-            "title": "PubMed",
-            "number_of_triples": 159989940
+            "number_of_triples": 95978324,
+            "title": "PubMed"
           }
         ]
       }
@@ -9406,8 +9416,8 @@
         }
       }
     ],
-    "version": "release_20221101",
-    "issued": "2022-11-01",
+    "version": "release_20230508",
+    "issued": "2023-05-08",
     "logo_url": "",
     "schema_image_urls": [],
     "download_file": {
@@ -9415,11 +9425,11 @@
       "url": "./download/nlm-catalog/2022-11-01/all/nlm-catalog.tar.gz",
       "size": 1710936
     },
-    "number_of_triples": 204075,
-    "number_of_instances": 39119,
-    "number_of_subjects": 39119,
-    "number_of_objects": 163115,
-    "number_of_literals": 163114,
+    "number_of_triples": 203480,
+    "number_of_instances": 39010,
+    "number_of_subjects": 39010,
+    "number_of_objects": 162648,
+    "number_of_literals": 162647,
     "number_of_classes": 1,
     "classes": "./data/nlm-catalog_classes.json",
     "number_of_properties": 6,
@@ -9434,7 +9444,7 @@
     "ontologies": [],
     "graphs": [
       {
-        "uri": "http://rdf.integbio.jp/dataset/nlm_catalog",
+        "uri": "http://rdfportal.org/dataset/nlm_catalog",
         "description": {
           "en": "",
           "ja": ""
@@ -9446,11 +9456,11 @@
             "size": 10973825
           }
         ],
-        "number_of_triples": 204075,
-        "number_of_instances": 39119,
-        "number_of_subjects": 39119,
-        "number_of_objects": 163115,
-        "number_of_literals": 163114,
+        "number_of_triples": 203480,
+        "number_of_instances": 39010,
+        "number_of_subjects": 39010,
+        "number_of_objects": 162648,
+        "number_of_literals": 162647,
         "number_of_classes": 1,
         "classes": "./data/nlm-catalog_graph-1_classes.json",
         "number_of_properties": 6,
@@ -9537,8 +9547,8 @@
         }
       }
     ],
-    "version": "release_20221021",
-    "issued": "2022-10-21",
+    "version": "release_20230421",
+    "issued": "2023-04-21",
     "logo_url": "",
     "schema_image_urls": [],
     "download_file": {
@@ -9546,11 +9556,11 @@
       "url": "./download/pubmed/2022-10-21/all/pubmed.tar.gz",
       "size": 22871193647
     },
-    "number_of_triples": 2448906670,
-    "number_of_instances": 187580406,
-    "number_of_subjects": 375826948,
-    "number_of_objects": 561229457,
-    "number_of_literals": 216046593,
+    "number_of_triples": 2531937601,
+    "number_of_instances": 194957460,
+    "number_of_subjects": 390607060,
+    "number_of_objects": 582849523,
+    "number_of_literals": 223825051,
     "number_of_classes": 2,
     "classes": "./data/pubmed_classes.json",
     "number_of_properties": 41,
@@ -9567,7 +9577,7 @@
     "ontologies": [],
     "graphs": [
       {
-        "uri": "http://rdf.integbio.jp/dataset/pubmed",
+        "uri": "http://rdfportal.org/dataset/pubmed",
         "description": {
           "en": "",
           "ja": ""
@@ -9682,8 +9692,8 @@
         }
       }
     ],
-    "version": "release_20221219",
-    "issued": "2022-12-19",
+    "version": "release_20230420",
+    "issued": "2023-04-20",
     "logo_url": "",
     "schema_image_urls": [],
     "download_file": {
@@ -9691,10 +9701,10 @@
       "url": "./download/pubtator/2022-12-19/all/pubtator.tar.gz",
       "size": 1630953262
     },
-    "number_of_triples": 1069717595,
-    "number_of_instances": 214321637,
-    "number_of_subjects": 214321637,
-    "number_of_objects": 25280038,
+    "number_of_triples": 1107708438,
+    "number_of_instances": 221933712,
+    "number_of_subjects": 221933712,
+    "number_of_objects": 25723106,
     "number_of_literals": 14,
     "number_of_classes": 1,
     "classes": "./data/pubtator_classes.json",
@@ -9711,7 +9721,7 @@
     "ontologies": [],
     "graphs": [
       {
-        "uri": "http://rdf.integbio.jp/dataset/pubtator_central",
+        "uri": "http://rdfportal.org/dataset/pubtator_central",
         "description": {
           "en": "",
           "ja": ""
@@ -9723,10 +9733,10 @@
             "size": 1963716657
           }
         ],
-        "number_of_triples": 1069717595,
-        "number_of_instances": 214321637,
-        "number_of_subjects": 214321637,
-        "number_of_objects": 25280038,
+        "number_of_triples": 1107708438,
+        "number_of_instances": 221933712,
+        "number_of_subjects": 221933712,
+        "number_of_objects": 25723106,
         "number_of_literals": 14,
         "number_of_classes": 1,
         "classes": "./data/pubtator_graph-1_classes.json",
