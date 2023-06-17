@@ -6280,7 +6280,7 @@
         }
       }
     ],
-    "version": "105.0",
+    "version": "130",
     "issued": "2016-07-30",
     "logo_url": "./logo/ddbj.png",
     "schema_image_urls": [
@@ -6291,14 +6291,14 @@
       "url": "./download/ddbj/2016-07-30/all/ddbj.tar.gz",
       "size": 94932586145
     },
-    "number_of_triples": 20067185022,
-    "number_of_instances": 1878437947,
-    "number_of_subjects": 2913415115,
-    "number_of_objects": 3907105857,
-    "number_of_literals": 950890006,
-    "number_of_classes": 109,
+    "number_of_triples": 39574632446,
+    "number_of_instances": 4316173038,
+    "number_of_subjects": 6198487494,
+    "number_of_objects": 7674713042,
+    "number_of_literals": 1775755355,
+    "number_of_classes": 110,
     "classes": "./data/ddbj_classes.json",
-    "number_of_properties": 144,
+    "number_of_properties": 151,
     "properties": "./data/ddbj_propertiess.json",
     "number_of_datatypes": 4,
     "datatypes": [
@@ -6309,266 +6309,246 @@
     ],
     "xrefs": [
       {
-        "uri_space": "http://identifiers.org/interpro/",
-        "title": "InterPro",
-        "number_of_triples": 15032765
-      },
-      {
-        "uri_space": "http://identifiers.org/hgnc/",
-        "title": "HGNC",
-        "number_of_triples": 77875
-      },
-      {
-        "uri_space": "http://identifiers.org/pombase/",
-        "title": "PomBase",
-        "number_of_triples": 9159
-      },
-      {
-        "uri_space": "http://identifiers.org/greengenes/",
-        "title": "GreenGenes",
-        "number_of_triples": 828
-      },
-      {
-        "uri_space": "http://identifiers.org/omim/",
-        "title": "OMIM",
-        "number_of_triples": 46102
-      },
-      {
-        "uri_space": "http://identifiers.org/pubmed/",
-        "title": "PubMed",
-        "number_of_triples": 66914132
-      },
-      {
-        "uri_space": "http://identifiers.org/uniprot/",
-        "title": "UniProt Knowledgebase",
-        "number_of_triples": 4564185
-      },
-      {
-        "uri_space": "http://identifiers.org/antweb/",
-        "title": "AntWeb",
-        "number_of_triples": 3319
-      },
-      {
-        "uri_space": "http://identifiers.org/ecogene/",
-        "title": "EcoGene",
-        "number_of_triples": 9285
-      },
-      {
-        "uri_space": "http://identifiers.org/aceview.worm/",
-        "title": "Aceview Worm",
-        "number_of_triples": 71
-      },
-      {
-        "uri_space": "http://identifiers.org/atcc/",
-        "title": "ATCC",
-        "number_of_triples": 80338
-      },
-      {
         "uri_space": "http://identifiers.org/ncbiprotein/",
-        "title": "NCBI Protein",
-        "number_of_triples": 50410134
-      },
-      {
-        "uri_space": "http://identifiers.org/flybase/",
-        "title": "FlyBase",
-        "number_of_triples": 1264928
-      },
-      {
-        "uri_space": "http://identifiers.org/ncbigene/",
-        "title": "NCBI Gene",
-        "number_of_triples": 546419
-      },
-      {
-        "uri_space": "http://identifiers.org/mirbase/",
-        "title": "miRBase Sequence",
-        "number_of_triples": 4123
-      },
-      {
-        "uri_space": "http://identifiers.org/pathema/",
-        "title": "Pathema",
-        "number_of_triples": 246626
-      },
-      {
-        "uri_space": "http://identifiers.org/tair.locus/",
-        "title": "TAIR Locus",
-        "number_of_triples": 138976
-      },
-      {
-        "uri_space": "http://identifiers.org/jcm/",
-        "title": "Japan Collection of Microorganisms",
-        "number_of_triples": 124
-      },
-      {
-        "uri_space": "http://identifiers.org/goa/",
-        "title": "GOA",
-        "number_of_triples": 2251547
-      },
-      {
-        "uri_space": "http://identifiers.org/imgt.ligm/",
-        "title": "IMGT LIGM",
-        "number_of_triples": 1880
-      },
-      {
-        "uri_space": "http://identifiers.org/imgt.hla/",
-        "title": "IMGT HLA",
-        "number_of_triples": 2257
-      },
-      {
-        "uri_space": "http://identifiers.org/hssp/",
-        "title": "HSSP",
-        "number_of_triples": 145
-      },
-      {
-        "uri_space": "http://identifiers.org/tigrfam/",
-        "title": "TIGRFAMS",
-        "number_of_triples": 8996
-      },
-      {
-        "uri_space": "http://identifiers.org/fbol/",
-        "title": "Fungal Barcode",
-        "number_of_triples": 6715
-      },
-      {
-        "uri_space": "http://identifiers.org/dbest/",
-        "title": "dbEST",
-        "number_of_triples": 13015
-      },
-      {
-        "uri_space": "http://identifiers.org/nbrc/",
-        "title": "NITE Biological Research Center Catalogue",
-        "number_of_triples": 3291
-      },
-      {
-        "uri_space": "http://identifiers.org/unists/",
-        "title": "UniSTS",
-        "number_of_triples": 30
-      },
-      {
-        "uri_space": "http://identifiers.org/sgd/",
-        "title": "SGD",
-        "number_of_triples": 659839
-      },
-      {
-        "uri_space": "http://identifiers.org/homd.taxon/",
-        "title": "HOMD Taxonomy",
-        "number_of_triples": 35087
-      },
-      {
-        "uri_space": "http://identifiers.org/gabi/",
-        "title": "GABI",
-        "number_of_triples": 270783
-      },
-      {
-        "uri_space": "http://identifiers.org/pfam/",
-        "title": "Pfam",
-        "number_of_triples": 80491
-      },
-      {
-        "uri_space": "http://identifiers.org/aftol.taxonomy/",
-        "title": "AFTOL",
-        "number_of_triples": 4280
-      },
-      {
-        "uri_space": "http://identifiers.org/dbsnp/",
-        "title": "dbSNP",
-        "number_of_triples": 13498
-      },
-      {
-        "uri_space": "http://identifiers.org/beetlebase/",
-        "title": "BeetleBase",
-        "number_of_triples": 40677
-      },
-      {
-        "uri_space": "http://identifiers.org/asap/",
-        "title": "ASAP",
-        "number_of_triples": 46245
-      },
-      {
-        "uri_space": "http://identifiers.org/hinv.transcript/",
-        "title": "H-InvDb Transcript",
-        "number_of_triples": 211887
-      },
-      {
-        "uri_space": "http://identifiers.org/pdb/",
-        "title": "Protein Data Bank",
-        "number_of_triples": 129329
-      },
-      {
-        "uri_space": "http://identifiers.org/mgd/",
-        "title": "Mouse Genome Database",
-        "number_of_triples": 197880
-      },
-      {
-        "uri_space": "http://identifiers.org/dictybase.est/",
-        "title": "Dictybase EST",
-        "number_of_triples": 2
-      },
-      {
-        "uri_space": "http://identifiers.org/rgd/",
-        "title": "Rat Genome Database",
-        "number_of_triples": 15249
-      },
-      {
-        "uri_space": "http://identifiers.org/maizegdb.locus/",
-        "title": "MaizeGDB Locus",
-        "number_of_triples": 9169
-      },
-      {
-        "uri_space": "http://identifiers.org/niaest/",
-        "title": "NIAEST",
-        "number_of_triples": 370250
-      },
-      {
-        "uri_space": "http://identifiers.org/cdd/",
-        "title": "Conserved Domain Database",
-        "number_of_triples": 24448
-      },
-      {
-        "uri_space": "http://identifiers.org/ensembl/",
-        "title": "Ensembl",
-        "number_of_triples": 181497
-      },
-      {
-        "uri_space": "http://identifiers.org/subtilist/",
-        "title": "SubtiList",
-        "number_of_triples": 4058
+        "number_of_triples": 243269737,
+        "title": "NCBI Protein"
       },
       {
         "uri_space": "http://identifiers.org/taxonomy/",
-        "title": "Taxonomy",
-        "number_of_triples": 202178136
+        "number_of_triples": 245147127,
+        "title": "Taxonomy"
       },
       {
-        "uri_space": "http://identifiers.org/ncbigi/",
-        "title": "NCBI GI",
-        "number_of_triples": 43707953
+        "uri_space": "http://identifiers.org/isfinder/",
+        "number_of_triples": 6376,
+        "title": "ISFinder"
+      },
+      {
+        "uri_space": "http://identifiers.org/atcc/",
+        "number_of_triples": 80157,
+        "title": "ATCC"
+      },
+      {
+        "uri_space": "http://identifiers.org/nbrc/",
+        "number_of_triples": 3293,
+        "title": "NITE Biological Research Center Catalogue"
+      },
+      {
+        "uri_space": "http://identifiers.org/jcm/",
+        "number_of_triples": 124,
+        "title": "Japan Collection of Microorganisms"
+      },
+      {
+        "uri_space": "http://identifiers.org/uniprot/",
+        "number_of_triples": 7269245,
+        "title": "UniProt Knowledgebase"
+      },
+      {
+        "uri_space": "http://identifiers.org/interpro/",
+        "number_of_triples": 26473480,
+        "title": "InterPro"
+      },
+      {
+        "uri_space": "http://identifiers.org/cdd/",
+        "number_of_triples": 32367,
+        "title": "Conserved Domain Database"
+      },
+      {
+        "uri_space": "http://identifiers.org/ncbigene/",
+        "number_of_triples": 574225,
+        "title": "NCBI Gene"
+      },
+      {
+        "uri_space": "http://identifiers.org/goa/",
+        "number_of_triples": 3932777,
+        "title": "GOA"
+      },
+      {
+        "uri_space": "http://identifiers.org/pdb/",
+        "number_of_triples": 191508,
+        "title": "Protein Data Bank"
+      },
+      {
+        "uri_space": "http://identifiers.org/asap/",
+        "number_of_triples": 61579,
+        "title": "ASAP"
+      },
+      {
+        "uri_space": "http://identifiers.org/biocyc/",
+        "number_of_triples": 29384,
+        "title": "BioCyc"
+      },
+      {
+        "uri_space": "http://identifiers.org/ecogene/",
+        "number_of_triples": 16262,
+        "title": "EcoGene"
+      },
+      {
+        "uri_space": "http://identifiers.org/pfam/",
+        "number_of_triples": 640916,
+        "title": "Pfam"
+      },
+      {
+        "uri_space": "http://identifiers.org/tigrfam/",
+        "number_of_triples": 66037,
+        "title": "TIGRFAMS"
+      },
+      {
+        "uri_space": "http://identifiers.org/greengenes/",
+        "number_of_triples": 828,
+        "title": "GreenGenes"
+      },
+      {
+        "uri_space": "http://identifiers.org/homd.taxon/",
+        "number_of_triples": 35087,
+        "title": "HOMD Taxonomy"
+      },
+      {
+        "uri_space": "http://identifiers.org/subtilist/",
+        "number_of_triples": 4058,
+        "title": "SubtiList"
+      },
+      {
+        "uri_space": "http://identifiers.org/hssp/",
+        "number_of_triples": 145,
+        "title": "HSSP"
+      },
+      {
+        "uri_space": "http://identifiers.org/mirbase/",
+        "number_of_triples": 3461,
+        "title": "miRBase Sequence"
+      },
+      {
+        "uri_space": "http://identifiers.org/tair.locus/",
+        "number_of_triples": 168357,
+        "title": "TAIR Locus"
+      },
+      {
+        "uri_space": "http://identifiers.org/ensembl/",
+        "number_of_triples": 181923,
+        "title": "Ensembl"
+      },
+      {
+        "uri_space": "http://identifiers.org/beetlebase/",
+        "number_of_triples": 40671,
+        "title": "BeetleBase"
+      },
+      {
+        "uri_space": "http://identifiers.org/niaest/",
+        "number_of_triples": 370250,
+        "title": "NIAEST"
+      },
+      {
+        "uri_space": "http://identifiers.org/gabi/",
+        "number_of_triples": 270783,
+        "title": "GABI"
+      },
+      {
+        "uri_space": "http://identifiers.org/dbest/",
+        "number_of_triples": 13015,
+        "title": "dbEST"
+      },
+      {
+        "uri_space": "http://identifiers.org/hgnc/",
+        "number_of_triples": 78035,
+        "title": "HGNC"
+      },
+      {
+        "uri_space": "http://identifiers.org/hinv.transcript/",
+        "number_of_triples": 211710,
+        "title": "H-InvDb Transcript"
+      },
+      {
+        "uri_space": "http://identifiers.org/maizegdb.locus/",
+        "number_of_triples": 9169,
+        "title": "MaizeGDB Locus"
+      },
+      {
+        "uri_space": "http://identifiers.org/imgt.ligm/",
+        "number_of_triples": 1880,
+        "title": "IMGT LIGM"
+      },
+      {
+        "uri_space": "http://identifiers.org/dbsnp/",
+        "number_of_triples": 14137,
+        "title": "dbSNP"
+      },
+      {
+        "uri_space": "http://identifiers.org/aceview.worm/",
+        "number_of_triples": 71,
+        "title": "Aceview Worm"
+      },
+      {
+        "uri_space": "http://identifiers.org/unists/",
+        "number_of_triples": 33,
+        "title": "UniSTS"
+      },
+      {
+        "uri_space": "http://identifiers.org/dictybase.est/",
+        "number_of_triples": 2,
+        "title": "Dictybase EST"
+      },
+      {
+        "uri_space": "http://identifiers.org/antweb/",
+        "number_of_triples": 3319,
+        "title": "AntWeb"
+      },
+      {
+        "uri_space": "http://identifiers.org/sgd/",
+        "number_of_triples": 661502,
+        "title": "SGD"
+      },
+      {
+        "uri_space": "http://identifiers.org/aftol.taxonomy/",
+        "number_of_triples": 4313,
+        "title": "AFTOL"
+      },
+      {
+        "uri_space": "http://identifiers.org/pombase/",
+        "number_of_triples": 9172,
+        "title": "PomBase"
+      },
+      {
+        "uri_space": "http://identifiers.org/fbol/",
+        "number_of_triples": 6715,
+        "title": "Fungal Barcode"
+      },
+      {
+        "uri_space": "http://identifiers.org/rgd/",
+        "number_of_triples": 15249,
+        "title": "Rat Genome Database"
+      },
+      {
+        "uri_space": "http://identifiers.org/pubmed/",
+        "number_of_triples": 71262115,
+        "title": "PubMed"
       }
     ],
     "connected_dataset_ids": [],
-    "number_of_links": 389818023,
+    "number_of_links": 601160594,
     "ontologies": [],
     "graphs": [
       {
-        "uri": "http://rdf.integbio.jp/dataset/ddbj",
+        "uri": "http://rdfportal.org/dataset/ddbj",
         "description": {
           "en": "",
           "ja": ""
         },
         "files": [
           {
-            "name": "105.0",
+            "name": "130",
             "url": "./download/ddbj/2016-07-30/graph-1/105.0/",
             "size": 148939781320
           }
         ],
-        "number_of_triples": 20067185022,
-        "number_of_instances": 1878437947,
-        "number_of_subjects": 2913415115,
-        "number_of_objects": 3907105857,
-        "number_of_literals": 950890006,
-        "number_of_classes": 109,
+        "number_of_triples": 39574632446,
+        "number_of_instances": 4316173038,
+        "number_of_subjects": 6198487494,
+        "number_of_objects": 7674713042,
+        "number_of_literals": 1775755355,
+        "number_of_classes": 110,
         "classes": "./data/ddbj_graph-1_classes.json",
-        "number_of_properties": 144,
+        "number_of_properties": 151,
         "properties": "./data/ddbj_graph-1_propertiess.json",
         "number_of_datatypes": 4,
         "datatypes": [
@@ -6579,239 +6559,219 @@
         ],
         "xrefs": [
           {
-            "uri_space": "http://identifiers.org/interpro/",
-            "title": "InterPro",
-            "number_of_triples": 15032765
-          },
-          {
-            "uri_space": "http://identifiers.org/hgnc/",
-            "title": "HGNC",
-            "number_of_triples": 77875
-          },
-          {
-            "uri_space": "http://identifiers.org/pombase/",
-            "title": "PomBase",
-            "number_of_triples": 9159
-          },
-          {
-            "uri_space": "http://identifiers.org/greengenes/",
-            "title": "GreenGenes",
-            "number_of_triples": 828
-          },
-          {
-            "uri_space": "http://identifiers.org/omim/",
-            "title": "OMIM",
-            "number_of_triples": 46102
-          },
-          {
-            "uri_space": "http://identifiers.org/pubmed/",
-            "title": "PubMed",
-            "number_of_triples": 66914132
-          },
-          {
-            "uri_space": "http://identifiers.org/uniprot/",
-            "title": "UniProt Knowledgebase",
-            "number_of_triples": 4564185
-          },
-          {
-            "uri_space": "http://identifiers.org/antweb/",
-            "title": "AntWeb",
-            "number_of_triples": 3319
-          },
-          {
-            "uri_space": "http://identifiers.org/ecogene/",
-            "title": "EcoGene",
-            "number_of_triples": 9285
-          },
-          {
-            "uri_space": "http://identifiers.org/aceview.worm/",
-            "title": "Aceview Worm",
-            "number_of_triples": 71
-          },
-          {
-            "uri_space": "http://identifiers.org/atcc/",
-            "title": "ATCC",
-            "number_of_triples": 80338
-          },
-          {
             "uri_space": "http://identifiers.org/ncbiprotein/",
-            "title": "NCBI Protein",
-            "number_of_triples": 50410134
-          },
-          {
-            "uri_space": "http://identifiers.org/flybase/",
-            "title": "FlyBase",
-            "number_of_triples": 1264928
-          },
-          {
-            "uri_space": "http://identifiers.org/ncbigene/",
-            "title": "NCBI Gene",
-            "number_of_triples": 546419
-          },
-          {
-            "uri_space": "http://identifiers.org/mirbase/",
-            "title": "miRBase Sequence",
-            "number_of_triples": 4123
-          },
-          {
-            "uri_space": "http://identifiers.org/pathema/",
-            "title": "Pathema",
-            "number_of_triples": 246626
-          },
-          {
-            "uri_space": "http://identifiers.org/tair.locus/",
-            "title": "TAIR Locus",
-            "number_of_triples": 138976
-          },
-          {
-            "uri_space": "http://identifiers.org/jcm/",
-            "title": "Japan Collection of Microorganisms",
-            "number_of_triples": 124
-          },
-          {
-            "uri_space": "http://identifiers.org/goa/",
-            "title": "GOA",
-            "number_of_triples": 2251547
-          },
-          {
-            "uri_space": "http://identifiers.org/imgt.ligm/",
-            "title": "IMGT LIGM",
-            "number_of_triples": 1880
-          },
-          {
-            "uri_space": "http://identifiers.org/imgt.hla/",
-            "title": "IMGT HLA",
-            "number_of_triples": 2257
-          },
-          {
-            "uri_space": "http://identifiers.org/hssp/",
-            "title": "HSSP",
-            "number_of_triples": 145
-          },
-          {
-            "uri_space": "http://identifiers.org/tigrfam/",
-            "title": "TIGRFAMS",
-            "number_of_triples": 8996
-          },
-          {
-            "uri_space": "http://identifiers.org/fbol/",
-            "title": "Fungal Barcode",
-            "number_of_triples": 6715
-          },
-          {
-            "uri_space": "http://identifiers.org/dbest/",
-            "title": "dbEST",
-            "number_of_triples": 13015
-          },
-          {
-            "uri_space": "http://identifiers.org/nbrc/",
-            "title": "NITE Biological Research Center Catalogue",
-            "number_of_triples": 3291
-          },
-          {
-            "uri_space": "http://identifiers.org/unists/",
-            "title": "UniSTS",
-            "number_of_triples": 30
-          },
-          {
-            "uri_space": "http://identifiers.org/sgd/",
-            "title": "SGD",
-            "number_of_triples": 659839
-          },
-          {
-            "uri_space": "http://identifiers.org/homd.taxon/",
-            "title": "HOMD Taxonomy",
-            "number_of_triples": 35087
-          },
-          {
-            "uri_space": "http://identifiers.org/gabi/",
-            "title": "GABI",
-            "number_of_triples": 270783
-          },
-          {
-            "uri_space": "http://identifiers.org/pfam/",
-            "title": "Pfam",
-            "number_of_triples": 80491
-          },
-          {
-            "uri_space": "http://identifiers.org/aftol.taxonomy/",
-            "title": "AFTOL",
-            "number_of_triples": 4280
-          },
-          {
-            "uri_space": "http://identifiers.org/dbsnp/",
-            "title": "dbSNP",
-            "number_of_triples": 13498
-          },
-          {
-            "uri_space": "http://identifiers.org/beetlebase/",
-            "title": "BeetleBase",
-            "number_of_triples": 40677
-          },
-          {
-            "uri_space": "http://identifiers.org/asap/",
-            "title": "ASAP",
-            "number_of_triples": 46245
-          },
-          {
-            "uri_space": "http://identifiers.org/hinv.transcript/",
-            "title": "H-InvDb Transcript",
-            "number_of_triples": 211887
-          },
-          {
-            "uri_space": "http://identifiers.org/pdb/",
-            "title": "Protein Data Bank",
-            "number_of_triples": 129329
-          },
-          {
-            "uri_space": "http://identifiers.org/mgd/",
-            "title": "Mouse Genome Database",
-            "number_of_triples": 197880
-          },
-          {
-            "uri_space": "http://identifiers.org/dictybase.est/",
-            "title": "Dictybase EST",
-            "number_of_triples": 2
-          },
-          {
-            "uri_space": "http://identifiers.org/rgd/",
-            "title": "Rat Genome Database",
-            "number_of_triples": 15249
-          },
-          {
-            "uri_space": "http://identifiers.org/maizegdb.locus/",
-            "title": "MaizeGDB Locus",
-            "number_of_triples": 9169
-          },
-          {
-            "uri_space": "http://identifiers.org/niaest/",
-            "title": "NIAEST",
-            "number_of_triples": 370250
-          },
-          {
-            "uri_space": "http://identifiers.org/cdd/",
-            "title": "Conserved Domain Database",
-            "number_of_triples": 24448
-          },
-          {
-            "uri_space": "http://identifiers.org/ensembl/",
-            "title": "Ensembl",
-            "number_of_triples": 181497
-          },
-          {
-            "uri_space": "http://identifiers.org/subtilist/",
-            "title": "SubtiList",
-            "number_of_triples": 4058
+            "number_of_triples": 243269737,
+            "title": "NCBI Protein"
           },
           {
             "uri_space": "http://identifiers.org/taxonomy/",
-            "title": "Taxonomy",
-            "number_of_triples": 202178136
+            "number_of_triples": 245147127,
+            "title": "Taxonomy"
           },
           {
-            "uri_space": "http://identifiers.org/ncbigi/",
-            "title": "NCBI GI",
-            "number_of_triples": 43707953
+            "uri_space": "http://identifiers.org/isfinder/",
+            "number_of_triples": 6376,
+            "title": "ISFinder"
+          },
+          {
+            "uri_space": "http://identifiers.org/atcc/",
+            "number_of_triples": 80157,
+            "title": "ATCC"
+          },
+          {
+            "uri_space": "http://identifiers.org/nbrc/",
+            "number_of_triples": 3293,
+            "title": "NITE Biological Research Center Catalogue"
+          },
+          {
+            "uri_space": "http://identifiers.org/jcm/",
+            "number_of_triples": 124,
+            "title": "Japan Collection of Microorganisms"
+          },
+          {
+            "uri_space": "http://identifiers.org/uniprot/",
+            "number_of_triples": 7269245,
+            "title": "UniProt Knowledgebase"
+          },
+          {
+            "uri_space": "http://identifiers.org/interpro/",
+            "number_of_triples": 26473480,
+            "title": "InterPro"
+          },
+          {
+            "uri_space": "http://identifiers.org/cdd/",
+            "number_of_triples": 32367,
+            "title": "Conserved Domain Database"
+          },
+          {
+            "uri_space": "http://identifiers.org/ncbigene/",
+            "number_of_triples": 574225,
+            "title": "NCBI Gene"
+          },
+          {
+            "uri_space": "http://identifiers.org/goa/",
+            "number_of_triples": 3932777,
+            "title": "GOA"
+          },
+          {
+            "uri_space": "http://identifiers.org/pdb/",
+            "number_of_triples": 191508,
+            "title": "Protein Data Bank"
+          },
+          {
+            "uri_space": "http://identifiers.org/asap/",
+            "number_of_triples": 61579,
+            "title": "ASAP"
+          },
+          {
+            "uri_space": "http://identifiers.org/biocyc/",
+            "number_of_triples": 29384,
+            "title": "BioCyc"
+          },
+          {
+            "uri_space": "http://identifiers.org/ecogene/",
+            "number_of_triples": 16262,
+            "title": "EcoGene"
+          },
+          {
+            "uri_space": "http://identifiers.org/pfam/",
+            "number_of_triples": 640916,
+            "title": "Pfam"
+          },
+          {
+            "uri_space": "http://identifiers.org/tigrfam/",
+            "number_of_triples": 66037,
+            "title": "TIGRFAMS"
+          },
+          {
+            "uri_space": "http://identifiers.org/greengenes/",
+            "number_of_triples": 828,
+            "title": "GreenGenes"
+          },
+          {
+            "uri_space": "http://identifiers.org/homd.taxon/",
+            "number_of_triples": 35087,
+            "title": "HOMD Taxonomy"
+          },
+          {
+            "uri_space": "http://identifiers.org/subtilist/",
+            "number_of_triples": 4058,
+            "title": "SubtiList"
+          },
+          {
+            "uri_space": "http://identifiers.org/hssp/",
+            "number_of_triples": 145,
+            "title": "HSSP"
+          },
+          {
+            "uri_space": "http://identifiers.org/mirbase/",
+            "number_of_triples": 3461,
+            "title": "miRBase Sequence"
+          },
+          {
+            "uri_space": "http://identifiers.org/tair.locus/",
+            "number_of_triples": 168357,
+            "title": "TAIR Locus"
+          },
+          {
+            "uri_space": "http://identifiers.org/ensembl/",
+            "number_of_triples": 181923,
+            "title": "Ensembl"
+          },
+          {
+            "uri_space": "http://identifiers.org/beetlebase/",
+            "number_of_triples": 40671,
+            "title": "BeetleBase"
+          },
+          {
+            "uri_space": "http://identifiers.org/niaest/",
+            "number_of_triples": 370250,
+            "title": "NIAEST"
+          },
+          {
+            "uri_space": "http://identifiers.org/gabi/",
+            "number_of_triples": 270783,
+            "title": "GABI"
+          },
+          {
+            "uri_space": "http://identifiers.org/dbest/",
+            "number_of_triples": 13015,
+            "title": "dbEST"
+          },
+          {
+            "uri_space": "http://identifiers.org/hgnc/",
+            "number_of_triples": 78035,
+            "title": "HGNC"
+          },
+          {
+            "uri_space": "http://identifiers.org/hinv.transcript/",
+            "number_of_triples": 211710,
+            "title": "H-InvDb Transcript"
+          },
+          {
+            "uri_space": "http://identifiers.org/maizegdb.locus/",
+            "number_of_triples": 9169,
+            "title": "MaizeGDB Locus"
+          },
+          {
+            "uri_space": "http://identifiers.org/imgt.ligm/",
+            "number_of_triples": 1880,
+            "title": "IMGT LIGM"
+          },
+          {
+            "uri_space": "http://identifiers.org/dbsnp/",
+            "number_of_triples": 14137,
+            "title": "dbSNP"
+          },
+          {
+            "uri_space": "http://identifiers.org/aceview.worm/",
+            "number_of_triples": 71,
+            "title": "Aceview Worm"
+          },
+          {
+            "uri_space": "http://identifiers.org/unists/",
+            "number_of_triples": 33,
+            "title": "UniSTS"
+          },
+          {
+            "uri_space": "http://identifiers.org/dictybase.est/",
+            "number_of_triples": 2,
+            "title": "Dictybase EST"
+          },
+          {
+            "uri_space": "http://identifiers.org/antweb/",
+            "number_of_triples": 3319,
+            "title": "AntWeb"
+          },
+          {
+            "uri_space": "http://identifiers.org/sgd/",
+            "number_of_triples": 661502,
+            "title": "SGD"
+          },
+          {
+            "uri_space": "http://identifiers.org/aftol.taxonomy/",
+            "number_of_triples": 4313,
+            "title": "AFTOL"
+          },
+          {
+            "uri_space": "http://identifiers.org/pombase/",
+            "number_of_triples": 9172,
+            "title": "PomBase"
+          },
+          {
+            "uri_space": "http://identifiers.org/fbol/",
+            "number_of_triples": 6715,
+            "title": "Fungal Barcode"
+          },
+          {
+            "uri_space": "http://identifiers.org/rgd/",
+            "number_of_triples": 15249,
+            "title": "Rat Genome Database"
+          },
+          {
+            "uri_space": "http://identifiers.org/pubmed/",
+            "number_of_triples": 71262115,
+            "title": "PubMed"
           }
         ]
       }
@@ -6867,36 +6827,36 @@
     "sparql_examples": [
       {
         "sparql": {
-          "en": "\n#  Search for a DDBJ entry \"CP002459.1\" and the metadata.\n#  Note the SPARQL endpoint for DDBJ is https://integbio.jp/rdf/ddbj/sparql .\n\nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\n\nSELECT\n  ?predicate ?object\nWHERE\n{\n  VALUES ?entry { &lt;http://identifiers.org/insdc/CP002459.1&gt; }\n  VALUES ?predicate { \n    insdc:comment\n    insdc:definition\n    insdc:division\n    insdc:organism\n    insdc:sequence_date\n    insdc:sequence_version\n    insdc:source\n    insdc:taxonomy\n    insdc:dblink\n  }                      \n  ?entry rdf:type insdc:Entry. \n  ?entry ?predicate ?object.\n}\n",
-          "ja": "\n#  Search for a DDBJ entry \"CP002459.1\" and the metadata.\n#  Note the SPARQL endpoint for DDBJ is https://integbio.jp/rdf/ddbj/sparql .\n\nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\n\nSELECT\n  ?predicate ?object\nWHERE\n{\n  VALUES ?entry { &lt;http://identifiers.org/insdc/CP002459.1&gt; }\n  VALUES ?predicate { \n    insdc:comment\n    insdc:definition\n    insdc:division\n    insdc:organism\n    insdc:sequence_date\n    insdc:sequence_version\n    insdc:source\n    insdc:taxonomy\n    insdc:dblink\n  }                      \n  ?entry rdf:type insdc:Entry. \n  ?entry ?predicate ?object.\n}\n"
+          "en": "\n#  Search for a DDBJ entry \"CP002459.1\" and the metadata.\n#  Note the SPARQL endpoint for DDBJ is https://rdfportal.org/ddbj/sparql .\n\nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\n\nSELECT\n  ?predicate ?object\nWHERE\n{\n  VALUES ?entry { &lt;http://identifiers.org/insdc/CP002459.1&gt; }\n  VALUES ?predicate { \n    insdc:comment\n    insdc:definition\n    insdc:division\n    insdc:organism\n    insdc:sequence_date\n    insdc:sequence_version\n    insdc:source\n    insdc:taxonomy\n    insdc:dblink\n  }                      \n  ?entry rdf:type insdc:Entry. \n  ?entry ?predicate ?object.\n}\n",
+          "ja": "\n#  Search for a DDBJ entry \"CP002459.1\" and the metadata.\n#  Note the SPARQL endpoint for DDBJ is https://rdfportal.org/ddbj/sparql .\n\nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\n\nSELECT\n  ?predicate ?object\nWHERE\n{\n  VALUES ?entry { &lt;http://identifiers.org/insdc/CP002459.1&gt; }\n  VALUES ?predicate { \n    insdc:comment\n    insdc:definition\n    insdc:division\n    insdc:organism\n    insdc:sequence_date\n    insdc:sequence_version\n    insdc:source\n    insdc:taxonomy\n    insdc:dblink\n  }                      \n  ?entry rdf:type insdc:Entry. \n  ?entry ?predicate ?object.\n}\n"
         },
         "url": "./sparql?format=default&page=home"
       },
       {
         "sparql": {
-          "en": "\n#  Search for a BioProject entry \"PRJNA244038.1\" and the anntated sequence enties. \n#  Note the SPARQL endpoint for DDBJ is https://integbio.jp/rdf/ddbj/sparql .\n\nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\n\nSELECT\n  ?sequence_version ?definition replace(str(?topology), \"http://ddbj.nig.ac.jp/ontologies/nucleotide/\",\"\") as ?topology\nWHERE\n{\n  VALUES ?project { &lt;http://identifiers.org/bioproject/PRJNA244038&gt; }\n  ?entry insdc:dblink ?project.\n  ?entry rdf:type insdc:Entry. \n  ?project rdf:type insdc:BioProject.\n  ?entry insdc:sequence_version ?sequence_version.\n  ?entry insdc:definition ?definition.\n  ?entry insdc:sequence ?sequence.\n  ?sequence insdc:topology ?topology.\n}\n\n",
-          "ja": "\n#  Search for a BioProject entry \"PRJNA244038.1\" and the anntated sequence enties. \n#  Note the SPARQL endpoint for DDBJ is https://integbio.jp/rdf/ddbj/sparql .\n\nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\n\nSELECT\n  ?sequence_version ?definition replace(str(?topology), \"http://ddbj.nig.ac.jp/ontologies/nucleotide/\",\"\") as ?topology\nWHERE\n{\n  VALUES ?project { &lt;http://identifiers.org/bioproject/PRJNA244038&gt; }\n  ?entry insdc:dblink ?project.\n  ?entry rdf:type insdc:Entry. \n  ?project rdf:type insdc:BioProject.\n  ?entry insdc:sequence_version ?sequence_version.\n  ?entry insdc:definition ?definition.\n  ?entry insdc:sequence ?sequence.\n  ?sequence insdc:topology ?topology.\n}\n\n"
+          "en": "\n#  Search for a BioProject entry \"PRJNA244038.1\" and the anntated sequence enties. \n#  Note the SPARQL endpoint for DDBJ is https://rdfportal.org/ddbj/sparql .\n\nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\n\nSELECT\n  ?sequence_version ?definition replace(str(?topology), \"http://ddbj.nig.ac.jp/ontologies/nucleotide/\",\"\") as ?topology\nWHERE\n{\n  VALUES ?project { &lt;http://identifiers.org/bioproject/PRJNA244038&gt; }\n  ?entry insdc:dblink ?project.\n  ?entry rdf:type insdc:Entry. \n  ?project rdf:type insdc:BioProject.\n  ?entry insdc:sequence_version ?sequence_version.\n  ?entry insdc:definition ?definition.\n  ?entry insdc:sequence ?sequence.\n  ?sequence insdc:topology ?topology.\n}\n\n",
+          "ja": "\n#  Search for a BioProject entry \"PRJNA244038.1\" and the anntated sequence enties. \n#  Note the SPARQL endpoint for DDBJ is https://rdfportal.org/ddbj/sparql .\n\nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\n\nSELECT\n  ?sequence_version ?definition replace(str(?topology), \"http://ddbj.nig.ac.jp/ontologies/nucleotide/\",\"\") as ?topology\nWHERE\n{\n  VALUES ?project { &lt;http://identifiers.org/bioproject/PRJNA244038&gt; }\n  ?entry insdc:dblink ?project.\n  ?entry rdf:type insdc:Entry. \n  ?project rdf:type insdc:BioProject.\n  ?entry insdc:sequence_version ?sequence_version.\n  ?entry insdc:definition ?definition.\n  ?entry insdc:sequence ?sequence.\n  ?sequence insdc:topology ?topology.\n}\n\n"
         },
         "url": "./sparql?format=default&page=home"
       },
       {
         "sparql": {
-          "en": "\n#  Search for a PubMed ID \"21441521\" and the related DDBJ enties. \n#  Note the SPARQL endpoint for DDBJ is https://integbio.jp/rdf/ddbj/sparql .\n\nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\n\nSELECT\n  ?sequence_version\nWHERE\n{\n  VALUES ?pubmed { &lt;http://identifiers.org/pubmed/21441521&gt; }\n  ?entry rdfs:seeAlso ?pubmed.\n  ?entry rdf:type insdc:Entry.  \n  ?pubmed rdf:type insdc:PubMed.\n  ?entry insdc:sequence_version ?sequence_version.\n}\n",
-          "ja": "\n#  Search for a PubMed ID \"21441521\" and the related DDBJ enties. \n#  Note the SPARQL endpoint for DDBJ is https://integbio.jp/rdf/ddbj/sparql .\n\nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\n\nSELECT\n  ?sequence_version\nWHERE\n{\n  VALUES ?pubmed { &lt;http://identifiers.org/pubmed/21441521&gt; }\n  ?entry rdfs:seeAlso ?pubmed.\n  ?entry rdf:type insdc:Entry.  \n  ?pubmed rdf:type insdc:PubMed.\n  ?entry insdc:sequence_version ?sequence_version.\n}\n"
+          "en": "\n#  Search for a PubMed ID \"21441521\" and the related DDBJ enties. \n#  Note the SPARQL endpoint for DDBJ is https://rdfportal.org/ddbj/sparql .\n\nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\nPREFIX dcterms: &lt;http://purl.org/dc/terms/&gt;\n\nSELECT\n  ?sequence_version\nWHERE\n{\n  VALUES ?pubmed { &lt;http://identifiers.org/pubmed/21441521&gt; }\n  ?entry dcterms:references ?pubmed.\n  ?entry rdf:type insdc:Entry.  \n  ?pubmed rdf:type insdc:PubMed.\n  ?entry insdc:sequence_version ?sequence_version.\n}\n",
+          "ja": "\n#  Search for a PubMed ID \"21441521\" and the related DDBJ enties. \n#  Note the SPARQL endpoint for DDBJ is https://rdfportal.org/ddbj/sparql .\n\nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\nPREFIX dcterms: &lt;http://purl.org/dc/terms/&gt;\n\nSELECT\n  ?sequence_version\nWHERE\n{\n  VALUES ?pubmed { &lt;http://identifiers.org/pubmed/21441521&gt; }\n  ?entry dcterms:references ?pubmed.\n  ?entry rdf:type insdc:Entry.  \n  ?pubmed rdf:type insdc:PubMed.\n  ?entry insdc:sequence_version ?sequence_version.\n}\n"
         },
         "url": "./sparql?format=default&page=home"
       },
       {
         "sparql": {
-          "en": "\n#  Search for a Taxonomy ID \"1148\" and the anntated sequence enties.\n#  Note the SPARQL endpoint for DDBJ is https://integbio.jp/rdf/ddbj/sparql .\n\nPREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt; \nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX obo:&lt;http://purl.obolibrary.org/obo/&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\nPREFIX tax: &lt;http://ddbj.nig.ac.jp/ontologies/taxonomy/&gt;\n\nSELECT\n  ?organism ?sequence_version ?definition  ?sequence_date\nWHERE\n{\n  values ?tax_id {tax:1148} \n  ?entry insdc:sequence ?sequence.\n  ?sequence obo:RO_0002162 ?taxon.\n  ?taxon owl:sameAs ?tax_id.\n  ?entry insdc:definition ?definition .\n  ?entry insdc:division ?division .\n  ?entry insdc:organism ?organism .\n  ?entry insdc:sequence_date ?sequence_date .\n  ?entry insdc:sequence_version ?sequence_version .\n}\nORDER BY ?sequence_date\n",
-          "ja": "\n#  Search for a Taxonomy ID \"1148\" and the anntated sequence enties.\n#  Note the SPARQL endpoint for DDBJ is https://integbio.jp/rdf/ddbj/sparql .\n\nPREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt; \nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX obo:&lt;http://purl.obolibrary.org/obo/&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\nPREFIX tax: &lt;http://ddbj.nig.ac.jp/ontologies/taxonomy/&gt;\n\nSELECT\n  ?organism ?sequence_version ?definition  ?sequence_date\nWHERE\n{\n  values ?tax_id {tax:1148} \n  ?entry insdc:sequence ?sequence.\n  ?sequence obo:RO_0002162 ?taxon.\n  ?taxon owl:sameAs ?tax_id.\n  ?entry insdc:definition ?definition .\n  ?entry insdc:division ?division .\n  ?entry insdc:organism ?organism .\n  ?entry insdc:sequence_date ?sequence_date .\n  ?entry insdc:sequence_version ?sequence_version .\n}\nORDER BY ?sequence_date\n"
+          "en": "\n#  Search for a Taxonomy ID \"1148\" and the anntated sequence enties.\n#  Note the SPARQL endpoint for DDBJ is https://rdfportal.org/ddbj/sparql .\n\nPREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt; \nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX obo:&lt;http://purl.obolibrary.org/obo/&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\nPREFIX tax: &lt;http://ddbj.nig.ac.jp/ontologies/taxonomy/&gt;\n\nSELECT\n  ?organism ?sequence_version ?definition  ?sequence_date\nWHERE\n{\n  values ?tax_id {tax:1148} \n  ?entry insdc:sequence ?sequence.\n  ?sequence obo:RO_0002162 ?taxon.\n  ?taxon owl:sameAs ?tax_id.\n  ?entry insdc:definition ?definition .\n  ?entry insdc:division ?division .\n  ?entry insdc:organism ?organism .\n  ?entry insdc:sequence_date ?sequence_date .\n  ?entry insdc:sequence_version ?sequence_version .\n}\nORDER BY ?sequence_date\n",
+          "ja": "\n#  Search for a Taxonomy ID \"1148\" and the anntated sequence enties.\n#  Note the SPARQL endpoint for DDBJ is https://rdfportal.org/ddbj/sparql .\n\nPREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt; \nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX obo:&lt;http://purl.obolibrary.org/obo/&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\nPREFIX tax: &lt;http://ddbj.nig.ac.jp/ontologies/taxonomy/&gt;\n\nSELECT\n  ?organism ?sequence_version ?definition  ?sequence_date\nWHERE\n{\n  values ?tax_id {tax:1148} \n  ?entry insdc:sequence ?sequence.\n  ?sequence obo:RO_0002162 ?taxon.\n  ?taxon owl:sameAs ?tax_id.\n  ?entry insdc:definition ?definition .\n  ?entry insdc:division ?division .\n  ?entry insdc:organism ?organism .\n  ?entry insdc:sequence_date ?sequence_date .\n  ?entry insdc:sequence_version ?sequence_version .\n}\nORDER BY ?sequence_date\n"
         },
         "url": "./sparql?format=default&page=home"
       },
       {
         "sparql": {
-          "en": "\n#  Find features containing locus_tag qualifier in DDBJ entry \"AP011615.1\"\n#  Note the SPARQL endpoint for DDBJ is https://integbio.jp/rdf/ddbj/sparql .\n\nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX obo:&lt;http://purl.obolibrary.org/obo/&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\nPREFIX faldo:  &lt;http://biohackathon.org/resource/faldo#&gt;\n\nselect\n ?locus_tag ?feature_type ?product ?gene_symbol \n IF(?fstart &lt; ?fend , ?fstart, ?fend) as ?start \n IF(?fstart &lt; ?fend , ?fend, ?fstart) as ?end\n IF( ?faldo_type = faldo:ForwardStrandPosition,\"+\", IF( ?faldo_type = faldo:ReverseStrandPosition,\"-\",\".\")) as ?strand\n#*\nwhere\n{ \n  values ?entry {&lt;http://identifiers.org/insdc/AP011615.1&gt;}.\n  values ?faldo_type { faldo:ForwardStrandPosition faldo:ReverseStrandPosition }\n  ?entry   insdc:sequence ?sequence .\n  ?feature obo:so_part_of+ ?sequence .\n  ?sequence rdfs:subClassOf obo:SO_0000001 .\n  ?feature rdf:type ?type .\n  ?type rdfs:label ?feature_type .\n  ?feature insdc:locus_tag ?locus_tag.\n  ?feature insdc:product ?product .\n  OPTIONAL { ?feature insdc:gene ?gene_symbol .}\n  ?feature faldo:location ?faldo .\n  ?faldo faldo:begin/rdf:type ?faldo_type .\n  ?faldo faldo:begin/faldo:position ?fstart .\n  ?faldo faldo:end/faldo:position ?fend .\n  ?feature obo:so_part_of ?parent .\n}\nORDER BY ?locus_tag\n",
-          "ja": "\n#  Find features containing locus_tag qualifier in DDBJ entry \"AP011615.1\"\n#  Note the SPARQL endpoint for DDBJ is https://integbio.jp/rdf/ddbj/sparql .\n\nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX obo:&lt;http://purl.obolibrary.org/obo/&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\nPREFIX faldo:  &lt;http://biohackathon.org/resource/faldo#&gt;\n\nselect\n ?locus_tag ?feature_type ?product ?gene_symbol \n IF(?fstart &lt; ?fend , ?fstart, ?fend) as ?start \n IF(?fstart &lt; ?fend , ?fend, ?fstart) as ?end\n IF( ?faldo_type = faldo:ForwardStrandPosition,\"+\", IF( ?faldo_type = faldo:ReverseStrandPosition,\"-\",\".\")) as ?strand\n#*\nwhere\n{ \n  values ?entry {&lt;http://identifiers.org/insdc/AP011615.1&gt;}.\n  values ?faldo_type { faldo:ForwardStrandPosition faldo:ReverseStrandPosition }\n  ?entry   insdc:sequence ?sequence .\n  ?feature obo:so_part_of+ ?sequence .\n  ?sequence rdfs:subClassOf obo:SO_0000001 .\n  ?feature rdf:type ?type .\n  ?type rdfs:label ?feature_type .\n  ?feature insdc:locus_tag ?locus_tag.\n  ?feature insdc:product ?product .\n  OPTIONAL { ?feature insdc:gene ?gene_symbol .}\n  ?feature faldo:location ?faldo .\n  ?faldo faldo:begin/rdf:type ?faldo_type .\n  ?faldo faldo:begin/faldo:position ?fstart .\n  ?faldo faldo:end/faldo:position ?fend .\n  ?feature obo:so_part_of ?parent .\n}\nORDER BY ?locus_tag\n"
+          "en": "\n#  Find features containing locus_tag qualifier in DDBJ entry \"AP011615.1\"\n#  Note the SPARQL endpoint for DDBJ is https://rdfportal.org/ddbj/sparql .\n\nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX obo:&lt;http://purl.obolibrary.org/obo/&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\nPREFIX faldo:  &lt;http://biohackathon.org/resource/faldo#&gt;\n\nselect\n ?locus_tag ?feature_type ?product ?gene_symbol \n IF(?fstart &lt; ?fend , ?fstart, ?fend) as ?start \n IF(?fstart &lt; ?fend , ?fend, ?fstart) as ?end\n IF( ?faldo_type = faldo:ForwardStrandPosition,\"+\", IF( ?faldo_type = faldo:ReverseStrandPosition,\"-\",\".\")) as ?strand\nwhere\n{ \n  values ?entry {&lt;http://identifiers.org/insdc/AP011615.1&gt;}.\n  values ?faldo_type { faldo:ForwardStrandPosition faldo:ReverseStrandPosition }\n  ?entry   insdc:sequence ?sequence .\n  ?feature obo:BFO_0000050 ?sequence .\n  ?sequence rdfs:subClassOf obo:SO_0000001 .\n  ?feature rdf:type ?type .\n  ?type rdfs:label ?feature_type .\n  ?feature insdc:locus_tag ?locus_tag.\n  ?feature insdc:product ?product .\n  OPTIONAL { ?feature insdc:gene ?gene_symbol .}\n  ?feature faldo:location ?faldo .\n  ?faldo faldo:begin/rdf:type ?faldo_type .\n  ?faldo faldo:begin/faldo:position ?fstart .\n  ?faldo faldo:end/faldo:position ?fend .\n  ?feature obo:BFO_0000051  ?parent .\n}\nORDER BY ?locus_tag\n",
+          "ja": "\n#  Find features containing locus_tag qualifier in DDBJ entry \"AP011615.1\"\n#  Note the SPARQL endpoint for DDBJ is https://rdfportal.org/ddbj/sparql .\n\nPREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\nPREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;\nPREFIX obo:&lt;http://purl.obolibrary.org/obo/&gt;\nPREFIX insdc:&lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;\nPREFIX faldo:  &lt;http://biohackathon.org/resource/faldo#&gt;\n\nselect\n ?locus_tag ?feature_type ?product ?gene_symbol \n IF(?fstart &lt; ?fend , ?fstart, ?fend) as ?start \n IF(?fstart &lt; ?fend , ?fend, ?fstart) as ?end\n IF( ?faldo_type = faldo:ForwardStrandPosition,\"+\", IF( ?faldo_type = faldo:ReverseStrandPosition,\"-\",\".\")) as ?strand\nwhere\n{ \n  values ?entry {&lt;http://identifiers.org/insdc/AP011615.1&gt;}.\n  values ?faldo_type { faldo:ForwardStrandPosition faldo:ReverseStrandPosition }\n  ?entry   insdc:sequence ?sequence .\n  ?feature obo:BFO_0000050 ?sequence .\n  ?sequence rdfs:subClassOf obo:SO_0000001 .\n  ?feature rdf:type ?type .\n  ?type rdfs:label ?feature_type .\n  ?feature insdc:locus_tag ?locus_tag.\n  ?feature insdc:product ?product .\n  OPTIONAL { ?feature insdc:gene ?gene_symbol .}\n  ?feature faldo:location ?faldo .\n  ?faldo faldo:begin/rdf:type ?faldo_type .\n  ?faldo faldo:begin/faldo:position ?fstart .\n  ?faldo faldo:end/faldo:position ?fend .\n  ?feature obo:BFO_0000051  ?parent .\n}\nORDER BY ?locus_tag\n"
         },
         "url": "./sparql?format=default&page=home"
       }
