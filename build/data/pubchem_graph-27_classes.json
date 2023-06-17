@@ -1,0 +1,10 @@
+[
+  {
+    "class": "http://rdfs.org/ns/void#Dataset",
+    "number_of_instances": 28
+  },
+  {
+    "class": "http://rdfs.org/ns/void#DatasetDescription",
+    "number_of_instances": 1
+  }
+]

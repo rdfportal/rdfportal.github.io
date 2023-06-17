@@ -1,0 +1,98 @@
+[
+    {
+        "property": "http://rdfs.org/ns/void#dataDump",
+        "number_of_triples": 26023
+    },
+    {
+        "property": "http://rdfs.org/ns/void#exampleResource",
+        "number_of_triples": 31
+    },
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "number_of_triples": 29
+    },
+    {
+        "property": "http://purl.org/dc/terms/title",
+        "number_of_triples": 29
+    },
+    {
+        "property": "http://purl.org/dc/terms/description",
+        "number_of_triples": 29
+    },
+    {
+        "property": "http://rdfs.org/ns/void#uriSpace",
+        "number_of_triples": 28
+    },
+    {
+        "property": "http://rdfs.org/ns/void#uriLookupEndpoint",
+        "number_of_triples": 28
+    },
+    {
+        "property": "http://rdfs.org/ns/void#triples",
+        "number_of_triples": 28
+    },
+    {
+        "property": "http://purl.org/dc/terms/subject",
+        "number_of_triples": 27
+    },
+    {
+        "property": "http://rdfs.org/ns/void#subset",
+        "number_of_triples": 27
+    },
+    {
+        "property": "http://rdfs.org/ns/void#distinctSubjects",
+        "number_of_triples": 27
+    },
+    {
+        "property": "http://rdfs.org/ns/void#vocabulary",
+        "number_of_triples": 15
+    },
+    {
+        "property": "http://rdfs.org/ns/void#feature",
+        "number_of_triples": 1
+    },
+    {
+        "property": "http://rdfs.org/ns/void#entities",
+        "number_of_triples": 1
+    },
+    {
+        "property": "http://purl.org/dc/terms/rights",
+        "number_of_triples": 1
+    },
+    {
+        "property": "http://purl.org/pav/2.0/createdBy",
+        "number_of_triples": 1
+    },
+    {
+        "property": "http://purl.org/dc/terms/publisher",
+        "number_of_triples": 1
+    },
+    {
+        "property": "http://purl.org/dc/terms/created",
+        "number_of_triples": 1
+    },
+    {
+        "property": "http://xmlns.com/foaf/0.1/homepage",
+        "number_of_triples": 1
+    },
+    {
+        "property": "http://xmlns.com/foaf/0.1/primaryTopic",
+        "number_of_triples": 1
+    },
+    {
+        "property": "http://purl.org/pav/2.0/createdOn",
+        "number_of_triples": 1
+    },
+    {
+        "property": "http://voag.linkedmodel.org/schema/voag#frequencyOfChange",
+        "number_of_triples": 1
+    },
+    {
+        "property": "http://purl.org/dc/terms/modified",
+        "number_of_triples": 1
+    },
+    {
+        "property": "http://purl.org/dc/terms/bibliographicCitation",
+        "number_of_triples": 1
+    }
+]

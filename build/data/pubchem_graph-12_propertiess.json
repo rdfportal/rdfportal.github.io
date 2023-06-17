@@ -1,0 +1,14 @@
+[
+    {
+        "property": "http://purl.org/dc/terms/abstract",
+        "number_of_triples": 14380
+    },
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "number_of_triples": 14380
+    },
+    {
+        "property": "http://purl.org/dc/terms/title",
+        "number_of_triples": 14380
+    }
+]

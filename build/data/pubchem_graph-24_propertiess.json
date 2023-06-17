@@ -1,0 +1,26 @@
+[
+    {
+        "property": "http://www.w3.org/2006/vcard/ns#given-name",
+        "number_of_triples": 15763103
+    },
+    {
+        "property": "http://www.w3.org/2006/vcard/ns#fn",
+        "number_of_triples": 15019274
+    },
+    {
+        "property": "http://www.w3.org/2006/vcard/ns#family-name",
+        "number_of_triples": 14476427
+    },
+    {
+        "property": "http://www.w3.org/2006/vcard/ns#organization-name",
+        "number_of_triples": 11700689
+    },
+    {
+        "property": "http://www.w3.org/2006/vcard/ns#hasUID",
+        "number_of_triples": 1300003
+    },
+    {
+        "property": "http://purl.org/dc/terms/source",
+        "number_of_triples": 1300003
+    }
+]

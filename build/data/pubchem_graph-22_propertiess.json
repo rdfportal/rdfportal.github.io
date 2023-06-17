@@ -1,0 +1,38 @@
+[
+    {
+        "property": "http://purl.org/dc/terms/creator",
+        "number_of_triples": 22150
+    },
+    {
+        "property": "http://prismstandard.org/namespaces/basic/3.0/location",
+        "number_of_triples": 6406
+    },
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#exactMatch",
+        "number_of_triples": 6406
+    },
+    {
+        "property": "http://purl.org/dc/terms/publisher",
+        "number_of_triples": 6406
+    },
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "number_of_triples": 6406
+    },
+    {
+        "property": "http://purl.org/dc/terms/title",
+        "number_of_triples": 6406
+    },
+    {
+        "property": "http://purl.org/dc/terms/date",
+        "number_of_triples": 6402
+    },
+    {
+        "property": "http://prismstandard.org/namespaces/basic/3.0/isbn",
+        "number_of_triples": 2596
+    },
+    {
+        "property": "http://prismstandard.org/namespaces/basic/3.0/subtitle",
+        "number_of_triples": 2451
+    }
+]

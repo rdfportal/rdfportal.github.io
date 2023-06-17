@@ -1,0 +1,86 @@
+[
+    {
+        "property": "http://purl.org/spar/fabio/hasSubjectTerm",
+        "number_of_triples": 99000836
+    },
+    {
+        "property": "http://purl.org/dc/terms/creator",
+        "number_of_triples": 65632249
+    },
+    {
+        "property": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#discussesAsDerivedByTextMining",
+        "number_of_triples": 54995741
+    },
+    {
+        "property": "http://purl.org/spar/cito/discusses",
+        "number_of_triples": 44794624
+    },
+    {
+        "property": "http://purl.org/spar/fabio/hasPrimarySubjectTerm",
+        "number_of_triples": 36320005
+    },
+    {
+        "property": "http://purl.org/dc/terms/isPartOf",
+        "number_of_triples": 35580112
+    },
+    {
+        "property": "http://purl.org/dc/terms/source",
+        "number_of_triples": 28678118
+    },
+    {
+        "property": "http://purl.org/dc/terms/identifier",
+        "number_of_triples": 26235956
+    },
+    {
+        "property": "http://prismstandard.org/namespaces/basic/3.0/contentType",
+        "number_of_triples": 24205433
+    },
+    {
+        "property": "http://prismstandard.org/namespaces/basic/3.0/issn",
+        "number_of_triples": 20672634
+    },
+    {
+        "property": "http://purl.org/dc/terms/language",
+        "number_of_triples": 14513852
+    },
+    {
+        "property": "http://prismstandard.org/namespaces/basic/3.0/publicationName",
+        "number_of_triples": 14511521
+    },
+    {
+        "property": "http://purl.org/dc/terms/title",
+        "number_of_triples": 14511207
+    },
+    {
+        "property": "http://purl.org/dc/terms/bibliographicCitation",
+        "number_of_triples": 14445558
+    },
+    {
+        "property": "http://purl.org/dc/terms/date",
+        "number_of_triples": 14432946
+    },
+    {
+        "property": "http://prismstandard.org/namespaces/basic/3.0/pageRange",
+        "number_of_triples": 14357616
+    },
+    {
+        "property": "http://prismstandard.org/namespaces/basic/3.0/startingPage",
+        "number_of_triples": 14357616
+    },
+    {
+        "property": "http://prismstandard.org/namespaces/basic/3.0/endingPage",
+        "number_of_triples": 13373167
+    },
+    {
+        "property": "http://prismstandard.org/namespaces/basic/3.0/issueIdentifier",
+        "number_of_triples": 12348182
+    },
+    {
+        "property": "http://purl.org/cerif/frapo/hasFundingAgency",
+        "number_of_triples": 5305840
+    },
+    {
+        "property": "http://purl.org/cerif/frapo/isSupportedBy",
+        "number_of_triples": 3943078
+    }
+]

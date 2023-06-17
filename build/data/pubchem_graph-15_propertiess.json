@@ -1,0 +1,30 @@
+[
+    {
+        "property": "http://purl.org/dc/terms/subject",
+        "number_of_triples": 1352
+    },
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "number_of_triples": 919
+    },
+    {
+        "property": "http://purl.org/dc/terms/title",
+        "number_of_triples": 919
+    },
+    {
+        "property": "http://purl.org/dc/terms/alternative",
+        "number_of_triples": 796
+    },
+    {
+        "property": "http://xmlns.com/foaf/0.1/homepage",
+        "number_of_triples": 548
+    },
+    {
+        "property": "http://purl.org/dc/terms/license",
+        "number_of_triples": 137
+    },
+    {
+        "property": "http://purl.org/dc/terms/rights",
+        "number_of_triples": 105
+    }
+]

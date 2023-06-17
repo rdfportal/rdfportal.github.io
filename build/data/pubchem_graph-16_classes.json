@@ -1,0 +1,14 @@
+[
+    {
+        "class": "http://www.w3.org/2004/02/skos/core#concept",
+        "number_of_instances": 6008
+    },
+    {
+        "class": "http://www.w3.org/2004/02/skos/core#Concept",
+        "number_of_instances": 17
+    },
+    {
+        "class": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+        "number_of_instances": 2
+    }
+]

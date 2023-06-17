@@ -1,0 +1,26 @@
+[
+    {
+        "class": "http://semanticscience.org/resource/SIO_001435",
+        "number_of_instances": 19025920
+    },
+    {
+        "class": "http://semanticscience.org/resource/SIO_001257",
+        "number_of_instances": 12969387
+    },
+    {
+        "class": "http://semanticscience.org/resource/SIO_000993",
+        "number_of_instances": 8035621
+    },
+    {
+        "class": "http://semanticscience.org/resource/SIO_001437",
+        "number_of_instances": 7273892
+    },
+    {
+        "class": "http://semanticscience.org/resource/SIO_000983",
+        "number_of_instances": 6292070
+    },
+    {
+        "class": "http://semanticscience.org/resource/SIO_001436",
+        "number_of_instances": 3353015
+    }
+]

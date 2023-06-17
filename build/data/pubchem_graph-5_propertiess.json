@@ -1,0 +1,18 @@
+[
+    {
+        "property": "http://semanticscience.org/resource/SIO_000300",
+        "number_of_triples": 207799948
+    },
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "number_of_triples": 207540615
+    },
+    {
+        "property": "http://semanticscience.org/resource/SIO_000011",
+        "number_of_triples": 110203021
+    },
+    {
+        "property": "http://purl.org/dc/terms/subject",
+        "number_of_triples": 540583
+    }
+]

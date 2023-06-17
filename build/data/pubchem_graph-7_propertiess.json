@@ -1,0 +1,22 @@
+[
+    {
+        "property": "http://purl.obolibrary.org/obo/OBI_0000299",
+        "number_of_triples": 259312760
+    },
+    {
+        "property": "http://purl.obolibrary.org/obo/RO_0000057",
+        "number_of_triples": 1862180
+    },
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "number_of_triples": 1575854
+    },
+    {
+        "property": "http://purl.org/dc/terms/title",
+        "number_of_triples": 1523067
+    },
+    {
+        "property": "http://purl.org/dc/terms/source",
+        "number_of_triples": 1518059
+    }
+]
