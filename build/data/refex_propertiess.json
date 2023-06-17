@@ -7,7 +7,7 @@
     }, 
     {
         "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
-        "number_of_triples": 19828635, 
+        "number_of_triples": 19828740, 
         "domain_classes": [], 
         "range_classes": []
     }, 
@@ -94,7 +94,7 @@
         "range_classes": []
     }, 
     {
-        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value", 
+        "property": "http://semanticscience.org/resource/SIO_000300", 
         "number_of_triples": 4430821, 
         "domain_classes": [], 
         "range_classes": []
