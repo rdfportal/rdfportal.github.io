@@ -1,7 +1,7 @@
 [
     {
         "property": "http://kero.hgc.jp/ontology/kero.owl#hasBindingSite", 
-        "number_of_triples": 4220403321, 
+        "number_of_triples": 4227999395, 
         "domain_classes": [
             {
                 "domain_class": "http://kero.hgc.jp/ontology/kero.owl#ChIPseqDataset", 
@@ -25,13 +25,13 @@
     }, 
     {
         "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
-        "number_of_triples": 1106425529, 
+        "number_of_triples": 1159041817, 
         "domain_classes": [], 
         "range_classes": []
     }, 
     {
         "property": "http://www.w3.org/2000/01/rdf-schema#label", 
-        "number_of_triples": 929542861, 
+        "number_of_triples": 937139151, 
         "domain_classes": [], 
         "range_classes": []
     }, 
@@ -43,7 +43,7 @@
     }, 
     {
         "property": "http://purl.org/dc/terms/identifier", 
-        "number_of_triples": 618714165, 
+        "number_of_triples": 626310239, 
         "domain_classes": [], 
         "range_classes": []
     }, 
@@ -58,15 +58,7 @@
         "number_of_triples": 419296113, 
         "domain_classes": [
             {
-                "domain_class": "nodeID://b10046", 
-                "label": {
-                    "en": "", 
-                    "ja": ""
-                }, 
-                "number_of_instances": 0
-            }, 
-            {
-                "domain_class": "nodeID://b10036", 
+                "domain_class": "nodeID://b7606110", 
                 "label": {
                     "en": "", 
                     "ja": ""
@@ -110,13 +102,13 @@
         "range_classes": []
     }, 
     {
-        "property": "http://biohackathon.org/resource/faldo#begin", 
+        "property": "http://biohackathon.org/resource/faldo#end", 
         "number_of_triples": 145984467, 
         "domain_classes": [], 
         "range_classes": []
     }, 
     {
-        "property": "http://biohackathon.org/resource/faldo#end", 
+        "property": "http://biohackathon.org/resource/faldo#begin", 
         "number_of_triples": 145984467, 
         "domain_classes": [], 
         "range_classes": []
@@ -126,15 +118,7 @@
         "number_of_triples": 108965124, 
         "domain_classes": [
             {
-                "domain_class": "nodeID://b10030", 
-                "label": {
-                    "en": "", 
-                    "ja": ""
-                }, 
-                "number_of_instances": 0
-            }, 
-            {
-                "domain_class": "nodeID://b10040", 
+                "domain_class": "nodeID://b7606104", 
                 "label": {
                     "en": "", 
                     "ja": ""
@@ -174,30 +158,6 @@
                     "ja": ""
                 }, 
                 "number_of_instances": 83926194
-            }
-        ]
-    }, 
-    {
-        "property": "http://kero.hgc.jp/ontology/kero.owl#genotypeData", 
-        "number_of_triples": 83926195, 
-        "domain_classes": [
-            {
-                "domain_class": "http://purl.obolibrary.org/obo/SO_0001483", 
-                "label": {
-                    "en": "", 
-                    "ja": ""
-                }, 
-                "number_of_instances": 83926194
-            }
-        ], 
-        "range_classes": [
-            {
-                "range_class": "http://www.w3.org/2001/XMLSchema#string", 
-                "label": {
-                    "en": "", 
-                    "ja": ""
-                }, 
-                "number_of_instances": 0
             }
         ]
     }, 
@@ -250,32 +210,8 @@
         ]
     }, 
     {
-        "property": "http://kero.hgc.jp/ontology/kero.owl#alleleFrequency", 
-        "number_of_triples": 83926194, 
-        "domain_classes": [
-            {
-                "domain_class": "http://purl.obolibrary.org/obo/SO_0001483", 
-                "label": {
-                    "en": "", 
-                    "ja": ""
-                }, 
-                "number_of_instances": 83926194
-            }
-        ], 
-        "range_classes": [
-            {
-                "range_class": "http://www.w3.org/2001/XMLSchema#float", 
-                "label": {
-                    "en": "", 
-                    "ja": ""
-                }, 
-                "number_of_instances": 0
-            }
-        ]
-    }, 
-    {
-        "property": "http://kero.hgc.jp/ontology/kero.owl#allelicDepth", 
-        "number_of_triples": 83926194, 
+        "property": "http://kero.hgc.jp/ontology/kero.owl#genotypeData", 
+        "number_of_triples": 83926195, 
         "domain_classes": [
             {
                 "domain_class": "http://purl.obolibrary.org/obo/SO_0001483", 
@@ -304,21 +240,45 @@
         "range_classes": []
     }, 
     {
-        "property": "http://kero.hgc.jp/ontology/kero.owl#cgNum", 
-        "number_of_triples": 79081234, 
+        "property": "http://kero.hgc.jp/ontology/kero.owl#allelicDepth", 
+        "number_of_triples": 83926194, 
         "domain_classes": [
             {
-                "domain_class": "http://purl.obolibrary.org/obo/SO_0000306", 
+                "domain_class": "http://purl.obolibrary.org/obo/SO_0001483", 
                 "label": {
                     "en": "", 
                     "ja": ""
                 }, 
-                "number_of_instances": 79081234
+                "number_of_instances": 83926194
             }
         ], 
         "range_classes": [
             {
-                "range_class": "http://www.w3.org/2001/XMLSchema#integer", 
+                "range_class": "http://www.w3.org/2001/XMLSchema#string", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 0
+            }
+        ]
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#alleleFrequency", 
+        "number_of_triples": 83926194, 
+        "domain_classes": [
+            {
+                "domain_class": "http://purl.obolibrary.org/obo/SO_0001483", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 83926194
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://www.w3.org/2001/XMLSchema#float", 
                 "label": {
                     "en": "", 
                     "ja": ""
@@ -376,6 +336,30 @@
         ]
     }, 
     {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#cgNum", 
+        "number_of_triples": 79081234, 
+        "domain_classes": [
+            {
+                "domain_class": "http://purl.obolibrary.org/obo/SO_0000306", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 79081234
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://www.w3.org/2001/XMLSchema#integer", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 0
+            }
+        ]
+    }, 
+    {
         "property": "http://kero.hgc.jp/ontology/kero.owl#snp", 
         "number_of_triples": 77685335, 
         "domain_classes": [
@@ -388,6 +372,12 @@
                 "number_of_instances": 83926194
             }
         ], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldoreference", 
+        "number_of_triples": 29829506, 
+        "domain_classes": [], 
         "range_classes": []
     }, 
     {
@@ -439,30 +429,6 @@
         ]
     }, 
     {
-        "property": "http://kero.hgc.jp/ontology/kero.owl#hasTranscriptionStartSite", 
-        "number_of_triples": 17809864, 
-        "domain_classes": [
-            {
-                "domain_class": "http://kero.hgc.jp/ontology/kero.owl#TSSseqDataset", 
-                "label": {
-                    "en": "TSS-seq dataset", 
-                    "ja": "TSS-seq dataset"
-                }, 
-                "number_of_instances": 26
-            }
-        ], 
-        "range_classes": [
-            {
-                "range_class": "http://purl.obolibrary.org/obo/SO_0000315", 
-                "label": {
-                    "en": "", 
-                    "ja": ""
-                }, 
-                "number_of_instances": 17809864
-            }
-        ]
-    }, 
-    {
         "property": "http://kero.hgc.jp/ontology/kero.owl#rep", 
         "number_of_triples": 17809864, 
         "domain_classes": [
@@ -487,8 +453,86 @@
         ]
     }, 
     {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#hasTranscriptionStartSite", 
+        "number_of_triples": 17809864, 
+        "domain_classes": [
+            {
+                "domain_class": "http://kero.hgc.jp/ontology/kero.owl#TSSseqDataset", 
+                "label": {
+                    "en": "TSS-seq dataset", 
+                    "ja": "TSS-seq dataset"
+                }, 
+                "number_of_instances": 26
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://purl.obolibrary.org/obo/SO_0000315", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 17809864
+            }
+        ]
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldoposition", 
+        "number_of_triples": 14914753, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
         "property": "http://kero.hgc.jp/ontology/kero.owl#hasChromHMM", 
         "number_of_triples": 11504659, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000300", 
+        "number_of_triples": 7596074, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#summit", 
+        "number_of_triples": 7596074, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#tags", 
+        "number_of_triples": 7596074, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldolocation", 
+        "number_of_triples": 7596074, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#log_pval", 
+        "number_of_triples": 7596074, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000216", 
+        "number_of_triples": 7596074, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldoend", 
+        "number_of_triples": 7594420, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldobegin", 
+        "number_of_triples": 7594420, 
         "domain_classes": [], 
         "range_classes": []
     }, 
@@ -511,7 +555,7 @@
         "range_classes": []
     }, 
     {
-        "property": "http://kero.hgc.jp/ontology/kero.owl#ppm", 
+        "property": "http://kero.hgc.jp/ontology/kero.owl#rpkm", 
         "number_of_triples": 1541700, 
         "domain_classes": [
             {
@@ -535,7 +579,7 @@
         ]
     }, 
     {
-        "property": "http://kero.hgc.jp/ontology/kero.owl#rpkm", 
+        "property": "http://kero.hgc.jp/ontology/kero.owl#ppm", 
         "number_of_triples": 1541700, 
         "domain_classes": [
             {
@@ -595,12 +639,6 @@
         "range_classes": []
     }, 
     {
-        "property": "http://www.w3.org/ns/dcat#theme", 
-        "number_of_triples": 374, 
-        "domain_classes": [], 
-        "range_classes": []
-    }, 
-    {
         "property": "http://kero.hgc.jp/ontology/kero.owl#sample", 
         "number_of_triples": 374, 
         "domain_classes": [
@@ -623,6 +661,18 @@
                 "number_of_instances": 27
             }
         ]
+    }, 
+    {
+        "property": "http://www.w3.org/ns/dcat#theme", 
+        "number_of_triples": 374, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#antibody", 
+        "number_of_triples": 216, 
+        "domain_classes": [], 
+        "range_classes": []
     }, 
     {
         "property": "http://kero.hgc.jp/ontology/kero.owl#antibodyFor", 
@@ -649,24 +699,15 @@
         ]
     }, 
     {
-        "property": "http://purl.bioontology.org/ontology/SNOMEDCT/specimenOf", 
-        "number_of_triples": 54, 
+        "property": "http://med2rdf.org/ontology/med2rdf#sample", 
+        "number_of_triples": 216, 
         "domain_classes": [], 
         "range_classes": []
     }, 
     {
-        "property": "http://kero.hgc.jp/ontology/kero.owl#ethnicity", 
-        "number_of_triples": 48, 
-        "domain_classes": [
-            {
-                "domain_class": "http://xmlns.com/foaf/0.1/Person", 
-                "label": {
-                    "en": "", 
-                    "ja": ""
-                }, 
-                "number_of_instances": 54
-            }
-        ], 
+        "property": "http://kero.hgc.jp/ontology/kero.owl#antigen", 
+        "number_of_triples": 216, 
+        "domain_classes": [], 
         "range_classes": []
     }, 
     {
@@ -682,21 +723,36 @@
         "range_classes": []
     }, 
     {
-        "property": "http://xmlns.com/foaf/0.1/gender", 
-        "number_of_triples": 40, 
-        "domain_classes": [], 
-        "range_classes": []
-    }, 
-    {
-        "property": "http://dbpedia.org/ontology/age", 
-        "number_of_triples": 30, 
-        "domain_classes": [], 
-        "range_classes": []
-    }, 
-    {
         "property": "http://www.w3.org/2000/01/rdf-schema#domain", 
-        "number_of_triples": 29, 
+        "number_of_triples": 27, 
         "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.obolibrary.org/obo/RO_0002162", 
+        "number_of_triples": 27, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.bioontology.org/ontology/SNOMEDCT/specimenOf", 
+        "number_of_triples": 27, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#ethnicity", 
+        "number_of_triples": 24, 
+        "domain_classes": [
+            {
+                "domain_class": "http://xmlns.com/foaf/0.1/Person", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 27
+            }
+        ], 
         "range_classes": []
     }, 
     {
@@ -706,23 +762,14 @@
         "range_classes": []
     }, 
     {
-        "property": "http://kero.hgc.jp/ontology/kero.owl#smokingStatus", 
-        "number_of_triples": 16, 
-        "domain_classes": [
-            {
-                "domain_class": "http://xmlns.com/foaf/0.1/Person", 
-                "label": {
-                    "en": "", 
-                    "ja": ""
-                }, 
-                "number_of_instances": 54
-            }
-        ], 
+        "property": "http://xmlns.com/foaf/0.1/gender", 
+        "number_of_triples": 20, 
+        "domain_classes": [], 
         "range_classes": []
     }, 
     {
-        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest", 
-        "number_of_triples": 14, 
+        "property": "http://dbpedia.org/ontology/age", 
+        "number_of_triples": 15, 
         "domain_classes": [], 
         "range_classes": []
     }, 
@@ -733,8 +780,23 @@
         "range_classes": []
     }, 
     {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#smokingStatus", 
+        "number_of_triples": 8, 
+        "domain_classes": [
+            {
+                "domain_class": "http://xmlns.com/foaf/0.1/Person", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 27
+            }
+        ], 
+        "range_classes": []
+    }, 
+    {
         "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first", 
-        "number_of_triples": 14, 
+        "number_of_triples": 7, 
         "domain_classes": [], 
         "range_classes": []
     }, 
@@ -745,8 +807,8 @@
         "range_classes": []
     }, 
     {
-        "property": "http://www.w3.org/2002/07/owl#unionOf", 
-        "number_of_triples": 4, 
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest", 
+        "number_of_triples": 7, 
         "domain_classes": [], 
         "range_classes": []
     }, 
@@ -757,7 +819,13 @@
         "range_classes": []
     }, 
     {
-        "property": "http://purl.org/dc/elements/1.1/identifier", 
+        "property": "http://www.w3.org/2002/07/owl#unionOf", 
+        "number_of_triples": 2, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/license", 
         "number_of_triples": 1, 
         "domain_classes": [], 
         "range_classes": []
@@ -769,13 +837,13 @@
         "range_classes": []
     }, 
     {
-        "property": "http://purl.org/dc/terms/license", 
+        "property": "http://www.w3.org/2002/07/owl#versionInfo", 
         "number_of_triples": 1, 
         "domain_classes": [], 
         "range_classes": []
     }, 
     {
-        "property": "http://www.w3.org/2002/07/owl#versionInfo", 
+        "property": "http://purl.org/dc/elements/1.1/identifier", 
         "number_of_triples": 1, 
         "domain_classes": [], 
         "range_classes": []

@@ -1,0 +1,374 @@
+[
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#hasBindingSite", 
+        "number_of_triples": 4227999395, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 1159041770, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 937139105, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#location", 
+        "number_of_triples": 775186327, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/identifier", 
+        "number_of_triples": 626310239, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#exactMatch", 
+        "number_of_triples": 600406435, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#count", 
+        "number_of_triples": 419296113, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#reference", 
+        "number_of_triples": 310837108, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/hasBindingSite", 
+        "number_of_triples": 299466774, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.ebi.ac.uk/terms/ensemblvariation#has_allele", 
+        "number_of_triples": 167884840, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#position", 
+        "number_of_triples": 164852641, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#end", 
+        "number_of_triples": 145984467, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#begin", 
+        "number_of_triples": 145984467, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#bin", 
+        "number_of_triples": 108965124, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#hasVariationSite", 
+        "number_of_triples": 88676109, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#genotype", 
+        "number_of_triples": 83926195, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#genotypeQuality", 
+        "number_of_triples": 83926195, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#genotypeData", 
+        "number_of_triples": 83926195, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#additionalInformation", 
+        "number_of_triples": 83926194, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#allelicDepth", 
+        "number_of_triples": 83926194, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#alleleFrequency", 
+        "number_of_triples": 83926194, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#caNum", 
+        "number_of_triples": 79081234, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#hasMethylationSite", 
+        "number_of_triples": 79081234, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#cgNum", 
+        "number_of_triples": 79081234, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#snp", 
+        "number_of_triples": 77685335, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldoreference", 
+        "number_of_triples": 29829506, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#repgrp", 
+        "number_of_triples": 17825746, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#repprm", 
+        "number_of_triples": 17817869, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#rep", 
+        "number_of_triples": 17809864, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#hasTranscriptionStartSite", 
+        "number_of_triples": 17809864, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldoposition", 
+        "number_of_triples": 14914753, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#hasChromHMM", 
+        "number_of_triples": 11504659, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000300", 
+        "number_of_triples": 7596074, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#summit", 
+        "number_of_triples": 7596074, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#tags", 
+        "number_of_triples": 7596074, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldolocation", 
+        "number_of_triples": 7596074, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#log_pval", 
+        "number_of_triples": 7596074, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000216", 
+        "number_of_triples": 7596074, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldoend", 
+        "number_of_triples": 7594420, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldobegin", 
+        "number_of_triples": 7594420, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#exactMach", 
+        "number_of_triples": 4214008, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#gene", 
+        "number_of_triples": 2527065, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#altLabel", 
+        "number_of_triples": 2181034, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#rpkm", 
+        "number_of_triples": 1541700, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#ppm", 
+        "number_of_triples": 1541700, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#hasExpressionData", 
+        "number_of_triples": 1484600, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/hasChromHMM", 
+        "number_of_triples": 569367, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/hasExpressionData", 
+        "number_of_triples": 57100, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#sample", 
+        "number_of_triples": 374, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/ns/dcat#theme", 
+        "number_of_triples": 374, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#antibody", 
+        "number_of_triples": 216, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#antibodyFor", 
+        "number_of_triples": 216, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://med2rdf.org/ontology/med2rdf#sample", 
+        "number_of_triples": 216, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#antigen", 
+        "number_of_triples": 216, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#cellLine", 
+        "number_of_triples": 44, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.obolibrary.org/obo/RO_0002162", 
+        "number_of_triples": 27, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.bioontology.org/ontology/SNOMEDCT/specimenOf", 
+        "number_of_triples": 27, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#ethnicity", 
+        "number_of_triples": 24, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/gender", 
+        "number_of_triples": 20, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://dbpedia.org/ontology/age", 
+        "number_of_triples": 15, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://kero.hgc.jp/ontology/kero.owl#smokingStatus", 
+        "number_of_triples": 8, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/elements/1.1/identifier", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]
