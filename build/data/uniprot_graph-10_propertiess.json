@@ -1,0 +1,74 @@
+[
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 4765,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.org/ontology/bibo/title",
+    "number_of_triples": 4764,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.org/ontology/bibo/shortTitle",
+    "number_of_triples": 4764,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.org/dc/terms/publisher",
+    "number_of_triples": 4711,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#sameAs",
+    "number_of_triples": 4424,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.org/ontology/bibo/issn",
+    "number_of_triples": 4424,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "number_of_triples": 3881,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.org/ontology/bibo/coden",
+    "number_of_triples": 3345,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.org/ontology/bibo/eissn",
+    "number_of_triples": 2688,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#comment",
+    "number_of_triples": 1602,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/shortCoden",
+    "number_of_triples": 400,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#imports",
+    "number_of_triples": 1,
+    "domain_classes": [],
+    "range_classes": []
+  }
+]

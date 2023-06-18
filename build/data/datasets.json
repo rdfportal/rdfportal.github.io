@@ -7610,8 +7610,8 @@
       "ja": "European Bioinformatics Institute, Swiss Institute of Bioinformatics, and Protein Information Resource"
     },
     "description": {
-      "en": "The Universal Protein Resource (UniProt) is a comprehensive resource for protein sequence and annotation data. For the detailed information, please see the following URL: https://www.uniprot.org/help/about . Statistics is being calculated, and that for the 2019-12-18 version is shown instead.",
-      "ja": "The Universal Protein Resource (UniProt) は、タンパク質配列と機能注釈に関する網羅的なデータベースです。詳細な情報は次のURLを参照してください: https://www.uniprot.org/help/about 。統計情報は計算中のため、2019-12-18版の統計を表示しています。"
+      "en": "The Universal Protein Resource (UniProt) is a comprehensive resource for protein sequence and annotation data. For the detailed information, please see the following URL: https://www.uniprot.org/help/about .",
+      "ja": "The Universal Protein Resource (UniProt) は、タンパク質配列と機能注釈に関する網羅的なデータベースです。詳細な情報は次のURLを参照してください: https://www.uniprot.org/help/about 。"
     },
     "creators": [
       {
@@ -7625,8 +7625,8 @@
         }
       }
     ],
-    "version": "2022-02-23",
-    "issued": "2022-02-23",
+    "version": "2023_02",
+    "issued": "2023-03-03",
     "logo_url": "",
     "schema_image_urls": [
       ""
@@ -7636,48 +7636,55 @@
       "url": "",
       "size": 0
     },
-    "number_of_triples": 35998089442,
-    "number_of_instances": 7814089346,
-    "number_of_subjects": 7565403474,
-    "number_of_objects": 6718939050,
-    "number_of_literals": 805432887,
-    "number_of_classes": 123,
+    "number_of_triples": 54381877065,
+    "number_of_instances": 9554097609,
+    "number_of_subjects": 11388277803,
+    "number_of_objects": 10609965660,
+    "number_of_literals": 1131363044,
+    "number_of_classes": 157,
     "classes": "./data/uniprot_classes.json",
-    "number_of_properties": 120,
+    "number_of_properties": 200,
     "properties": "./data/uniprot_propertiess.json",
-    "number_of_datatypes": 8,
+    "number_of_datatypes": 11,
     "datatypes": [
-      "NULL",
-      "http://www.w3.org/2001/XMLSchema#boolean",
       "http://www.w3.org/2001/XMLSchema#date",
+      "http://www.w3.org/2001/XMLSchema#string",
+      "http://www.w3.org/2001/XMLSchema#int",
+      "http://www.w3.org/2001/XMLSchema#anyURI",
+      "NULL",
       "http://www.w3.org/2001/XMLSchema#float",
+      "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+      "http://www.w3.org/2001/XMLSchema#boolean",
       "http://www.w3.org/2001/XMLSchema#gYear",
       "http://www.w3.org/2001/XMLSchema#gYearMonth",
-      "http://www.w3.org/2001/XMLSchema#int",
-      "http://www.w3.org/2001/XMLSchema#string",
-      "http://www.w3.org/2001/XMLSchema#token"
+      "http://www.w3.org/2001/XMLSchema#decimal"
     ],
     "xrefs": [
       {
-        "uri_space": "http://identifiers.org/reactome/",
-        "title": "Reactome",
-        "number_of_triples": 282912
+        "uri_space": "http://identifiers.org/ideal/",
+        "number_of_triples": 995,
+        "title": "IDEAL"
       },
       {
         "uri_space": "http://identifiers.org/ncbigene/",
-        "title": "NCBI Gene",
-        "number_of_triples": 15648
+        "number_of_triples": 17014,
+        "title": "NCBI Gene"
+      },
+      {
+        "uri_space": "http://identifiers.org/reactome/",
+        "number_of_triples": 259138,
+        "title": "Reactome"
       }
     ],
     "connected_dataset_ids": [],
-    "number_of_links": 0,
+    "number_of_links": 277147,
     "ontologies": [],
     "graphs": [
       {
         "uri": "http://sparql.uniprot.org/uniprot",
         "description": {
-          "en": "UniProt Database. Statistics is being calculated, and that for the 2019-12-18 version is shown instead.",
-          "ja": "UniProtデータベースのグラフURIです。統計情報は計算中のため、2019-12-18版の統計を表示しています"
+          "en": "UniProt Database.",
+          "ja": "UniProtデータベースのグラフURIです。"
         },
         "files": [
           {
@@ -7686,28 +7693,512 @@
             "size": 0
           }
         ],
-        "number_of_triples": 35998089442,
-        "number_of_instances": 7814089346,
-        "number_of_subjects": 7565403474,
-        "number_of_objects": 6718939050,
-        "number_of_literals": 805432887,
-        "number_of_classes": 123,
+        "number_of_triples": 52478086187,
+        "number_of_instances": 0,
+        "number_of_subjects": 11107623965,
+        "number_of_objects": 10408333355,
+        "number_of_literals": 1131363044,
+        "number_of_classes": 119,
         "classes": "./data/uniprot_graph-1_classes.json",
-        "number_of_properties": 120,
+        "number_of_properties": 121,
         "properties": "./data/uniprot_graph-1_propertiess.json",
-        "number_of_datatypes": 8,
+        "number_of_datatypes": 7,
         "datatypes": [
-          "NULL",
+          "http://www.w3.org/2001/XMLSchema#string",
+          "http://www.w3.org/2001/XMLSchema#int",
           "http://www.w3.org/2001/XMLSchema#boolean",
           "http://www.w3.org/2001/XMLSchema#date",
-          "http://www.w3.org/2001/XMLSchema#float",
           "http://www.w3.org/2001/XMLSchema#gYear",
           "http://www.w3.org/2001/XMLSchema#gYearMonth",
-          "http://www.w3.org/2001/XMLSchema#int",
-          "http://www.w3.org/2001/XMLSchema#string",
-          "http://www.w3.org/2001/XMLSchema#token"
+          "http://www.w3.org/2001/XMLSchema#decimal"
         ],
-        "xrefs": []
+        "xrefs": [
+          {
+            "uri_space": "http://identifiers.org/ideal/",
+            "number_of_triples": 995,
+            "title": "IDEAL"
+          },
+          {
+            "uri_space": "http://identifiers.org/ncbigene/",
+            "number_of_triples": 17014,
+            "title": "NCBI Gene"
+          },
+          {
+            "uri_space": "http://identifiers.org/reactome/",
+            "number_of_triples": 259138,
+            "title": "Reactome"
+          }
+        ]
+      },
+      {
+        "uri": "http://sparql.uniprot.org/obsolete",
+        "description": {
+          "en": "UniProt Database.",
+          "ja": "UniProtデータベースのグラフURIです。"
+        },
+        "files": [
+          {
+            "name": "",
+            "url": "",
+            "size": 0
+          }
+        ],
+        "number_of_triples": 1195961835,
+        "number_of_instances": 152825403,
+        "number_of_subjects": 152825403,
+        "number_of_objects": 157627176,
+        "number_of_literals": 152756824,
+        "number_of_classes": 3,
+        "classes": "./data/uniprot_graph-2_classes.json",
+        "number_of_properties": 11,
+        "properties": "./data/uniprot_graph-2_propertiess.json",
+        "number_of_datatypes": 4,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#date",
+          "http://www.w3.org/2001/XMLSchema#string",
+          "http://www.w3.org/2001/XMLSchema#boolean",
+          "http://www.w3.org/2001/XMLSchema#int"
+        ],
+        "xrefs": [
+          
+        ]
+      },
+      {
+        "uri": "http://sparql.uniprot.org/citationmapping",
+        "description": {
+          "en": "UniProt Database.",
+          "ja": "UniProtデータベースのグラフURIです。"
+        },
+        "files": [
+          {
+            "name": "",
+            "url": "",
+            "size": 0
+          }
+        ],
+        "number_of_triples": 603921782,
+        "number_of_instances": 92534696,
+        "number_of_subjects": 119660186,
+        "number_of_objects": 29580393,
+        "number_of_literals": 917118,
+        "number_of_classes": 4,
+        "classes": "./data/uniprot_graph-3_classes.json",
+        "number_of_properties": 1,
+        "properties": "./data/uniprot_graph-3_propertiess.json",
+        "number_of_datatypes": 1,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string"
+        ],
+        "xrefs": [
+          
+        ]
+      },
+      {
+        "uri": "http://sparql.uniprot.org/taxonomy",
+        "description": {
+          "en": "UniProt Database.",
+          "ja": "UniProtデータベースのグラフURIです。"
+        },
+        "files": [
+          {
+            "name": "",
+            "url": "",
+            "size": 0
+          }
+        ],
+        "number_of_triples": 55474269,
+        "number_of_instances": 2879764,
+        "number_of_subjects": 2879764,
+        "number_of_objects": 6596864,
+        "number_of_literals": 3866191,
+        "number_of_classes": 4,
+        "classes": "./data/uniprot_graph-4_classes.json",
+        "number_of_properties": 21,
+        "properties": "./data/uniprot_graph-4_propertiess.json",
+        "number_of_datatypes": 3,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string",
+          "http://www.w3.org/2001/XMLSchema#int",
+          "http://www.w3.org/2001/XMLSchema#boolean"
+        ],
+        "xrefs": [
+          
+        ]
+      },
+      {
+        "uri": "http://sparql.uniprot.org/citations",
+        "description": {
+          "en": "UniProt Database.",
+          "ja": "UniProtデータベースのグラフURIです。"
+        },
+        "files": [
+          {
+            "name": "",
+            "url": "",
+            "size": 0
+          }
+        ],
+        "number_of_triples": 29478789,
+        "number_of_instances": 1952139,
+        "number_of_subjects": 1952139,
+        "number_of_objects": 9845303,
+        "number_of_literals": 6844687,
+        "number_of_classes": 8,
+        "classes": "./data/uniprot_graph-5_classes.json",
+        "number_of_properties": 20,
+        "properties": "./data/uniprot_graph-5_propertiess.json",
+        "number_of_datatypes": 5,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string",
+          "http://www.w3.org/2001/XMLSchema#boolean",
+          "http://www.w3.org/2001/XMLSchema#gYear",
+          "http://www.w3.org/2001/XMLSchema#gYearMonth",
+          "http://www.w3.org/2001/XMLSchema#date"
+        ],
+        "xrefs": [
+          
+        ]
+      },
+      {
+        "uri": "http://sparql.uniprot.org/proteomes",
+        "description": {
+          "en": "UniProt Database.",
+          "ja": "UniProtデータベースのグラフURIです。"
+        },
+        "files": [
+          {
+            "name": "",
+            "url": "",
+            "size": 0
+          }
+        ],
+        "number_of_triples": 17824639,
+        "number_of_instances": 2417730,
+        "number_of_subjects": 4014869,
+        "number_of_objects": 6516254,
+        "number_of_literals": 1163694,
+        "number_of_classes": 11,
+        "classes": "./data/uniprot_graph-6_classes.json",
+        "number_of_properties": 33,
+        "properties": "./data/uniprot_graph-6_propertiess.json",
+        "number_of_datatypes": 5,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#date",
+          "http://www.w3.org/2001/XMLSchema#string",
+          "http://www.w3.org/2001/XMLSchema#int",
+          "http://www.w3.org/2001/XMLSchema#gYear",
+          "http://www.w3.org/2001/XMLSchema#gYearMonth"
+        ],
+        "xrefs": [
+          
+        ]
+      },
+      {
+        "uri": "http://sparql.uniprot.org/go",
+        "description": {
+          "en": "UniProt Database.",
+          "ja": "UniProtデータベースのグラフURIです。"
+        },
+        "files": [
+          {
+            "name": "",
+            "url": "",
+            "size": 0
+          }
+        ],
+        "number_of_triples": 782355,
+        "number_of_instances": 59328,
+        "number_of_subjects": 59328,
+        "number_of_objects": 240470,
+        "number_of_literals": 210291,
+        "number_of_classes": 3,
+        "classes": "./data/uniprot_graph-7_classes.json",
+        "number_of_properties": 10,
+        "properties": "./data/uniprot_graph-7_propertiess.json",
+        "number_of_datatypes": 1,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string"
+        ],
+        "xrefs": [
+          
+        ]
+      },
+      {
+        "uri": "http://sparql.uniprot.org/enzyme",
+        "description": {
+          "en": "UniProt Database.",
+          "ja": "UniProtデータベースのグラフURIです。"
+        },
+        "files": [
+          {
+            "name": "",
+            "url": "",
+            "size": 0
+          }
+        ],
+        "number_of_triples": 175311,
+        "number_of_instances": 30344,
+        "number_of_subjects": 30344,
+        "number_of_objects": 94841,
+        "number_of_literals": 37976,
+        "number_of_classes": 4,
+        "classes": "./data/uniprot_graph-8_classes.json",
+        "number_of_properties": 17,
+        "properties": "./data/uniprot_graph-8_propertiess.json",
+        "number_of_datatypes": 2,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string",
+          "http://www.w3.org/2001/XMLSchema#boolean"
+        ],
+        "xrefs": [
+          
+        ]
+      },
+      {
+        "uri": "http://sparql.uniprot.org/diseases",
+        "description": {
+          "en": "UniProt Database.",
+          "ja": "UniProtデータベースのグラフURIです。"
+        },
+        "files": [
+          {
+            "name": "",
+            "url": "",
+            "size": 0
+          }
+        ],
+        "number_of_triples": 84202,
+        "number_of_instances": 6420,
+        "number_of_subjects": 21773,
+        "number_of_objects": 43345,
+        "number_of_literals": 27859,
+        "number_of_classes": 2,
+        "classes": "./data/uniprot_graph-9_classes.json",
+        "number_of_properties": 8,
+        "properties": "./data/uniprot_graph-9_propertiess.json",
+        "number_of_datatypes": 1,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string"
+        ],
+        "xrefs": [
+          
+        ]
+      },
+      {
+        "uri": "http://sparql.uniprot.org/journal",
+        "description": {
+          "en": "UniProt Database.",
+          "ja": "UniProtデータベースのグラフURIです。"
+        },
+        "files": [
+          {
+            "name": "",
+            "url": "",
+            "size": 0
+          }
+        ],
+        "number_of_triples": 39769,
+        "number_of_instances": 4765,
+        "number_of_subjects": 4765,
+        "number_of_objects": 30989,
+        "number_of_literals": 22692,
+        "number_of_classes": 2,
+        "classes": "./data/uniprot_graph-10_classes.json",
+        "number_of_properties": 12,
+        "properties": "./data/uniprot_graph-10_propertiess.json",
+        "number_of_datatypes": 1,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string"
+        ],
+        "xrefs": [
+          
+        ]
+      },
+      {
+        "uri": "http://sparql.uniprot.org/pathways",
+        "description": {
+          "en": "UniProt Database.",
+          "ja": "UniProtデータベースのグラフURIです。"
+        },
+        "files": [
+          {
+            "name": "",
+            "url": "",
+            "size": 0
+          }
+        ],
+        "number_of_triples": 17823,
+        "number_of_instances": 3118,
+        "number_of_subjects": 3118,
+        "number_of_objects": 6237,
+        "number_of_literals": 3117,
+        "number_of_classes": 2,
+        "classes": "./data/uniprot_graph-11_classes.json",
+        "number_of_properties": 5,
+        "properties": "./data/uniprot_graph-11_propertiess.json",
+        "number_of_datatypes": 1,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string"
+        ],
+        "xrefs": [
+          
+        ]
+      },
+      {
+        "uri": "http://sparql.uniprot.org/keywords",
+        "description": {
+          "en": "UniProt Database.",
+          "ja": "UniProtデータベースのグラフURIです。"
+        },
+        "files": [
+          {
+            "name": "",
+            "url": "",
+            "size": 0
+          }
+        ],
+        "number_of_triples": 14254,
+        "number_of_instances": 1992,
+        "number_of_subjects": 1992,
+        "number_of_objects": 6622,
+        "number_of_literals": 4599,
+        "number_of_classes": 3,
+        "classes": "./data/uniprot_graph-12_classes.json",
+        "number_of_properties": 11,
+        "properties": "./data/uniprot_graph-12_propertiess.json",
+        "number_of_datatypes": 1,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string"
+        ],
+        "xrefs": [
+          
+        ]
+      },
+      {
+        "uri": "http://sparql.uniprot.org/locations",
+        "description": {
+          "en": "UniProt Database.",
+          "ja": "UniProtデータベースのグラフURIです。"
+        },
+        "files": [
+          {
+            "name": "",
+            "url": "",
+            "size": 0
+          }
+        ],
+        "number_of_triples": 6669,
+        "number_of_instances": 1019,
+        "number_of_subjects": 1019,
+        "number_of_objects": 3108,
+        "number_of_literals": 2272,
+        "number_of_classes": 6,
+        "classes": "./data/uniprot_graph-13_classes.json",
+        "number_of_properties": 17,
+        "properties": "./data/uniprot_graph-13_propertiess.json",
+        "number_of_datatypes": 1,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string"
+        ],
+        "xrefs": [
+          
+        ]
+      },
+      {
+        "uri": "http://sparql.uniprot.org/tissues",
+        "description": {
+          "en": "UniProt Database.",
+          "ja": "UniProtデータベースのグラフURIです。"
+        },
+        "files": [
+          {
+            "name": "",
+            "url": "",
+            "size": 0
+          }
+        ],
+        "number_of_triples": 4113,
+        "number_of_instances": 1333,
+        "number_of_subjects": 1426,
+        "number_of_objects": 2663,
+        "number_of_literals": 2566,
+        "number_of_classes": 2,
+        "classes": "./data/uniprot_graph-14_classes.json",
+        "number_of_properties": 7,
+        "properties": "./data/uniprot_graph-14_propertiess.json",
+        "number_of_datatypes": 1,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string"
+        ],
+        "xrefs": [
+          
+        ]
+      },
+      {
+        "uri": "http://sparql.uniprot.org/core",
+        "description": {
+          "en": "UniProt Database.",
+          "ja": "UniProtデータベースのグラフURIです。"
+        },
+        "files": [
+          {
+            "name": "",
+            "url": "",
+            "size": 0
+          }
+        ],
+        "number_of_triples": 2764,
+        "number_of_instances": 512,
+        "number_of_subjects": 682,
+        "number_of_objects": 1167,
+        "number_of_literals": 614,
+        "number_of_classes": 19,
+        "classes": "./data/uniprot_graph-15_classes.json",
+        "number_of_properties": 34,
+        "properties": "./data/uniprot_graph-15_propertiess.json",
+        "number_of_datatypes": 6,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string",
+          "NULL",
+          "http://www.w3.org/2001/XMLSchema#boolean",
+          "http://www.w3.org/2001/XMLSchema#anyURI",
+          "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "http://www.w3.org/2001/XMLSchema#float"
+        ],
+        "xrefs": [
+          
+        ]
+      },
+      {
+        "uri": "http://sparql.uniprot.org/databases",
+        "description": {
+          "en": "UniProt Database.",
+          "ja": "UniProtデータベースのグラフURIです。"
+        },
+        "files": [
+          {
+            "name": "",
+            "url": "",
+            "size": 0
+          }
+        ],
+        "number_of_triples": 2304,
+        "number_of_instances": 349,
+        "number_of_subjects": 349,
+        "number_of_objects": 1603,
+        "number_of_literals": 920,
+        "number_of_classes": 3,
+        "classes": "./data/uniprot_graph-16_classes.json",
+        "number_of_properties": 13,
+        "properties": "./data/uniprot_graph-16_propertiess.json",
+        "number_of_datatypes": 2,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string",
+          "http://www.w3.org/2001/XMLSchema#boolean"
+        ],
+        "xrefs": [
+          
+        ]
       }
     ],
     "tags": {

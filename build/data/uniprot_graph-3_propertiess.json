@@ -1,0 +1,74 @@
+[
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 136226649,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/attribution",
+    "number_of_triples": 70847281,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
+    "number_of_triples": 68113324,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#object",
+    "number_of_triples": 68113324,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate",
+    "number_of_triples": 68113324,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/mappedAnnotation",
+    "number_of_triples": 63089224,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/scope",
+    "number_of_triples": 56597317,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/mappedCitation",
+    "number_of_triples": 43691953,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#comment",
+    "number_of_triples": 24421371,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/evidence",
+    "number_of_triples": 2354007,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/source",
+    "number_of_triples": 2354007,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#imports",
+    "number_of_triples": 1,
+    "domain_classes": [],
+    "range_classes": []
+  }
+]

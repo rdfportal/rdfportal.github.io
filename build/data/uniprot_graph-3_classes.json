@@ -1,0 +1,34 @@
+[
+  {
+    "class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement",
+    "number_of_instances": 68113324,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Citation_Statement",
+    "number_of_instances": 43691953,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Annotation",
+    "number_of_instances": 24421371,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#Ontology",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  }
+]

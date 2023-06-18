@@ -1,0 +1,154 @@
+[
+  {
+    "class": "http://www.w3.org/2002/07/owl#Class",
+    "number_of_instances": 214,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+    "number_of_instances": 84,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#ObjectProperty",
+    "number_of_instances": 79,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#NamedIndividual",
+    "number_of_instances": 64,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#Thing",
+    "number_of_instances": 64,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#Restriction",
+    "number_of_instances": 45,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#FunctionalProperty",
+    "number_of_instances": 38,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Rank",
+    "number_of_instances": 32,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#AllDifferent",
+    "number_of_instances": 14,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Organelle",
+    "number_of_instances": 9,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Structure_Determination_Method",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Mass_Measurement_Method",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+    "number_of_instances": 6,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Protein_Existence",
+    "number_of_instances": 5,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+    "number_of_instances": 5,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Status",
+    "number_of_instances": 4,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#Ontology",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#InverseFunctionalProperty",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  }
+]

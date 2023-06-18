@@ -1,0 +1,44 @@
+[
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 1333,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "number_of_triples": 1332,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "number_of_triples": 1147,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "number_of_triples": 113,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#comment",
+    "number_of_triples": 94,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/database",
+    "number_of_triples": 93,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#imports",
+    "number_of_triples": 1,
+    "domain_classes": [],
+    "range_classes": []
+  }
+]

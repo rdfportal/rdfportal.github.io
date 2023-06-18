@@ -1,0 +1,26 @@
+[
+  {
+    "class": "http://purl.uniprot.org/core/Protein",
+    "number_of_instances": 152825402,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Member_Of_Redudant_Proteome",
+    "number_of_instances": 120787064,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#Ontology",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  }
+]

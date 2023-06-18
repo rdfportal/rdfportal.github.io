@@ -1,0 +1,62 @@
+[
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+    "number_of_triples": 490414,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "number_of_triples": 69169,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 59328,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+    "number_of_triples": 48435,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#label",
+    "number_of_triples": 47442,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/IAO_0000115",
+    "number_of_triples": 47442,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#onProperty",
+    "number_of_triples": 8239,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#someValuesFrom",
+    "number_of_triples": 8239,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.geneontology.org/formats/oboInOwl#replaces",
+    "number_of_triples": 3646,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#imports",
+    "number_of_triples": 1,
+    "domain_classes": [],
+    "range_classes": []
+  }
+]

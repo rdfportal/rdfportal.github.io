@@ -1,0 +1,104 @@
+[
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+    "number_of_triples": 33976,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 30344,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/citation",
+    "number_of_triples": 15420,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "number_of_triples": 13344,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://xmlns.com/foaf/0.1/primaryTopicOf",
+    "number_of_triples": 13344,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#comment",
+    "number_of_triples": 12924,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "number_of_triples": 10233,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+    "number_of_triples": 8612,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#label",
+    "number_of_triples": 8379,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/activity",
+    "number_of_triples": 8379,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "number_of_triples": 7147,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+    "number_of_triples": 7140,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.org/dc/terms/identifier",
+    "number_of_triples": 1586,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/replacedBy",
+    "number_of_triples": 1505,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/replaces",
+    "number_of_triples": 1505,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/obsolete",
+    "number_of_triples": 1472,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#imports",
+    "number_of_triples": 1,
+    "domain_classes": [],
+    "range_classes": []
+  }
+]
