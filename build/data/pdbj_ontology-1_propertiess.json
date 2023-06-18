@@ -1,74 +1,182 @@
 [
-    {
-        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "number_of_triples": 29433
-    },
-    {
-        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
-        "number_of_triples": 18137
-    },
-    {
-        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
-        "number_of_triples": 18137
-    },
-    {
-        "property": "http://www.w3.org/2002/07/owl#onProperty",
-        "number_of_triples": 13852
-    },
-    {
-        "property": "http://www.w3.org/2000/01/rdf-schema#comment",
-        "number_of_triples": 10195
-    },
-    {
-        "property": "http://www.w3.org/2000/01/rdf-schema#label",
-        "number_of_triples": 9632
-    },
-    {
-        "property": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
-        "number_of_triples": 9602
-    },
-    {
-        "property": "http://www.w3.org/2000/01/rdf-schema#range",
-        "number_of_triples": 7769
-    },
-    {
-        "property": "http://www.w3.org/2002/07/owl#minCardinality",
-        "number_of_triples": 6679
-    },
-    {
-        "property": "http://www.w3.org/2002/07/owl#maxCardinality",
-        "number_of_triples": 6087
-    },
-    {
-        "property": "http://www.w3.org/2000/01/rdf-schema#domain",
-        "number_of_triples": 2289
-    },
-    {
-        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-        "number_of_triples": 1187
-    },
-    {
-        "property": "http://www.w3.org/2002/07/owl#intersectionOf",
-        "number_of_triples": 1185
-    },
-    {
-        "property": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
-        "number_of_triples": 1185
-    },
-    {
-        "property": "http://www.w3.org/2002/07/owl#cardinality",
-        "number_of_triples": 1086
-    },
-    {
-        "property": "http://www.w3.org/2002/07/owl#oneOf",
-        "number_of_triples": 507
-    },
-    {
-        "property": "http://www.w3.org/2002/07/owl#inverseOf",
-        "number_of_triples": 1
-    },
-    {
-        "property": "http://www.w3.org/2002/07/owl#versionIRI",
-        "number_of_triples": 1
-    }
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 29433,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+    "number_of_triples": 18137,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+    "number_of_triples": 18137,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#onProperty",
+    "number_of_triples": 13852,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#comment",
+    "number_of_triples": 10195,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#label",
+    "number_of_triples": 9632,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+    "number_of_triples": 9602,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#range",
+    "number_of_triples": 7769,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#minCardinality",
+    "number_of_triples": 6679,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#maxCardinality",
+    "number_of_triples": 6087,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#domain",
+    "number_of_triples": 2289,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "number_of_triples": 1187,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#intersectionOf",
+    "number_of_triples": 1185,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+    "number_of_triples": 1185,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#cardinality",
+    "number_of_triples": 1086,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#oneOf",
+    "number_of_triples": 507,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#inverseOf",
+    "number_of_triples": 1,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#versionIRI",
+    "number_of_triples": 1,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
 ]

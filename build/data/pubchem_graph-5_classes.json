@@ -1,66 +1,130 @@
 [
-    {
-        "class": "http://semanticscience.org/resource/CHEMINF_000467",
-        "number_of_instances": 156534427
-    },
-    {
-        "class": "http://semanticscience.org/resource/CHEMINF_000339",
-        "number_of_instances": 41056580
-    },
-    {
-        "class": "http://semanticscience.org/resource/CHEMINF_000446",
-        "number_of_instances": 4744921
-    },
-    {
-        "class": "http://semanticscience.org/resource/CHEMINF_000412",
-        "number_of_instances": 2354965
-    },
-    {
-        "class": "http://semanticscience.org/resource/CHEMINF_000382",
-        "number_of_instances": 1574489
-    },
-    {
-        "class": "http://semanticscience.org/resource/CHEMINF_000565",
-        "number_of_instances": 682964
-    },
-    {
-        "class": "http://semanticscience.org/resource/CHEMINF_000407",
-        "number_of_instances": 151344
-    },
-    {
-        "class": "http://semanticscience.org/resource/CHEMINF_000563",
-        "number_of_instances": 138729
-    },
-    {
-        "class": "http://semanticscience.org/resource/CHEMINF_000447",
-        "number_of_instances": 100098
-    },
-    {
-        "class": "http://semanticscience.org/resource/CHEMINF_000564",
-        "number_of_instances": 43399
-    },
-    {
-        "class": "http://semanticscience.org/resource/CHEMINF_000409",
-        "number_of_instances": 41103
-    },
-    {
-        "class": "http://semanticscience.org/resource/CHEMINF_000562",
-        "number_of_instances": 34084
-    },
-    {
-        "class": "http://semanticscience.org/resource/CHEMINF_000561",
-        "number_of_instances": 32832
-    },
-    {
-        "class": "http://semanticscience.org/resource/CHEMINF_000566",
-        "number_of_instances": 28865
-    },
-    {
-        "class": "http://semanticscience.org/resource/CHEMINF_000406",
-        "number_of_instances": 13575
-    },
-    {
-        "class": "http://semanticscience.org/resource/CHEMINF_000109",
-        "number_of_instances": 8240
+  {
+    "class": "http://semanticscience.org/resource/CHEMINF_000467",
+    "number_of_instances": 156534427,
+    "label": {
+      "en": "",
+      "ja": ""
     }
+  },
+  {
+    "class": "http://semanticscience.org/resource/CHEMINF_000339",
+    "number_of_instances": 41056580,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://semanticscience.org/resource/CHEMINF_000446",
+    "number_of_instances": 4744921,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://semanticscience.org/resource/CHEMINF_000412",
+    "number_of_instances": 2354965,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://semanticscience.org/resource/CHEMINF_000382",
+    "number_of_instances": 1574489,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://semanticscience.org/resource/CHEMINF_000565",
+    "number_of_instances": 682964,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://semanticscience.org/resource/CHEMINF_000407",
+    "number_of_instances": 151344,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://semanticscience.org/resource/CHEMINF_000563",
+    "number_of_instances": 138729,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://semanticscience.org/resource/CHEMINF_000447",
+    "number_of_instances": 100098,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://semanticscience.org/resource/CHEMINF_000564",
+    "number_of_instances": 43399,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://semanticscience.org/resource/CHEMINF_000409",
+    "number_of_instances": 41103,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://semanticscience.org/resource/CHEMINF_000562",
+    "number_of_instances": 34084,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://semanticscience.org/resource/CHEMINF_000561",
+    "number_of_instances": 32832,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://semanticscience.org/resource/CHEMINF_000566",
+    "number_of_instances": 28865,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://semanticscience.org/resource/CHEMINF_000406",
+    "number_of_instances": 13575,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://semanticscience.org/resource/CHEMINF_000109",
+    "number_of_instances": 8240,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  }
 ]

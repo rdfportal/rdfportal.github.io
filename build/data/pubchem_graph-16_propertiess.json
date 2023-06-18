@@ -1,22 +1,52 @@
 [
-    {
-        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "number_of_triples": 6027
-    },
-    {
-        "property": "http://www.w3.org/2004/02/skos/core#inScheme",
-        "number_of_triples": 6025
-    },
-    {
-        "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
-        "number_of_triples": 6009
-    },
-    {
-        "property": "http://purl.org/pav/importedFrom",
-        "number_of_triples": 6009
-    },
-    {
-        "property": "http://www.w3.org/2004/02/skos/core#broader",
-        "number_of_triples": 5995
-    }
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 6027,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "number_of_triples": 6025,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "number_of_triples": 6009,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/pav/importedFrom",
+    "number_of_triples": 6009,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#broader",
+    "number_of_triples": 5995,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
 ]

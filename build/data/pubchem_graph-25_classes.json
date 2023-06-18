@@ -1,10 +1,18 @@
 [
   {
     "class": "http://www.w3.org/2006/vcard/ns#Organization",
-    "number_of_instances": 689120
+    "number_of_instances": 689120,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "class": "http://purl.org/cerif/frapo/FundingAgency",
-    "number_of_instances": 689120
+    "number_of_instances": 689120,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
   }
 ]

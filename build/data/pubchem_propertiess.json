@@ -1,510 +1,1272 @@
 [
-    {
-        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "number_of_triples": 3244967450
-    },
-    {
-        "property": "http://semanticscience.org/resource/SIO_000300",
-        "number_of_triples": 3208285189
-    },
-    {
-        "property": "http://semanticscience.org/resource/SIO_000008",
-        "number_of_triples": 3197967956
-    },
-    {
-        "property": "http://purl.org/spar/cito/isDiscussedBy",
-        "number_of_triples": 1043035759
-    },
-    {
-        "property": "http://semanticscience.org/resource/SIO_000221",
-        "number_of_triples": 469615537
-    },
-    {
-        "property": "http://purl.org/dc/terms/source",
-        "number_of_triples": 337043092
-    },
-    {
-        "property": "http://purl.org/dc/terms/modified",
-        "number_of_triples": 304174850
-    },
-    {
-        "property": "http://purl.org/dc/terms/available",
-        "number_of_triples": 303913456
-    },
-    {
-        "property": "http://semanticscience.org/resource/CHEMINF_000477",
-        "number_of_triples": 288553115
-    },
-    {
-        "property": "http://purl.obolibrary.org/obo/RO_0000056",
-        "number_of_triples": 259810581
-    },
-    {
-        "property": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#PubChemAssayOutcome",
-        "number_of_triples": 259515823
-    },
-    {
-        "property": "http://purl.obolibrary.org/obo/IAO_0000136",
-        "number_of_triples": 259312760
-    },
-    {
-        "property": "http://purl.obolibrary.org/obo/OBI_0000299",
-        "number_of_triples": 259312760
-    },
-    {
-        "property": "http://semanticscience.org/resource/SIO_000011",
-        "number_of_triples": 225104047
-    },
-    {
-        "property": "http://purl.org/spar/cito/isCitedBy",
-        "number_of_triples": 126512501
-    },
-    {
-        "property": "http://data.epo.org/linked-data/def/patent/classificationCPCInventive",
-        "number_of_triples": 119380607
-    },
-    {
-        "property": "http://data.epo.org/linked-data/def/patent/classificationIPCInventive",
-        "number_of_triples": 110570089
-    },
-    {
-        "property": "http://purl.org/spar/fabio/hasSubjectTerm",
-        "number_of_triples": 99000836
-    },
-    {
-        "property": "http://data.epo.org/linked-data/def/patent/inventorVC",
-        "number_of_triples": 66278328
-    },
-    {
-        "property": "http://purl.org/dc/terms/creator",
-        "number_of_triples": 65654399
-    },
-    {
-        "property": "http://semanticscience.org/resource/CHEMINF_000461",
-        "number_of_triples": 63910425
-    },
-    {
-        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
-        "number_of_triples": 56949905
-    },
-    {
-        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#object",
-        "number_of_triples": 56949905
-    },
-    {
-        "property": "http://semanticscience.org/resource/SIO_001157",
-        "number_of_triples": 56949903
-    },
-    {
-        "property": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#discussesAsDerivedByTextMining",
-        "number_of_triples": 54995741
-    },
-    {
-        "property": "http://data.epo.org/linked-data/def/patent/classificationCPCAdditional",
-        "number_of_triples": 50224395
-    },
-    {
-        "property": "http://purl.org/spar/cito/discusses",
-        "number_of_triples": 44794624
-    },
-    {
-        "property": "http://www.w3.org/2006/vcard/ns#fn",
-        "number_of_triples": 41478787
-    },
-    {
-        "property": "http://purl.org/spar/fabio/hasPrimarySubjectTerm",
-        "number_of_triples": 36320005
-    },
-    {
-        "property": "http://purl.org/dc/terms/isPartOf",
-        "number_of_triples": 35580112
-    },
-    {
-        "property": "http://data.epo.org/linked-data/def/patent/filingDate",
-        "number_of_triples": 34739072
-    },
-    {
-        "property": "http://data.epo.org/linked-data/def/patent/applicantVC",
-        "number_of_triples": 28432648
-    },
-    {
-        "property": "http://purl.org/dc/terms/identifier",
-        "number_of_triples": 26235956
-    },
-    {
-        "property": "http://data.epo.org/linked-data/def/patent/publicationNumber",
-        "number_of_triples": 25570750
-    },
-    {
-        "property": "http://data.epo.org/linked-data/def/patent/publicationDate",
-        "number_of_triples": 25488077
-    },
-    {
-        "property": "http://data.epo.org/linked-data/def/patent/titleOfInvention",
-        "number_of_triples": 25419057
-    },
-    {
-        "property": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#priorityDate",
-        "number_of_triples": 25384742
-    },
-    {
-        "property": "http://semanticscience.org/resource/CHEMINF_000480",
-        "number_of_triples": 24417507
-    },
-    {
-        "property": "http://prismstandard.org/namespaces/basic/3.0/contentType",
-        "number_of_triples": 24205433
-    },
-    {
-        "property": "http://purl.org/dc/terms/abstract",
-        "number_of_triples": 21071687
-    },
-    {
-        "property": "http://prismstandard.org/namespaces/basic/3.0/issn",
-        "number_of_triples": 20701909
-    },
-    {
-        "property": "http://purl.org/dc/terms/title",
-        "number_of_triples": 18067379
-    },
-    {
-        "property": "http://www.w3.org/2006/vcard/ns#given-name",
-        "number_of_triples": 15763103
-    },
-    {
-        "property": "http://purl.org/dc/terms/language",
-        "number_of_triples": 14513852
-    },
-    {
-        "property": "http://prismstandard.org/namespaces/basic/3.0/publicationName",
-        "number_of_triples": 14511521
-    },
-    {
-        "property": "http://www.w3.org/2006/vcard/ns#family-name",
-        "number_of_triples": 14476427
-    },
-    {
-        "property": "http://purl.org/dc/terms/bibliographicCitation",
-        "number_of_triples": 14445559
-    },
-    {
-        "property": "http://purl.org/dc/terms/date",
-        "number_of_triples": 14439348
-    },
-    {
-        "property": "http://prismstandard.org/namespaces/basic/3.0/startingPage",
-        "number_of_triples": 14357616
-    },
-    {
-        "property": "http://prismstandard.org/namespaces/basic/3.0/pageRange",
-        "number_of_triples": 14357616
-    },
-    {
-        "property": "http://purl.org/spar/cito/citesAsDataSource",
-        "number_of_triples": 13781348
-    },
-    {
-        "property": "http://prismstandard.org/namespaces/basic/3.0/endingPage",
-        "number_of_triples": 13373167
-    },
-    {
-        "property": "http://prismstandard.org/namespaces/basic/3.0/issueIdentifier",
-        "number_of_triples": 12348182
-    },
-    {
-        "property": "http://www.w3.org/2006/vcard/ns#organization-name",
-        "number_of_triples": 11700689
-    },
-    {
-        "property": "http://www.w3.org/2000/01/rdf-schema#label",
-        "number_of_triples": 10451944
-    },
-    {
-        "property": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#has_parent",
-        "number_of_triples": 6967153
-    },
-    {
-        "property": "http://purl.org/cerif/frapo/hasFundingAgency",
-        "number_of_triples": 6307447
-    },
-    {
-        "property": "http://www.w3.org/2004/02/skos/core#exactMatch",
-        "number_of_triples": 5964015
-    },
-    {
-        "property": "http://semanticscience.org/resource/CHEMINF_000455",
-        "number_of_triples": 5722470
-    },
-    {
-        "property": "http://data.epo.org/linked-data/def/patent/classificationIPCAdditional",
-        "number_of_triples": 4207569
-    },
-    {
-        "property": "http://purl.org/cerif/frapo/isSupportedBy",
-        "number_of_triples": 3943078
-    },
-    {
-        "property": "http://purl.obolibrary.org/obo/RO_0000057",
-        "number_of_triples": 3814506
-    },
-    {
-        "property": "http://semanticscience.org/resource/CHEMINF_000462",
-        "number_of_triples": 2849352
-    },
-    {
-        "property": "http://www.w3.org/2004/02/skos/core#closeMatch",
-        "number_of_triples": 2692171
-    },
-    {
-        "property": "http://www.bioassayontology.org/bao#BAO_0000209",
-        "number_of_triples": 1575854
-    },
-    {
-        "property": "http://www.w3.org/2004/02/skos/core#altLabel",
-        "number_of_triples": 1455646
-    },
-    {
-        "property": "http://www.w3.org/2006/vcard/ns#hasUID",
-        "number_of_triples": 1300003
-    },
-    {
-        "property": "http://purl.org/cerif/frapo/hasGrantNumber",
-        "number_of_triples": 1001607
-    },
-    {
-        "property": "http://www.w3.org/2002/07/owl#sameAs",
-        "number_of_triples": 757176
-    },
-    {
-        "property": "http://rdf.wwpdb.org/schema/pdbx-v40.owl#link_to_pdb",
-        "number_of_triples": 616689
-    },
-    {
-        "property": "http://purl.org/dc/terms/subject",
-        "number_of_triples": 552499
-    },
-    {
-        "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
-        "number_of_triples": 429264
-    },
-    {
-        "property": "http://purl.uniprot.org/core/organism",
-        "number_of_triples": 371662
-    },
-    {
-        "property": "http://www.w3.org/2004/02/skos/core#broader",
-        "number_of_triples": 344607
-    },
-    {
-        "property": "http://purl.obolibrary.org/obo/RO_0002180",
-        "number_of_triples": 295269
-    },
-    {
-        "property": "http://purl.obolibrary.org/obo/RO_0001025",
-        "number_of_triples": 277884
-    },
-    {
-        "property": "http://data.epo.org/linked-data/def/cpc/level",
-        "number_of_triples": 261391
-    },
-    {
-        "property": "http://data.epo.org/linked-data/def/cpc/symbol",
-        "number_of_triples": 260490
-    },
-    {
-        "property": "http://purl.obolibrary.org/obo/RO_0000085",
-        "number_of_triples": 260184
-    },
-    {
-        "property": "http://purl.uniprot.org/core/enzyme",
-        "number_of_triples": 187801
-    },
-    {
-        "property": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#hasSimilarProtein",
-        "number_of_triples": 186494
-    },
-    {
-        "property": "http://www.bioassayontology.org/bao#BAO_0002817",
-        "number_of_triples": 184885
-    },
-    {
-        "property": "http://data.epo.org/linked-data/def/cpc/concordantIPC",
-        "number_of_triples": 179138
-    },
-    {
-        "property": "http://www.bioassayontology.org/bao#BAO_0002870",
-        "number_of_triples": 103988
-    },
-    {
-        "property": "http://purl.uniprot.org/core/encodedBy",
-        "number_of_triples": 79804
-    },
-    {
-        "property": "http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId",
-        "number_of_triples": 39297
-    },
-    {
-        "property": "http://purl.org/spar/fabio/hasNLMJournalTitleAbbreviation",
-        "number_of_triples": 39261
-    },
-    {
-        "property": "http://semanticscience.org/resource/SIO_000558",
-        "number_of_triples": 30312
-    },
-    {
-        "property": "http://rdfs.org/ns/void#dataDump",
-        "number_of_triples": 26023
-    },
-    {
-        "property": "http://www.bioassayontology.org/bao#BAO_0000540",
-        "number_of_triples": 23167
-    },
-    {
-        "property": "http://www.w3.org/2006/vcard/ns#country-name",
-        "number_of_triples": 21813
-    },
-    {
-        "property": "http://prismstandard.org/namespaces/basic/3.0/eissn",
-        "number_of_triples": 18538
-    },
-    {
-        "property": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#is_active_ingredient_of",
-        "number_of_triples": 17176
-    },
-    {
-        "property": "http://purl.obolibrary.org/obo/RO_0000087",
-        "number_of_triples": 16960
-    },
-    {
-        "property": "http://www.bioassayontology.org/bao#BAO_0000210",
-        "number_of_triples": 14767
-    },
-    {
-        "property": "http://www.w3.org/2004/02/skos/core#relatedMatch",
-        "number_of_triples": 11487
-    },
-    {
-        "property": "http://www.bioassayontology.org/bao#BAO_0001067",
-        "number_of_triples": 9101
-    },
-    {
-        "property": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
-        "number_of_triples": 8181
-    },
-    {
-        "property": "http://www.biopax.org/release/biopax-level3.owl#pathwayComponent",
-        "number_of_triples": 6868
-    },
-    {
-        "property": "http://www.bioassayontology.org/bao#BAO_0001094",
-        "number_of_triples": 6414
-    },
-    {
-        "property": "http://purl.org/dc/terms/publisher",
-        "number_of_triples": 6407
-    },
-    {
-        "property": "http://prismstandard.org/namespaces/basic/3.0/location",
-        "number_of_triples": 6406
-    },
-    {
-        "property": "http://www.w3.org/2004/02/skos/core#inScheme",
-        "number_of_triples": 6025
-    },
-    {
-        "property": "http://purl.org/pav/importedFrom",
-        "number_of_triples": 6009
-    },
-    {
-        "property": "http://prismstandard.org/namespaces/basic/3.0/isbn",
-        "number_of_triples": 2596
-    },
-    {
-        "property": "http://prismstandard.org/namespaces/basic/3.0/subtitle",
-        "number_of_triples": 2451
-    },
-    {
-        "property": "http://www.w3.org/2004/02/skos/core#related",
-        "number_of_triples": 1722
-    },
-    {
-        "property": "http://purl.org/dc/terms/alternative",
-        "number_of_triples": 796
-    },
-    {
-        "property": "http://xmlns.com/foaf/0.1/homepage",
-        "number_of_triples": 549
-    },
-    {
-        "property": "http://purl.obolibrary.org/obo/BFO_0000050",
-        "number_of_triples": 157
-    },
-    {
-        "property": "http://purl.org/dc/terms/license",
-        "number_of_triples": 137
-    },
-    {
-        "property": "http://purl.org/dc/terms/rights",
-        "number_of_triples": 106
-    },
-    {
-        "property": "http://rdfs.org/ns/void#exampleResource",
-        "number_of_triples": 31
-    },
-    {
-        "property": "http://purl.org/dc/terms/description",
-        "number_of_triples": 29
-    },
-    {
-        "property": "http://rdfs.org/ns/void#triples",
-        "number_of_triples": 28
-    },
-    {
-        "property": "http://rdfs.org/ns/void#uriSpace",
-        "number_of_triples": 28
-    },
-    {
-        "property": "http://rdfs.org/ns/void#uriLookupEndpoint",
-        "number_of_triples": 28
-    },
-    {
-        "property": "http://rdfs.org/ns/void#distinctSubjects",
-        "number_of_triples": 27
-    },
-    {
-        "property": "http://rdfs.org/ns/void#subset",
-        "number_of_triples": 27
-    },
-    {
-        "property": "http://rdfs.org/ns/void#vocabulary",
-        "number_of_triples": 15
-    },
-    {
-        "property": "http://purl.org/dc/terms/created",
-        "number_of_triples": 1
-    },
-    {
-        "property": "http://rdfs.org/ns/void#entities",
-        "number_of_triples": 1
-    },
-    {
-        "property": "http://purl.org/pav/2.0/createdOn",
-        "number_of_triples": 1
-    },
-    {
-        "property": "http://purl.org/pav/2.0/createdBy",
-        "number_of_triples": 1
-    },
-    {
-        "property": "http://rdfs.org/ns/void#feature",
-        "number_of_triples": 1
-    },
-    {
-        "property": "http://voag.linkedmodel.org/schema/voag#frequencyOfChange",
-        "number_of_triples": 1
-    },
-    {
-        "property": "http://xmlns.com/foaf/0.1/primaryTopic",
-        "number_of_triples": 1
-    }
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 3244967450,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/SIO_000300",
+    "number_of_triples": 3208285189,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/SIO_000008",
+    "number_of_triples": 3197967956,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/cito/isDiscussedBy",
+    "number_of_triples": 1043035759,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/SIO_000221",
+    "number_of_triples": 469615537,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/source",
+    "number_of_triples": 337043092,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/modified",
+    "number_of_triples": 304174850,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/available",
+    "number_of_triples": 303913456,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/CHEMINF_000477",
+    "number_of_triples": 288553115,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/RO_0000056",
+    "number_of_triples": 259810581,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#PubChemAssayOutcome",
+    "number_of_triples": 259515823,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/IAO_0000136",
+    "number_of_triples": 259312760,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/OBI_0000299",
+    "number_of_triples": 259312760,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/SIO_000011",
+    "number_of_triples": 225104047,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/cito/isCitedBy",
+    "number_of_triples": 126512501,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/classificationCPCInventive",
+    "number_of_triples": 119380607,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/classificationIPCInventive",
+    "number_of_triples": 110570089,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/fabio/hasSubjectTerm",
+    "number_of_triples": 99000836,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/inventorVC",
+    "number_of_triples": 66278328,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/creator",
+    "number_of_triples": 65654399,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/CHEMINF_000461",
+    "number_of_triples": 63910425,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
+    "number_of_triples": 56949905,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#object",
+    "number_of_triples": 56949905,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/SIO_001157",
+    "number_of_triples": 56949903,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#discussesAsDerivedByTextMining",
+    "number_of_triples": 54995741,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/classificationCPCAdditional",
+    "number_of_triples": 50224395,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/cito/discusses",
+    "number_of_triples": 44794624,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2006/vcard/ns#fn",
+    "number_of_triples": 41478787,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/fabio/hasPrimarySubjectTerm",
+    "number_of_triples": 36320005,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/isPartOf",
+    "number_of_triples": 35580112,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/filingDate",
+    "number_of_triples": 34739072,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/applicantVC",
+    "number_of_triples": 28432648,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/identifier",
+    "number_of_triples": 26235956,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/publicationNumber",
+    "number_of_triples": 25570750,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/publicationDate",
+    "number_of_triples": 25488077,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/titleOfInvention",
+    "number_of_triples": 25419057,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#priorityDate",
+    "number_of_triples": 25384742,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/CHEMINF_000480",
+    "number_of_triples": 24417507,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespaces/basic/3.0/contentType",
+    "number_of_triples": 24205433,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/abstract",
+    "number_of_triples": 21071687,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespaces/basic/3.0/issn",
+    "number_of_triples": 20701909,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/title",
+    "number_of_triples": 18067379,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2006/vcard/ns#given-name",
+    "number_of_triples": 15763103,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/language",
+    "number_of_triples": 14513852,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespaces/basic/3.0/publicationName",
+    "number_of_triples": 14511521,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2006/vcard/ns#family-name",
+    "number_of_triples": 14476427,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/bibliographicCitation",
+    "number_of_triples": 14445559,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/date",
+    "number_of_triples": 14439348,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespaces/basic/3.0/startingPage",
+    "number_of_triples": 14357616,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespaces/basic/3.0/pageRange",
+    "number_of_triples": 14357616,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/cito/citesAsDataSource",
+    "number_of_triples": 13781348,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespaces/basic/3.0/endingPage",
+    "number_of_triples": 13373167,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespaces/basic/3.0/issueIdentifier",
+    "number_of_triples": 12348182,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2006/vcard/ns#organization-name",
+    "number_of_triples": 11700689,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#label",
+    "number_of_triples": 10451944,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#has_parent",
+    "number_of_triples": 6967153,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/cerif/frapo/hasFundingAgency",
+    "number_of_triples": 6307447,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "number_of_triples": 5964015,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/CHEMINF_000455",
+    "number_of_triples": 5722470,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/classificationIPCAdditional",
+    "number_of_triples": 4207569,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/cerif/frapo/isSupportedBy",
+    "number_of_triples": 3943078,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/RO_0000057",
+    "number_of_triples": 3814506,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/CHEMINF_000462",
+    "number_of_triples": 2849352,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#closeMatch",
+    "number_of_triples": 2692171,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.bioassayontology.org/bao#BAO_0000209",
+    "number_of_triples": 1575854,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "number_of_triples": 1455646,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2006/vcard/ns#hasUID",
+    "number_of_triples": 1300003,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/cerif/frapo/hasGrantNumber",
+    "number_of_triples": 1001607,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#sameAs",
+    "number_of_triples": 757176,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdf.wwpdb.org/schema/pdbx-v40.owl#link_to_pdb",
+    "number_of_triples": 616689,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/subject",
+    "number_of_triples": 552499,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "number_of_triples": 429264,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.uniprot.org/core/organism",
+    "number_of_triples": 371662,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#broader",
+    "number_of_triples": 344607,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/RO_0002180",
+    "number_of_triples": 295269,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/RO_0001025",
+    "number_of_triples": 277884,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/cpc/level",
+    "number_of_triples": 261391,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/cpc/symbol",
+    "number_of_triples": 260490,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/RO_0000085",
+    "number_of_triples": 260184,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.uniprot.org/core/enzyme",
+    "number_of_triples": 187801,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#hasSimilarProtein",
+    "number_of_triples": 186494,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.bioassayontology.org/bao#BAO_0002817",
+    "number_of_triples": 184885,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/cpc/concordantIPC",
+    "number_of_triples": 179138,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.bioassayontology.org/bao#BAO_0002870",
+    "number_of_triples": 103988,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.uniprot.org/core/encodedBy",
+    "number_of_triples": 79804,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId",
+    "number_of_triples": 39297,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/fabio/hasNLMJournalTitleAbbreviation",
+    "number_of_triples": 39261,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/SIO_000558",
+    "number_of_triples": 30312,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdfs.org/ns/void#dataDump",
+    "number_of_triples": 26023,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.bioassayontology.org/bao#BAO_0000540",
+    "number_of_triples": 23167,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2006/vcard/ns#country-name",
+    "number_of_triples": 21813,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespaces/basic/3.0/eissn",
+    "number_of_triples": 18538,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#is_active_ingredient_of",
+    "number_of_triples": 17176,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/RO_0000087",
+    "number_of_triples": 16960,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.bioassayontology.org/bao#BAO_0000210",
+    "number_of_triples": 14767,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+    "number_of_triples": 11487,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.bioassayontology.org/bao#BAO_0001067",
+    "number_of_triples": 9101,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+    "number_of_triples": 8181,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.biopax.org/release/biopax-level3.owl#pathwayComponent",
+    "number_of_triples": 6868,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.bioassayontology.org/bao#BAO_0001094",
+    "number_of_triples": 6414,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/publisher",
+    "number_of_triples": 6407,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespaces/basic/3.0/location",
+    "number_of_triples": 6406,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "number_of_triples": 6025,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/pav/importedFrom",
+    "number_of_triples": 6009,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespaces/basic/3.0/isbn",
+    "number_of_triples": 2596,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespaces/basic/3.0/subtitle",
+    "number_of_triples": 2451,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#related",
+    "number_of_triples": 1722,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/alternative",
+    "number_of_triples": 796,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://xmlns.com/foaf/0.1/homepage",
+    "number_of_triples": 549,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/BFO_0000050",
+    "number_of_triples": 157,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/license",
+    "number_of_triples": 137,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/rights",
+    "number_of_triples": 106,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdfs.org/ns/void#exampleResource",
+    "number_of_triples": 31,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/description",
+    "number_of_triples": 29,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdfs.org/ns/void#triples",
+    "number_of_triples": 28,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdfs.org/ns/void#uriSpace",
+    "number_of_triples": 28,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdfs.org/ns/void#uriLookupEndpoint",
+    "number_of_triples": 28,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdfs.org/ns/void#distinctSubjects",
+    "number_of_triples": 27,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdfs.org/ns/void#subset",
+    "number_of_triples": 27,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdfs.org/ns/void#vocabulary",
+    "number_of_triples": 15,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/created",
+    "number_of_triples": 1,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdfs.org/ns/void#entities",
+    "number_of_triples": 1,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/pav/2.0/createdOn",
+    "number_of_triples": 1,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/pav/2.0/createdBy",
+    "number_of_triples": 1,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdfs.org/ns/void#feature",
+    "number_of_triples": 1,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://voag.linkedmodel.org/schema/voag#frequencyOfChange",
+    "number_of_triples": 1,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://xmlns.com/foaf/0.1/primaryTopic",
+    "number_of_triples": 1,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
 ]

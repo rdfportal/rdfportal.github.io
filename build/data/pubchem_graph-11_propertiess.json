@@ -1,38 +1,92 @@
 [
-    {
-        "property": "http://purl.obolibrary.org/obo/RO_0000057",
-        "number_of_triples": 1952326
-    },
-    {
-        "property": "http://purl.org/dc/terms/source",
-        "number_of_triples": 80535
-    },
-    {
-        "property": "http://www.w3.org/2002/07/owl#sameAs",
-        "number_of_triples": 80535
-    },
-    {
-        "property": "http://purl.org/dc/terms/title",
-        "number_of_triples": 80535
-    },
-    {
-        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "number_of_triples": 80535
-    },
-    {
-        "property": "http://purl.uniprot.org/core/organism",
-        "number_of_triples": 80535
-    },
-    {
-        "property": "http://purl.org/spar/cito/isDiscussedBy",
-        "number_of_triples": 39894
-    },
-    {
-        "property": "http://www.biopax.org/release/biopax-level3.owl#pathwayComponent",
-        "number_of_triples": 6868
-    },
-    {
-        "property": "http://www.w3.org/2004/02/skos/core#related",
-        "number_of_triples": 1722
-    }
+  {
+    "property": "http://purl.obolibrary.org/obo/RO_0000057",
+    "number_of_triples": 1952326,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/source",
+    "number_of_triples": 80535,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#sameAs",
+    "number_of_triples": 80535,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/title",
+    "number_of_triples": 80535,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 80535,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.uniprot.org/core/organism",
+    "number_of_triples": 80535,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/cito/isDiscussedBy",
+    "number_of_triples": 39894,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.biopax.org/release/biopax-level3.owl#pathwayComponent",
+    "number_of_triples": 6868,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#related",
+    "number_of_triples": 1722,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
 ]

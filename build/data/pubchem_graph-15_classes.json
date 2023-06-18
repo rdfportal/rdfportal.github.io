@@ -1,6 +1,10 @@
 [
-    {
-        "class": "http://purl.org/dc/terms/Dataset",
-        "number_of_instances": 919
+  {
+    "class": "http://purl.org/dc/terms/Dataset",
+    "number_of_instances": 919,
+    "label": {
+      "en": "",
+      "ja": ""
     }
+  }
 ]

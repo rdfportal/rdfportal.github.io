@@ -1,6 +1,10 @@
 [
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0000040",
-        "number_of_instances": 1575854
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0000040",
+    "number_of_instances": 1575854,
+    "label": {
+      "en": "",
+      "ja": ""
     }
+  }
 ]

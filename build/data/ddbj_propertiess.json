@@ -1,606 +1,1512 @@
 [
-    {
-        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "number_of_triples": 5955699803
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#author",
-        "number_of_triples": 3725492145
-    },
-    {
-        "property": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
-        "number_of_triples": 2238927374
-    },
-    {
-        "property": "http://biohackathon.org/resource/faldo#location",
-        "number_of_triples": 1650380676
-    },
-    {
-        "property": "http://biohackathon.org/resource/faldo#position",
-        "number_of_triples": 1562827166
-    },
-    {
-        "property": "http://biohackathon.org/resource/faldo#reference",
-        "number_of_triples": 1562827166
-    },
-    {
-        "property": "http://www.w3.org/2000/01/rdf-schema#label",
-        "number_of_triples": 1330812983
-    },
-    {
-        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-        "number_of_triples": 1319657122
-    },
-    {
-        "property": "http://purl.org/dc/terms/identifier",
-        "number_of_triples": 1143996176
-    },
-    {
-        "property": "http://purl.obolibrary.org/obo/BFO_0000050",
-        "number_of_triples": 1048031653
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/location",
-        "number_of_triples": 1048031653
-    },
-    {
-        "property": "http://purl.obolibrary.org/obo/RO_0002162",
-        "number_of_triples": 1030499250
-    },
-    {
-        "property": "http://semanticscience.org/resource/SIO_000628",
-        "number_of_triples": 944071567
-    },
-    {
-        "property": "http://semanticscience.org/resource/SIO_000300",
-        "number_of_triples": 944071567
-    },
-    {
-        "property": "http://semanticscience.org/resource/SIO_000974",
-        "number_of_triples": 944071567
-    },
-    {
-        "property": "http://purl.obolibrary.org/obo/BFO_0000051",
-        "number_of_triples": 944071139
-    },
-    {
-        "property": "http://biohackathon.org/resource/faldo#end",
-        "number_of_triples": 843858187
-    },
-    {
-        "property": "http://biohackathon.org/resource/faldo#begin",
-        "number_of_triples": 843858065
-    },
-    {
-        "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
-        "number_of_triples": 624772924
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/organism",
-        "number_of_triples": 524962126
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/locus_tag",
-        "number_of_triples": 396986618
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#title",
-        "number_of_triples": 390003472
-    },
-    {
-        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
-        "number_of_triples": 390003472
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#journal",
-        "number_of_triples": 390003472
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference",
-        "number_of_triples": 390003472
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/product",
-        "number_of_triples": 375379644
-    },
-    {
-        "property": "http://semanticscience.org/resource/SIO_010081",
-        "number_of_triples": 366974788
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/note",
-        "number_of_triples": 347322935
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/gene",
-        "number_of_triples": 308146101
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/mol_type",
-        "number_of_triples": 262679519
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/sequence",
-        "number_of_triples": 262282607
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/sequence_version",
-        "number_of_triples": 262282607
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/taxonomy",
-        "number_of_triples": 262282607
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/sequence_date",
-        "number_of_triples": 262282607
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/source",
-        "number_of_triples": 262282607
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/division",
-        "number_of_triples": 262282607
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/topology",
-        "number_of_triples": 262282607
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/sequence_length",
-        "number_of_triples": 262282607
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/comment",
-        "number_of_triples": 262282607
-    },
-    {
-        "property": "http://purl.obolibrary.org/obo/RO_0000086",
-        "number_of_triples": 262282607
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/definition",
-        "number_of_triples": 262282603
-    },
-    {
-        "property": "http://semanticscience.org/resource/SIO_000068",
-        "number_of_triples": 259107131
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/keyword",
-        "number_of_triples": 250393283
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/translation",
-        "number_of_triples": 243269737
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/codon_start",
-        "number_of_triples": 237717283
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/transl_table",
-        "number_of_triples": 179931368
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/inference",
-        "number_of_triples": 156354995
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/dblink",
-        "number_of_triples": 142149896
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/clone_lib",
-        "number_of_triples": 112187908
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/estimated_length",
-        "number_of_triples": 110784714
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/gap_type",
-        "number_of_triples": 99028356
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/clone",
-        "number_of_triples": 94372171
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/tissue_type",
-        "number_of_triples": 75538091
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#pubmed",
-        "number_of_triples": 71263790
-    },
-    {
-        "property": "http://purl.org/dc/terms/references",
-        "number_of_triples": 71262115
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/linkage_evidence",
-        "number_of_triples": 71206164
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/dev_stage",
-        "number_of_triples": 54597391
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/strain",
-        "number_of_triples": 44234832
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/lab_host",
-        "number_of_triples": 36335317
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/country",
-        "number_of_triples": 35266866
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#comments",
-        "number_of_triples": 35003353
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/sex",
-        "number_of_triples": 32265552
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#issue",
-        "number_of_triples": 30027843
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#pages",
-        "number_of_triples": 30027843
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#year",
-        "number_of_triples": 30027843
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#volume",
-        "number_of_triples": 30027843
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/cultivar",
-        "number_of_triples": 28920574
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/isolation_source",
-        "number_of_triples": 25265635
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/EC_number",
-        "number_of_triples": 21303363
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/collection_date",
-        "number_of_triples": 20988909
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/isolate",
-        "number_of_triples": 19782888
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/rpt_family",
-        "number_of_triples": 17267465
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/environmental_sample",
-        "number_of_triples": 17067063
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/host",
-        "number_of_triples": 16135847
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/chromosome",
-        "number_of_triples": 14930858
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/submitter_seqid",
-        "number_of_triples": 11509288
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/pseudo",
-        "number_of_triples": 9489245
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/organelle",
-        "number_of_triples": 8790045
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/cell_type",
-        "number_of_triples": 8604908
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/specimen_voucher",
-        "number_of_triples": 8455422
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/sub_species",
-        "number_of_triples": 7608935
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/PCR_primers",
-        "number_of_triples": 7557855
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/collected_by",
-        "number_of_triples": 6224571
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/lat_lon",
-        "number_of_triples": 5979862
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/number",
-        "number_of_triples": 5313099
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/gene_synonym",
-        "number_of_triples": 4264215
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/ribosomal_slippage",
-        "number_of_triples": 3631760
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/cell_line",
-        "number_of_triples": 3203407
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/function",
-        "number_of_triples": 2887054
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/identified_by",
-        "number_of_triples": 2626613
-    },
-    {
-        "property": "http://www.w3.org/2004/02/skos/core#altLabel",
-        "number_of_triples": 2526888
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/standard_name",
-        "number_of_triples": 2417715
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/anticodon",
-        "number_of_triples": 2263074
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/old_locus_tag",
-        "number_of_triples": 1747052
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/variety",
-        "number_of_triples": 1666625
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/ecotype",
-        "number_of_triples": 1621028
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/rpt_type",
-        "number_of_triples": 1439229
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/plasmid",
-        "number_of_triples": 1371718
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/segment",
-        "number_of_triples": 1116748
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/serotype",
-        "number_of_triples": 1056028
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/ncRNA_class",
-        "number_of_triples": 863883
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/allele",
-        "number_of_triples": 847104
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/map",
-        "number_of_triples": 834421
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/regulatory_class",
-        "number_of_triples": 832449
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/culture_collection",
-        "number_of_triples": 823449
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/tissue_lib",
-        "number_of_triples": 795945
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/transl_except",
-        "number_of_triples": 712539
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/satellite",
-        "number_of_triples": 698432
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/haplotype",
-        "number_of_triples": 679241
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/bio_material",
-        "number_of_triples": 650985
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/rpt_unit_range",
-        "number_of_triples": 575251
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/proviral",
-        "number_of_triples": 575122
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/sub_strain",
-        "number_of_triples": 527223
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/type_material",
-        "number_of_triples": 356673
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/mobile_element_type",
-        "number_of_triples": 329186
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/bound_moiety",
-        "number_of_triples": 312941
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/replace",
-        "number_of_triples": 296847
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/transgenic",
-        "number_of_triples": 287701
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/rpt_unit",
-        "number_of_triples": 275711
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/rpt_unit_seq",
-        "number_of_triples": 272253
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/altitude",
-        "number_of_triples": 270387
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/mating_type",
-        "number_of_triples": 244665
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/mobile_element",
-        "number_of_triples": 184068
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/experiment",
-        "number_of_triples": 176179
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/frequency",
-        "number_of_triples": 174109
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/metagenome_source",
-        "number_of_triples": 115604
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/rearranged",
-        "number_of_triples": 113365
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/mod_base",
-        "number_of_triples": 109742
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/trans_splicing",
-        "number_of_triples": 102849
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/focus",
-        "number_of_triples": 97191
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/operon",
-        "number_of_triples": 88790
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/pop_variant",
-        "number_of_triples": 75765
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/pseudogene",
-        "number_of_triples": 70266
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/haplogroup",
-        "number_of_triples": 61924
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/serovar",
-        "number_of_triples": 59547
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/exception",
-        "number_of_triples": 45425
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/PCR_conditions",
-        "number_of_triples": 37976
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/citation",
-        "number_of_triples": 36795
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/sub_clone",
-        "number_of_triples": 17525
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/artificial_location",
-        "number_of_triples": 15989
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/macronuclear",
-        "number_of_triples": 10716
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/germline",
-        "number_of_triples": 9721
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/compare",
-        "number_of_triples": 7605
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/partial",
-        "number_of_triples": 3069
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/direction",
-        "number_of_triples": 2936
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/phenotype",
-        "number_of_triples": 1593
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/func_characterised",
-        "number_of_triples": 1529
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#medline",
-        "number_of_triples": 311
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/tag_peptide",
-        "number_of_triples": 152
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/recombination_class",
-        "number_of_triples": 149
-    },
-    {
-        "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/nomenclature",
-        "number_of_triples": 2
-    }
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 5955699803,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#author",
+    "number_of_triples": 3725492145,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+    "number_of_triples": 2238927374,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://biohackathon.org/resource/faldo#location",
+    "number_of_triples": 1650380676,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://biohackathon.org/resource/faldo#position",
+    "number_of_triples": 1562827166,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://biohackathon.org/resource/faldo#reference",
+    "number_of_triples": 1562827166,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#label",
+    "number_of_triples": 1330812983,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "number_of_triples": 1319657122,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/identifier",
+    "number_of_triples": 1143996176,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/BFO_0000050",
+    "number_of_triples": 1048031653,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/location",
+    "number_of_triples": 1048031653,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/RO_0002162",
+    "number_of_triples": 1030499250,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/SIO_000628",
+    "number_of_triples": 944071567,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/SIO_000300",
+    "number_of_triples": 944071567,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/SIO_000974",
+    "number_of_triples": 944071567,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+    "number_of_triples": 944071139,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://biohackathon.org/resource/faldo#end",
+    "number_of_triples": 843858187,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://biohackathon.org/resource/faldo#begin",
+    "number_of_triples": 843858065,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "number_of_triples": 624772924,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/organism",
+    "number_of_triples": 524962126,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/locus_tag",
+    "number_of_triples": 396986618,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#title",
+    "number_of_triples": 390003472,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+    "number_of_triples": 390003472,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#journal",
+    "number_of_triples": 390003472,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference",
+    "number_of_triples": 390003472,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/product",
+    "number_of_triples": 375379644,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/SIO_010081",
+    "number_of_triples": 366974788,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/note",
+    "number_of_triples": 347322935,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/gene",
+    "number_of_triples": 308146101,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/mol_type",
+    "number_of_triples": 262679519,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/sequence",
+    "number_of_triples": 262282607,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/sequence_version",
+    "number_of_triples": 262282607,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/taxonomy",
+    "number_of_triples": 262282607,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/sequence_date",
+    "number_of_triples": 262282607,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/source",
+    "number_of_triples": 262282607,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/division",
+    "number_of_triples": 262282607,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/topology",
+    "number_of_triples": 262282607,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/sequence_length",
+    "number_of_triples": 262282607,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/comment",
+    "number_of_triples": 262282607,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/RO_0000086",
+    "number_of_triples": 262282607,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/definition",
+    "number_of_triples": 262282603,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/SIO_000068",
+    "number_of_triples": 259107131,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/keyword",
+    "number_of_triples": 250393283,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/translation",
+    "number_of_triples": 243269737,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/codon_start",
+    "number_of_triples": 237717283,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/transl_table",
+    "number_of_triples": 179931368,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/inference",
+    "number_of_triples": 156354995,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/dblink",
+    "number_of_triples": 142149896,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/clone_lib",
+    "number_of_triples": 112187908,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/estimated_length",
+    "number_of_triples": 110784714,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/gap_type",
+    "number_of_triples": 99028356,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/clone",
+    "number_of_triples": 94372171,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/tissue_type",
+    "number_of_triples": 75538091,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#pubmed",
+    "number_of_triples": 71263790,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/references",
+    "number_of_triples": 71262115,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/linkage_evidence",
+    "number_of_triples": 71206164,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/dev_stage",
+    "number_of_triples": 54597391,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/strain",
+    "number_of_triples": 44234832,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/lab_host",
+    "number_of_triples": 36335317,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/country",
+    "number_of_triples": 35266866,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#comments",
+    "number_of_triples": 35003353,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/sex",
+    "number_of_triples": 32265552,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#issue",
+    "number_of_triples": 30027843,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#pages",
+    "number_of_triples": 30027843,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#year",
+    "number_of_triples": 30027843,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#volume",
+    "number_of_triples": 30027843,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/cultivar",
+    "number_of_triples": 28920574,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/isolation_source",
+    "number_of_triples": 25265635,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/EC_number",
+    "number_of_triples": 21303363,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/collection_date",
+    "number_of_triples": 20988909,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/isolate",
+    "number_of_triples": 19782888,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/rpt_family",
+    "number_of_triples": 17267465,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/environmental_sample",
+    "number_of_triples": 17067063,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/host",
+    "number_of_triples": 16135847,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/chromosome",
+    "number_of_triples": 14930858,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/submitter_seqid",
+    "number_of_triples": 11509288,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/pseudo",
+    "number_of_triples": 9489245,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/organelle",
+    "number_of_triples": 8790045,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/cell_type",
+    "number_of_triples": 8604908,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/specimen_voucher",
+    "number_of_triples": 8455422,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/sub_species",
+    "number_of_triples": 7608935,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/PCR_primers",
+    "number_of_triples": 7557855,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/collected_by",
+    "number_of_triples": 6224571,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/lat_lon",
+    "number_of_triples": 5979862,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/number",
+    "number_of_triples": 5313099,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/gene_synonym",
+    "number_of_triples": 4264215,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/ribosomal_slippage",
+    "number_of_triples": 3631760,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/cell_line",
+    "number_of_triples": 3203407,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/function",
+    "number_of_triples": 2887054,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/identified_by",
+    "number_of_triples": 2626613,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "number_of_triples": 2526888,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/standard_name",
+    "number_of_triples": 2417715,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/anticodon",
+    "number_of_triples": 2263074,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/old_locus_tag",
+    "number_of_triples": 1747052,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/variety",
+    "number_of_triples": 1666625,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/ecotype",
+    "number_of_triples": 1621028,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/rpt_type",
+    "number_of_triples": 1439229,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/plasmid",
+    "number_of_triples": 1371718,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/segment",
+    "number_of_triples": 1116748,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/serotype",
+    "number_of_triples": 1056028,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/ncRNA_class",
+    "number_of_triples": 863883,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/allele",
+    "number_of_triples": 847104,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/map",
+    "number_of_triples": 834421,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/regulatory_class",
+    "number_of_triples": 832449,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/culture_collection",
+    "number_of_triples": 823449,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/tissue_lib",
+    "number_of_triples": 795945,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/transl_except",
+    "number_of_triples": 712539,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/satellite",
+    "number_of_triples": 698432,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/haplotype",
+    "number_of_triples": 679241,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/bio_material",
+    "number_of_triples": 650985,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/rpt_unit_range",
+    "number_of_triples": 575251,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/proviral",
+    "number_of_triples": 575122,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/sub_strain",
+    "number_of_triples": 527223,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/type_material",
+    "number_of_triples": 356673,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/mobile_element_type",
+    "number_of_triples": 329186,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/bound_moiety",
+    "number_of_triples": 312941,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/replace",
+    "number_of_triples": 296847,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/transgenic",
+    "number_of_triples": 287701,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/rpt_unit",
+    "number_of_triples": 275711,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/rpt_unit_seq",
+    "number_of_triples": 272253,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/altitude",
+    "number_of_triples": 270387,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/mating_type",
+    "number_of_triples": 244665,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/mobile_element",
+    "number_of_triples": 184068,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/experiment",
+    "number_of_triples": 176179,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/frequency",
+    "number_of_triples": 174109,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/metagenome_source",
+    "number_of_triples": 115604,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/rearranged",
+    "number_of_triples": 113365,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/mod_base",
+    "number_of_triples": 109742,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/trans_splicing",
+    "number_of_triples": 102849,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/focus",
+    "number_of_triples": 97191,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/operon",
+    "number_of_triples": 88790,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/pop_variant",
+    "number_of_triples": 75765,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/pseudogene",
+    "number_of_triples": 70266,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/haplogroup",
+    "number_of_triples": 61924,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/serovar",
+    "number_of_triples": 59547,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/exception",
+    "number_of_triples": 45425,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/PCR_conditions",
+    "number_of_triples": 37976,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/citation",
+    "number_of_triples": 36795,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/sub_clone",
+    "number_of_triples": 17525,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/artificial_location",
+    "number_of_triples": 15989,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/macronuclear",
+    "number_of_triples": 10716,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/germline",
+    "number_of_triples": 9721,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/compare",
+    "number_of_triples": 7605,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/partial",
+    "number_of_triples": 3069,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/direction",
+    "number_of_triples": 2936,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/phenotype",
+    "number_of_triples": 1593,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/func_characterised",
+    "number_of_triples": 1529,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/reference#medline",
+    "number_of_triples": 311,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/tag_peptide",
+    "number_of_triples": 152,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/recombination_class",
+    "number_of_triples": 149,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://ddbj.nig.ac.jp/ontologies/nucleotide/nomenclature",
+    "number_of_triples": 2,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
 ]

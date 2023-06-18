@@ -1,166 +1,412 @@
 [
-    {
-        "property": "http://purl.org/spar/fabio/hasSubjectTerm",
-        "number_of_triples": 213641637
-    },
-    {
-        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "number_of_triples": 194957460
-    },
-    {
-        "property": "http://xmlns.com/foaf/0.1/name",
-        "number_of_triples": 159933983
-    },
-    {
-        "property": "http://purl.org/ontology/olo/core#slot",
-        "number_of_triples": 159933983
-    },
-    {
-        "property": "http://purl.org/ontology/olo/core#index",
-        "number_of_triples": 159933983
-    },
-    {
-        "property": "http://xmlns.com/foaf/0.1/LastName",
-        "number_of_triples": 159933983
-    },
-    {
-        "property": "http://purl.org/ontology/olo/core#item",
-        "number_of_triples": 159933983
-    },
-    {
-        "property": "http://xmlns.com/foaf/0.1/firstName",
-        "number_of_triples": 159933983
-    },
-    {
-        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-        "number_of_triples": 122637283
-    },
-    {
-        "property": "http://purl.org/spar/fabio/hasPrimarySubjectTerm",
-        "number_of_triples": 104172110
-    },
-    {
-        "property": "http://www.w3.org/ns/org#memberOf",
-        "number_of_triples": 79797118
-    },
-    {
-        "property": "http://purl.org/dc/terms/created",
-        "number_of_triples": 54134151
-    },
-    {
-        "property": "http://purl.org/dc/terms/source",
-        "number_of_triples": 35715655
-    },
-    {
-        "property": "http://prismstandard.org/namespeces/1.2/basic/publicationName",
-        "number_of_triples": 35715617
-    },
-    {
-        "property": "http://purl.org/dc/terms/identifier",
-        "number_of_triples": 35715617
-    },
-    {
-        "property": "http://purl.org/dc/terms/language",
-        "number_of_triples": 35715617
-    },
-    {
-        "property": "http://purl.org/pav/derivedFrom",
-        "number_of_triples": 35715617
-    },
-    {
-        "property": "http://purl.org/ontology/bibo/pmid",
-        "number_of_triples": 35715617
-    },
-    {
-        "property": "http://purl.org/spar/fabio/dateLastUpdated",
-        "number_of_triples": 35715617
-    },
-    {
-        "property": "http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId",
-        "number_of_triples": 35715617
-    },
-    {
-        "property": "http://purl.org/spar/fabio/hasNLMJournalTitleAbbreviation",
-        "number_of_triples": 35715567
-    },
-    {
-        "property": "http://purl.org/spar/fabio/hasPlaceOfPublication",
-        "number_of_triples": 35715351
-    },
-    {
-        "property": "http://purl.org/dc/terms/title",
-        "number_of_triples": 35683576
-    },
-    {
-        "property": "http://purl.org/dc/terms/creator",
-        "number_of_triples": 35226820
-    },
-    {
-        "property": "http://purl.org/ontology/bibo/volume",
-        "number_of_triples": 35066674
-    },
-    {
-        "property": "http://purl.org/ontology/olo/core#length",
-        "number_of_triples": 35023477
-    },
-    {
-        "property": "http://purl.org/spar/fabio/hasIssnL",
-        "number_of_triples": 35011816
-    },
-    {
-        "property": "http://purl.jp/bio/10/pubmed/dp",
-        "number_of_triples": 33358123
-    },
-    {
-        "property": "http://purl.org/dc/terms/issued",
-        "number_of_triples": 33358123
-    },
-    {
-        "property": "http://purl.org/ontology/bibo/issue",
-        "number_of_triples": 31059111
-    },
-    {
-        "property": "http://prismstandard.org/namespeces/1.2/basic/startingPage",
-        "number_of_triples": 29132445
-    },
-    {
-        "property": "http://prismstandard.org/namespeces/1.2/basic/endingPage",
-        "number_of_triples": 29132227
-    },
-    {
-        "property": "http://prismstandard.org/namespeces/1.2/basic/doi",
-        "number_of_triples": 26856586
-    },
-    {
-        "property": "http://purl.org/ontology/bibo/abstract",
-        "number_of_triples": 24548598
-    },
-    {
-        "property": "http://prismstandard.org/namespeces/1.2/basic/ISSN",
-        "number_of_triples": 21185456
-    },
-    {
-        "property": "http://purl.org/spar/fabio/hasPII",
-        "number_of_triples": 14980087
-    },
-    {
-        "property": "http://prismstandard.org/namespeces/1.2/basic/eISSN",
-        "number_of_triples": 14092769
-    },
-    {
-        "property": "http://purl.org/dc/terms/rights",
-        "number_of_triples": 6297549
-    },
-    {
-        "property": "http://purl.jp/bio/10/pubmed-ontology/pg",
-        "number_of_triples": 5532478
-    },
-    {
-        "property": "http://purl.org/dc/terms/rightsHolder",
-        "number_of_triples": 217621
-    },
-    {
-        "property": "http://purl.org/dc/terms/contributor",
-        "number_of_triples": 74516
-    }
+  {
+    "property": "http://purl.org/spar/fabio/hasSubjectTerm",
+    "number_of_triples": 213641637,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 194957460,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://xmlns.com/foaf/0.1/name",
+    "number_of_triples": 159933983,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/ontology/olo/core#slot",
+    "number_of_triples": 159933983,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/ontology/olo/core#index",
+    "number_of_triples": 159933983,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://xmlns.com/foaf/0.1/LastName",
+    "number_of_triples": 159933983,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/ontology/olo/core#item",
+    "number_of_triples": 159933983,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://xmlns.com/foaf/0.1/firstName",
+    "number_of_triples": 159933983,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "number_of_triples": 122637283,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/fabio/hasPrimarySubjectTerm",
+    "number_of_triples": 104172110,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/ns/org#memberOf",
+    "number_of_triples": 79797118,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/created",
+    "number_of_triples": 54134151,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/source",
+    "number_of_triples": 35715655,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespeces/1.2/basic/publicationName",
+    "number_of_triples": 35715617,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/identifier",
+    "number_of_triples": 35715617,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/language",
+    "number_of_triples": 35715617,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/pav/derivedFrom",
+    "number_of_triples": 35715617,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/ontology/bibo/pmid",
+    "number_of_triples": 35715617,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/fabio/dateLastUpdated",
+    "number_of_triples": 35715617,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId",
+    "number_of_triples": 35715617,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/fabio/hasNLMJournalTitleAbbreviation",
+    "number_of_triples": 35715567,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/fabio/hasPlaceOfPublication",
+    "number_of_triples": 35715351,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/title",
+    "number_of_triples": 35683576,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/creator",
+    "number_of_triples": 35226820,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/ontology/bibo/volume",
+    "number_of_triples": 35066674,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/ontology/olo/core#length",
+    "number_of_triples": 35023477,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/fabio/hasIssnL",
+    "number_of_triples": 35011816,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/pubmed/dp",
+    "number_of_triples": 33358123,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/issued",
+    "number_of_triples": 33358123,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/ontology/bibo/issue",
+    "number_of_triples": 31059111,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespeces/1.2/basic/startingPage",
+    "number_of_triples": 29132445,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespeces/1.2/basic/endingPage",
+    "number_of_triples": 29132227,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespeces/1.2/basic/doi",
+    "number_of_triples": 26856586,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/ontology/bibo/abstract",
+    "number_of_triples": 24548598,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespeces/1.2/basic/ISSN",
+    "number_of_triples": 21185456,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/fabio/hasPII",
+    "number_of_triples": 14980087,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespeces/1.2/basic/eISSN",
+    "number_of_triples": 14092769,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/rights",
+    "number_of_triples": 6297549,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/pubmed-ontology/pg",
+    "number_of_triples": 5532478,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/rightsHolder",
+    "number_of_triples": 217621,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/contributor",
+    "number_of_triples": 74516,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
 ]

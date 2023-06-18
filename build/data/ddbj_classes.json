@@ -1,442 +1,882 @@
 [
-    {
-        "class": "http://biohackathon.org/resource/faldo#ExactPosition",
-        "number_of_instances": 1553440400
-    },
-    {
-        "class": "http://biohackathon.org/resource/faldo#ForwardStrandPosition",
-        "number_of_instances": 1277952538
-    },
-    {
-        "class": "http://biohackathon.org/resource/faldo#Region",
-        "number_of_instances": 843858065
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Exon",
-        "number_of_instances": 415554741
-    },
-    {
-        "class": "http://biohackathon.org/resource/faldo#ReverseStrandPosition",
-        "number_of_instances": 284877319
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Entry",
-        "number_of_instances": 262282607
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Coding_Sequence",
-        "number_of_instances": 247777551
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Protein",
-        "number_of_instances": 243269737
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Gene",
-        "number_of_instances": 225351782
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Feature",
-        "number_of_instances": 196788560
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Assembly_Gap",
-        "number_of_instances": 99028356
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Mature_Peptide",
-        "number_of_instances": 88124671
-    },
-    {
-        "class": "http://biohackathon.org/resource/faldo#FuzzyPosition",
-        "number_of_instances": 86083674
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Messenger_RNA",
-        "number_of_instances": 25032863
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Repeat_Region",
-        "number_of_instances": 19820276
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Stem_Loop",
-        "number_of_instances": 16301951
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Ribosomal_RNA",
-        "number_of_instances": 12895289
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Gap",
-        "number_of_instances": 11756358
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Miscellaneous_Feature",
-        "number_of_instances": 9988636
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Transfer_RNA",
-        "number_of_instances": 7204350
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/UniProt",
-        "number_of_instances": 5440673
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/GOA",
-        "number_of_instances": 3586569
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Miscellaneous_RNA",
-        "number_of_instances": 3279337
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/BioSample",
-        "number_of_instances": 2127268
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Taxonomy",
-        "number_of_instances": 2083001
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Intron",
-        "number_of_instances": 1825053
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Sequence_Tagged_Site",
-        "number_of_instances": 1271208
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Five_Prime_UTR",
-        "number_of_instances": 938765
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Three_Prime_UTR",
-        "number_of_instances": 932763
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Non_Coding_RNA",
-        "number_of_instances": 863880
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Signal_Peptide",
-        "number_of_instances": 740738
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/FLYBASE",
-        "number_of_instances": 553271
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Displacement_Loop",
-        "number_of_instances": 469498
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Primer_Binding_Site",
-        "number_of_instances": 461710
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Source",
-        "number_of_instances": 396923
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/niaEST",
-        "number_of_instances": 370250
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Mobile_Element",
-        "number_of_instances": 329575
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Variation",
-        "number_of_instances": 323906
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/PubMed",
-        "number_of_instances": 301892
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/GABI",
-        "number_of_instances": 270783
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/H-InvDB",
-        "number_of_instances": 211710
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/MGI",
-        "number_of_instances": 142099
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Pathema",
-        "number_of_instances": 115553
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Modified_Base",
-        "number_of_instances": 107300
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/ENSEMBL",
-        "number_of_instances": 92283
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/PolyA_Site",
-        "number_of_instances": 83237
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Joining_Segment",
-        "number_of_instances": 76702
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Variable_Segment",
-        "number_of_instances": 71791
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Miscellaneous_Binding_Site",
-        "number_of_instances": 68161
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/PDB",
-        "number_of_instances": 67510
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Replication_Origin",
-        "number_of_instances": 50604
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Diversity_Segment",
-        "number_of_instances": 49887
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/TAIR",
-        "number_of_instances": 47084
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/InterPro",
-        "number_of_instances": 42142
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Miscellaneous_Difference",
-        "number_of_instances": 41382
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/ASAP",
-        "number_of_instances": 41358
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/BioProject",
-        "number_of_instances": 39218
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Variable_Region",
-        "number_of_instances": 39119
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Transfer_Messenger_RNA",
-        "number_of_instances": 33889
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/PSEUDO",
-        "number_of_instances": 24965
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Miscellaneous_Recombination_Site",
-        "number_of_instances": 21355
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/HGNC",
-        "number_of_instances": 17565
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/GO",
-        "number_of_instances": 16140
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Precursor_RNA",
-        "number_of_instances": 15580
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Protein_Binding_Site",
-        "number_of_instances": 15297
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Pfam",
-        "number_of_instances": 14339
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Operon",
-        "number_of_instances": 13826
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/N_Region",
-        "number_of_instances": 13558
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/BEETLEBASE",
-        "number_of_instances": 12771
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/dbEST",
-        "number_of_instances": 12659
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/dbSNP",
-        "number_of_instances": 12593
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/OMIM",
-        "number_of_instances": 11281
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Constant_Region",
-        "number_of_instances": 10617
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Intervening_DNA",
-        "number_of_instances": 9315
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/PomBase",
-        "number_of_instances": 9172
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/MaizeGDB",
-        "number_of_instances": 9169
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/CDD",
-        "number_of_instances": 9082
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/EcoCyc",
-        "number_of_instances": 8464
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/RGD",
-        "number_of_instances": 7039
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/SGD",
-        "number_of_instances": 6736
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Centromere",
-        "number_of_instances": 6596
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Primary_Transcript",
-        "number_of_instances": 5987
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/ATCC",
-        "number_of_instances": 5129
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/EcoGene",
-        "number_of_instances": 4094
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/SubtiList",
-        "number_of_instances": 4058
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/TIGRFAM",
-        "number_of_instances": 3180
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/NBRC",
-        "number_of_instances": 2998
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/FBOL",
-        "number_of_instances": 2395
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/AntWeb",
-        "number_of_instances": 2138
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/IMGT/LIGM",
-        "number_of_instances": 1869
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Miscellaneous_Structure",
-        "number_of_instances": 1829
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Transit_Peptide",
-        "number_of_instances": 1800
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/miRBase",
-        "number_of_instances": 1636
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/HMP",
-        "number_of_instances": 1624
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/AFTOL",
-        "number_of_instances": 1191
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/HomdTaxon",
-        "number_of_instances": 1139
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Origin_Of_Transfer",
-        "number_of_instances": 791
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/ISFinder",
-        "number_of_instances": 491
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Telomere",
-        "number_of_instances": 424
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/ERIC",
-        "number_of_instances": 321
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Switch_Region",
-        "number_of_instances": 270
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/PseudoCap",
-        "number_of_instances": 133
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/",
-        "number_of_instances": 127
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/HSSP",
-        "number_of_instances": 109
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/JCM",
-        "number_of_instances": 81
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/AceView/WormGenes",
-        "number_of_instances": 31
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Greengenes",
-        "number_of_instances": 17
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/UniSTS",
-        "number_of_instances": 3
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/GI",
-        "number_of_instances": 2
-    },
-    {
-        "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/dictyBase",
-        "number_of_instances": 1
+  {
+    "class": "http://biohackathon.org/resource/faldo#ExactPosition",
+    "number_of_instances": 1553440400,
+    "label": {
+      "en": "",
+      "ja": ""
     }
+  },
+  {
+    "class": "http://biohackathon.org/resource/faldo#ForwardStrandPosition",
+    "number_of_instances": 1277952538,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://biohackathon.org/resource/faldo#Region",
+    "number_of_instances": 843858065,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Exon",
+    "number_of_instances": 415554741,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://biohackathon.org/resource/faldo#ReverseStrandPosition",
+    "number_of_instances": 284877319,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Entry",
+    "number_of_instances": 262282607,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Coding_Sequence",
+    "number_of_instances": 247777551,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Protein",
+    "number_of_instances": 243269737,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Gene",
+    "number_of_instances": 225351782,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Feature",
+    "number_of_instances": 196788560,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Assembly_Gap",
+    "number_of_instances": 99028356,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Mature_Peptide",
+    "number_of_instances": 88124671,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://biohackathon.org/resource/faldo#FuzzyPosition",
+    "number_of_instances": 86083674,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Messenger_RNA",
+    "number_of_instances": 25032863,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Repeat_Region",
+    "number_of_instances": 19820276,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Stem_Loop",
+    "number_of_instances": 16301951,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Ribosomal_RNA",
+    "number_of_instances": 12895289,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Gap",
+    "number_of_instances": 11756358,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Miscellaneous_Feature",
+    "number_of_instances": 9988636,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Transfer_RNA",
+    "number_of_instances": 7204350,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/UniProt",
+    "number_of_instances": 5440673,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/GOA",
+    "number_of_instances": 3586569,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Miscellaneous_RNA",
+    "number_of_instances": 3279337,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/BioSample",
+    "number_of_instances": 2127268,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Taxonomy",
+    "number_of_instances": 2083001,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Intron",
+    "number_of_instances": 1825053,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Sequence_Tagged_Site",
+    "number_of_instances": 1271208,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Five_Prime_UTR",
+    "number_of_instances": 938765,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Three_Prime_UTR",
+    "number_of_instances": 932763,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Non_Coding_RNA",
+    "number_of_instances": 863880,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Signal_Peptide",
+    "number_of_instances": 740738,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/FLYBASE",
+    "number_of_instances": 553271,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Displacement_Loop",
+    "number_of_instances": 469498,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Primer_Binding_Site",
+    "number_of_instances": 461710,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Source",
+    "number_of_instances": 396923,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/niaEST",
+    "number_of_instances": 370250,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Mobile_Element",
+    "number_of_instances": 329575,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Variation",
+    "number_of_instances": 323906,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/PubMed",
+    "number_of_instances": 301892,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/GABI",
+    "number_of_instances": 270783,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/H-InvDB",
+    "number_of_instances": 211710,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/MGI",
+    "number_of_instances": 142099,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Pathema",
+    "number_of_instances": 115553,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Modified_Base",
+    "number_of_instances": 107300,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/ENSEMBL",
+    "number_of_instances": 92283,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/PolyA_Site",
+    "number_of_instances": 83237,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Joining_Segment",
+    "number_of_instances": 76702,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Variable_Segment",
+    "number_of_instances": 71791,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Miscellaneous_Binding_Site",
+    "number_of_instances": 68161,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/PDB",
+    "number_of_instances": 67510,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Replication_Origin",
+    "number_of_instances": 50604,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Diversity_Segment",
+    "number_of_instances": 49887,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/TAIR",
+    "number_of_instances": 47084,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/InterPro",
+    "number_of_instances": 42142,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Miscellaneous_Difference",
+    "number_of_instances": 41382,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/ASAP",
+    "number_of_instances": 41358,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/BioProject",
+    "number_of_instances": 39218,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Variable_Region",
+    "number_of_instances": 39119,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Transfer_Messenger_RNA",
+    "number_of_instances": 33889,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/PSEUDO",
+    "number_of_instances": 24965,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Miscellaneous_Recombination_Site",
+    "number_of_instances": 21355,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/HGNC",
+    "number_of_instances": 17565,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/GO",
+    "number_of_instances": 16140,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Precursor_RNA",
+    "number_of_instances": 15580,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Protein_Binding_Site",
+    "number_of_instances": 15297,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Pfam",
+    "number_of_instances": 14339,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Operon",
+    "number_of_instances": 13826,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/N_Region",
+    "number_of_instances": 13558,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/BEETLEBASE",
+    "number_of_instances": 12771,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/dbEST",
+    "number_of_instances": 12659,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/dbSNP",
+    "number_of_instances": 12593,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/OMIM",
+    "number_of_instances": 11281,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Constant_Region",
+    "number_of_instances": 10617,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Intervening_DNA",
+    "number_of_instances": 9315,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/PomBase",
+    "number_of_instances": 9172,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/MaizeGDB",
+    "number_of_instances": 9169,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/CDD",
+    "number_of_instances": 9082,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/EcoCyc",
+    "number_of_instances": 8464,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/RGD",
+    "number_of_instances": 7039,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/SGD",
+    "number_of_instances": 6736,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Centromere",
+    "number_of_instances": 6596,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Primary_Transcript",
+    "number_of_instances": 5987,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/ATCC",
+    "number_of_instances": 5129,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/EcoGene",
+    "number_of_instances": 4094,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/SubtiList",
+    "number_of_instances": 4058,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/TIGRFAM",
+    "number_of_instances": 3180,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/NBRC",
+    "number_of_instances": 2998,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/FBOL",
+    "number_of_instances": 2395,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/AntWeb",
+    "number_of_instances": 2138,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/IMGT/LIGM",
+    "number_of_instances": 1869,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Miscellaneous_Structure",
+    "number_of_instances": 1829,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Transit_Peptide",
+    "number_of_instances": 1800,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/miRBase",
+    "number_of_instances": 1636,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/HMP",
+    "number_of_instances": 1624,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/AFTOL",
+    "number_of_instances": 1191,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/HomdTaxon",
+    "number_of_instances": 1139,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Origin_Of_Transfer",
+    "number_of_instances": 791,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/ISFinder",
+    "number_of_instances": 491,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Telomere",
+    "number_of_instances": 424,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/ERIC",
+    "number_of_instances": 321,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Switch_Region",
+    "number_of_instances": 270,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/PseudoCap",
+    "number_of_instances": 133,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/",
+    "number_of_instances": 127,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/HSSP",
+    "number_of_instances": 109,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/JCM",
+    "number_of_instances": 81,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/AceView/WormGenes",
+    "number_of_instances": 31,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/Greengenes",
+    "number_of_instances": 17,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/UniSTS",
+    "number_of_instances": 3,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/GI",
+    "number_of_instances": 2,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://ddbj.nig.ac.jp/ontologies/nucleotide/dictyBase",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  }
 ]

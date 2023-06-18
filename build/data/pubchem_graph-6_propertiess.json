@@ -1,18 +1,42 @@
 [
-    {
-        "property": "http://semanticscience.org/resource/SIO_000011",
-        "number_of_triples": 114901026
-    },
-    {
-        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "number_of_triples": 114560780
-    },
-    {
-        "property": "http://semanticscience.org/resource/SIO_000300",
-        "number_of_triples": 114560780
-    },
-    {
-        "property": "http://purl.org/dc/terms/subject",
-        "number_of_triples": 10537
-    }
+  {
+    "property": "http://semanticscience.org/resource/SIO_000011",
+    "number_of_triples": 114901026,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 114560780,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/SIO_000300",
+    "number_of_triples": 114560780,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/subject",
+    "number_of_triples": 10537,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
 ]

@@ -1,54 +1,132 @@
 [
-    {
-        "property": "http://purl.org/spar/cito/isDiscussedBy",
-        "number_of_triples": 2515647
-    },
-    {
-        "property": "http://purl.obolibrary.org/obo/RO_0000056",
-        "number_of_triples": 497821
-    },
-    {
-        "property": "http://www.w3.org/2004/02/skos/core#altLabel",
-        "number_of_triples": 492605
-    },
-    {
-        "property": "http://www.w3.org/2004/02/skos/core#closeMatch",
-        "number_of_triples": 323074
-    },
-    {
-        "property": "http://purl.obolibrary.org/obo/RO_0001025",
-        "number_of_triples": 277884
-    },
-    {
-        "property": "http://purl.obolibrary.org/obo/RO_0000085",
-        "number_of_triples": 260184
-    },
-    {
-        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "number_of_triples": 165217
-    },
-    {
-        "property": "http://purl.uniprot.org/core/organism",
-        "number_of_triples": 103988
-    },
-    {
-        "property": "http://www.w3.org/2002/07/owl#sameAs",
-        "number_of_triples": 103988
-    },
-    {
-        "property": "http://www.bioassayontology.org/bao#BAO_0002870",
-        "number_of_triples": 103988
-    },
-    {
-        "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
-        "number_of_triples": 103988
-    },
-    {
-        "property": "http://semanticscience.org/resource/SIO_000300",
-        "number_of_triples": 61229
-    },
-    {
-        "property": "http://semanticscience.org/resource/SIO_000558",
-        "number_of_triples": 30312
-    }
+  {
+    "property": "http://purl.org/spar/cito/isDiscussedBy",
+    "number_of_triples": 2515647,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/RO_0000056",
+    "number_of_triples": 497821,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "number_of_triples": 492605,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#closeMatch",
+    "number_of_triples": 323074,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/RO_0001025",
+    "number_of_triples": 277884,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/RO_0000085",
+    "number_of_triples": 260184,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 165217,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.uniprot.org/core/organism",
+    "number_of_triples": 103988,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#sameAs",
+    "number_of_triples": 103988,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.bioassayontology.org/bao#BAO_0002870",
+    "number_of_triples": 103988,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "number_of_triples": 103988,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/SIO_000300",
+    "number_of_triples": 61229,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/SIO_000558",
+    "number_of_triples": 30312,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
 ]

@@ -1,26 +1,62 @@
 [
-    {
-        "property": "http://www.w3.org/ns/oa#hasBody",
-        "number_of_triples": 221933712
-    },
-    {
-        "property": "http://www.w3.org/ns/oa#hasTarget",
-        "number_of_triples": 221933712
-    },
-    {
-        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "number_of_triples": 221933712
-    },
-    {
-        "property": "http://purl.org/dc/terms/subject",
-        "number_of_triples": 219692345
-    },
-    {
-        "property": "http://purl.jp/bio/10/pubtator-central/ontology#annotation_count",
-        "number_of_triples": 219692345
-    },
-    {
-        "property": "http://purl.org/dc/terms/source",
-        "number_of_triples": 2522612
-    }
+  {
+    "property": "http://www.w3.org/ns/oa#hasBody",
+    "number_of_triples": 221933712,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/ns/oa#hasTarget",
+    "number_of_triples": 221933712,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 221933712,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/subject",
+    "number_of_triples": 219692345,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/pubtator-central/ontology#annotation_count",
+    "number_of_triples": 219692345,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/source",
+    "number_of_triples": 2522612,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
 ]

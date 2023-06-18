@@ -1,110 +1,218 @@
 [
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0000186",
-        "number_of_instances": 5508216
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0000190",
-        "number_of_instances": 2773721
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0000192",
-        "number_of_instances": 576779
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0000188",
-        "number_of_instances": 518246
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0002162",
-        "number_of_instances": 233642
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0000034",
-        "number_of_instances": 191741
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0000189",
-        "number_of_instances": 167597
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0002146",
-        "number_of_instances": 102635
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0000187",
-        "number_of_instances": 81280
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0002145",
-        "number_of_instances": 42433
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0000194",
-        "number_of_instances": 38295
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0003036",
-        "number_of_instances": 16682
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0002144",
-        "number_of_instances": 9228
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0000477",
-        "number_of_instances": 8928
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0002881",
-        "number_of_instances": 6276
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0000349",
-        "number_of_instances": 5083
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0002880",
-        "number_of_instances": 4464
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0002117",
-        "number_of_instances": 3607
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0002879",
-        "number_of_instances": 1390
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0002887",
-        "number_of_instances": 1244
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0002886",
-        "number_of_instances": 1040
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0002884",
-        "number_of_instances": 732
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0002877",
-        "number_of_instances": 505
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0002882",
-        "number_of_instances": 121
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0002878",
-        "number_of_instances": 70
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0002862",
-        "number_of_instances": 2
-    },
-    {
-        "class": "http://www.bioassayontology.org/bao#BAO_0002883",
-        "number_of_instances": 1
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0000186",
+    "number_of_instances": 5508216,
+    "label": {
+      "en": "",
+      "ja": ""
     }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0000190",
+    "number_of_instances": 2773721,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0000192",
+    "number_of_instances": 576779,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0000188",
+    "number_of_instances": 518246,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0002162",
+    "number_of_instances": 233642,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0000034",
+    "number_of_instances": 191741,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0000189",
+    "number_of_instances": 167597,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0002146",
+    "number_of_instances": 102635,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0000187",
+    "number_of_instances": 81280,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0002145",
+    "number_of_instances": 42433,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0000194",
+    "number_of_instances": 38295,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0003036",
+    "number_of_instances": 16682,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0002144",
+    "number_of_instances": 9228,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0000477",
+    "number_of_instances": 8928,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0002881",
+    "number_of_instances": 6276,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0000349",
+    "number_of_instances": 5083,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0002880",
+    "number_of_instances": 4464,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0002117",
+    "number_of_instances": 3607,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0002879",
+    "number_of_instances": 1390,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0002887",
+    "number_of_instances": 1244,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0002886",
+    "number_of_instances": 1040,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0002884",
+    "number_of_instances": 732,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0002877",
+    "number_of_instances": 505,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0002882",
+    "number_of_instances": 121,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0002878",
+    "number_of_instances": 70,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0002862",
+    "number_of_instances": 2,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.bioassayontology.org/bao#BAO_0002883",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  }
 ]

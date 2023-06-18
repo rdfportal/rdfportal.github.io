@@ -1,10 +1,18 @@
 [
-    {
-        "class": "http://purl.obolibrary.org/obo/MONDO_0000001",
-        "number_of_instances": 11504
-    },
-    {
-        "class": "http://purl.obolibrary.org/obo/DOID_4",
-        "number_of_instances": 11504
+  {
+    "class": "http://purl.obolibrary.org/obo/MONDO_0000001",
+    "number_of_instances": 11504,
+    "label": {
+      "en": "",
+      "ja": ""
     }
+  },
+  {
+    "class": "http://purl.obolibrary.org/obo/DOID_4",
+    "number_of_instances": 11504,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  }
 ]
