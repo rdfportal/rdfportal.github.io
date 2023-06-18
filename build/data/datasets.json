@@ -141,7 +141,7 @@
     "schema_image_urls": [],
     "download_file": {
       "name": "2023-04-29",
-      "url": "./download/bmrb/2023-04-29/",
+      "url": "./download/bmrb/latest/",
       "size": "-"
     },
     "number_of_triples": 643511337,
@@ -250,8 +250,8 @@
         "files": [
           {
             "name": "mmcif_nmr-star.owl",
-            "url": "./download/bmrb/2021-01-20/ontology-1/mmcif_nmr-star.owl",
-            "size": 8441280
+            "url": "./download/bmrb/latest/mmcifmr-star.owl",
+            "size": "-"
           }
         ],
         "number_of_triples": 119521,
@@ -284,8 +284,8 @@
         "files": [
           {
             "name": "bmr",
-            "url": "./download/bmrb/2021-01-20/graph-1/bmr/",
-            "size": 1174723558
+            "url": "./download/bmrb/latest/bmr_rdf_doc/",
+            "size": "-"
           }
         ],
         "number_of_triples": 635432954,
@@ -383,8 +383,8 @@
         "files": [
           {
             "name": "bms",
-            "url": "./download/bmrb/2021-01-20/graph-2/bms/",
-            "size": 33162809
+            "url": "./download/bmrb/latest/bms_rdf_doc/",
+            "size": "-"
           }
         ],
         "number_of_triples": 8078383,
@@ -588,8 +588,8 @@
     ],
     "download_file": {
       "name": "dbcatalog.tar.gz",
-      "url": "./download/dbcatalog/2023-03-02/all/dbcatalog.tar.gz",
-      "size": 1302427
+      "url": "./download/dbcatalog/latest/rdf/all/dbcatalog.tar.gz",
+      "size": "1302427"
     },
     "number_of_triples": 117526,
     "number_of_instances": 10299,
@@ -627,12 +627,12 @@
         "files": [
           {
             "name": "CatalogRDF.ttl.gz",
-            "url": "./download/dbcatalog/2023-03-02/graph-1/CatalogRDF.ttl.gz",
+            "url": "./download/dbcatalog/latest/rdf/graph-1/CatalogRDF.ttl.gz",
             "size": 1034861
           },
           {
             "name": "pubmed.r3.ttl.gz",
-            "url": "./download/dbcatalog/2023-03-02/graph-1/pubmed.r3.ttl.gz",
+            "url": "./download/dbcatalog/latest/rdf/graph-1/pubmed.r3.ttl.gz",
             "size": 263473
           }
         ],
@@ -669,7 +669,7 @@
         "files": [
           {
             "name": "integbiotag230302.ttl.gz",
-            "url": "./download/dbcatalog/2023-03-02/graph-2/integbiotag230302.ttl.gz",
+            "url": "./download/dbcatalog/latest/rdf/graph-2/integbiotag230302.ttl.gz",
             "size": 3939
           }
         ],
@@ -806,7 +806,7 @@
     ],
     "download_file": {
       "name": "famsbase.tar.gz",
-      "url": "./download/famsbase/2016-03-24/all/famsbase.tar.gz",
+      "url": "./download/famsbase/latest/rdf/all/famsbase.tar.gz",
       "size": 42087539
     },
     "number_of_triples": 21297786,
@@ -863,7 +863,7 @@
         "files": [
           {
             "name": "famsbaseo_0.03.ttl.gz",
-            "url": "./download/famsbase/2016-03-24/ontology-1/famsbaseo_0.03.ttl.gz",
+            "url": "./download/famsbase/latest/rdf/ontology-1/famsbaseo_0.03.ttl.gz",
             "size": 705
           }
         ],
@@ -893,7 +893,7 @@
         "files": [
           {
             "name": "famsbase_GPCR_20160324.ttl.gz",
-            "url": "./download/famsbase/2016-03-24/graph-1/famsbase_GPCR_20160324.ttl.gz",
+            "url": "./download/famsbase/latest/rdf/graph-1/famsbase_GPCR_20160324.ttl.gz",
             "size": 42086759
           }
         ],
@@ -1071,7 +1071,7 @@
     ],
     "download_file": {
       "name": "ggdonto.tar.gz",
-      "url": "./download/ggdonto/2017-01-25/all/ggdonto.tar.gz",
+      "url": "./download/ggdonto/latest/rdf/all/ggdonto.tar.gz",
       "size": 138620
     },
     "number_of_triples": 39440,
@@ -1117,7 +1117,7 @@
         "files": [
           {
             "name": "ggdonto-schema.ttl",
-            "url": "./download/ggdonto/2017-01-25/ontology-1/ggdonto-schema.ttl",
+            "url": "./download/ggdonto/latest/rdf/ontology-1/ggdonto-schema.ttl",
             "size": 462207
           }
         ],
@@ -1148,7 +1148,7 @@
         "files": [
           {
             "name": "ggdonto.ttl",
-            "url": "./download/ggdonto/2017-01-25/graph-1/ggdonto.ttl",
+            "url": "./download/ggdonto/latest/rdf/graph-1/ggdonto.ttl",
             "size": 1438360
           }
         ],
@@ -1312,7 +1312,7 @@
     ],
     "download_file": {
       "name": "glycoepitope.tar.gz",
-      "url": "./download/glycoepitope/2015-11-18/all/glycoepitope.tar.gz",
+      "url": "./download/glycoepitope/latest/rdf/all/glycoepitope.tar.gz",
       "size": 146071
     },
     "number_of_triples": 30150,
@@ -1348,7 +1348,7 @@
         "files": [
           {
             "name": "glycoepitope.owl.ttl.gz",
-            "url": "./download/glycoepitope/2015-11-18/ontology-1/glycoepitope.owl.ttl.gz",
+            "url": "./download/glycoepitope/latest/rdf/ontology-1/glycoepitope.owl.ttl.gz",
             "size": 1366
           }
         ],
@@ -1378,12 +1378,12 @@
         "files": [
           {
             "name": "glycoepitope.ttl.gz",
-            "url": "./download/glycoepitope/2015-11-18/graph-1/glycoepitope.ttl.gz",
+            "url": "./download/glycoepitope/latest/rdf/graph-1/glycoepitope.ttl.gz",
             "size": 95323
           },
           {
             "name": "list.ttl.gz",
-            "url": "./download/glycoepitope/2015-11-18/graph-1/list.ttl.gz",
+            "url": "./download/glycoepitope/latest/rdf/graph-1/list.ttl.gz",
             "size": 46123
           }
         ],
@@ -1544,7 +1544,7 @@
     ],
     "download_file": {
       "name": "glytoucan.tar.gz",
-      "url": "./download/glytoucan/2015-09-04/all/glytoucan.tar.gz",
+      "url": "./download/glytoucan/latest/rdf/all/glytoucan.tar.gz",
       "size": 11108395
     },
     "number_of_triples": 1749648,
@@ -1577,7 +1577,7 @@
         "files": [
           {
             "name": "GlyTouCan-OWL-09072015.ttl.gz",
-            "url": "./download/glytoucan/2015-09-04/ontology-1/GlyTouCan-OWL-09072015.ttl.gz",
+            "url": "./download/glytoucan/latest/rdf/ontology-1/GlyTouCan-OWL-09072015.ttl.gz",
             "size": 1297
           }
         ],
@@ -1608,22 +1608,22 @@
         "files": [
           {
             "name": "GlyTouCan-RDF-09042015.ttl.gz",
-            "url": "./download/glytoucan/2015-09-04/graph-1/GlyTouCan-RDF-09042015.ttl.gz",
+            "url": "./download/glytoucan/latest/rdf/graph-1/GlyTouCan-RDF-09042015.ttl.gz",
             "size": 10558091
           },
           {
             "name": "GlyTouCan-RDF-Monosaccharide-09042015.ttl.gz",
-            "url": "./download/glytoucan/2015-09-04/graph-1/GlyTouCan-RDF-Monosaccharide-09042015.ttl.gz",
+            "url": "./download/glytoucan/latest/rdf/graph-1/GlyTouCan-RDF-Monosaccharide-09042015.ttl.gz",
             "size": 60774
           },
           {
             "name": "GlyTouCan-RDF-Motif-09042015.ttl.gz",
-            "url": "./download/glytoucan/2015-09-04/graph-1/GlyTouCan-RDF-Motif-09042015.ttl.gz",
+            "url": "./download/glytoucan/latest/rdf/graph-1/GlyTouCan-RDF-Motif-09042015.ttl.gz",
             "size": 175999
           },
           {
             "name": "GlyTouCan-RDF-SaccharideSeeAlso-09072015.ttl.gz",
-            "url": "./download/glytoucan/2015-09-04/graph-1/GlyTouCan-RDF-SaccharideSeeAlso-09072015.ttl.gz",
+            "url": "./download/glytoucan/latest/rdf/graph-1/GlyTouCan-RDF-SaccharideSeeAlso-09072015.ttl.gz",
             "size": 343996
           }
         ],
@@ -1767,7 +1767,7 @@
     ],
     "download_file": {
       "name": "icgc.tar.gz",
-      "url": "./download/icgc/2016-01-04/all/icgc.tar.gz",
+      "url": "./download/icgc/latest/rdf/all/icgc.tar.gz",
       "size": 2715579247
     },
     "number_of_triples": 577082774,
@@ -1803,7 +1803,7 @@
         "files": [
           {
             "name": "all_projects.ttl.gz",
-            "url": "./download/icgc/2016-01-04/graph-1/all_projects.ttl.gz",
+            "url": "./download/icgc/latest/rdf/graph-1/all_projects.ttl.gz",
             "size": 2968735713
           }
         ],
@@ -1965,7 +1965,7 @@
     ],
     "download_file": {
       "name": "jpost.tar.gz",
-      "url": "./download/jpost/2020-06-09/all/jpost.tar.gz",
+      "url": "./download/jpost/latest/rdf/all/jpost.tar.gz",
       "size": 342871663
     },
     "number_of_triples": 239817763,
@@ -2010,7 +2010,7 @@
         "files": [
           {
             "name": "jpost.owl.ttl.gz",
-            "url": "./download/jpost/2020-06-09/ontology-1/jpost.owl.ttl.gz",
+            "url": "./download/jpost/latest/rdf/ontology-1/jpost.owl.ttl.gz",
             "size": 5920
           }
         ],
@@ -2042,7 +2042,7 @@
         "files": [
           {
             "name": "jpost",
-            "url": "./download/jpost/2020-06-09/graph-1/jpost/",
+            "url": "./download/jpost/latest/rdf/graph-1/jpost/",
             "size": 350854511
           }
         ],
@@ -2202,7 +2202,7 @@
     ],
     "download_file": {
       "name": "mbgd.tar.gz",
-      "url": "./download/mbgd/2015-06-20/all/mbgd.tar.gz",
+      "url": "./download/mbgd/latest/rdf/all/mbgd.tar.gz",
       "size": 5573386439
     },
     "number_of_triples": 1609018143,
@@ -2256,7 +2256,7 @@
         "files": [
           {
             "name": "orth-2014-10-28.ttl.gz",
-            "url": "./download/mbgd/2015-06-20/ontology-1/orth-2014-10-28.ttl.gz",
+            "url": "./download/mbgd/latest/rdf/ontology-1/orth-2014-10-28.ttl.gz",
             "size": 1362
           }
         ],
@@ -2284,7 +2284,7 @@
         "files": [
           {
             "name": "mbgd.ttl.gz",
-            "url": "./download/mbgd/2015-06-20/ontology-2/mbgd.ttl.gz",
+            "url": "./download/mbgd/latest/rdf/ontology-2/mbgd.ttl.gz",
             "size": 1182
           }
         ],
@@ -2314,7 +2314,7 @@
         "files": [
           {
             "name": "default.ttl.gz",
-            "url": "./download/mbgd/2015-06-20/graph-1/default.ttl.gz",
+            "url": "./download/mbgd/latest/rdf/graph-1/default.ttl.gz",
             "size": 191170098
           }
         ],
@@ -2345,7 +2345,7 @@
         "files": [
           {
             "name": "gene.ttl.gz",
-            "url": "./download/mbgd/2015-06-20/graph-2/gene.ttl.gz",
+            "url": "./download/mbgd/latest/rdf/graph-2/gene.ttl.gz",
             "size": 5548388586
           }
         ],
@@ -2381,7 +2381,7 @@
         "files": [
           {
             "name": "organism.ttl.gz",
-            "url": "./download/mbgd/2015-06-20/graph-3/organism.ttl.gz",
+            "url": "./download/mbgd/latest/rdf/graph-3/organism.ttl.gz",
             "size": 1398993
           }
         ],
@@ -2418,7 +2418,7 @@
         "files": [
           {
             "name": "nucseq.ttl.gz",
-            "url": "./download/mbgd/2015-06-20/graph-4/nucseq.ttl.gz",
+            "url": "./download/mbgd/latest/rdf/graph-4/nucseq.ttl.gz",
             "size": 56584554
           }
         ],
@@ -2448,7 +2448,7 @@
         "files": [
           {
             "name": "xref_uniprot.ttl.gz",
-            "url": "./download/mbgd/2015-06-20/graph-5/xref_uniprot.ttl.gz",
+            "url": "./download/mbgd/latest/rdf/graph-5/xref_uniprot.ttl.gz",
             "size": 56470640
           }
         ],
@@ -2618,7 +2618,7 @@
     ],
     "download_file": {
       "name": "mnadd.tar.gz",
-      "url": "./download/mnadd/2019-05-14/all/mnadd.tar.gz",
+      "url": "./download/mnadd/latest/rdf/all/mnadd.tar.gz",
       "size": 11447
     },
     "number_of_triples": 948,
@@ -2660,7 +2660,7 @@
         "files": [
           {
             "name": "NucleicAcidDrug.ttl.gz",
-            "url": "./download/mnadd/2019-05-14/graph-1/NucleicAcidDrug.ttl.gz",
+            "url": "./download/mnadd/latest/rdf/graph-1/NucleicAcidDrug.ttl.gz",
             "size": 11164
           }
         ],
@@ -2883,7 +2883,7 @@
     ],
     "download_file": {
       "name": "nand.tar.gz",
-      "url": "./download/nando/2020-11-11/all/nand.tar.gz",
+      "url": "./download/nando/latest/rdf/all/nand.tar.gz",
       "size": 395912
     },
     "number_of_triples": 26425,
@@ -2915,7 +2915,7 @@
         "files": [
           {
             "name": "nando.ttl.gz",
-            "url": "./download/nando/2020-11-11/graph-1/nando.ttl.gz",
+            "url": "./download/nando/latest/rdf/graph-1/nando.ttl.gz",
             "size": 395572
           }
         ],
@@ -3057,7 +3057,7 @@
     ],
     "download_file": {
       "name": "nbrc.ttl.gz",
-      "url": "./download/nbrc/2023-03-13/all/nbrc.ttl.gz",
+      "url": "./download/nbrc/latest/rdf/all/nbrc.ttl.gz",
       "size": 2378359
     },
     "number_of_triples": 868816,
@@ -3095,7 +3095,7 @@
         "files": [
           {
             "name": "nbrc.ttl.gz",
-            "url": "./download/nbrc/2023-03-13/graph-1/nbrc.ttl.gz",
+            "url": "./download/nbrc/latest/rdf/graph-1/nbrc.ttl.gz",
             "size": 2378359
           }
         ],
@@ -3223,7 +3223,7 @@
     ],
     "download_file": {
       "name": "nikkaji.tar.gz",
-      "url": "./download/nikkaji/2022-02-01/all/nikkaji.tar.gz",
+      "url": "./download/nikkaji/latest/rdf//all/nikkaji.tar.gz",
       "size": 2799556270
     },
     "number_of_triples": 344246952,
@@ -3256,7 +3256,7 @@
         "files": [
           {
             "name": "NBDC_NikkajiRDF_main",
-            "url": "./download/nikkaji/2022-02-01/graph-1/NBDC_NikkajiRDF_main/",
+            "url": "./download/nikkaji/latest/rdf//graph-1/NBDC_NikkajiRDF_main/",
             "size": 1107191535
           }
         ],
@@ -3287,7 +3287,7 @@
         "files": [
           {
             "name": "NBDC_NikkajiRDF_InChI",
-            "url": "./download/nikkaji/2022-02-01/graph-2/NBDC_NikkajiRDF_InChI/",
+            "url": "./download/nikkaji/latest/rdf//graph-2/NBDC_NikkajiRDF_InChI/",
             "size": 549654181
           }
         ],
@@ -3315,7 +3315,7 @@
         "files": [
           {
             "name": "NBDC_NikkajiRDF_SMILES",
-            "url": "./download/nikkaji/2022-02-01/graph-3/NBDC_NikkajiRDF_SMILES/",
+            "url": "./download/nikkaji/latest/rdf/graph-3/NBDC_NikkajiRDF_SMILES/",
             "size": 162635725
           }
         ],
@@ -3343,7 +3343,7 @@
         "files": [
           {
             "name": "NBDC_NikkajiRDF_link2JGLOBAL.ttl.gz",
-            "url": "./download/nikkaji/2022-02-01/graph-4/NBDC_NikkajiRDF_link2JGLOBAL.ttl.gz",
+            "url": "./download/nikkaji/latest/rdf/graph-4/NBDC_NikkajiRDF_link2JGLOBAL.ttl.gz",
             "size": 1886851
           }
         ],
@@ -3371,7 +3371,7 @@
         "files": [
           {
             "name": "NBDC_NikkajiRDF_MFMW",
-            "url": "./download/nikkaji/2022-02-01/graph-5/NBDC_NikkajiRDF_MFMW/",
+            "url": "./download/nikkaji/latest/rdf/graph-5/NBDC_NikkajiRDF_MFMW/",
             "size": 546768705
           }
         ],
@@ -3402,7 +3402,7 @@
         "files": [
           {
             "name": "NBDC_NikkajiRDF_link2OtherDBs_basedOnUniChem",
-            "url": "./download/nikkaji/2022-02-01/graph-6/NBDC_NikkajiRDF_link2OtherDBs_basedOnUniChem/",
+            "url": "./download/nikkaji/latest/rdf/graph-6/NBDC_NikkajiRDF_link2OtherDBs_basedOnUniChem/",
             "size": 85206366
           }
         ],
@@ -3430,7 +3430,7 @@
         "files": [
           {
             "name": "NBDC_NikkajiRDF_link2OtherDBs_basedOnPubChem",
-            "url": "./download/nikkaji/2022-02-01/graph-7/NBDC_NikkajiRDF_link2OtherDBs_basedOnPubChem/",
+            "url": "./download/nikkaji/latest/rdf/graph-7/NBDC_NikkajiRDF_link2OtherDBs_basedOnPubChem/",
             "size": 89412539
           }
         ],
@@ -3456,7 +3456,7 @@
         "files": [
           {
             "name": "NBDC_NikkajiRDF_core",
-            "url": "./download/nikkaji/2022-02-01/graph-8/NBDC_NikkajiRDF_core/",
+            "url": "./download/nikkaji/latest/rdf/graph-8/NBDC_NikkajiRDF_core/",
             "size": 323296904
           }
         ],
@@ -3659,7 +3659,7 @@
     ],
     "download_file": {
       "name": "open-tggates.tar.gz",
-      "url": "./download/open-tggates/2017-03-17/all/open-tggates.tar.gz",
+      "url": "./download/open-tggates/latest/rdf/all/open-tggates.tar.gz",
       "size": 18502657779
     },
     "number_of_triples": 6800384609,
@@ -3734,17 +3734,17 @@
         "files": [
           {
             "name": "common",
-            "url": "./download/open-tggates/2017-03-17/graph-1/common/",
+            "url": "./download/open-tggates/latest/rdf/graph-1/common/",
             "size": 64598909
           },
           {
             "name": "Human",
-            "url": "./download/open-tggates/2017-03-17/graph-1/Human/",
+            "url": "./download/open-tggates/latest/rdf/graph-1/Human/",
             "size": 34435022089
           },
           {
             "name": "Rat",
-            "url": "./download/open-tggates/2017-03-17/graph-1/Rat/",
+            "url": "./download/open-tggates/latest/rdf/graph-1/Rat/",
             "size": 143762942756
           }
         ],
@@ -3935,7 +3935,7 @@
     ],
     "download_file": {
       "name": "paconto.tar.gz",
-      "url": "./download/paconto/2016-06-01/all/paconto.tar.gz",
+      "url": "./download/paconto/latest/rdf/all/paconto.tar.gz",
       "size": 266056
     },
     "number_of_triples": 81785,
@@ -3972,7 +3972,7 @@
         "files": [
           {
             "name": "paconto-schema.rdf",
-            "url": "./download/paconto/2016-06-01/ontology-1/paconto-schema.rdf",
+            "url": "./download/paconto/latest/rdf/ontology-1/paconto-schema.rdf",
             "size": 60225
           }
         ],
@@ -4003,7 +4003,7 @@
         "files": [
           {
             "name": "paconto.rdf",
-            "url": "./download/paconto/2016-06-01/graph-1/paconto.rdf",
+            "url": "./download/paconto/latest/rdf/graph-1/paconto.rdf",
             "size": 6164638
           }
         ],
@@ -4153,7 +4153,7 @@
     "schema_image_urls": [],
     "download_file": {
       "name": "2023-05-08",
-      "url": "./download/pdbj/2023-05-08/",
+      "url": "./download/pdbj/latest/",
       "size": "-"
     },
     "number_of_triples": 16203298274,
@@ -4330,7 +4330,7 @@
         "files": [
           {
             "name": "pdbx-v50.owl.gz",
-            "url": "./download/pdbj/2021-01-20/ontology-1/pdbx-v50.owl.gz",
+            "url": "./download/pdbj/latest/pdbx-v50.owl",
             "size": 574049
           }
         ],
@@ -4362,28 +4362,28 @@
         "files": [
           {
             "name": "pdb",
-            "url": "./download/pdbj/2021-01-20/graph-1/pdb/",
-            "size": 18654293209
+            "url": "./download/pdbj/latest/pdb/",
+            "size": "-"
           },
           {
-            "name": "sifts",
-            "url": "./download/pdbj/2021-01-20/graph-1/sifts/",
-            "size": 43263165
+            "name": "cc",
+            "url": "./download/pdbj/latest/cc/",
+            "size": "-"
           },
           {
-            "name": "chem_comp",
-            "url": "./download/pdbj/2021-01-20/graph-1/chem_comp/",
-            "size": 264271110
+            "name": "family",
+            "url": "./download/pdbj/latest/family/",
+            "size": "-"
           },
           {
-            "name": "pubmed",
-            "url": "./download/pdbj/2021-01-20/graph-1/pubmed/",
-            "size": 1348320
+            "name": "prd",
+            "url": "./download/pdbj/latest/prd/",
+            "size": "-"
           },
           {
-            "name": "vrpt-alt",
-            "url": "./download/pdbj/2021-01-20/graph-1/vrpt-alt/",
-            "size": 14579285348
+            "name": "vrpt",
+            "url": "./download/pdbj/latest/vrpt/",
+            "size": "-"
           }
         ],
         "number_of_triples": 16203161310,
@@ -4706,7 +4706,7 @@
     ],
     "download_file": {
       "name": "pgdbj.tar.gz",
-      "url": "./download/pgdbj/2016-07-26/all/pgdbj.tar.gz",
+      "url": "./download/pgdbj/latest/rdf/all/pgdbj.tar.gz",
       "size": 39956506
     },
     "number_of_triples": 13652175,
@@ -4742,7 +4742,7 @@
         "files": [
           {
             "name": "orth-2014-10-28.ttl.gz",
-            "url": "./download/pgdbj/2016-07-26/ontology-1/orth-2014-10-28.ttl.gz",
+            "url": "./download/pgdbj/latest/rdf/ontology-1/orth-2014-10-28.ttl.gz",
             "size": 1362
           }
         ],
@@ -4772,7 +4772,7 @@
         "files": [
           {
             "name": "33090_clusters_1_57_0_160726.ttl.gz",
-            "url": "./download/pgdbj/2016-07-26/graph-1/33090_clusters_1_57_0_160726.ttl.gz",
+            "url": "./download/pgdbj/latest/rdf/33090_clusters_1_57_0_160726.ttl.gz",
             "size": 47823834
           }
         ],
@@ -4924,7 +4924,7 @@
     ],
     "download_file": {
       "name": "pubcasefinder.tar.gz",
-      "url": "./download/pubcasefinder/2021-05-18/all/pubcasefinder.tar.gz",
+      "url": "./download/pubcasefinder/latest/rdf/all/pubcasefinder.tar.gz",
       "size": 45042415
     },
     "number_of_triples": 16367389,
@@ -4966,7 +4966,7 @@
         "files": [
           {
             "name": "data",
-            "url": "./download/pubcasefinder/2021-05-18/graph-1/data/",
+            "url": "./download/pubcasefinder/latest/rdf/graph-1/data/",
             "size": 45807237
           }
         ],
@@ -5112,7 +5112,7 @@
     ],
     "download_file": {
       "name": "quanto.tar.gz",
-      "url": "./download/quanto/2016-07-12/all/quanto.tar.gz",
+      "url": "./download/quanto/latest/rdf/all/quanto.tar.gz",
       "size": 120158173
     },
     "number_of_triples": 107782639,
@@ -5150,7 +5150,7 @@
         "files": [
           {
             "name": "sos-0.4.ttl",
-            "url": "./download/quanto/2016-07-12/ontology-1/sos-0.4.ttl",
+            "url": "./download/quanto/latest/rdf/ontology-1/sos-0.4.ttl",
             "size": 6850
           }
         ],
@@ -5181,7 +5181,7 @@
         "files": [
           {
             "name": "quanto.all.ttl.gz",
-            "url": "./download/quanto/2016-07-12/graph-1/quanto.all.ttl.gz",
+            "url": "./download/quanto/latest/rdf/graph-1/quanto.all.ttl.gz",
             "size": 126094669
           }
         ],
@@ -5324,7 +5324,7 @@
     ],
     "download_file": {
       "name": "refex.tar.gz",
-      "url": "./download/refex/2017-04-07/all/refex.tar.gz",
+      "url": "./download/refex/latest/rdf/all/refex.tar.gz",
       "size": 274464206
     },
     "number_of_triples": 123447475,
@@ -5377,7 +5377,7 @@
         "files": [
           {
             "name": "refexo_v0.04.ttl",
-            "url": "./download/refex/2017-04-07/ontology-1/refexo_v0.04.ttl",
+            "url": "./download/refex/latest/rdf/ontology-1/refexo_v0.04.ttl",
             "size": 16423
           }
         ],
@@ -5409,22 +5409,22 @@
         "files": [
           {
             "name": "refexsample_human_20151120.ttl.gz",
-            "url": "./download/refex/2017-04-07/graph-1/refexsample_human_20151120.ttl.gz",
+            "url": "./download/refex/latest/rdf/graph-1/refexsample_human_20151120.ttl.gz",
             "size": 59201
           },
           {
             "name": "refexsample_mouse_20151120.ttl.gz",
-            "url": "./download/refex/2017-04-07/graph-1/refexsample_mouse_20151120.ttl.gz",
+            "url": "./download/refex/latest/rdf/graph-1/refexsample_mouse_20151120.ttl.gz",
             "size": 23286
           },
           {
             "name": "refex_fantom5_human_20151120.ttl.gz",
-            "url": "./download/refex/2017-04-07/graph-1/refex_fantom5_human_20151120.ttl.gz",
+            "url": "./download/refex/latest/rdf/graph-1/refex_fantom5_human_20151120.ttl.gz",
             "size": 174901422
           },
           {
             "name": "refex_fantom5_mouse_20151120.ttl.gz",
-            "url": "./download/refex/2017-04-07/graph-1/refex_fantom5_mouse_20151120.ttl.gz",
+            "url": "./download/refex/latest/rdf/graph-1/refex_fantom5_mouse_20151120.ttl.gz",
             "size": 90183535
           }
         ],
@@ -5467,22 +5467,22 @@
         "files": [
           {
             "name": "refex_genechip_human_20180713.ttl.gz",
-            "url": "./download/refex/2017-04-07/graph-2/refex_genechip_human_20180713.ttl.gz",
+            "url": "./download/refex/latest/rdf/graph-2/refex_genechip_human_20180713.ttl.gz",
             "size": 27459700
           },
           {
             "name": "refex_genechip_mouse_20180713.ttl.gz",
-            "url": "./download/refex/2017-04-07/graph-2/refex_genechip_mouse_20180713.ttl.gz",
+            "url": "./download/refex/latest/rdf/graph-2/refex_genechip_mouse_20180713.ttl.gz",
             "size": 21829394
           },
           {
             "name": "refex_genechip_rat_20180713.ttl.gz",
-            "url": "./download/refex/2017-04-07/graph-2/refex_genechip_rat_20180713.ttl.gz",
+            "url": "./download/refex/latest/rdf/graph-2/refex_genechip_rat_20180713.ttl.gz",
             "size": 2179864
           },
           {
             "name": "refexsample_genechip_20180713.ttl.gz",
-            "url": "./download/refex/2017-04-07/graph-2/refexsample_genechip_20180713.ttl.gz",
+            "url": "./download/refex/latest/rdf/graph-2/refexsample_genechip_20180713.ttl.gz",
             "size": 7025
           }
         ],
@@ -5659,7 +5659,7 @@
     ],
     "download_file": {
       "name": "xsearch_jcm_brso20220918.ttl.gz",
-      "url": "./download/xsearch_jcm_brso/2022-10-03/all/xsearch_jcm_brso20220918.ttl.gz",
+      "url": "./download/xsearch_jcm_brso/latest/rdf/all/xsearch_jcm_brso20220918.ttl.gz",
       "size": 7015397
     },
     "number_of_triples": 1106776,
@@ -5698,7 +5698,7 @@
         "files": [
           {
             "name": "xsearch_jcm_brso20220918.ttl",
-            "url": "./download/xsearch_jcm_brso/2022-10-03/graph-1/xsearch_jcm_brso20220918.ttl",
+            "url": "./download/xsearch_jcm_brso/latest/rdf/graph-1/xsearch_jcm_brso20220918.ttl",
             "size": 145021869
           }
         ],
@@ -5855,7 +5855,7 @@
     ],
     "download_file": {
       "name": "ssbd.tar.gz",
-      "url": "./download/ssbd/2018-03-24/all/ssbd.tar.gz",
+      "url": "./download/ssbd/latest/rdf/all/ssbd.tar.gz",
       "size": 77529
     },
     "number_of_triples": 40300,
@@ -5894,12 +5894,12 @@
         "files": [
           {
             "name": "20180324_SSBD-mod.ttl.gz",
-            "url": "./download/ssbd/2018-03-24/graph-1/20180324_SSBD-mod.ttl.gz",
+            "url": "./download/ssbd/latest/rdf/graph-1/20180324_SSBD-mod.ttl.gz",
             "size": 77786
           },
           {
             "name": "20180324_SSBDO.ttl.gz",
-            "url": "./download/ssbd/2018-03-24/graph-1/20180324_SSBDO.ttl.gz",
+            "url": "./download/ssbd/latest/rdf/graph-1/20180324_SSBDO.ttl.gz",
             "size": 1232
           }
         ],
@@ -6060,7 +6060,7 @@
     "schema_image_urls": [],
     "download_file": {
       "name": "wurcs.tar.gz",
-      "url": "./download/wurcs/2015-09-30/all/wurcs.tar.gz",
+      "url": "./download/wurcs/latest/rdf/all/wurcs.tar.gz",
       "size": 36758262
     },
     "number_of_triples": 6213789,
@@ -6093,7 +6093,7 @@
         "files": [
           {
             "name": "2015-09-30-WURCS-RDF-0.5.1-v0.2.ttl.gz",
-            "url": "./download/wurcs/2015-09-30/graph-1/2015-09-30-WURCS-RDF-0.5.1-v0.2.ttl.gz",
+            "url": "./download/wurcs/latest/rdf/graph-1/2015-09-30-WURCS-RDF-0.5.1-v0.2.ttl.gz",
             "size": 24799283
           }
         ],
@@ -6124,7 +6124,7 @@
         "files": [
           {
             "name": "2015-10-26_WURCS-MS-RDF-0.2.ttl.gz",
-            "url": "./download/wurcs/2015-09-30/graph-2/2015-10-26_WURCS-MS-RDF-0.2.ttl.gz",
+            "url": "./download/wurcs/latest/rdf/graph-2/2015-10-26_WURCS-MS-RDF-0.2.ttl.gz",
             "size": 462007
           }
         ],
@@ -6155,7 +6155,7 @@
         "files": [
           {
             "name": "2015-09-30-WURCS-SEQ-RDF-0.3-v0.2.ttl.gz",
-            "url": "./download/wurcs/2015-09-30/graph-3/2015-09-30-WURCS-SEQ-RDF-0.3-v0.2.ttl.gz",
+            "url": "./download/wurcs/latest/rdf/graph-3/2015-09-30-WURCS-SEQ-RDF-0.3-v0.2.ttl.gz",
             "size": 11521883
           }
         ],
@@ -6287,9 +6287,9 @@
       "./schema/ddbj/schema_ddbj.png"
     ],
     "download_file": {
-      "name": "ddbj.tar.gz",
-      "url": "./download/ddbj/2016-07-30/all/ddbj.tar.gz",
-      "size": 94932586145
+      "name": "all",
+      "url": "./download/ddbj/latest/current_release/",
+      "size": "-"
     },
     "number_of_triples": 39574632446,
     "number_of_instances": 4316173038,
@@ -6537,8 +6537,8 @@
         "files": [
           {
             "name": "130",
-            "url": "./download/ddbj/2016-07-30/graph-1/105.0/",
-            "size": 148939781320
+            "url": "./download/ddbj/latest/current_release/",
+            "size": "-"
           }
         ],
         "number_of_triples": 39574632446,
@@ -7826,9 +7826,9 @@
       "./schema/kero/kero_tss-seq.png"
     ],
     "download_file": {
-      "name": "chip_seq_all",
-      "url": "./download/kero/2020-06-10/all/chip_seq_all",
-      "size": 767414379051
+      "name": "all",
+      "url": "./download/kero/latest",
+      "size": "-"
     },
     "number_of_triples": 11198913244,
     "number_of_instances": 965303305,
@@ -7859,7 +7859,7 @@
         "files": [
           {
             "name": "kero.ttl",
-            "url": "./download/kero/2020-06-10/ontology-1/kero.ttl",
+            "url": "./download/kero/latest/ontology-1/kero.ttl",
             "size": 16751
           }
         ],
@@ -7890,53 +7890,53 @@
         "files": [
           {
             "name": "bs_seq",
-            "url": "./download/kero/2020-06-10/graph-1/bs_seq/",
+            "url": "./download/kero/latest/graph-1/bs_seq/",
             "size": 5658688491
           },
           {
             "name": "chip_seq_lite",
-            "url": "./download/kero/2020-06-10/graph-1/chip_seq_lite/",
+            "url": "./download/kero/latest/graph-1/chip_seq_lite/",
             "size": 63022826805
           },
           {
             "name": "chromhmm",
-            "url": "./download/kero/2020-06-10/graph-1/chromhmm/",
+            "url": "./download/kero/latest/graph-1/chromhmm/",
             "size": 806012970
           },
           {
             "name": "dataset",
-            "url": "./download/kero/2020-06-10/graph-1/dataset/",
+            "url": "./download/kero/latest/graph-1/dataset/",
             "size": 13072179687
           },
           {
             "name": "metadata",
-            "url": "./download/kero/2020-06-10/graph-1/metadata/",
+            "url": "./download/kero/latest/graph-1/metadata/",
             "size": 126444
           },
           {
             "name": "rna_seq",
-            "url": "./download/kero/2020-06-10/graph-1/rna_seq/",
+            "url": "./download/kero/latest/graph-1/rna_seq/",
             "size": 208654843
           },
           {
             "name": "snv",
-            "url": "./download/kero/2020-06-10/graph-1/snv/",
+            "url": "./download/kero/latest/graph-1/snv/",
             "size": 13472950896
           },
           {
             "name": "snv_somatic",
-            "url": "./download/kero/2020-06-10/graph-1/snv_somatic/",
+            "url": "./download/kero/latest/graph-1/snv_somatic/",
             "size": 530648515
           },
           {
             "name": "tss_seq",
-            "url": "./download/kero/2020-06-10/graph-1/tss_seq/",
+            "url": "./download/kero/latest/graph-1/tss_seq/",
             "size": 1143176185
           },
           {
-            "name": "peak_inf",
-            "url": "./download/kero/2020-06-10/graph-1/peak_inf/",
-            "size": 474751126
+            "name": "chip_peak",
+            "url": "./download/kero/latest/graph-1/chip_peak/",
+            "size": "-"
           }
         ],
         "number_of_triples": 11198913015,
@@ -8055,8 +8055,8 @@
     "logo_url": "",
     "schema_image_urls": [],
     "download_file": {
-      "name": "disgenet.tar.gz",
-      "url": "./download/disgenet/2020-06-03/all/disgenet.tar.gz",
+      "name": "all",
+      "url": "./download/disgenet/latest",
       "size": 1035915436
     },
     "number_of_triples": 88379594,
@@ -8094,107 +8094,107 @@
         "files": [
           {
             "name": "disease-disease.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/disease-disease.ttl.gz",
+            "url": "./download/disgenet/latest/disease-disease.ttl.gz",
             "size": 4957122
           },
           {
             "name": "disease-group.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/disease-group.ttl.gz",
+            "url": "./download/disgenet/latest/disease-group.ttl.gz",
             "size": 297614
           },
           {
             "name": "disease-phenotype.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/disease-phenotype.ttl.gz",
+            "url": "./download/disgenet/latest/disease-phenotype.ttl.gz",
             "size": 1224246
           },
           {
             "name": "doClass.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/doClass.ttl.gz",
+            "url": "./download/disgenet/latest/doClass.ttl.gz",
             "size": 1098
           },
           {
             "name": "gda_batch",
-            "url": "./download/disgenet/2020-06-03/graph-1/gda_batch/",
+            "url": "./download/disgenet/latest/gda_batch/",
             "size": 656416629
           },
           {
             "name": "gda_score.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/gda_score.ttl.gz",
+            "url": "./download/disgenet/latest/gda_score.ttl.gz",
             "size": 81711235
           },
           {
             "name": "gene.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/gene.ttl.gz",
+            "url": "./download/disgenet/latest/gene.ttl.gz",
             "size": 10482132
           },
           {
             "name": "geneSymbol.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/geneSymbol.ttl.gz",
+            "url": "./download/disgenet/latest/geneSymbol.ttl.gz",
             "size": 717789
           },
           {
             "name": "hpoClass.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/hpoClass.ttl.gz",
+            "url": "./download/disgenet/latest/hpoClass.ttl.gz",
             "size": 1826
           },
           {
             "name": "linksets",
-            "url": "./download/disgenet/2020-06-03/graph-1/linksets/",
+            "url": "./download/disgenet/latest/linksets/",
             "size": 843547
           },
           {
             "name": "meshClass.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/meshClass.ttl.gz",
+            "url": "./download/disgenet/latest/meshClass.ttl.gz",
             "size": 1975
           },
           {
             "name": "protein.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/protein.ttl.gz",
+            "url": "./download/disgenet/latest/protein.ttl.gz",
             "size": 658412
           },
           {
             "name": "proteinClass.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/proteinClass.ttl.gz",
+            "url": "./download/disgenet/latest/proteinClass.ttl.gz",
             "size": 806
           },
           {
             "name": "pubmed.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/pubmed.ttl.gz",
+            "url": "./download/disgenet/latest/pubmed.ttl.gz",
             "size": 30477896
           },
           {
             "name": "umlsSTY.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/umlsSTY.ttl.gz",
+            "url": "./download/disgenet/latest/umlsSTY.ttl.gz",
             "size": 2159
           },
           {
             "name": "variant.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/variant.ttl.gz",
+            "url": "./download/disgenet/latest/variant.ttl.gz",
             "size": 106816641
           },
           {
             "name": "variant_frequencies.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/variant_frequencies.ttl.gz",
+            "url": "./download/disgenet/latest/variant_frequencies.ttl.gz",
             "size": 44
           },
           {
             "name": "vda.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/vda.ttl.gz",
+            "url": "./download/disgenet/latest/vda.ttl.gz",
             "size": 127324353
           },
           {
             "name": "vda_score.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/vda_score.ttl.gz",
+            "url": "./download/disgenet/latest/vda_score.ttl.gz",
             "size": 23372261
           },
           {
             "name": "void-disgenet.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/void-disgenet.ttl.gz",
+            "url": "./download/disgenet/latest/void-disgenet.ttl.gz",
             "size": 1756
           },
           {
             "name": "void.ttl.gz",
-            "url": "./download/disgenet/2020-06-03/graph-1/void.ttl.gz",
+            "url": "./download/disgenet/latest/void.ttl.gz",
             "size": 16897
           }
         ],
@@ -8300,9 +8300,9 @@
     "logo_url": "",
     "schema_image_urls": [],
     "download_file": {
-      "name": "hgnc.tar.gz",
-      "url": "./download/hgnc/2021-12-23/all/hgnc.tar.gz",
-      "size": 8620567
+      "name": "all",
+      "url": "./download/hgnc/latest",
+      "size": "-"
     },
     "number_of_triples": 1314653,
     "number_of_instances": 355645,
@@ -8407,8 +8407,8 @@
         "files": [
           {
             "name": "hgnc_complete_set.ttl",
-            "url": "./download/hgnc/2021-12-23/graph-1/hgnc_complete_set.ttl",
-            "size": 102820142
+            "url": "./download/hgnc/latest/hgnc_complete_set.ttl",
+            "size": "-"
           }
         ],
         "number_of_triples": 1284792,
@@ -8656,7 +8656,7 @@
     ],
     "download_file": {
       "name": "ligandbox.tar.gz",
-      "url": "./download/ligandbox/2021-05-25/all/ligandbox.tar.gz",
+      "url": "./download/ligandbox/latest/rdf/all/ligandbox.tar.gz",
       "size": 808422535
     },
     "number_of_triples": 283928849,
@@ -8680,7 +8680,7 @@
     "number_of_links": 0,
     "ontologies": [
       {
-        "uri": "http://rdfportal.org/rdf/download/liganbox/2021-05-25/ontology-1/ligandbox.owl",
+        "uri": "http://rdfportal.org/rdf/download/liganbox/latest/rdf/ontology-1/ligandbox.owl",
         "description": {
           "en": "Ontology for LigandBox.",
           "ja": "LigandBoxのオントロジーです"
@@ -8718,7 +8718,7 @@
         "files": [
           {
             "name": "ligandbox",
-            "url": "./download/ligandbox/2021-05-25/graph-1/ligandbox/",
+            "url": "./download/ligandbox/latest/rdf/graph-1/ligandbox/",
             "size": 808530429
           }
         ],
@@ -9131,9 +9131,9 @@
     "logo_url": "",
     "schema_image_urls": [],
     "download_file": {
-      "name": "clinvar.tar.gz",
-      "url": "./download/clinvar/2022-10-06/all/clinvar.tar.gz",
-      "size": 2987641242
+      "name": "all",
+      "url": "./download/clinvar/clinvar/latest/latest",
+      "size": "-"
     },
     "number_of_triples": 1247658822,
     "number_of_instances": 192529889,
@@ -9164,8 +9164,8 @@
         "files": [
           {
             "name": "clinvar",
-            "url": "./download/clinvar/2022-10-06/graph-1/clinvar/",
-            "size": 3052779406
+            "url": "./download/clinvar/clinvar/latest/latest",
+            "size": "-"
           }
         ],
         "number_of_triples": 1247658822,
@@ -9268,9 +9268,9 @@
     "logo_url": "",
     "schema_image_urls": [],
     "download_file": {
-      "name": "medgen.tar.gz",
-      "url": "./download/medgen/2022-11-01/all/medgen.tar.gz",
-      "size": 508752726
+      "name": "all",
+      "url": "./download/medgen/latest",
+      "size": "-"
     },
     "number_of_triples": 126664418,
     "number_of_instances": 2717458,
@@ -9310,8 +9310,8 @@
         "files": [
           {
             "name": "medgen",
-            "url": "./download/medgen/2022-11-01/graph-1/medgen/",
-            "size": 3710360168
+            "url": "./download/medgen/latest",
+            "size": "-"
           }
         ],
         "number_of_triples": 126664418,
@@ -9421,9 +9421,9 @@
     "logo_url": "",
     "schema_image_urls": [],
     "download_file": {
-      "name": "nlm-catalog.tar.gz",
-      "url": "./download/nlm-catalog/2022-11-01/all/nlm-catalog.tar.gz",
-      "size": 1710936
+      "name": "J_Entrez.txt.ttl",
+      "url": "./download/nlm-catalog/latest/latest/J_Entrez.txt.ttl",
+      "size": "-"
     },
     "number_of_triples": 203480,
     "number_of_instances": 39010,
@@ -9452,8 +9452,8 @@
         "files": [
           {
             "name": "nlm-catalog",
-            "url": "./download/nlm-catalog/2022-11-01/graph-1/nlm-catalog/",
-            "size": 10973825
+            "url": "./download/nlm-catalog/latest/latest",
+            "size": "-"
           }
         ],
         "number_of_triples": 203480,
@@ -9552,9 +9552,9 @@
     "logo_url": "",
     "schema_image_urls": [],
     "download_file": {
-      "name": "pubmed.tar.gz",
-      "url": "./download/pubmed/2022-10-21/all/pubmed.tar.gz",
-      "size": 22871193647
+      "name": "all",
+      "url": "./download/pubmed/latest/latest/",
+      "size": "-"
     },
     "number_of_triples": 2531937601,
     "number_of_instances": 194957460,
@@ -9585,8 +9585,8 @@
         "files": [
           {
             "name": "pubmed",
-            "url": "./download/pubmed/2022-10-21/graph-1/pubmed/",
-            "size": 120192235289
+            "url": "./download/pubmed/latest/latest/",
+            "size": "-"
           }
         ],
         "number_of_triples": 2448906670,
@@ -9697,9 +9697,9 @@
     "logo_url": "",
     "schema_image_urls": [],
     "download_file": {
-      "name": "pubtator.tar.gz",
-      "url": "./download/pubtator/2022-12-19/all/pubtator.tar.gz",
-      "size": 1630953262
+      "name": "all",
+      "url": "./download/pubtator/latest/latest/",
+      "size": "-"
     },
     "number_of_triples": 1107708438,
     "number_of_instances": 221933712,
@@ -9729,8 +9729,8 @@
         "files": [
           {
             "name": "pubtator",
-            "url": "./download/pubtator/2022-12-19/graph-1/pubtator/",
-            "size": 1963716657
+            "url": "./download/pubtator/latest/latest/",
+            "size": "-"
           }
         ],
         "number_of_triples": 1107708438,
@@ -9833,7 +9833,7 @@
     ],
     "download_file": {
       "name": "polyinfo.tar.gz",
-      "url": "./download/polyinfo/2020-02-06/all/polyinfo.tar.gz",
+      "url": "./download/polyinfo/latest/rdf/all/polyinfo.tar.gz",
       "size": 29082
     },
     "number_of_triples": 5446,
@@ -9865,22 +9865,22 @@
         "files": [
           {
             "name": "Open_BioDegradation_rdf.ttl.gz",
-            "url": "./download/polyinfo/2020-02-06/graph-1/Open_BioDegradation_rdf.ttl.gz",
+            "url": "./download/polyinfo/latest/rdf/graph-1/Open_BioDegradation_rdf.ttl.gz",
             "size": 10559
           },
           {
             "name": "Open_BioLiterature_rdf.ttl.gz",
-            "url": "./download/polyinfo/2020-02-06/graph-1/Open_BioLiterature_rdf.ttl.gz",
+            "url": "./download/polyinfo/latest/rdf/graph-1/Open_BioLiterature_rdf.ttl.gz",
             "size": 8253
           },
           {
             "name": "Open_ConstitutionalUnit_rdf.ttl.gz",
-            "url": "./download/polyinfo/2020-02-06/graph-1/Open_ConstitutionalUnit_rdf.ttl.gz",
+            "url": "./download/polyinfo/latest/rdf/graph-1/Open_ConstitutionalUnit_rdf.ttl.gz",
             "size": 3109
           },
           {
             "name": "Open_Homopolymer_rdf.ttl.gz",
-            "url": "./download/polyinfo/2020-02-06/graph-1/Open_Homopolymer_rdf.ttl.gz",
+            "url": "./download/polyinfo/latest/rdf/graph-1/Open_Homopolymer_rdf.ttl.gz",
             "size": 6864
           }
         ],
@@ -10017,9 +10017,9 @@
       "./schema/homologene/schema.svg"
     ],
     "download_file": {
-      "name": "homologene.tar.gz",
-      "url": "./download/homologene/2023-05-17/all/homologene.tar.gz",
-      "size": 5560587
+      "name": "all",
+      "url": "./download/homologene/latest/rdf/graph-1/",
+      "size": "-"
     },
     "number_of_triples": 1553120,
     "number_of_instances": 319471,
@@ -10048,8 +10048,8 @@
         "files": [
           {
             "name": "homologene.ttl",
-            "url": "./download/homologene/2023-03-01/graph-1/homologene.ttl",
-            "size": 62112403
+            "url": "./download/homologene/latest/rdf/graph-1/homologene.ttl",
+            "size": "-"
           }
         ],
         "number_of_triples": 1553120,
@@ -10248,7 +10248,7 @@
     ],
     "download_file": {
       "name": "knapsack.tar.gz",
-      "url": "./download/knapsack/2022-05-30/all/knapsack.tar.gz",
+      "url": "./download/knapsack/latest/rdf/all/knapsack.tar.gz",
       "size": 34175814
     },
     "number_of_triples": 3776538,
@@ -10302,32 +10302,32 @@
         "files": [
           {
             "name": "knapsack-core.ttl.gz",
-            "url": "./download/knapsack/2022-05-30/graph-1/knapsack-core.ttl.gz",
+            "url": "./download/knapsack/latest/rdf/graph-1/knapsack-core.ttl.gz",
             "size": 31499688
           },
           {
             "name": "knapsack-metabolite-activity.ttl.gz",
-            "url": "./download/knapsack/2022-05-30/graph-1/knapsack-metabolite-activity.ttl.gz",
+            "url": "./download/knapsack/latest/rdf/graph-1/knapsack-metabolite-activity.ttl.gz",
             "size": 1217597
           },
           {
             "name": "knapsack-natural-activity.ttl.gz",
-            "url": "./download/knapsack/2022-05-30/graph-1/knapsack-natural-activity.ttl.gz",
+            "url": "./download/knapsack/latest/rdf/graph-1/knapsack-natural-activity.ttl.gz",
             "size": 1136339
           },
           {
             "name": "knapsack-owl.ttl.gz",
-            "url": "./download/knapsack/2022-05-30/graph-1/knapsack-owl.ttl.gz",
+            "url": "./download/knapsack/latest/rdf/graph-1/knapsack-owl.ttl.gz",
             "size": 340
           },
           {
             "name": "knapsack-xref-chebi.ttl.gz",
-            "url": "./download/knapsack/2022-05-30/graph-1/knapsack-xref-chebi.ttl.gz",
+            "url": "./download/knapsack/latest/rdf/graph-1/knapsack-xref-chebi.ttl.gz",
             "size": 33495
           },
           {
             "name": "knapsack-xref-pubchem.ttl.gz",
-            "url": "./download/knapsack/2022-05-30/graph-1/knapsack-xref-pubchem.ttl.gz",
+            "url": "./download/knapsack/latest/rdf/graph-1/knapsack-xref-pubchem.ttl.gz",
             "size": 388385
           }
         ],
