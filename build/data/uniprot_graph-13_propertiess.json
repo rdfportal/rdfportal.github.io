@@ -1,0 +1,104 @@
+[
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+    "number_of_triples": 1037,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 1019,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "number_of_triples": 671,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "number_of_triples": 561,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/alias",
+    "number_of_triples": 561,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#comment",
+    "number_of_triples": 561,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "number_of_triples": 463,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/database",
+    "number_of_triples": 440,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#label",
+    "number_of_triples": 440,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/partOf",
+    "number_of_triples": 416,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/relatedLocation",
+    "number_of_triples": 330,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#sameAs",
+    "number_of_triples": 101,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/citation",
+    "number_of_triples": 19,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://xmlns.com/foaf/0.1/primaryTopicOf",
+    "number_of_triples": 17,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.org/dc/terms/identifier",
+    "number_of_triples": 17,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "number_of_triples": 15,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#imports",
+    "number_of_triples": 1,
+    "domain_classes": [],
+    "range_classes": []
+  }
+]

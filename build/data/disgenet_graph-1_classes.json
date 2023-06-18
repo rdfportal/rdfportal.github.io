@@ -1,0 +1,570 @@
+[
+    {
+        "class": "http://semanticscience.org/resource/SIO_001121", 
+        "label": {
+            "en": "gene-disease biomarker association", 
+            "ja": "gene-disease biomarker association"
+        }, 
+        "number_of_instances": 1705576
+    }, 
+    {
+        "class": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25338", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1501810
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001122", 
+        "label": {
+            "en": "gene-disease association linked with genetic variation", 
+            "ja": "gene-disease association linked with genetic variation"
+        }, 
+        "number_of_instances": 800444
+    }, 
+    {
+        "class": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C47902", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 797936
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_000897", 
+        "label": {
+            "en": "association", 
+            "ja": "association"
+        }, 
+        "number_of_instances": 736241
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001123", 
+        "label": {
+            "en": "gene-disease association linked with altered gene expression", 
+            "ja": "gene-disease association linked with altered gene expression"
+        }, 
+        "number_of_instances": 638378
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/GENO_0000476", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 392995
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/GENO_0000152", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 392995
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001367", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 392995
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001352", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 220696
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001351", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 220696
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001060", 
+        "label": {
+            "en": "sequence_variant", 
+            "ja": "sequence_variant"
+        }, 
+        "number_of_instances": 194515
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_000791", 
+        "label": {
+            "en": "sequence start position", 
+            "ja": "sequence start position"
+        }, 
+        "number_of_instances": 194515
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_000957", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 194515
+    }, 
+    {
+        "class": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 130895
+    }, 
+    {
+        "class": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7057", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 78757
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001119", 
+        "label": {
+            "en": "gene-disease association linked with causal mutation", 
+            "ja": "gene-disease association linked with causal mutation"
+        }, 
+        "number_of_instances": 65588
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001627", 
+        "label": {
+            "en": "intron_variant", 
+            "ja": "intron_variant"
+        }, 
+        "number_of_instances": 59646
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001583", 
+        "label": {
+            "en": "missense_variant", 
+            "ja": "missense_variant"
+        }, 
+        "number_of_instances": 47727
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_000983", 
+        "label": {
+            "en": "gene-disease association", 
+            "ja": "gene-disease association"
+        }, 
+        "number_of_instances": 29135
+    }, 
+    {
+        "class": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43568", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 26176
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_010299", 
+        "label": {
+            "en": "disease", 
+            "ja": "disease"
+        }, 
+        "number_of_instances": 21838
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001589", 
+        "label": {
+            "en": "frameshift_variant", 
+            "ja": "frameshift_variant"
+        }, 
+        "number_of_instances": 21513
+    }, 
+    {
+        "class": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 17369
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001587", 
+        "label": {
+            "en": "stop_gained", 
+            "ja": "stop_gained"
+        }, 
+        "number_of_instances": 14898
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001628", 
+        "label": {
+            "en": "intergenic_variant", 
+            "ja": "intergenic_variant"
+        }, 
+        "number_of_instances": 14207
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001120", 
+        "label": {
+            "en": "therapeutic gene-disease association", 
+            "ja": "therapeutic gene-disease association"
+        }, 
+        "number_of_instances": 10744
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_010056", 
+        "label": {
+            "en": "phenotype", 
+            "ja": "phenotype"
+        }, 
+        "number_of_instances": 7493
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001344", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 6275
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001575", 
+        "label": {
+            "en": "splice_donor_variant", 
+            "ja": "splice_donor_variant"
+        }, 
+        "number_of_instances": 4295
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001792", 
+        "label": {
+            "en": "non_coding_transcript_exon_variant", 
+            "ja": "non_coding_transcript_exon_variant"
+        }, 
+        "number_of_instances": 3945
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001624", 
+        "label": {
+            "en": "3_prime_UTR_variant", 
+            "ja": "3_prime_UTR_variant"
+        }, 
+        "number_of_instances": 3862
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001632", 
+        "label": {
+            "en": "downstream_gene_variant", 
+            "ja": "downstream_gene_variant"
+        }, 
+        "number_of_instances": 3839
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001574", 
+        "label": {
+            "en": "splice_acceptor_variant", 
+            "ja": "splice_acceptor_variant"
+        }, 
+        "number_of_instances": 3562
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001566", 
+        "label": {
+            "en": "regulatory_region_variant", 
+            "ja": "regulatory_region_variant"
+        }, 
+        "number_of_instances": 3116
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001819", 
+        "label": {
+            "en": "synonymous_variant", 
+            "ja": "synonymous_variant"
+        }, 
+        "number_of_instances": 2416
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001630", 
+        "label": {
+            "en": "splice_region_variant", 
+            "ja": "splice_region_variant"
+        }, 
+        "number_of_instances": 1644
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001343", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1260
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001631", 
+        "label": {
+            "en": "upstream_gene_variant", 
+            "ja": "upstream_gene_variant"
+        }, 
+        "number_of_instances": 1203
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001623", 
+        "label": {
+            "en": "5_prime_UTR_variant", 
+            "ja": "5_prime_UTR_variant"
+        }, 
+        "number_of_instances": 1203
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001822", 
+        "label": {
+            "en": "inframe_deletion", 
+            "ja": "inframe_deletion"
+        }, 
+        "number_of_instances": 976
+    }, 
+    {
+        "class": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43359", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 962
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0002012", 
+        "label": {
+            "en": "start_lost", 
+            "ja": "start_lost"
+        }, 
+        "number_of_instances": 535
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001782", 
+        "label": {
+            "en": "TF_binding_site_variant", 
+            "ja": "TF_binding_site_variant"
+        }, 
+        "number_of_instances": 342
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001342", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 326
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001348", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 315
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001345", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 285
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001349", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 223
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001821", 
+        "label": {
+            "en": "inframe_insertion", 
+            "ja": "inframe_insertion"
+        }, 
+        "number_of_instances": 208
+    }, 
+    {
+        "class": "http://www.w3.org/2000/01/rdf-schema#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 183
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001578", 
+        "label": {
+            "en": "stop_lost", 
+            "ja": "stop_lost"
+        }, 
+        "number_of_instances": 140
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001818", 
+        "label": {
+            "en": "protein_altering_variant", 
+            "ja": "protein_altering_variant"
+        }, 
+        "number_of_instances": 105
+    }, 
+    {
+        "class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", 
+        "label": {
+            "en": "Property", 
+            "ja": "Property"
+        }, 
+        "number_of_instances": 99
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001347", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 65
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001580", 
+        "label": {
+            "en": "coding_sequence_variant", 
+            "ja": "coding_sequence_variant"
+        }, 
+        "number_of_instances": 53
+    }, 
+    {
+        "class": "http://purl.org/dc/dcmitype/Dataset", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 51
+    }, 
+    {
+        "class": "http://www.w3.org/ns/dcat#Distribution", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 49
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001620", 
+        "label": {
+            "en": "mature_miRNA_variant", 
+            "ja": "mature_miRNA_variant"
+        }, 
+        "number_of_instances": 40
+    }, 
+    {
+        "class": "http://www.w3.org/ns/prov#Organization", 
+        "label": {
+            "en": "Organization", 
+            "ja": "Organization"
+        }, 
+        "number_of_instances": 19
+    }, 
+    {
+        "class": "http://identifiers.org/idot/AccessPattern", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 19
+    }, 
+    {
+        "class": "http://rdfs.org/ns/void#Dataset", 
+        "label": {
+            "en": "dataset", 
+            "ja": "dataset"
+        }, 
+        "number_of_instances": 13
+    }, 
+    {
+        "class": "http://rdfs.org/ns/void#Linkset", 
+        "label": {
+            "en": "linkset", 
+            "ja": "linkset"
+        }, 
+        "number_of_instances": 10
+    }, 
+    {
+        "class": "http://xmlns.com/foaf/0.1/Person", 
+        "label": {
+            "en": "Person", 
+            "ja": "Person"
+        }, 
+        "number_of_instances": 5
+    }, 
+    {
+        "class": "http://www.w3.org/ns/prov#Agent", 
+        "label": {
+            "en": "Agent", 
+            "ja": "Agent"
+        }, 
+        "number_of_instances": 3
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001567", 
+        "label": {
+            "en": "stop_retained_variant", 
+            "ja": "stop_retained_variant"
+        }, 
+        "number_of_instances": 2
+    }, 
+    {
+        "class": "http://rdfs.org/ns/void#DatasetDescription", 
+        "label": {
+            "en": "dataset description", 
+            "ja": "dataset description"
+        }, 
+        "number_of_instances": 2
+    }, 
+    {
+        "class": "http://www.w3.org/ns/prov#SoftwareAgent", 
+        "label": {
+            "en": "SoftwareAgent", 
+            "ja": "SoftwareAgent"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://www.w3.org/ns/sparql-service-description#Service", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/ECO_0000212", 
+        "label": {
+            "en": "combinatorial evidence", 
+            "ja": "combinatorial evidence"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/ECO_0000266", 
+        "label": {
+            "en": "sequence orthology evidence used in manual assertion", 
+            "ja": "sequence orthology evidence used in manual assertion"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/ECO_0000205", 
+        "label": {
+            "en": "curator inference", 
+            "ja": "curator inference"
+        }, 
+        "number_of_instances": 1
+    }
+]

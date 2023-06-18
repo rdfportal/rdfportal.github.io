@@ -1,0 +1,154 @@
+[
+    {
+        "class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement", 
+        "label": {
+            "en": "Statement", 
+            "ja": "Statement"
+        }, 
+        "number_of_instances": 2354
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#Antibody", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 614
+    }, 
+    {
+        "class": "http://www.glycoepitope.jp/epitopes/glycoepitope.owl#Immunoblot", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 338
+    }, 
+    {
+        "class": "http://www.glycoepitope.jp/epitopes/glycoepitope.owl#Elisa_ria", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 326
+    }, 
+    {
+        "class": "http://www.glycoepitope.jp/epitopes/glycoepitope.owl#Histochemistry", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 271
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#Glycoprotein", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 261
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#Glycolipid", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 233
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#Glycosequence", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 227
+    }, 
+    {
+        "class": "http://www.uniprot.org/core/Tissue", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 215
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#Glycan_epitope", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 173
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#Reaction", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 114
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#Enzyme", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 111
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#Resource_entry", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 89
+    }, 
+    {
+        "class": "http://www.glycoepitope.jp/epitopes/glycoepitope.owl#Cell_line", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 81
+    }, 
+    {
+        "class": "http://www.glycoepitope.jp/epitopes/glycoepitope.owl#Flow_cytometry", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 72
+    }, 
+    {
+        "class": "http://www.glycoepitope.jp/epitopes/glycoepitope.owl#Receptor", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 66
+    }, 
+    {
+        "class": "http://www.uniprot.org/core/Taxon", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 38
+    }, 
+    {
+        "class": "http://www.glycoepitope.jp/epitopes/glycoepitope.owl#Immunoprecipitation", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 38
+    }, 
+    {
+        "class": "http://www.glycoepitope.jp/epitopes/glycoepitope.owl#Ec_number", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 37
+    }
+]

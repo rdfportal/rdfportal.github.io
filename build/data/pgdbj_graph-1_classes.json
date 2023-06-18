@@ -1,0 +1,42 @@
+[
+    {
+        "class": "http://purl.jp/bio/11/orth#OrthologGroup", 
+        "label": {
+            "en": "OrthologGroup", 
+            "ja": "OrthologGroup"
+        }, 
+        "number_of_instances": 1275707
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/orth#Protein", 
+        "label": {
+            "en": "Protein", 
+            "ja": "Protein"
+        }, 
+        "number_of_instances": 499798
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/orth#ParalogGroup", 
+        "label": {
+            "en": "ParalogGroup", 
+            "ja": "ParalogGroup"
+        }, 
+        "number_of_instances": 188078
+    }, 
+    {
+        "class": "http://purl.jp/bio/11/orth#Taxon", 
+        "label": {
+            "en": "Taxon", 
+            "ja": "Taxon"
+        }, 
+        "number_of_instances": 109
+    }, 
+    {
+        "class": "http://rdfs.org/ns/void#Dataset", 
+        "label": {
+            "en": "dataset", 
+            "ja": "dataset"
+        }, 
+        "number_of_instances": 1
+    }
+]

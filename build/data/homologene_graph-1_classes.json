@@ -1,0 +1,26 @@
+[
+    {
+        "class": "http://purl.org/net/orth#Gene", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 275237
+    }, 
+    {
+        "class": "http://purl.org/net/orth#OrthologsCluster", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 44233
+    }, 
+    {
+        "class": "http://purl.org/net/orth#OrthologyDataset", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 14863354, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 11205719, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000300", 
+        "number_of_triples": 11205689, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#chem-formula", 
+        "number_of_triples": 7470474, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/CHEMINF_000200", 
+        "number_of_triples": 7470474, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/identifier", 
+        "number_of_triples": 3735238, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000221", 
+        "number_of_triples": 3735237, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#molar-weight", 
+        "number_of_triples": 3735237, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

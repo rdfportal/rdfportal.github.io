@@ -1,0 +1,242 @@
+[
+  {
+    "property": "http://purl.org/spar/cito/isDiscussedBy",
+    "number_of_triples": 1033334844,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/cito/isCitedBy",
+    "number_of_triples": 126512501,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/classificationCPCInventive",
+    "number_of_triples": 119380607,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/classificationIPCInventive",
+    "number_of_triples": 110570089,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/inventorVC",
+    "number_of_triples": 66278328,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/classificationCPCAdditional",
+    "number_of_triples": 50224395,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/filingDate",
+    "number_of_triples": 34739072,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/applicantVC",
+    "number_of_triples": 28432648,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 25831262,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2006/vcard/ns#fn",
+    "number_of_triples": 25770326,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/publicationNumber",
+    "number_of_triples": 25570750,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/publicationDate",
+    "number_of_triples": 25488077,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/titleOfInvention",
+    "number_of_triples": 25419057,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#priorityDate",
+    "number_of_triples": 25384742,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/abstract",
+    "number_of_triples": 21057307,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/patent/classificationIPCAdditional",
+    "number_of_triples": 4207569,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/title",
+    "number_of_triples": 338618,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#broader",
+    "number_of_triples": 338612,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/modified",
+    "number_of_triples": 261393,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/cpc/level",
+    "number_of_triples": 261391,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/cpc/symbol",
+    "number_of_triples": 260490,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://data.epo.org/linked-data/def/cpc/concordantIPC",
+    "number_of_triples": 179138,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#sameAs",
+    "number_of_triples": 154433,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#label",
+    "number_of_triples": 77226,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
+]

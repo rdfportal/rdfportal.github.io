@@ -1,0 +1,102 @@
+[
+  {
+    "property": "http://semanticscience.org/resource/SIO_000008",
+    "number_of_triples": 2630368173,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/CHEMINF_000461",
+    "number_of_triples": 63910425,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/CHEMINF_000480",
+    "number_of_triples": 24417507,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#has_parent",
+    "number_of_triples": 6967153,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/CHEMINF_000455",
+    "number_of_triples": 5722470,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/CHEMINF_000462",
+    "number_of_triples": 2849352,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#closeMatch",
+    "number_of_triples": 954190,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 171842,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#is_active_ingredient_of",
+    "number_of_triples": 17176,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/RO_0000087",
+    "number_of_triples": 16960,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
+]

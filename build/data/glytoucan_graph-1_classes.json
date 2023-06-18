@@ -1,0 +1,82 @@
+[
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#image", 
+        "label": {
+            "en": "Image", 
+            "ja": "Image"
+        }, 
+        "number_of_instances": 242256
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#saccharide", 
+        "label": {
+            "en": "Saccharide", 
+            "ja": "Saccharide"
+        }, 
+        "number_of_instances": 40377
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#glycosequence", 
+        "label": {
+            "en": "Glycosequence", 
+            "ja": "Glycosequence"
+        }, 
+        "number_of_instances": 40376
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#resource_entry", 
+        "label": {
+            "en": "Resource Entry", 
+            "ja": "Resource Entry"
+        }, 
+        "number_of_instances": 40376
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#component", 
+        "label": {
+            "en": "Component", 
+            "ja": "Component"
+        }, 
+        "number_of_instances": 4018
+    }, 
+    {
+        "class": "http://www.glytoucan.org/glyco/owl/glytoucan#derivatized_mass", 
+        "label": {
+            "en": "Derivatized Mass", 
+            "ja": "Derivatized Mass"
+        }, 
+        "number_of_instances": 3433
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#monosaccharide", 
+        "label": {
+            "en": "Monosaccharide", 
+            "ja": "Monosaccharide"
+        }, 
+        "number_of_instances": 2604
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#monosaccharide_alias", 
+        "label": {
+            "en": "Monosaccharide Alias", 
+            "ja": "Monosaccharide Alias"
+        }, 
+        "number_of_instances": 2188
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#glycan_motif", 
+        "label": {
+            "en": "Glycan Motif", 
+            "ja": "Glycan Motif"
+        }, 
+        "number_of_instances": 61
+    }, 
+    {
+        "class": "http://xmlns.com/foaf/0.1/Person", 
+        "label": {
+            "en": "Person", 
+            "ja": "Person"
+        }, 
+        "number_of_instances": 11
+    }
+]

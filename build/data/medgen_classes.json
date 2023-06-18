@@ -1,0 +1,34 @@
+[
+  {
+    "class": "http://med2rdf/ontology/medgen#MGSAT",
+    "number_of_instances": 1219729,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://med2rdf/ontology/medgen#MGREL",
+    "number_of_instances": 1097019,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://med2rdf/ontology/medgen#ConceptID",
+    "number_of_instances": 214010,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement",
+    "number_of_instances": 186700,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  }
+]

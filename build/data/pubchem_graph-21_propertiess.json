@@ -1,0 +1,52 @@
+[
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#closeMatch",
+    "number_of_triples": 53757,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "number_of_triples": 29316,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 23008,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "number_of_triples": 11504,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+    "number_of_triples": 11487,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
+]

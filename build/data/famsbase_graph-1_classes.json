@@ -1,0 +1,90 @@
+[
+    {
+        "class": "http://biohackathon.org/resource/faldo#ExactPosition", 
+        "label": {
+            "en": "Exact position", 
+            "ja": "Exact position"
+        }, 
+        "number_of_instances": 1946352
+    }, 
+    {
+        "class": "http://biohackathon.org/resource/faldo#Position", 
+        "label": {
+            "en": "Position", 
+            "ja": "Position"
+        }, 
+        "number_of_instances": 1946352
+    }, 
+    {
+        "class": "http://biohackathon.org/resource/faldo#Region", 
+        "label": {
+            "en": "Region", 
+            "ja": "Region"
+        }, 
+        "number_of_instances": 973176
+    }, 
+    {
+        "class": "http://edamontology.org/data_1460", 
+        "label": {
+            "en": "Protein structure", 
+            "ja": "Protein structure"
+        }, 
+        "number_of_instances": 486617
+    }, 
+    {
+        "class": "http://purl.jp/bio/01/famsbase/ontology/Protein3DModel", 
+        "label": {
+            "en": "Protein 3D Model", 
+            "ja": "Protein 3D Model"
+        }, 
+        "number_of_instances": 486588
+    }, 
+    {
+        "class": "http://edamontology.org/data_0863", 
+        "label": {
+            "en": "Sequence alignment", 
+            "ja": "Sequence alignment"
+        }, 
+        "number_of_instances": 486588
+    }, 
+    {
+        "class": "http://edamontology.org/operation_0477", 
+        "label": {
+            "en": "Protein modelling", 
+            "ja": "Protein modelling"
+        }, 
+        "number_of_instances": 486588
+    }, 
+    {
+        "class": "http://edamontology.org/operation_0495", 
+        "label": {
+            "en": "Local sequence alignment", 
+            "ja": "Local sequence alignment"
+        }, 
+        "number_of_instances": 486588
+    }, 
+    {
+        "class": "http://edamontology.org/data_2976", 
+        "label": {
+            "en": "Protein sequence", 
+            "ja": "Protein sequence"
+        }, 
+        "number_of_instances": 486588
+    }, 
+    {
+        "class": "http://identifiers.org/uniprot/", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 19800
+    }, 
+    {
+        "class": "http://identifiers.org/pdb/", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 11
+    }
+]

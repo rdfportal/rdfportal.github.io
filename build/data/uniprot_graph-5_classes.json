@@ -1,0 +1,66 @@
+[
+  {
+    "class": "http://purl.uniprot.org/core/Journal_Citation",
+    "number_of_instances": 1553848,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Submission_Citation",
+    "number_of_instances": 395163,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Thesis_Citation",
+    "number_of_instances": 1482,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Book_Citation",
+    "number_of_instances": 781,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Electronic_Citation",
+    "number_of_instances": 507,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Observation_Citation",
+    "number_of_instances": 223,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Patent_Citation",
+    "number_of_instances": 134,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#Ontology",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  }
+]

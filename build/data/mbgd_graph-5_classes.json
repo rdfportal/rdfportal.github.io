@@ -1,0 +1,10 @@
+[
+    {
+        "class": "http://rdfs.org/ns/void#Dataset", 
+        "label": {
+            "en": "dataset", 
+            "ja": "dataset"
+        }, 
+        "number_of_instances": 1
+    }
+]

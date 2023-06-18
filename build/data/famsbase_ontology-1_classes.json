@@ -1,0 +1,42 @@
+[
+    {
+        "class": "http://www.w3.org/2002/07/owl#ObjectProperty", 
+        "label": {
+            "en": "ObjectProperty", 
+            "ja": "ObjectProperty"
+        }, 
+        "number_of_instances": 5
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 2
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#DatatypeProperty", 
+        "label": {
+            "en": "DatatypeProperty", 
+            "ja": "DatatypeProperty"
+        }, 
+        "number_of_instances": 2
+    }, 
+    {
+        "class": "http://purl.jp/bio/01/famsbase/ontology/TemplateType", 
+        "label": {
+            "en": "template type", 
+            "ja": "template type"
+        }, 
+        "number_of_instances": 2
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Ontology", 
+        "label": {
+            "en": "Ontology", 
+            "ja": "Ontology"
+        }, 
+        "number_of_instances": 1
+    }
+]

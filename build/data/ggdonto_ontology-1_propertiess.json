@@ -1,0 +1,272 @@
+[
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 996, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 930, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#scopeNote", 
+        "number_of_triples": 885, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf", 
+        "number_of_triples": 872, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2002/07/owl#inverseOf", 
+        "number_of_triples": 872, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#ontologyType", 
+        "number_of_triples": 872, 
+        "domain_classes": [
+            {
+                "domain_class": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#SemanticRelationsGGDonto", 
+                "label": {
+                    "en": "Semantic Relations GGDonto", 
+                    "ja": "Semantic Relations GGDonto"
+                }, 
+                "number_of_instances": 872
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#OntologyType", 
+                "label": {
+                    "en": "Ontology Type", 
+                    "ja": "Ontology Type"
+                }, 
+                "number_of_instances": 2
+            }
+        ]
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#parentOntology", 
+        "number_of_triples": 858, 
+        "domain_classes": [
+            {
+                "domain_class": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#SemanticRelationsGGDonto", 
+                "label": {
+                    "en": "Semantic Relations GGDonto", 
+                    "ja": "Semantic Relations GGDonto"
+                }, 
+                "number_of_instances": 872
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#TopLevelOntologies", 
+                "label": {
+                    "en": "Top Level Ontologies", 
+                    "ja": "Top Level Ontologies"
+                }, 
+                "number_of_instances": 7
+            }
+        ]
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#comment", 
+        "number_of_triples": 37, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#range", 
+        "number_of_triples": 19, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#domain", 
+        "number_of_triples": 17, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#topOntology", 
+        "number_of_triples": 14, 
+        "domain_classes": [
+            {
+                "domain_class": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#SemanticRelationsGGDonto", 
+                "label": {
+                    "en": "Semantic Relations GGDonto", 
+                    "ja": "Semantic Relations GGDonto"
+                }, 
+                "number_of_instances": 872
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#TopLevelOntologies", 
+                "label": {
+                    "en": "Top Level Ontologies", 
+                    "ja": "Top Level Ontologies"
+                }, 
+                "number_of_instances": 7
+            }
+        ]
+    }, 
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first", 
+        "number_of_triples": 12, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest", 
+        "number_of_triples": 12, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso", 
+        "number_of_triples": 10, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#subClassOf", 
+        "number_of_triples": 8, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/title", 
+        "number_of_triples": 8, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#hasTopConcept", 
+        "number_of_triples": 7, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#hasBaseURL", 
+        "number_of_triples": 7, 
+        "domain_classes": [
+            {
+                "domain_class": "http://jcggdb.jp/rdf/diseases/GlycoRelatedConceptSchemes", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 0
+            }
+        ], 
+        "range_classes": [
+            {
+                "range_class": "http://www.w3.org/2001/XMLSchema#anyURI", 
+                "label": {
+                    "en": "", 
+                    "ja": ""
+                }, 
+                "number_of_instances": 0
+            }
+        ]
+    }, 
+    {
+        "property": "http://purl.uniprot.org/core/urlTemplate", 
+        "number_of_triples": 5, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/creator", 
+        "number_of_triples": 4, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2002/07/owl#unionOf", 
+        "number_of_triples": 3, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2002/07/owl#imports", 
+        "number_of_triples": 2, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.uniprot.org/core/abbreviation", 
+        "number_of_triples": 2, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/publisher", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#closeMatch", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/modified", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/contributor", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/license", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/pav/version", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/created", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2002/07/owl#versionInfo", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/description", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#altLabel", 
+        "number_of_triples": 1, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

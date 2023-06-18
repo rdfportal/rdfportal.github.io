@@ -1,0 +1,728 @@
+[
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 11003021866,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/attribution",
+    "number_of_triples": 6138604364,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#object",
+    "number_of_triples": 3756695026,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
+    "number_of_triples": 3756694971,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate",
+    "number_of_triples": 3756694971,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "number_of_triples": 3052694072,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/signatureSequenceMatch",
+    "number_of_triples": 1647681350,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/evidence",
+    "number_of_triples": 1643480811,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://biohackathon.org/resource/faldo#reference",
+    "number_of_triples": 1409099723,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://biohackathon.org/resource/faldo#position",
+    "number_of_triples": 1409087196,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/source",
+    "number_of_triples": 1353904657,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/annotation",
+    "number_of_triples": 1244182354,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#comment",
+    "number_of_triples": 955340429,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/classifiedWith",
+    "number_of_triples": 896591229,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/range",
+    "number_of_triples": 814527561,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://biohackathon.org/resource/faldo#begin",
+    "number_of_triples": 807091228,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://biohackathon.org/resource/faldo#end",
+    "number_of_triples": 807090222,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/database",
+    "number_of_triples": 734031252,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/modified",
+    "number_of_triples": 499755948,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/version",
+    "number_of_triples": 499755948,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/locatedOn",
+    "number_of_triples": 336972657,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/citation",
+    "number_of_triples": 309647004,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/scope",
+    "number_of_triples": 292573207,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/context",
+    "number_of_triples": 290886130,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.org/dc/terms/creator",
+    "number_of_triples": 290647950,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/fullName",
+    "number_of_triples": 282331700,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#label",
+    "number_of_triples": 272203360,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/mass",
+    "number_of_triples": 269752818,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/orfName",
+    "number_of_triples": 252655218,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/sequence",
+    "number_of_triples": 250127565,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+    "number_of_triples": 249918931,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/reviewed",
+    "number_of_triples": 249877974,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/md5Checksum",
+    "number_of_triples": 249877974,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/organism",
+    "number_of_triples": 249877974,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/created",
+    "number_of_triples": 249877974,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/existence",
+    "number_of_triples": 249877974,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/mnemonic",
+    "number_of_triples": 249877974,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/proteome",
+    "number_of_triples": 238418689,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/encodedBy",
+    "number_of_triples": 238151613,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/submittedName",
+    "number_of_triples": 149743447,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/recommendedName",
+    "number_of_triples": 103953308,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/translatedTo",
+    "number_of_triples": 101565842,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/transcribedFrom",
+    "number_of_triples": 101531564,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/ligand",
+    "number_of_triples": 87038246,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/locatedIn",
+    "number_of_triples": 64116674,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/cellularComponent",
+    "number_of_triples": 63986850,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "number_of_triples": 59029867,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/translatedFrom",
+    "number_of_triples": 53849489,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/ecName",
+    "number_of_triples": 40812529,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/enzyme",
+    "number_of_triples": 40811892,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/topology",
+    "number_of_triples": 38561939,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/catalyticActivity",
+    "number_of_triples": 37130806,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/enzymeClass",
+    "number_of_triples": 33626127,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/catalyzedReaction",
+    "number_of_triples": 32306484,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/potentialSequence",
+    "number_of_triples": 31755914,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+    "number_of_triples": 29147770,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/alternativeName",
+    "number_of_triples": 28637486,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/fragment",
+    "number_of_triples": 26362903,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/cofactor",
+    "number_of_triples": 23183579,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/isolatedFrom",
+    "number_of_triples": 15883613,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/shortName",
+    "number_of_triples": 15720098,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/encodedIn",
+    "number_of_triples": 5520674,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/locusName",
+    "number_of_triples": 4910585,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#closeMatch",
+    "number_of_triples": 4823173,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/manual",
+    "number_of_triples": 3347855,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/catalyzedPhysiologicalReaction",
+    "number_of_triples": 3319003,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "number_of_triples": 2584063,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/orientation",
+    "number_of_triples": 1735210,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/author",
+    "number_of_triples": 1710241,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/ligandPart",
+    "number_of_triples": 1468904,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/complete",
+    "number_of_triples": 1327695,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/replaces",
+    "number_of_triples": 1294064,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/domain",
+    "number_of_triples": 1137913,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/partOf",
+    "number_of_triples": 947002,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/component",
+    "number_of_triples": 852080,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/precursor",
+    "number_of_triples": 586863,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/substitution",
+    "number_of_triples": 412591,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/date",
+    "number_of_triples": 398281,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/submittedTo",
+    "number_of_triples": 395163,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/conflictingSequence",
+    "number_of_triples": 347740,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/chain",
+    "number_of_triples": 335141,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/chainSequenceMapping",
+    "number_of_triples": 335120,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/title",
+    "number_of_triples": 297240,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/participant",
+    "number_of_triples": 209972,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/interaction",
+    "number_of_triples": 207093,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/oldMnemonic",
+    "number_of_triples": 195796,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/method",
+    "number_of_triples": 194120,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/resolution",
+    "number_of_triples": 175333,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/experiments",
+    "number_of_triples": 106470,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/xeno",
+    "number_of_triples": 106470,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#sameAs",
+    "number_of_triples": 106212,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/name",
+    "number_of_triples": 84379,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/modification",
+    "number_of_triples": 61919,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/sequenceDiscrepancy",
+    "number_of_triples": 60972,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/basedOn",
+    "number_of_triples": 40957,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#related",
+    "number_of_triples": 39958,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/measuredAffinity",
+    "number_of_triples": 26428,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/group",
+    "number_of_triples": 9636,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/measuredActivity",
+    "number_of_triples": 8922,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/measuredValue",
+    "number_of_triples": 7469,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/disease",
+    "number_of_triples": 6805,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://biohackathon.org/resource/faldo#location",
+    "number_of_triples": 2840,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/place",
+    "number_of_triples": 2033,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/cdAntigenName",
+    "number_of_triples": 1562,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/institution",
+    "number_of_triples": 1482,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/editor",
+    "number_of_triples": 1366,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/measuredError",
+    "number_of_triples": 1222,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/allergenName",
+    "number_of_triples": 860,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/pages",
+    "number_of_triples": 754,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "number_of_triples": 632,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/locator",
+    "number_of_triples": 507,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/publisher",
+    "number_of_triples": 493,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://biohackathon.org/resource/faldo#possiblePosition",
+    "number_of_triples": 354,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/maximum",
+    "number_of_triples": 133,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/volume",
+    "number_of_triples": 65,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/internationalNonproprietaryName",
+    "number_of_triples": 28,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/certain",
+    "number_of_triples": 20,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/frameshift",
+    "number_of_triples": 12,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.uniprot.org/core/erratum",
+    "number_of_triples": 10,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://purl.org/dc/terms/identifier",
+    "number_of_triples": 10,
+    "domain_classes": [],
+    "range_classes": []
+  },
+  {
+    "property": "http://www.w3.org/2002/07/owl#imports",
+    "number_of_triples": 1,
+    "domain_classes": [],
+    "range_classes": []
+  }
+]

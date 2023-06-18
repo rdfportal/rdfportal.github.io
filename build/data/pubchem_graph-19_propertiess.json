@@ -1,0 +1,72 @@
+[
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#closeMatch",
+    "number_of_triples": 181949,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "number_of_triples": 103943,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/cito/isDiscussedBy",
+    "number_of_triples": 40677,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 3972,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "number_of_triples": 1986,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.uniprot.org/core/organism",
+    "number_of_triples": 1986,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/BFO_0000050",
+    "number_of_triples": 157,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
+]

@@ -1,0 +1,652 @@
+[
+  {
+    "property": "http://purl.org/dc/terms/references",
+    "number_of_triples": 95978324,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/source",
+    "number_of_triples": 3493673,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#supress",
+    "number_of_triples": 3306570,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 2717458,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/identifier",
+    "number_of_triples": 2530758,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#label",
+    "number_of_triples": 2469241,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+    "number_of_triples": 1219729,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#mgsat",
+    "number_of_triples": 1219729,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#metaui",
+    "number_of_triples": 1219729,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#stype",
+    "number_of_triples": 1219729,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#aui1",
+    "number_of_triples": 1097019,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#cui2",
+    "number_of_triples": 1097019,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#aui2",
+    "number_of_triples": 1097019,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#cui1",
+    "number_of_triples": 1097019,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#rela",
+    "number_of_triples": 1021723,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "number_of_triples": 771076,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#ts",
+    "number_of_triples": 708373,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#stt",
+    "number_of_triples": 708373,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#mgconso",
+    "number_of_triples": 708373,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#ispref",
+    "number_of_triples": 708373,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#aui",
+    "number_of_triples": 708373,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#sty",
+    "number_of_triples": 394502,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#name",
+    "number_of_triples": 214010,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate",
+    "number_of_triples": 186700,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#object",
+    "number_of_triples": 186700,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
+    "number_of_triples": 186700,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#definition",
+    "number_of_triples": 134878,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#manifestation_of",
+    "number_of_triples": 134369,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#mgdef",
+    "number_of_triples": 67439,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#mim_type",
+    "number_of_triples": 26707,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#comment",
+    "number_of_triples": 7233,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/RO_0003302",
+    "number_of_triples": 7229,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#inheritance_type_of",
+    "number_of_triples": 6487,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#related_to",
+    "number_of_triples": 4430,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#mapped_from",
+    "number_of_triples": 3705,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#undefined_relationship",
+    "number_of_triples": 2078,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#disease_has_associated_gene",
+    "number_of_triples": 1018,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#has_manifestation",
+    "number_of_triples": 390,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#inverse_isa",
+    "number_of_triples": 337,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#alias_of",
+    "number_of_triples": 298,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#has_alias",
+    "number_of_triples": 208,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#permuted_term_of",
+    "number_of_triples": 178,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#has_permuted_term",
+    "number_of_triples": 178,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#expanded_form_of",
+    "number_of_triples": 175,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#has_expanded_form",
+    "number_of_triples": 175,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#may_be_associated_disease_of_disease",
+    "number_of_triples": 124,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#disease_mapped_to_gene",
+    "number_of_triples": 115,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#may_be_finding_of_disease",
+    "number_of_triples": 73,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#isa",
+    "number_of_triples": 49,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#pathogenesis_of_disease_involves_gene",
+    "number_of_triples": 47,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#is_associated_disease_of",
+    "number_of_triples": 37,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#has_entry_version",
+    "number_of_triples": 30,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#entry_version_of",
+    "number_of_triples": 30,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#mapped_to",
+    "number_of_triples": 18,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#disease_may_have_associated_disease",
+    "number_of_triples": 17,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#related_to_genetic_biomarker",
+    "number_of_triples": 17,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#is_finding_of_disease",
+    "number_of_triples": 16,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#part_of",
+    "number_of_triples": 16,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#has_sort_version",
+    "number_of_triples": 7,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#sort_version_of",
+    "number_of_triples": 7,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#is_seronet_permissible_value_for_variable",
+    "number_of_triples": 4,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#disease_has_finding",
+    "number_of_triples": 2,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#disease_may_have_finding",
+    "number_of_triples": 2,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#disease_has_associated_disease",
+    "number_of_triples": 2,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf/ontology/medgen#may_be_abnormal_cell_of_disease",
+    "number_of_triples": 1,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
+]

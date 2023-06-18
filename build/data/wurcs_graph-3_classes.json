@@ -1,0 +1,18 @@
+[
+    {
+        "class": "http://rdfs.org/ns/void#Dataset", 
+        "label": {
+            "en": "dataset", 
+            "ja": "dataset"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://xmlns.com/foaf/0.1/Person", 
+        "label": {
+            "en": "Person", 
+            "ja": "Person"
+        }, 
+        "number_of_instances": 1
+    }
+]

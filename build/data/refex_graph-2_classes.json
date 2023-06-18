@@ -1,0 +1,26 @@
+[
+    {
+        "class": "http://purl.jp/bio/01/refexo#RefExEntry", 
+        "label": {
+            "en": "RefEx entry", 
+            "ja": "RefEx entry"
+        }, 
+        "number_of_instances": 4430821
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001050", 
+        "label": {
+            "en": "sample", 
+            "ja": "sample"
+        }, 
+        "number_of_instances": 105
+    }, 
+    {
+        "class": "http://purl.jp/bio/01/refexo#RefExSample", 
+        "label": {
+            "en": "RefEx sample", 
+            "ja": "RefEx sample"
+        }, 
+        "number_of_instances": 105
+    }
+]

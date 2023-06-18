@@ -1,0 +1,392 @@
+[
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 71795735, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000216", 
+        "number_of_triples": 33824954, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000300", 
+        "number_of_triples": 33824954, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://semanticscience.org/resource/SIO_000221", 
+        "number_of_triples": 14539914, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#reference", 
+        "number_of_triples": 10400621, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#position", 
+        "number_of_triples": 10376511, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/identifier", 
+        "number_of_triples": 6999931, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#location", 
+        "number_of_triples": 6998907, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 5111189, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasPsm", 
+        "number_of_triples": 4877094, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasSpectrum", 
+        "number_of_triples": 4846638, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasPeptide", 
+        "number_of_triples": 4809891, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#modificationSite", 
+        "number_of_triples": 4700838, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasModification", 
+        "number_of_triples": 4700670, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#inRawData", 
+        "number_of_triples": 4459422, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#end", 
+        "number_of_triples": 3377604, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://biohackathon.org/resource/faldo#begin", 
+        "number_of_triples": 3377604, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasPeptideEvidence", 
+        "number_of_triples": 3355401, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#representativePsm", 
+        "number_of_triples": 1500690, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasSequence", 
+        "number_of_triples": 1454490, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value", 
+        "number_of_triples": 1454490, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso", 
+        "number_of_triples": 1086161, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasDatabaseSequence", 
+        "number_of_triples": 698642, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#inProteinGroup", 
+        "number_of_triples": 387418, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasProtein", 
+        "number_of_triples": 387418, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasIsoform", 
+        "number_of_triples": 311224, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasLeadingProtein", 
+        "number_of_triples": 140229, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasIndistinguishablePeptide", 
+        "number_of_triples": 14422, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/page", 
+        "number_of_triples": 854, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasRawData", 
+        "number_of_triples": 814, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasDataset", 
+        "number_of_triples": 121, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasEnzymeAndModification", 
+        "number_of_triples": 121, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasFractionation", 
+        "number_of_triples": 121, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasSample", 
+        "number_of_triples": 121, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasMsMode", 
+        "number_of_triples": 121, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasProfile", 
+        "number_of_triples": 121, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#modificationClass", 
+        "number_of_triples": 119, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#species", 
+        "number_of_triples": 118, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/description", 
+        "number_of_triples": 107, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#comment", 
+        "number_of_triples": 89, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#variableModification", 
+        "number_of_triples": 84, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/contributor", 
+        "number_of_triples": 80, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/name", 
+        "number_of_triples": 80, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasFractionationType", 
+        "number_of_triples": 73, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#sampleType", 
+        "number_of_triples": 72, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#hasPlex", 
+        "number_of_triples": 67, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#enzyme", 
+        "number_of_triples": 66, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#replicates", 
+        "number_of_triples": 60, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#fractions", 
+        "number_of_triples": 60, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#instrument", 
+        "number_of_triples": 48, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#instrumentMode", 
+        "number_of_triples": 46, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#organ", 
+        "number_of_triples": 43, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#diseaseClass", 
+        "number_of_triples": 42, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#cellLine", 
+        "number_of_triples": 41, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/title", 
+        "number_of_triples": 40, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/date", 
+        "number_of_triples": 40, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/dateSubmitted", 
+        "number_of_triples": 40, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2006/vcard/ns#organization-name", 
+        "number_of_triples": 40, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#fixedModification", 
+        "number_of_triples": 35, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#instrumentPurpose", 
+        "number_of_triples": 30, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#disease", 
+        "number_of_triples": 22, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/references", 
+        "number_of_triples": 18, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#quantificationMethod", 
+        "number_of_triples": 13, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#plexNumber", 
+        "number_of_triples": 13, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://rdf.jpostdb.org/ontology/jpost.owl#quantificationPlatform", 
+        "number_of_triples": 10, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

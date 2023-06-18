@@ -1,0 +1,162 @@
+[
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000059", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 57919
+    }, 
+    {
+        "class": "http://purl.jp/knapsack/resource#KNApSAcKCoreRecord", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 57919
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000043", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 57919
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000058", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 57919
+    }, 
+    {
+        "class": "http://purl.jp/knapsack/resource#CDXfile", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 57919
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000018", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 57919
+    }, 
+    {
+        "class": "http://purl.jp/knapsack/resource#SDfile", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 57919
+    }, 
+    {
+        "class": "http://purl.jp/knapsack/resource#Start_substance", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 57919
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000042", 
+        "label": {
+            "en": "molecular formula", 
+            "ja": "molecular formula"
+        }, 
+        "number_of_instances": 57919
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000334", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 57919
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000113", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 57919
+    }, 
+    {
+        "class": "http://purl.jp/knapsack/resource#KNApSAcKReference", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 38443
+    }, 
+    {
+        "class": "http://purl.org/ontology/bibo/Article", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 38443
+    }, 
+    {
+        "class": "http://purl.jp/knapsack/resource#KNApSAcKCoreAnnotation", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 28052
+    }, 
+    {
+        "class": "http://purl.jp/knapsack/resource#KNApSAcKMetaboliteActivityRecord", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 3655
+    }, 
+    {
+        "class": "http://purl.jp/knapsack/resource#KnapsackMetaboliteActivity", 
+        "label": {
+            "en": "(Obsolete)KnapsackMetaboliteActivity", 
+            "ja": "(Obsolete)KnapsackMetaboliteActivity"
+        }, 
+        "number_of_instances": 3576
+    }, 
+    {
+        "class": "http://purl.jp/knapsack/resource#KnapsackNaturalActivity", 
+        "label": {
+            "en": "(Obsolete)KnapsackNaturalActivity", 
+            "ja": "(Obsolete)KnapsackNaturalActivity"
+        }, 
+        "number_of_instances": 1889
+    }, 
+    {
+        "class": "http://purl.jp/knapsack/resource#KNApSAcKNaturalActivityAnnotation", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1432
+    }, 
+    {
+        "class": "http://purl.jp/knapsack/resource#KNApSAcKMetaboliteActivityAnnotation", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 939
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 3
+    }
+]

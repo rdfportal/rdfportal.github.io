@@ -1,0 +1,378 @@
+[
+    {
+        "class": "http://www.w3.org/2004/02/skos/core#Concept", 
+        "label": {
+            "en": "Concept", 
+            "ja": "Concept"
+        }, 
+        "number_of_instances": 2700
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#InteractingAbilityInReference", 
+        "label": {
+            "en": "Interacting Ability in Reference", 
+            "ja": "Interacting Ability in Reference"
+        }, 
+        "number_of_instances": 2561
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#InteractionInReference", 
+        "label": {
+            "en": "Interaction in Reference", 
+            "ja": "Interaction in Reference"
+        }, 
+        "number_of_instances": 1237
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#AffinityInReference", 
+        "label": {
+            "en": "Affinity in Reference", 
+            "ja": "Affinity in Reference"
+        }, 
+        "number_of_instances": 1233
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#MicrobialGlycanBindingProteins", 
+        "label": {
+            "en": "Microbial Glycan-Binding Proteins", 
+            "ja": "Microbial Glycan-Binding Proteins"
+        }, 
+        "number_of_instances": 767
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#OccurInOrganismInReference", 
+        "label": {
+            "en": "Occurrence in Organism in Reference", 
+            "ja": "Occurrence in Organism in Reference"
+        }, 
+        "number_of_instances": 626
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#TargetTissuesAndCells", 
+        "label": {
+            "en": "Target Tissues and Cells", 
+            "ja": "Target Tissues and Cells"
+        }, 
+        "number_of_instances": 466
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#GlycansPACDB", 
+        "label": {
+            "en": "PACDB Glycans", 
+            "ja": "PACDB Glycans"
+        }, 
+        "number_of_instances": 402
+    }, 
+    {
+        "class": "http://purl.uniprot.org/core/Strain", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 371
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#DiseasesPACDB", 
+        "label": {
+            "en": "PACDB Diseases", 
+            "ja": "PACDB Diseases"
+        }, 
+        "number_of_instances": 316
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#TropismInReference", 
+        "label": {
+            "en": "Tropism in Reference", 
+            "ja": "Tropism in Reference"
+        }, 
+        "number_of_instances": 296
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#glycoconjugate_sequence", 
+        "label": {
+            "en": "Glycoconjugate Sequence", 
+            "ja": "Glycoconjugate Sequence"
+        }, 
+        "number_of_instances": 241
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#ReferencesPACDB", 
+        "label": {
+            "en": "PACDB References", 
+            "ja": "PACDB References"
+        }, 
+        "number_of_instances": 214
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#Microorganisms", 
+        "label": {
+            "en": "Microorganisms", 
+            "ja": "Microorganisms"
+        }, 
+        "number_of_instances": 125
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#GlycoEpitopesPACDB", 
+        "label": {
+            "en": "Glyco Epitopes in PACDB", 
+            "ja": "Glyco Epitopes in PACDB"
+        }, 
+        "number_of_instances": 78
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#glycan_epitope", 
+        "label": {
+            "en": "Glycan Epitope", 
+            "ja": "Glycan Epitope"
+        }, 
+        "number_of_instances": 78
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto#StructuralPartNames", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 50
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#LigandsStructuralFeatures", 
+        "label": {
+            "en": "Carbohydrate Ligands Structural Features", 
+            "ja": "Carbohydrate Ligands Structural Features"
+        }, 
+        "number_of_instances": 41
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#StructuralPartNames", 
+        "label": {
+            "en": "Ligands Structural Part Names", 
+            "ja": "Ligands Structural Part Names"
+        }, 
+        "number_of_instances": 25
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#PathogenGlycans", 
+        "label": {
+            "en": "Pathogen Glycans", 
+            "ja": "Pathogen Glycans"
+        }, 
+        "number_of_instances": 13
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Ontology", 
+        "label": {
+            "en": "Ontology", 
+            "ja": "Ontology"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#Diosylceramides", 
+        "label": {
+            "en": "Diosylceramides", 
+            "ja": "Diosylceramides"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#Glycosphingolipids", 
+        "label": {
+            "en": "Glycosphingolipids", 
+            "ja": "Glycosphingolipids"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#monosaccharide", 
+        "label": {
+            "en": "Monosaccharide", 
+            "ja": "Monosaccharide"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#O-glycan", 
+        "label": {
+            "en": "O-glycan", 
+            "ja": "O-glycan"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#Oligoglycosylceramides", 
+        "label": {
+            "en": "Oligoglycosylceramides", 
+            "ja": "Oligoglycosylceramides"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#Oligosaccharides", 
+        "label": {
+            "en": "Oligosaccharides", 
+            "ja": "Oligosaccharides"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#saccharide", 
+        "label": {
+            "en": "Saccharide", 
+            "ja": "Saccharide"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#Sialoglycosphingolipids", 
+        "label": {
+            "en": "Sialoglycosphingolipids", 
+            "ja": "Sialoglycosphingolipids"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#Sulfoglycosphingolipids", 
+        "label": {
+            "en": "Sulfoglycosphingolipids", 
+            "ja": "Sulfoglycosphingolipids"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#Trisialoglycosphingolipids", 
+        "label": {
+            "en": "Trisialoglycosphingolipids", 
+            "ja": "Trisialoglycosphingolipids"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#Glycosaminoglycans", 
+        "label": {
+            "en": "Glycosaminoglycans", 
+            "ja": "Glycosaminoglycans"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#Monoglycosylceramides", 
+        "label": {
+            "en": "Monoglycosylceramides", 
+            "ja": "Monoglycosylceramides"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#Monosialoglycosphingolipids", 
+        "label": {
+            "en": "Monosialoglycosphingolipids", 
+            "ja": "Monosialoglycosphingolipids"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#N-glycan", 
+        "label": {
+            "en": "N-glycan", 
+            "ja": "N-glycan"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#Polyglycosylceramides", 
+        "label": {
+            "en": "Polyglycosylceramides", 
+            "ja": "Polyglycosylceramides"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#Proteoglycans", 
+        "label": {
+            "en": "Proteoglycans", 
+            "ja": "Proteoglycans"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#Tetrasialoglycosphingolipids", 
+        "label": {
+            "en": "Tetrasialoglycosphingolipids", 
+            "ja": "Tetrasialoglycosphingolipids"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#AcidicGlycosphingolipids", 
+        "label": {
+            "en": "Acidic Glycosphingolipids", 
+            "ja": "Acidic Glycosphingolipids"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#Disaccharides", 
+        "label": {
+            "en": "Disaccharides", 
+            "ja": "Disaccharides"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#Disialoglycosphingolipids", 
+        "label": {
+            "en": "Disialoglycosphingolipids", 
+            "ja": "Disialoglycosphingolipids"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#glycoconjugate", 
+        "label": {
+            "en": "Glycoconjugate", 
+            "ja": "Glycoconjugate"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#glycolipid", 
+        "label": {
+            "en": "Glycolipid", 
+            "ja": "Glycolipid"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#glycoprotein", 
+        "label": {
+            "en": "Glycoprotein", 
+            "ja": "Glycoprotein"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#NeutralGlycosphingolipids", 
+        "label": {
+            "en": "Neutral Glycosphingolipids", 
+            "ja": "Neutral Glycosphingolipids"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#NonGlycosylatedLipids", 
+        "label": {
+            "en": "Non-glycosylated Lipids", 
+            "ja": "Non-glycosylated Lipids"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://purl.jp/bio/12/glyco/glycan#polysaccharide", 
+        "label": {
+            "en": "Polysaccharide", 
+            "ja": "Polysaccharide"
+        }, 
+        "number_of_instances": 1
+    }
+]

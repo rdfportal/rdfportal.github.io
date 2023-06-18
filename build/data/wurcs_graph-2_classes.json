@@ -1,0 +1,58 @@
+[
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#Monosaccharide", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 21135
+    }, 
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#basetype", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 673
+    }, 
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#MOD", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 264
+    }, 
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#LIPS", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 83
+    }, 
+    {
+        "class": "http://www.glycoinfo.org/glyco/owl/wurcs#LIP", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 78
+    }, 
+    {
+        "class": "http://rdfs.org/ns/void#Dataset", 
+        "label": {
+            "en": "dataset", 
+            "ja": "dataset"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://xmlns.com/foaf/0.1/Person", 
+        "label": {
+            "en": "Person", 
+            "ja": "Person"
+        }, 
+        "number_of_instances": 1
+    }
+]

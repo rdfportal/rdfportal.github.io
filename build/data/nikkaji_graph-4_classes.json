@@ -1,0 +1,10 @@
+[
+    {
+        "class": "http://www.w3.org/2004/02/skos/core#Concept", 
+        "label": {
+            "en": "Concept", 
+            "ja": "Concept"
+        }, 
+        "number_of_instances": 52873
+    }
+]

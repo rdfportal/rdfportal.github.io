@@ -1,0 +1,1792 @@
+[
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 266267895,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/identifier",
+    "number_of_triples": 71414760,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "number_of_triples": 60161971,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2000/01/rdf-schema#label",
+    "number_of_triples": 55373927,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/type",
+    "number_of_triples": 54503872,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/references",
+    "number_of_triples": 49497268,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/source",
+    "number_of_triples": 49339978,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/expression",
+    "number_of_triples": 31599513,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/sequence_accession_version",
+    "number_of_triples": 31592737,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/sequence_accession",
+    "number_of_triples": 31592736,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/change",
+    "number_of_triples": 29974040,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/sequence_version",
+    "number_of_triples": 29354994,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/label_type",
+    "number_of_triples": 29151644,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/hgvs",
+    "number_of_triples": 22119157,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/nucleotide_expression",
+    "number_of_triples": 22096814,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://biohackathon.org/resource/faldo#reference",
+    "number_of_triples": 16000614,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/assembly",
+    "number_of_triples": 15360889,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/accession",
+    "number_of_triples": 14574951,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/molecular_consequence",
+    "number_of_triples": 13610506,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/name",
+    "number_of_triples": 12997291,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/protein_expression",
+    "number_of_triples": 9502699,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/attribute_set",
+    "number_of_triples": 9363531,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/species",
+    "number_of_triples": 8907194,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/date_created",
+    "number_of_triples": 8857052,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://biohackathon.org/resource/faldo#position",
+    "number_of_triples": 8849178,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/version",
+    "number_of_triples": 8499139,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/review_status",
+    "number_of_triples": 8461255,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/date_last_evaluated",
+    "number_of_triples": 8187077,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespaces/1.2/basic/publicationName",
+    "number_of_triples": 8063001,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf.org/ontology/med2rdf#disease",
+    "number_of_triples": 7153574,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/chr",
+    "number_of_triples": 6686764,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://biohackathon.org/resource/faldo#location",
+    "number_of_triples": 6686764,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf.org/ontology/med2rdf#gene",
+    "number_of_triples": 6652719,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/id",
+    "number_of_triples": 6555163,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/SIO_000628",
+    "number_of_triples": 6330996,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/interpretation",
+    "number_of_triples": 6256291,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/assembly_accession_version",
+    "number_of_triples": 6024780,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/assembly_status",
+    "number_of_triples": 6024780,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/description",
+    "number_of_triples": 5994458,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/variant_type",
+    "number_of_triples": 5539738,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/record_status",
+    "number_of_triples": 5533679,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/date_last_updated",
+    "number_of_triples": 5533675,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/symbol",
+    "number_of_triples": 5345377,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/submission_name",
+    "number_of_triples": 4936134,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/variant_length",
+    "number_of_triples": 4797384,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/variation_id",
+    "number_of_triples": 4425887,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/number_of_submitters",
+    "number_of_triples": 4425477,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/number_of_submissions",
+    "number_of_triples": 4425477,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/status",
+    "number_of_triples": 4364574,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/observed_data",
+    "number_of_triples": 3481819,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/submitter_name",
+    "number_of_triples": 3399192,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/organization_category",
+    "number_of_triples": 3399192,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/org_id",
+    "number_of_triples": 3399192,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/method_type",
+    "number_of_triples": 3385784,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/method",
+    "number_of_triples": 3385784,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/affected_status",
+    "number_of_triples": 3377873,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/observed_in",
+    "number_of_triples": 3377873,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/sample",
+    "number_of_triples": 3377873,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/origin",
+    "number_of_triples": 3377873,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/simple_allele",
+    "number_of_triples": 3331612,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/local_key",
+    "number_of_triples": 3323381,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/clin_var_submission_id",
+    "number_of_triples": 3323381,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/assertion",
+    "number_of_triples": 3323381,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/submission_date",
+    "number_of_triples": 3323381,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/clinical_assertion",
+    "number_of_triples": 3323381,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/clin_var_accession",
+    "number_of_triples": 3323381,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/date_updated",
+    "number_of_triples": 3323377,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/taxonomy_id",
+    "number_of_triples": 3319023,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/interpreted_condition",
+    "number_of_triples": 3224612,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/title",
+    "number_of_triples": 2984109,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/submitted_assembly",
+    "number_of_triples": 2944552,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/trait_set_id",
+    "number_of_triples": 2927296,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/rcv_accession",
+    "number_of_triples": 2927296,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/interpreted_condition_list",
+    "number_of_triples": 2927296,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/submission_count",
+    "number_of_triples": 2927296,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf.org/ontology/med2rdf#alternative_allele",
+    "number_of_triples": 2720323,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://med2rdf.org/ontology/med2rdf#reference_allele",
+    "number_of_triples": 2720003,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/protein_change",
+    "number_of_triples": 2673458,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/source",
+    "number_of_triples": 2619691,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/value",
+    "number_of_triples": 2581743,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/allele_frequency",
+    "number_of_triples": 2344332,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/cytogenetic_location",
+    "number_of_triples": 2253807,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/variation_type",
+    "number_of_triples": 2215311,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/allele_id",
+    "number_of_triples": 2212118,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/variation_name",
+    "number_of_triples": 2210298,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/modified",
+    "number_of_triples": 2210298,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/record_type",
+    "number_of_triples": 2210298,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/created",
+    "number_of_triples": 2210298,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/interpreted_record",
+    "number_of_triples": 2209565,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/SIO_000255",
+    "number_of_triples": 2209565,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/most_recent_submission",
+    "number_of_triples": 2209565,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/rcv_list",
+    "number_of_triples": 2209565,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/for_display",
+    "number_of_triples": 2208745,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://biohackathon.org/resource/faldo#end",
+    "number_of_triples": 2152224,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://biohackathon.org/resource/faldo#begin",
+    "number_of_triples": 2152002,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/mane_select",
+    "number_of_triples": 2133315,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/canonical_spdi",
+    "number_of_triples": 2121514,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/comment",
+    "number_of_triples": 1886223,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/url",
+    "number_of_triples": 1802854,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/strand",
+    "number_of_triples": 1663076,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/local_key_is_submitted",
+    "number_of_triples": 812837,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/allele_origin",
+    "number_of_triples": 802824,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/number_tested",
+    "number_of_triples": 527460,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/org_abbreviation",
+    "number_of_triples": 525062,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/citation_text",
+    "number_of_triples": 456447,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/description_history",
+    "number_of_triples": 365850,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/dated",
+    "number_of_triples": 365850,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/clinical_features_affected_status",
+    "number_of_triples": 295366,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/type_comment",
+    "number_of_triples": 228912,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/global_minor_allele_frequency",
+    "number_of_triples": 211916,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/minor_allele",
+    "number_of_triples": 211286,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/data_source",
+    "number_of_triples": 207147,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/inner_start",
+    "number_of_triples": 169612,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/inner_stop",
+    "number_of_triples": 169604,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/triplosensitivity",
+    "number_of_triples": 153760,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/last_evaluated",
+    "number_of_triples": 153760,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/clin_gen",
+    "number_of_triples": 153760,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/haploinsufficiency",
+    "number_of_triples": 153760,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/type_platform",
+    "number_of_triples": 149377,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/gender",
+    "number_of_triples": 132171,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/age",
+    "number_of_triples": 101610,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/explanation",
+    "number_of_triples": 98978,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/gene_location",
+    "number_of_triples": 97140,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/study_name",
+    "number_of_triples": 93100,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/submitter_description",
+    "number_of_triples": 75811,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/mane_plus_clinical",
+    "number_of_triples": 74633,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/purpose",
+    "number_of_triples": 73735,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/relationship_type",
+    "number_of_triples": 73415,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/name_platform",
+    "number_of_triples": 58851,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/method_attribute",
+    "number_of_triples": 53611,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/age_unit",
+    "number_of_triples": 50805,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/study_description",
+    "number_of_triples": 48629,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/full_name",
+    "number_of_triples": 45622,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/gene_id",
+    "number_of_triples": 45463,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/family_data",
+    "number_of_triples": 45178,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/ethnicity",
+    "number_of_triples": 44257,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/source_type",
+    "number_of_triples": 41505,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/tissue",
+    "number_of_triples": 39406,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/num_families_with_variant",
+    "number_of_triples": 33418,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/zygosity",
+    "number_of_triples": 32876,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/scv",
+    "number_of_triples": 30719,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/date_deleted",
+    "number_of_triples": 28704,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/hgnc_id",
+    "number_of_triples": 27914,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/allele_desc_set",
+    "number_of_triples": 27896,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/functional_consequence",
+    "number_of_triples": 25495,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/geographic_origin",
+    "number_of_triples": 20799,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/obs_method_attribute",
+    "number_of_triples": 19725,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/trait",
+    "number_of_triples": 17595,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/omim",
+    "number_of_triples": 16741,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/outer_stop",
+    "number_of_triples": 11466,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/outer_start",
+    "number_of_triples": 11240,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/proband",
+    "number_of_triples": 10892,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/indication",
+    "number_of_triples": 10608,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/pedigree_id",
+    "number_of_triples": 6841,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/haplotype",
+    "number_of_triples": 6619,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/family_history",
+    "number_of_triples": 6479,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/replaced",
+    "number_of_triples": 6327,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/date_changed",
+    "number_of_triples": 6327,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/co_occurrence_set",
+    "number_of_triples": 5228,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/cell_line",
+    "number_of_triples": 5137,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/count",
+    "number_of_triples": 5104,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/fda_recognized_database",
+    "number_of_triples": 4710,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/result_type",
+    "number_of_triples": 3952,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/genotype",
+    "number_of_triples": 3531,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/sample_description",
+    "number_of_triples": 3432,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/software",
+    "number_of_triples": 2489,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/num_families_with_segregation_observed",
+    "number_of_triples": 1738,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/number_of_chromosomes",
+    "number_of_triples": 1627,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/num_families",
+    "number_of_triples": 1311,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/segregation_observed",
+    "number_of_triples": 1083,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/interpreted_variation",
+    "number_of_triples": 1073,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/trait_relationship",
+    "number_of_triples": 735,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/included_record",
+    "number_of_triples": 733,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/clinical_significance",
+    "number_of_triples": 280,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/property",
+    "number_of_triples": 266,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/strain",
+    "number_of_triples": 265,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/explanation_of_interpretation",
+    "number_of_triples": 125,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/custom_assertion_score",
+    "number_of_triples": 36,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.jp/bio/10/clinvar/general_citations",
+    "number_of_triples": 1,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
+]

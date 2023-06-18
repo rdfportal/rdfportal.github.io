@@ -1,0 +1,18 @@
+[
+  {
+    "class": "http://semanticscience.org/resource/SIO_010035",
+    "number_of_instances": 103988,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://semanticscience.org/resource/SIO_001383",
+    "number_of_instances": 61229,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  }
+]

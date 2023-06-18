@@ -1,0 +1,90 @@
+[
+    {
+        "class": "http://purl.jp/bio/10/mccv#MCCV_000001", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 60353
+    }, 
+    {
+        "class": "http://purl.jp/bio/10/mccv#MCCV_000005", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 22208
+    }, 
+    {
+        "class": "http://purl.jp/bio/10/brso/BiologicalResource", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 22208
+    }, 
+    {
+        "class": "http://purl.jp/bio/10/mpo/MPO_00102", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 20843
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001050", 
+        "label": {
+            "en": "sample", 
+            "ja": "sample"
+        }, 
+        "number_of_instances": 17623
+    }, 
+    {
+        "class": "http://purl.jp/bio/10/mccv#MCCV_000006", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 17623
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_010000", 
+        "label": {
+            "en": "organism", 
+            "ja": "organism"
+        }, 
+        "number_of_instances": 17612
+    }, 
+    {
+        "class": "http://purl.jp/bio/10/mccv#MCCV_000007", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 15596
+    }, 
+    {
+        "class": "http://purl.jp/bio/10/mccv#MCCV_000008", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 15389
+    }, 
+    {
+        "class": "http://purl.jp/bio/10/mpo/MPO_00103", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1362
+    }, 
+    {
+        "class": "http://purl.jp/bio/10/mpo/MPO_00104", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1362
+    }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "property": "http://www.bioassayontology.org/bao#BAO_0000209",
+    "number_of_triples": 1575854,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/source",
+    "number_of_triples": 1552921,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 1552921,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/title",
+    "number_of_triples": 1552921,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.bioassayontology.org/bao#BAO_0000540",
+    "number_of_triples": 23167,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/cito/isDiscussedBy",
+    "number_of_triples": 14847,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.bioassayontology.org/bao#BAO_0000210",
+    "number_of_triples": 14767,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.bioassayontology.org/bao#BAO_0001067",
+    "number_of_triples": 9101,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.bioassayontology.org/bao#BAO_0001094",
+    "number_of_triples": 6414,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
+]

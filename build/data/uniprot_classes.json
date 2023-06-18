@@ -1,0 +1,1258 @@
+[
+  {
+    "class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement",
+    "number_of_instances": 3824808295,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://biohackathon.org/resource/faldo#Position",
+    "number_of_instances": 1409099723,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://biohackathon.org/resource/faldo#ExactPosition",
+    "number_of_instances": 1409087196,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://biohackathon.org/resource/faldo#Region",
+    "number_of_instances": 807087304,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Protein",
+    "number_of_instances": 402703376,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Resource",
+    "number_of_instances": 338069022,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Citation_Statement",
+    "number_of_instances": 335679261,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Nucleotide_Resource",
+    "number_of_instances": 283212038,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Structured_Name",
+    "number_of_instances": 282334150,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Simple_Sequence",
+    "number_of_instances": 249877974,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Strain",
+    "number_of_instances": 241484746,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Gene",
+    "number_of_instances": 238151613,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Transmembrane_Annotation",
+    "number_of_instances": 216555850,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Domain_Extent_Annotation",
+    "number_of_instances": 190085746,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Caution_Annotation",
+    "number_of_instances": 164436760,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Member_Of_Redudant_Proteome",
+    "number_of_instances": 120787064,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Transcript_Resource",
+    "number_of_instances": 101550508,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Region_Annotation",
+    "number_of_instances": 92988148,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Binding_Site_Annotation",
+    "number_of_instances": 87038246,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Similarity_Annotation",
+    "number_of_instances": 83195457,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Compositional_Bias_Annotation",
+    "number_of_instances": 75090611,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Subcellular_Location_Annotation",
+    "number_of_instances": 47104614,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Non-terminal_Residue_Annotation",
+    "number_of_instances": 42603336,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Catalytic_Activity",
+    "number_of_instances": 37138036,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Catalytic_Activity_Annotation",
+    "number_of_instances": 37130806,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Function_Annotation",
+    "number_of_instances": 36826107,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Genomic_DNA",
+    "number_of_instances": 29979224,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Annotation",
+    "number_of_instances": 25701699,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Cofactor_Annotation",
+    "number_of_instances": 22184480,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Tissue",
+    "number_of_instances": 20932328,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Subunit_Annotation",
+    "number_of_instances": 20184006,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Chain_Annotation",
+    "number_of_instances": 19874840,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Active_Site_Annotation",
+    "number_of_instances": 18930389,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Signal_Peptide_Annotation",
+    "number_of_instances": 18792512,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Pathway_Annotation",
+    "number_of_instances": 17573210,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Coiled_Coil_Annotation",
+    "number_of_instances": 11204323,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Repeat_Annotation",
+    "number_of_instances": 9732560,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Disulfide_Bond_Annotation",
+    "number_of_instances": 5766349,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Nucleotide_Binding_Annotation",
+    "number_of_instances": 4808851,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Modified_Residue_Annotation",
+    "number_of_instances": 4724827,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Site_Annotation",
+    "number_of_instances": 4447899,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Transcribed_RNA",
+    "number_of_instances": 4190150,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Taxon",
+    "number_of_instances": 2854078,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Motif_Annotation",
+    "number_of_instances": 2597003,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Domain_Annotation",
+    "number_of_instances": 2475548,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Part",
+    "number_of_instances": 1989993,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/PTM_Annotation",
+    "number_of_instances": 1944506,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/MRNA",
+    "number_of_instances": 1749520,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Journal_Citation",
+    "number_of_instances": 1556922,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Genomic_RNA",
+    "number_of_instances": 1367986,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Plasmid",
+    "number_of_instances": 1332760,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Viral_cRNA",
+    "number_of_instances": 971705,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Zinc_Finger_Annotation",
+    "number_of_instances": 755583,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Topological_Domain_Annotation",
+    "number_of_instances": 619131,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Activity_Regulation_Annotation",
+    "number_of_instances": 596517,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Proteome_Component",
+    "number_of_instances": 563585,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Proteome",
+    "number_of_instances": 516777,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.obolibrary.org/obo/STATO_0000193",
+    "number_of_instances": 516777,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Lipidation_Annotation",
+    "number_of_instances": 486407,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Submission_Citation",
+    "number_of_instances": 419113,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://busco.ezlab.org/schema#Score",
+    "number_of_instances": 405883,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Beta_Strand_Annotation",
+    "number_of_instances": 327339,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Helix_Annotation",
+    "number_of_instances": 320710,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Glycosylation_Annotation",
+    "number_of_instances": 195262,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Structure_Resource",
+    "number_of_instances": 186982,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Induction_Annotation",
+    "number_of_instances": 167248,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Sequence_Conflict_Annotation",
+    "number_of_instances": 157587,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/External_Sequence",
+    "number_of_instances": 130670,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Sequence_Uncertainty_Annotation",
+    "number_of_instances": 120693,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Initiator_Methionine_Annotation",
+    "number_of_instances": 110314,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Interaction",
+    "number_of_instances": 106470,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Non_Self_Interaction",
+    "number_of_instances": 103502,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Natural_Variant_Annotation",
+    "number_of_instances": 103127,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Cross-link_Annotation",
+    "number_of_instances": 102316,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Mutagenesis_Annotation",
+    "number_of_instances": 92167,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Turn_Annotation",
+    "number_of_instances": 77521,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Propeptide_Annotation",
+    "number_of_instances": 56839,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Alternative_Sequence_Annotation",
+    "number_of_instances": 52992,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#Class",
+    "number_of_instances": 51302,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Tissue_Specificity_Annotation",
+    "number_of_instances": 50512,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Modified_Sequence",
+    "number_of_instances": 40957,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Erroneous_Initiation_Annotation",
+    "number_of_instances": 35972,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Participant",
+    "number_of_instances": 30356,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Alternative_Splicing_Annotation",
+    "number_of_instances": 24099,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Representative_Proteome",
+    "number_of_instances": 22794,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Non-standard_Residue_Annotation",
+    "number_of_instances": 21326,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Disruption_Phenotype_Annotation",
+    "number_of_instances": 19840,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Other_RNA",
+    "number_of_instances": 16995,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Developmental_Stage_Annotation",
+    "number_of_instances": 14059,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://xmlns.com/foaf/0.1/Image",
+    "number_of_instances": 13769,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Peptide_Annotation",
+    "number_of_instances": 13670,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Citation",
+    "number_of_instances": 13525,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Erroneous_Gene_Model_Prediction_Annotation",
+    "number_of_instances": 13273,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://biohackathon.org/resource/faldo#InRangePosition",
+    "number_of_instances": 12173,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Transit_Peptide_Annotation",
+    "number_of_instances": 9812,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Other_DNA",
+    "number_of_instances": 9448,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Kinetics_Annotation",
+    "number_of_instances": 8918,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Enzyme",
+    "number_of_instances": 8619,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#Restriction",
+    "number_of_instances": 8284,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Disease_Annotation",
+    "number_of_instances": 8209,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Frameshift_Annotation",
+    "number_of_instances": 7844,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Mass_Spectrometry_Annotation",
+    "number_of_instances": 7469,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Disease",
+    "number_of_instances": 6419,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Intramembrane_Annotation",
+    "number_of_instances": 5589,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/PH_Dependence_Annotation",
+    "number_of_instances": 4962,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.org/ontology/bibo/Journal",
+    "number_of_instances": 4764,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Pathway",
+    "number_of_instances": 3117,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Self_Interaction",
+    "number_of_instances": 2968,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Sequence_Caution_Annotation",
+    "number_of_instances": 2930,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Temperature_Dependence_Annotation",
+    "number_of_instances": 2829,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Non-adjacent_Residues_Annotation",
+    "number_of_instances": 2558,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Unassigned_DNA",
+    "number_of_instances": 2115,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Biotechnology_Annotation",
+    "number_of_instances": 1804,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Thesis_Citation",
+    "number_of_instances": 1482,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Polymorphism_Annotation",
+    "number_of_instances": 1456,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Concept",
+    "number_of_instances": 1201,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Erroneous_Termination_Annotation",
+    "number_of_instances": 1141,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Alternative_Initiation_Annotation",
+    "number_of_instances": 1043,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Reference_Proteome",
+    "number_of_instances": 1003,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Allergen_Annotation",
+    "number_of_instances": 944,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Toxic_Dose_Annotation",
+    "number_of_instances": 850,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Book_Citation",
+    "number_of_instances": 785,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Ribosomal_Frameshifting",
+    "number_of_instances": 768,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/RNA_Editing_Annotation",
+    "number_of_instances": 631,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Cellular_Component",
+    "number_of_instances": 540,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Electronic_Citation",
+    "number_of_instances": 507,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Erroneous_Translation_Annotation",
+    "number_of_instances": 443,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://biohackathon.org/resource/faldo#OneOfPosition",
+    "number_of_instances": 354,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Unassigned_RNA",
+    "number_of_instances": 318,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Alternative_Promoter_Usage_Annotation",
+    "number_of_instances": 318,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Unknown_Sequence",
+    "number_of_instances": 274,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Observation_Citation",
+    "number_of_instances": 223,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Database",
+    "number_of_instances": 184,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Pharmaceutical_Annotation",
+    "number_of_instances": 165,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Transposon",
+    "number_of_instances": 143,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Patent_Citation",
+    "number_of_instances": 134,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Absorption_Annotation",
+    "number_of_instances": 133,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Redox_Potential_Annotation",
+    "number_of_instances": 128,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+    "number_of_instances": 84,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#ObjectProperty",
+    "number_of_instances": 79,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#NamedIndividual",
+    "number_of_instances": 64,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#Thing",
+    "number_of_instances": 64,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#FunctionalProperty",
+    "number_of_instances": 38,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Rank",
+    "number_of_instances": 32,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#AllDifferent",
+    "number_of_instances": 14,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Topology",
+    "number_of_instances": 11,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Orientation",
+    "number_of_instances": 10,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Organelle",
+    "number_of_instances": 9,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Mass_Measurement_Method",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Structure_Determination_Method",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+    "number_of_instances": 6,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Protein_Existence",
+    "number_of_instances": 5,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+    "number_of_instances": 5,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#Ontology",
+    "number_of_instances": 5,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.uniprot.org/core/Status",
+    "number_of_instances": 4,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#InverseFunctionalProperty",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  }
+]

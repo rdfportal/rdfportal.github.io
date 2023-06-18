@@ -1,0 +1,146 @@
+[
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000244", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 5460170
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000292", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 5460170
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000291", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 5460170
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000258", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 5460170
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000496", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 5460170
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000120", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 5460170
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000245", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 5460170
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000216", 
+        "label": {
+            "en": "average molecular weight descriptor", 
+            "ja": "average molecular weight descriptor"
+        }, 
+        "number_of_instances": 5460170
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000205", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 5460170
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000152", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 5460170
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000042", 
+        "label": {
+            "en": "molecular formula", 
+            "ja": "molecular formula"
+        }, 
+        "number_of_instances": 5460170
+    }, 
+    {
+        "class": "http://vocab.jst.go.jp/terms/sti#Chemical", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 5460170
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000113", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 5460170
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000059", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 5460169
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000233", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 5460169
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/CHEMINF_000263", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 5460169
+    }, 
+    {
+        "class": "http://purl.org/innovation/Innovator", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://xmlns.com/foaf/0.1/Organization", 
+        "label": {
+            "en": "Organization", 
+            "ja": "Organization"
+        }, 
+        "number_of_instances": 1
+    }
+]

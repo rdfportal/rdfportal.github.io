@@ -1,0 +1,32 @@
+[
+  {
+    "property": "http://purl.org/cerif/frapo/hasFundingAgency",
+    "number_of_triples": 1001607,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/cerif/frapo/hasGrantNumber",
+    "number_of_triples": 1001607,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 1001607,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "class": "http://xmlns.com/foaf/0.1/Person",
+    "number_of_instances": 159933983,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://purl.org/ontology/olo/core#OrderedList",
+    "number_of_instances": 35023477,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  }
+]

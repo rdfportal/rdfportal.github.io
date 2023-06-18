@@ -1,0 +1,34 @@
+[
+    {
+        "class": "http://www.w3.org/2002/07/owl#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 19
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#DatatypeProperty", 
+        "label": {
+            "en": "DatatypeProperty", 
+            "ja": "DatatypeProperty"
+        }, 
+        "number_of_instances": 16
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#ObjectProperty", 
+        "label": {
+            "en": "ObjectProperty", 
+            "ja": "ObjectProperty"
+        }, 
+        "number_of_instances": 11
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Ontology", 
+        "label": {
+            "en": "Ontology", 
+            "ja": "Ontology"
+        }, 
+        "number_of_instances": 1
+    }
+]

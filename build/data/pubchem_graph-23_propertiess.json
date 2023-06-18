@@ -1,0 +1,72 @@
+[
+  {
+    "property": "http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId",
+    "number_of_triples": 39297,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 39297,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/title",
+    "number_of_triples": 39297,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "number_of_triples": 39297,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/fabio/hasNLMJournalTitleAbbreviation",
+    "number_of_triples": 39261,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespaces/basic/3.0/issn",
+    "number_of_triples": 29275,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://prismstandard.org/namespaces/basic/3.0/eissn",
+    "number_of_triples": 18538,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
+]

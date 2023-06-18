@@ -5,7 +5,7 @@
             "en": "", 
             "ja": ""
         }, 
-        "number_of_instances": 399944549
+        "number_of_instances": 407540623
     }, 
     {
         "class": "http://biohackathon.org/resource/faldo#ExactPosition", 
@@ -56,6 +56,22 @@
         "number_of_instances": 17809864
     }, 
     {
+        "class": "http://biohackathon.org/resource/faldoExactPosition", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 14914753
+    }, 
+    {
+        "class": "http://biohackathon.org/resource/faldoStrandedPosition", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 14914753
+    }, 
+    {
         "class": "http://rdf.ebi.ac.uk/terms/ensemblvariation#derived_allele", 
         "label": {
             "en": "", 
@@ -78,6 +94,22 @@
             "ja": ""
         }, 
         "number_of_instances": 12105027
+    }, 
+    {
+        "class": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C64214", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 7596074
+    }, 
+    {
+        "class": "http://biohackathon.org/resource/faldoRegion", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 7594420
     }, 
     {
         "class": "http://kero.hgc.jp/ontology/kero.owl#LowOrNoSignal", 
@@ -176,20 +208,20 @@
         "number_of_instances": 216
     }, 
     {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#ChIPseqPeakDataset", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 216
+    }, 
+    {
         "class": "http://purl.obolibrary.org/obo/SO_0000957", 
         "label": {
             "en": "", 
             "ja": ""
         }, 
         "number_of_instances": 66
-    }, 
-    {
-        "class": "http://xmlns.com/foaf/0.1/Person", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 54
     }, 
     {
         "class": "http://kero.hgc.jp/ontology/kero.owl#SNVDataset", 
@@ -216,10 +248,10 @@
         "number_of_instances": 27
     }, 
     {
-        "class": "http://kero.hgc.jp/ontology/kero.owl#SampleType", 
+        "class": "http://semanticscience.org/resource/SIO_001050", 
         "label": {
-            "en": "Sample Type", 
-            "ja": "Sample Type"
+            "en": "", 
+            "ja": ""
         }, 
         "number_of_instances": 27
     }, 
@@ -232,18 +264,34 @@
         "number_of_instances": 27
     }, 
     {
-        "class": "http://kero.hgc.jp/ontology/kero.owl#TSSseqDataset", 
+        "class": "http://kero.hgc.jp/ontology/kero.owl#SampleType", 
         "label": {
-            "en": "TSS-seq dataset", 
-            "ja": "TSS-seq dataset"
+            "en": "Sample Type", 
+            "ja": "Sample Type"
         }, 
-        "number_of_instances": 26
+        "number_of_instances": 27
+    }, 
+    {
+        "class": "http://xmlns.com/foaf/0.1/Person", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 27
     }, 
     {
         "class": "http://kero.hgc.jp/ontology/kero.owl#MethylseqDataset", 
         "label": {
             "en": "Methyl-seq dataset", 
             "ja": "Methyl-seq dataset"
+        }, 
+        "number_of_instances": 26
+    }, 
+    {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#TSSseqDataset", 
+        "label": {
+            "en": "TSS-seq dataset", 
+            "ja": "TSS-seq dataset"
         }, 
         "number_of_instances": 26
     }, 
@@ -261,7 +309,7 @@
             "en": "Class", 
             "ja": "Class"
         }, 
-        "number_of_instances": 21
+        "number_of_instances": 19
     }, 
     {
         "class": "http://www.w3.org/2002/07/owl#DatatypeProperty", 

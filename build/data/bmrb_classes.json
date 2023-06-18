@@ -1,3098 +1,3290 @@
 [
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#atom_chem_shift", 
-        "label": {
-            "en": "atom_chem_shift", 
-            "ja": "atom_chem_shift"
-        }, 
-        "number_of_instances": 8977100
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#struct_anno_char", 
-        "label": {
-            "en": "struct_anno_char", 
-            "ja": "struct_anno_char"
-        }, 
-        "number_of_instances": 5488304
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_comp_index", 
-        "label": {
-            "en": "entity_comp_index", 
-            "ja": "entity_comp_index"
-        }, 
-        "number_of_instances": 1314482
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_poly_seq", 
-        "label": {
-            "en": "entity_poly_seq", 
-            "ja": "entity_poly_seq"
-        }, 
-        "number_of_instances": 1310362
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_db_link", 
-        "label": {
-            "en": "entity_db_link", 
-            "ja": "entity_db_link"
-        }, 
-        "number_of_instances": 292652
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp_bond", 
-        "label": {
-            "en": "chem_comp_bond", 
-            "ja": "chem_comp_bond"
-        }, 
-        "number_of_instances": 152191
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp_atom", 
-        "label": {
-            "en": "chem_comp_atom", 
-            "ja": "chem_comp_atom"
-        }, 
-        "number_of_instances": 150570
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#pb_char", 
-        "label": {
-            "en": "pb_char", 
-            "ja": "pb_char"
-        }, 
-        "number_of_instances": 135858
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#pb_list", 
-        "label": {
-            "en": "pb_list", 
-            "ja": "pb_list"
-        }, 
-        "number_of_instances": 135858
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#citation_author", 
-        "label": {
-            "en": "citation_author", 
-            "ja": "citation_author"
-        }, 
-        "number_of_instances": 124272
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#sample_component", 
-        "label": {
-            "en": "sample_component", 
-            "ja": "sample_component"
-        }, 
-        "number_of_instances": 89429
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#experiment", 
-        "label": {
-            "en": "experiment", 
-            "ja": "experiment"
-        }, 
-        "number_of_instances": 89267
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entry_author", 
-        "label": {
-            "en": "entry_author", 
-            "ja": "entry_author"
-        }, 
-        "number_of_instances": 63626
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_shift_experiment", 
-        "label": {
-            "en": "chem_shift_experiment", 
-            "ja": "chem_shift_experiment"
-        }, 
-        "number_of_instances": 60252
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#atom_nomenclature", 
-        "label": {
-            "en": "atom_nomenclature", 
-            "ja": "atom_nomenclature"
-        }, 
-        "number_of_instances": 57658
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#task", 
-        "label": {
-            "en": "task", 
-            "ja": "task"
-        }, 
-        "number_of_instances": 49910
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#sample_condition_variable", 
-        "label": {
-            "en": "sample_condition_variable", 
-            "ja": "sample_condition_variable"
-        }, 
-        "number_of_instances": 45856
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#release", 
-        "label": {
-            "en": "release", 
-            "ja": "release"
-        }, 
-        "number_of_instances": 41968
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#t2", 
-        "label": {
-            "en": "t2", 
-            "ja": "t2"
-        }, 
-        "number_of_instances": 38703
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#software", 
-        "label": {
-            "en": "software", 
-            "ja": "software"
-        }, 
-        "number_of_instances": 37534
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#t1", 
-        "label": {
-            "en": "t1", 
-            "ja": "t1"
-        }, 
-        "number_of_instances": 37294
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#spectral_transition_char", 
-        "label": {
-            "en": "spectral_transition_char", 
-            "ja": "spectral_transition_char"
-        }, 
-        "number_of_instances": 37285
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#spectral_transition", 
-        "label": {
-            "en": "spectral_transition", 
-            "ja": "spectral_transition"
-        }, 
-        "number_of_instances": 36098
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#spectral_transition_general_char", 
-        "label": {
-            "en": "spectral_transition_general_char", 
-            "ja": "spectral_transition_general_char"
-        }, 
-        "number_of_instances": 36098
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_noe", 
-        "label": {
-            "en": "heteronucl_noe", 
-            "ja": "heteronucl_noe"
-        }, 
-        "number_of_instances": 35634
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_shift_ref", 
-        "label": {
-            "en": "chem_shift_ref", 
-            "ja": "chem_shift_ref"
-        }, 
-        "number_of_instances": 33638
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#vendor", 
-        "label": {
-            "en": "vendor", 
-            "ja": "vendor"
-        }, 
-        "number_of_instances": 33530
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#datum", 
-        "label": {
-            "en": "datum", 
-            "ja": "datum"
-        }, 
-        "number_of_instances": 32747
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#coupling_constant", 
-        "label": {
-            "en": "coupling_constant", 
-            "ja": "coupling_constant"
-        }, 
-        "number_of_instances": 27965
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp_descriptor", 
-        "label": {
-            "en": "chem_comp_descriptor", 
-            "ja": "chem_comp_descriptor"
-        }, 
-        "number_of_instances": 27800
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#ambiguous_atom_chem_shift", 
-        "label": {
-            "en": "ambiguous_atom_chem_shift", 
-            "ja": "ambiguous_atom_chem_shift"
-        }, 
-        "number_of_instances": 24448
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#lacs_char", 
-        "label": {
-            "en": "lacs_char", 
-            "ja": "lacs_char"
-        }, 
-        "number_of_instances": 21577
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#lacs_plot", 
-        "label": {
-            "en": "lacs_plot", 
-            "ja": "lacs_plot"
-        }, 
-        "number_of_instances": 21577
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#sample", 
-        "label": {
-            "en": "sample", 
-            "ja": "sample"
-        }, 
-        "number_of_instances": 21545
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#experiment_file", 
-        "label": {
-            "en": "experiment_file", 
-            "ja": "experiment_file"
-        }, 
-        "number_of_instances": 21191
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp_db_link", 
-        "label": {
-            "en": "chem_comp_db_link", 
-            "ja": "chem_comp_db_link"
-        }, 
-        "number_of_instances": 20346
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#nmr_spectrometer", 
-        "label": {
-            "en": "nmr_spectrometer", 
-            "ja": "nmr_spectrometer"
-        }, 
-        "number_of_instances": 19999
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_assembly", 
-        "label": {
-            "en": "entity_assembly", 
-            "ja": "entity_assembly"
-        }, 
-        "number_of_instances": 19713
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp_common_name", 
-        "label": {
-            "en": "chem_comp_common_name", 
-            "ja": "chem_comp_common_name"
-        }, 
-        "number_of_instances": 19378
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#related_entries", 
-        "label": {
-            "en": "related_entries", 
-            "ja": "related_entries"
-        }, 
-        "number_of_instances": 17980
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#rdc", 
-        "label": {
-            "en": "rdc", 
-            "ja": "rdc"
-        }, 
-        "number_of_instances": 17414
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#nmr_spectrometer_view", 
-        "label": {
-            "en": "nmr_spectrometer_view", 
-            "ja": "nmr_spectrometer_view"
-        }, 
-        "number_of_instances": 17371
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity", 
-        "label": {
-            "en": "entity", 
-            "ja": "entity"
-        }, 
-        "number_of_instances": 17154
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#citation", 
-        "label": {
-            "en": "citation", 
-            "ja": "citation"
-        }, 
-        "number_of_instances": 15556
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_atom_list", 
-        "label": {
-            "en": "entity_atom_list", 
-            "ja": "entity_atom_list"
-        }, 
-        "number_of_instances": 15478
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#data_set", 
-        "label": {
-            "en": "data_set", 
-            "ja": "data_set"
-        }, 
-        "number_of_instances": 15271
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#order_param", 
-        "label": {
-            "en": "order_param", 
-            "ja": "order_param"
-        }, 
-        "number_of_instances": 15202
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#sample_condition_list", 
-        "label": {
-            "en": "sample_condition_list", 
-            "ja": "sample_condition_list"
-        }, 
-        "number_of_instances": 14856
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assigned_chem_shift_list", 
-        "label": {
-            "en": "assigned_chem_shift_list", 
-            "ja": "assigned_chem_shift_list"
-        }, 
-        "number_of_instances": 14824
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_experimental_src", 
-        "label": {
-            "en": "entity_experimental_src", 
-            "ja": "entity_experimental_src"
-        }, 
-        "number_of_instances": 14762
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#citation_keyword", 
-        "label": {
-            "en": "citation_keyword", 
-            "ja": "citation_keyword"
-        }, 
-        "number_of_instances": 14752
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#struct_keywords", 
-        "label": {
-            "en": "struct_keywords", 
-            "ja": "struct_keywords"
-        }, 
-        "number_of_instances": 14625
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#nmr_spec_expt", 
-        "label": {
-            "en": "nmr_spec_expt", 
-            "ja": "nmr_spec_expt"
-        }, 
-        "number_of_instances": 14512
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_natural_src", 
-        "label": {
-            "en": "entity_natural_src", 
-            "ja": "entity_natural_src"
-        }, 
-        "number_of_instances": 14395
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_shift_reference", 
-        "label": {
-            "en": "chem_shift_reference", 
-            "ja": "chem_shift_reference"
-        }, 
-        "number_of_instances": 14216
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assembly", 
-        "label": {
-            "en": "assembly", 
-            "ja": "assembly"
-        }, 
-        "number_of_instances": 13712
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entry_authorCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13711
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_comp_indexCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13711
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entry", 
-        "label": {
-            "en": "entry", 
-            "ja": "entry"
-        }, 
-        "number_of_instances": 13711
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entityCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13711
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#datablock", 
-        "label": {
-            "en": "datablock", 
-            "ja": "datablock"
-        }, 
-        "number_of_instances": 13711
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entryCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13711
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#citationCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13710
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#citation_authorCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13710
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#releaseCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13709
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_assemblyCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13696
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assemblyCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13696
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#data_setCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13573
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#datumCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13557
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#sample_condition_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13491
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#sampleCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13491
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#sample_condition_variableCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13491
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_shift_referenceCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13482
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_natural_src_list", 
-        "label": {
-            "en": "entity_natural_src_list", 
-            "ja": "entity_natural_src_list"
-        }, 
-        "number_of_instances": 13467
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_experimental_src_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13467
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_natural_src_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13467
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_experimental_srcCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13467
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_experimental_src_list", 
-        "label": {
-            "en": "entity_experimental_src_list", 
-            "ja": "entity_experimental_src_list"
-        }, 
-        "number_of_instances": 13467
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#experiment_list", 
-        "label": {
-            "en": "experiment_list", 
-            "ja": "experiment_list"
-        }, 
-        "number_of_instances": 13464
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#experiment_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13464
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_shift_refCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13454
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#nmr_spectrometerCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13419
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_natural_srcCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13363
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assigned_chem_shift_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13036
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#atom_chem_shiftCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13034
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 13017
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_shift_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 12970
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_shift_completeness_list", 
-        "label": {
-            "en": "chem_shift_completeness_list", 
-            "ja": "chem_shift_completeness_list"
-        }, 
-        "number_of_instances": 12702
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_shift_completeness_char", 
-        "label": {
-            "en": "chem_shift_completeness_char", 
-            "ja": "chem_shift_completeness_char"
-        }, 
-        "number_of_instances": 12677
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#sample_componentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 12374
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_poly_seqCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 11896
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 11712
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_shift_completeness_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 11605
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_shift_completeness_charCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 11582
-    }, 
-    {
-        "class": "http://www.w3.org/2002/07/owl#Restriction", 
-        "label": {
-            "en": "Restriction", 
-            "ja": "Restriction"
-        }, 
-        "number_of_instances": 11553
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#taskCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 11359
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#nmr_spectrometer_list", 
-        "label": {
-            "en": "nmr_spectrometer_list", 
-            "ja": "nmr_spectrometer_list"
-        }, 
-        "number_of_instances": 11196
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#nmr_spectrometer_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 11196
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#nmr_spectrometer_viewCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 11192
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#vendorCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 10534
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_common_name", 
-        "label": {
-            "en": "entity_common_name", 
-            "ja": "entity_common_name"
-        }, 
-        "number_of_instances": 10517
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#spectral_dim", 
-        "label": {
-            "en": "spectral_dim", 
-            "ja": "spectral_dim"
-        }, 
-        "number_of_instances": 9952
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_db_linkCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 9174
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#bond", 
-        "label": {
-            "en": "bond", 
-            "ja": "bond"
-        }, 
-        "number_of_instances": 8024
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp_identifier", 
-        "label": {
-            "en": "chem_comp_identifier", 
-            "ja": "chem_comp_identifier"
-        }, 
-        "number_of_instances": 7844
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#related_entriesCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 7262
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_shift_software", 
-        "label": {
-            "en": "chem_shift_software", 
-            "ja": "chem_shift_software"
-        }, 
-        "number_of_instances": 6439
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assembly_common_name", 
-        "label": {
-            "en": "assembly_common_name", 
-            "ja": "assembly_common_name"
-        }, 
-        "number_of_instances": 6259
-    }, 
-    {
-        "class": "http://www.w3.org/2002/07/owl#DatatypeProperty", 
-        "label": {
-            "en": "DatatypeProperty", 
-            "ja": "DatatypeProperty"
-        }, 
-        "number_of_instances": 6207
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#pb_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 6173
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#pb_charCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 6173
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#lacs_charCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 6019
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#lacs_plotCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 6019
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#nmr_experiment_file", 
-        "label": {
-            "en": "nmr_experiment_file", 
-            "ja": "nmr_experiment_file"
-        }, 
-        "number_of_instances": 5935
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp", 
-        "label": {
-            "en": "chem_comp", 
-            "ja": "chem_comp"
-        }, 
-        "number_of_instances": 5812
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#structure_annotation", 
-        "label": {
-            "en": "structure_annotation", 
-            "ja": "structure_annotation"
-        }, 
-        "number_of_instances": 5608
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_common_nameCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 5360
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#atom", 
-        "label": {
-            "en": "atom", 
-            "ja": "atom"
-        }, 
-        "number_of_instances": 4985
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_compCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 4753
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp_atomCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 4701
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#theoretical_chem_shift", 
-        "label": {
-            "en": "theoretical_chem_shift", 
-            "ja": "theoretical_chem_shift"
-        }, 
-        "number_of_instances": 4521
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#sg_project", 
-        "label": {
-            "en": "sg_project", 
-            "ja": "sg_project"
-        }, 
-        "number_of_instances": 4359
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#sg_projectCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 4273
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entry_src", 
-        "label": {
-            "en": "entry_src", 
-            "ja": "entry_src"
-        }, 
-        "number_of_instances": 4169
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#struct_keywordsCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 4152
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp_bondCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 3756
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assembly_common_nameCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 3734
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#citation_keywordCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 3726
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assembly_db_link", 
-        "label": {
-            "en": "assembly_db_link", 
-            "ja": "assembly_db_link"
-        }, 
-        "number_of_instances": 3720
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_shift_softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 3641
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp_smiles", 
-        "label": {
-            "en": "chem_comp_smiles", 
-            "ja": "chem_comp_smiles"
-        }, 
-        "number_of_instances": 3321
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entry_srcCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 3301
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#ph_param", 
-        "label": {
-            "en": "ph_param", 
-            "ja": "ph_param"
-        }, 
-        "number_of_instances": 3275
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp_descriptorCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 2978
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#struct_anno_software", 
-        "label": {
-            "en": "struct_anno_software", 
-            "ja": "struct_anno_software"
-        }, 
-        "number_of_instances": 2964
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#struct_anno_softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 2964
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#struct_anno_charCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 2964
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp_identifierCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 2949
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assembly_type", 
-        "label": {
-            "en": "assembly_type", 
-            "ja": "assembly_type"
-        }, 
-        "number_of_instances": 2910
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assembly_typeCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 2903
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp_systematic_name", 
-        "label": {
-            "en": "chem_comp_systematic_name", 
-            "ja": "chem_comp_systematic_name"
-        }, 
-        "number_of_instances": 2826
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#structure_annotationCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 2804
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assembly_db_linkCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 2739
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#nmr_spec_exptCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 2569
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#bondCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 2224
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assembly_bio_function", 
-        "label": {
-            "en": "assembly_bio_function", 
-            "ja": "assembly_bio_function"
-        }, 
-        "number_of_instances": 2064
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_deleted_atom", 
-        "label": {
-            "en": "entity_deleted_atom", 
-            "ja": "entity_deleted_atom"
-        }, 
-        "number_of_instances": 2044
-    }, 
-    {
-        "class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List", 
-        "label": {
-            "en": "List", 
-            "ja": "List"
-        }, 
-        "number_of_instances": 2019
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_biological_function", 
-        "label": {
-            "en": "entity_biological_function", 
-            "ja": "entity_biological_function"
-        }, 
-        "number_of_instances": 1916
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp_common_nameCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 1859
-    }, 
-    {
-        "class": "http://www.w3.org/2002/07/owl#Class", 
-        "label": {
-            "en": "Class", 
-            "ja": "Class"
-        }, 
-        "number_of_instances": 1832
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp_db_linkCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 1815
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp_citationCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 1812
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp_citation", 
-        "label": {
-            "en": "chem_comp_citation", 
-            "ja": "chem_comp_citation"
-        }, 
-        "number_of_instances": 1812
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_systematic_name", 
-        "label": {
-            "en": "entity_systematic_name", 
-            "ja": "entity_systematic_name"
-        }, 
-        "number_of_instances": 1733
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#atom_nomenclatureCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 1731
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp_smilesCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 1710
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_comp_systematic_nameCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 1681
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assembly_bio_functionCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 1617
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#spectral_dimCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 1441
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#h_exch_rate", 
-        "label": {
-            "en": "h_exch_rate", 
-            "ja": "h_exch_rate"
-        }, 
-        "number_of_instances": 1434
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_biological_functionCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 1408
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#struct_classification", 
-        "label": {
-            "en": "struct_classification", 
-            "ja": "struct_classification"
-        }, 
-        "number_of_instances": 1397
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#homonucl_noe", 
-        "label": {
-            "en": "homonucl_noe", 
-            "ja": "homonucl_noe"
-        }, 
-        "number_of_instances": 1281
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#struct_classificationCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 1263
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#tensor", 
-        "label": {
-            "en": "tensor", 
-            "ja": "tensor"
-        }, 
-        "number_of_instances": 1227
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#cs_anisotropy", 
-        "label": {
-            "en": "cs_anisotropy", 
-            "ja": "cs_anisotropy"
-        }, 
-        "number_of_instances": 1227
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#experiment_fileCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 1106
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assigned_spectral_transition", 
-        "label": {
-            "en": "assigned_spectral_transition", 
-            "ja": "assigned_spectral_transition"
-        }, 
-        "number_of_instances": 1009
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#spectral_transition_charCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 954
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#spectral_transitionCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 954
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#spectral_transition_general_charCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 954
-    }, 
-    {
-        "class": "http://www.w3.org/2002/07/owl#ObjectProperty", 
-        "label": {
-            "en": "ObjectProperty", 
-            "ja": "ObjectProperty"
-        }, 
-        "number_of_instances": 918
-    }, 
-    {
-        "class": "http://www.w3.org/2002/07/owl#InverseFunctionalProperty", 
-        "label": {
-            "en": "InverseFunctionalProperty", 
-            "ja": "InverseFunctionalProperty"
-        }, 
-        "number_of_instances": 916
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#ambiguous_atom_chem_shiftCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 893
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chemical_rate", 
-        "label": {
-            "en": "chemical_rate", 
-            "ja": "chemical_rate"
-        }, 
-        "number_of_instances": 833
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_systematic_nameCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 807
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#t1rho", 
-        "label": {
-            "en": "t1rho", 
-            "ja": "t1rho"
-        }, 
-        "number_of_instances": 804
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#spectral_density", 
-        "label": {
-            "en": "spectral_density", 
-            "ja": "spectral_density"
-        }, 
-        "number_of_instances": 620
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#h_exch_protection_factor", 
-        "label": {
-            "en": "h_exch_protection_factor", 
-            "ja": "h_exch_protection_factor"
-        }, 
-        "number_of_instances": 606
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#coupling_constant_experiment", 
-        "label": {
-            "en": "coupling_constant_experiment", 
-            "ja": "coupling_constant_experiment"
-        }, 
-        "number_of_instances": 585
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#study_entry_list", 
-        "label": {
-            "en": "study_entry_list", 
-            "ja": "study_entry_list"
-        }, 
-        "number_of_instances": 583
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_t2_experiment", 
-        "label": {
-            "en": "heteronucl_t2_experiment", 
-            "ja": "heteronucl_t2_experiment"
-        }, 
-        "number_of_instances": 500
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#study_keyword", 
-        "label": {
-            "en": "study_keyword", 
-            "ja": "study_keyword"
-        }, 
-        "number_of_instances": 499
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#software_citation", 
-        "label": {
-            "en": "software_citation", 
-            "ja": "software_citation"
-        }, 
-        "number_of_instances": 494
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#coupling_constant_list", 
-        "label": {
-            "en": "coupling_constant_list", 
-            "ja": "coupling_constant_list"
-        }, 
-        "number_of_instances": 479
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_t2_list", 
-        "label": {
-            "en": "heteronucl_t2_list", 
-            "ja": "heteronucl_t2_list"
-        }, 
-        "number_of_instances": 475
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_t1_experiment", 
-        "label": {
-            "en": "heteronucl_t1_experiment", 
-            "ja": "heteronucl_t1_experiment"
-        }, 
-        "number_of_instances": 468
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_t1_list", 
-        "label": {
-            "en": "heteronucl_t1_list", 
-            "ja": "heteronucl_t1_list"
-        }, 
-        "number_of_instances": 455
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#auxiliary_files", 
-        "label": {
-            "en": "auxiliary_files", 
-            "ja": "auxiliary_files"
-        }, 
-        "number_of_instances": 440
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_noe_experiment", 
-        "label": {
-            "en": "heteronucl_noe_experiment", 
-            "ja": "heteronucl_noe_experiment"
-        }, 
-        "number_of_instances": 439
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_noe_list", 
-        "label": {
-            "en": "heteronucl_noe_list", 
-            "ja": "heteronucl_noe_list"
-        }, 
-        "number_of_instances": 427
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_deleted_atomCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 427
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_atom_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 405
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#cross_correlation_d_csa", 
-        "label": {
-            "en": "cross_correlation_d_csa", 
-            "ja": "cross_correlation_d_csa"
-        }, 
-        "number_of_instances": 386
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#coupling_constantCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 368
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#coupling_constant_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 368
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#coupling_constant_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 365
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#order_parameter_experiment", 
-        "label": {
-            "en": "order_parameter_experiment", 
-            "ja": "order_parameter_experiment"
-        }, 
-        "number_of_instances": 355
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#binding_result", 
-        "label": {
-            "en": "binding_result", 
-            "ja": "binding_result"
-        }, 
-        "number_of_instances": 322
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#ph_titr_result", 
-        "label": {
-            "en": "ph_titr_result", 
-            "ja": "ph_titr_result"
-        }, 
-        "number_of_instances": 293
-    }, 
-    {
-        "class": "http://www.w3.org/2002/07/owl#DataRange", 
-        "label": {
-            "en": "DataRange", 
-            "ja": "DataRange"
-        }, 
-        "number_of_instances": 293
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#rdc_experiment", 
-        "label": {
-            "en": "rdc_experiment", 
-            "ja": "rdc_experiment"
-        }, 
-        "number_of_instances": 293
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#software_citationCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 285
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#study", 
-        "label": {
-            "en": "study", 
-            "ja": "study"
-        }, 
-        "number_of_instances": 260
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#study_list", 
-        "label": {
-            "en": "study_list", 
-            "ja": "study_list"
-        }, 
-        "number_of_instances": 258
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#study_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 258
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#studyCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 251
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_noe_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 246
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#t1Category", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 244
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_noeCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 244
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_t1_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 244
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#t2Category", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 242
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_t2_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 242
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_noe_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 242
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_t1_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 240
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_t2_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 238
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#auxiliary_filesCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 220
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_shifts_calc_type", 
-        "label": {
-            "en": "chem_shifts_calc_type", 
-            "ja": "chem_shifts_calc_type"
-        }, 
-        "number_of_instances": 220
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_keyword", 
-        "label": {
-            "en": "entity_keyword", 
-            "ja": "entity_keyword"
-        }, 
-        "number_of_instances": 220
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#binding_experiment", 
-        "label": {
-            "en": "binding_experiment", 
-            "ja": "binding_experiment"
-        }, 
-        "number_of_instances": 220
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_shifts_calc_software", 
-        "label": {
-            "en": "chem_shifts_calc_software", 
-            "ja": "chem_shifts_calc_software"
-        }, 
-        "number_of_instances": 220
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_shifts_calc_softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 220
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#theoretical_chem_shiftCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 220
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#theoretical_chem_shift_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 220
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#theoretical_chem_shift_list", 
-        "label": {
-            "en": "theoretical_chem_shift_list", 
-            "ja": "theoretical_chem_shift_list"
-        }, 
-        "number_of_instances": 220
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_shifts_calc_typeCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 220
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#nmr_spectrometer_probe", 
-        "label": {
-            "en": "nmr_spectrometer_probe", 
-            "ja": "nmr_spectrometer_probe"
-        }, 
-        "number_of_instances": 208
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#nmr_probe", 
-        "label": {
-            "en": "nmr_probe", 
-            "ja": "nmr_probe"
-        }, 
-        "number_of_instances": 207
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#cross_correlation_dd", 
-        "label": {
-            "en": "cross_correlation_dd", 
-            "ja": "cross_correlation_dd"
-        }, 
-        "number_of_instances": 201
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#study_keywordCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 193
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#rdc_list", 
-        "label": {
-            "en": "rdc_list", 
-            "ja": "rdc_list"
-        }, 
-        "number_of_instances": 193
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#order_parameter_list", 
-        "label": {
-            "en": "order_parameter_list", 
-            "ja": "order_parameter_list"
-        }, 
-        "number_of_instances": 183
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#nmr_probeCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 167
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#nmr_spectrometer_probeCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 167
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#binding_partners", 
-        "label": {
-            "en": "binding_partners", 
-            "ja": "binding_partners"
-        }, 
-        "number_of_instances": 161
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#nmr_experiment_fileCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 140
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#rdcCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 139
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#rdc_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 139
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#rdc_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 136
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#method", 
-        "label": {
-            "en": "method", 
-            "ja": "method"
-        }, 
-        "number_of_instances": 127
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#binding_software", 
-        "label": {
-            "en": "binding_software", 
-            "ja": "binding_software"
-        }, 
-        "number_of_instances": 125
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_keywordCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 123
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assembly_keyword", 
-        "label": {
-            "en": "assembly_keyword", 
-            "ja": "assembly_keyword"
-        }, 
-        "number_of_instances": 120
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_noe_software", 
-        "label": {
-            "en": "heteronucl_noe_software", 
-            "ja": "heteronucl_noe_software"
-        }, 
-        "number_of_instances": 109
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#atomCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 106
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#rdc_software", 
-        "label": {
-            "en": "rdc_software", 
-            "ja": "rdc_software"
-        }, 
-        "number_of_instances": 100
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#systematic_chem_shift_offset", 
-        "label": {
-            "en": "systematic_chem_shift_offset", 
-            "ja": "systematic_chem_shift_offset"
-        }, 
-        "number_of_instances": 98
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assigned_spectral_transitionCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 96
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#ph_titration_experiment", 
-        "label": {
-            "en": "ph_titration_experiment", 
-            "ja": "ph_titration_experiment"
-        }, 
-        "number_of_instances": 95
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#order_parameter_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 93
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#order_paramCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 93
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_t1_software", 
-        "label": {
-            "en": "heteronucl_t1_software", 
-            "ja": "heteronucl_t1_software"
-        }, 
-        "number_of_instances": 92
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#order_parameter_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 88
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#methodCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 87
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_t2_software", 
-        "label": {
-            "en": "heteronucl_t2_software", 
-            "ja": "heteronucl_t2_software"
-        }, 
-        "number_of_instances": 85
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#systematic_chem_shift_offsetCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 82
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#study_entry_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 80
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assembly_interaction", 
-        "label": {
-            "en": "assembly_interaction", 
-            "ja": "assembly_interaction"
-        }, 
-        "number_of_instances": 77
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#binding_value_list", 
-        "label": {
-            "en": "binding_value_list", 
-            "ja": "binding_value_list"
-        }, 
-        "number_of_instances": 74
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#binding_resultCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 73
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#binding_value_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 73
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#binding_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 73
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#binding_partnersCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 73
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chemical_rate_experiment", 
-        "label": {
-            "en": "chemical_rate_experiment", 
-            "ja": "chemical_rate_experiment"
-        }, 
-        "number_of_instances": 72
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chemical_rate_software", 
-        "label": {
-            "en": "chemical_rate_software", 
-            "ja": "chemical_rate_software"
-        }, 
-        "number_of_instances": 71
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#order_parameter_software", 
-        "label": {
-            "en": "order_parameter_software", 
-            "ja": "order_parameter_software"
-        }, 
-        "number_of_instances": 68
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assembly_keywordCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 61
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#binding_softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 61
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#other_data_experiment", 
-        "label": {
-            "en": "other_data_experiment", 
-            "ja": "other_data_experiment"
-        }, 
-        "number_of_instances": 59
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assembly_interactionCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 59
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#ph_titration_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 58
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#ph_titration_list", 
-        "label": {
-            "en": "ph_titration_list", 
-            "ja": "ph_titration_list"
-        }, 
-        "number_of_instances": 58
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#ph_titration_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 58
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#ph_titr_resultCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 58
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#natural_source_db", 
-        "label": {
-            "en": "natural_source_db", 
-            "ja": "natural_source_db"
-        }, 
-        "number_of_instances": 57
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_noe_softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 56
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#ph_paramCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 55
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#ph_param_list", 
-        "label": {
-            "en": "ph_param_list", 
-            "ja": "ph_param_list"
-        }, 
-        "number_of_instances": 55
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#ph_param_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 55
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#auto_relaxation_list", 
-        "label": {
-            "en": "auto_relaxation_list", 
-            "ja": "auto_relaxation_list"
-        }, 
-        "number_of_instances": 54
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#cs_anisotropy_experiment", 
-        "label": {
-            "en": "cs_anisotropy_experiment", 
-            "ja": "cs_anisotropy_experiment"
-        }, 
-        "number_of_instances": 53
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#natural_source_dbCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 52
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#rdc_softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 52
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#coupling_constant_software", 
-        "label": {
-            "en": "coupling_constant_software", 
-            "ja": "coupling_constant_software"
-        }, 
-        "number_of_instances": 50
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_t1_softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 48
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chemical_rate_list", 
-        "label": {
-            "en": "chemical_rate_list", 
-            "ja": "chemical_rate_list"
-        }, 
-        "number_of_instances": 47
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#other_data_type_list", 
-        "label": {
-            "en": "other_data_type_list", 
-            "ja": "other_data_type_list"
-        }, 
-        "number_of_instances": 47
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_t2_softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 46
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assembly_systematic_nameCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 44
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#pdbx_poly_seq_scheme", 
-        "label": {
-            "en": "pdbx_poly_seq_scheme", 
-            "ja": "pdbx_poly_seq_scheme"
-        }, 
-        "number_of_instances": 44
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#other_data_software", 
-        "label": {
-            "en": "other_data_software", 
-            "ja": "other_data_software"
-        }, 
-        "number_of_instances": 42
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chemical_rate_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 39
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chemical_rate_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 39
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chemical_rateCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 38
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#order_parameter_softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 33
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#coupling_constant_softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 32
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chemical_rate_softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 31
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#spectral_density_experiment", 
-        "label": {
-            "en": "spectral_density_experiment", 
-            "ja": "spectral_density_experiment"
-        }, 
-        "number_of_instances": 30
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_purity", 
-        "label": {
-            "en": "entity_purity", 
-            "ja": "entity_purity"
-        }, 
-        "number_of_instances": 27
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_purity_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 23
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#h_exch_rate_list", 
-        "label": {
-            "en": "h_exch_rate_list", 
-            "ja": "h_exch_rate_list"
-        }, 
-        "number_of_instances": 23
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#h_exch_rate_experiment", 
-        "label": {
-            "en": "h_exch_rate_experiment", 
-            "ja": "h_exch_rate_experiment"
-        }, 
-        "number_of_instances": 23
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_purity_list", 
-        "label": {
-            "en": "entity_purity_list", 
-            "ja": "entity_purity_list"
-        }, 
-        "number_of_instances": 23
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_purityCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 22
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assembly_systematic_name", 
-        "label": {
-            "en": "assembly_systematic_name", 
-            "ja": "assembly_systematic_name"
-        }, 
-        "number_of_instances": 18
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#h_exch_rate_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 17
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#h_exch_rate_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 17
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#h_exch_rateCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 17
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_shift_anisotropy", 
-        "label": {
-            "en": "chem_shift_anisotropy", 
-            "ja": "chem_shift_anisotropy"
-        }, 
-        "number_of_instances": 16
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#tensor_list", 
-        "label": {
-            "en": "tensor_list", 
-            "ja": "tensor_list"
-        }, 
-        "number_of_instances": 15
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_t1rho_experiment", 
-        "label": {
-            "en": "heteronucl_t1rho_experiment", 
-            "ja": "heteronucl_t1rho_experiment"
-        }, 
-        "number_of_instances": 13
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_t1rho_list", 
-        "label": {
-            "en": "heteronucl_t1rho_list", 
-            "ja": "heteronucl_t1rho_list"
-        }, 
-        "number_of_instances": 13
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#ph_titration_software", 
-        "label": {
-            "en": "ph_titration_software", 
-            "ja": "ph_titration_software"
-        }, 
-        "number_of_instances": 12
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#other_data_type_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 12
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#nmr_spectrometer_citation", 
-        "label": {
-            "en": "nmr_spectrometer_citation", 
-            "ja": "nmr_spectrometer_citation"
-        }, 
-        "number_of_instances": 11
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#ph_titration_softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 11
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#cs_anisotropy_software", 
-        "label": {
-            "en": "cs_anisotropy_software", 
-            "ja": "cs_anisotropy_software"
-        }, 
-        "number_of_instances": 11
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#spectral_density_list", 
-        "label": {
-            "en": "spectral_density_list", 
-            "ja": "spectral_density_list"
-        }, 
-        "number_of_instances": 10
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#spectral_density_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 10
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#other_data_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 10
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#spectral_density_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 10
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#nmr_spectrometer_citationCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 9
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_citation", 
-        "label": {
-            "en": "entity_citation", 
-            "ja": "entity_citation"
-        }, 
-        "number_of_instances": 9
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_citationCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 9
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#spectral_densityCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 8
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#cs_anisotropy_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 8
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#chem_shift_anisotropyCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 8
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#h_exch_protection_factor_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 8
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#h_exch_protection_factor_list", 
-        "label": {
-            "en": "h_exch_protection_factor_list", 
-            "ja": "h_exch_protection_factor_list"
-        }, 
-        "number_of_instances": 8
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#h_exch_rate_software", 
-        "label": {
-            "en": "h_exch_rate_software", 
-            "ja": "h_exch_rate_software"
-        }, 
-        "number_of_instances": 8
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#h_exch_protection_factorCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 8
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_t1rho_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 7
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#tensor_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 7
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#other_data_softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 7
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#homonucl_noe_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 7
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_t1rho_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 7
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#atom_type", 
-        "label": {
-            "en": "atom_type", 
-            "ja": "atom_type"
-        }, 
-        "number_of_instances": 7
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#auto_relaxation_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 7
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#homonucl_noe_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 7
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#homonucl_noe_experiment", 
-        "label": {
-            "en": "homonucl_noe_experiment", 
-            "ja": "homonucl_noe_experiment"
-        }, 
-        "number_of_instances": 7
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#auto_relaxation_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 7
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#auto_relaxationCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 7
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#sample_citation", 
-        "label": {
-            "en": "sample_citation", 
-            "ja": "sample_citation"
-        }, 
-        "number_of_instances": 7
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#h_exch_protection_fact_experiment", 
-        "label": {
-            "en": "h_exch_protection_fact_experiment", 
-            "ja": "h_exch_protection_fact_experiment"
-        }, 
-        "number_of_instances": 7
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#tensorCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 7
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#t1rhoCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 7
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#cs_anisotropyCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 7
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#homonucl_noe_list", 
-        "label": {
-            "en": "homonucl_noe_list", 
-            "ja": "homonucl_noe_list"
-        }, 
-        "number_of_instances": 7
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#citation_editor", 
-        "label": {
-            "en": "citation_editor", 
-            "ja": "citation_editor"
-        }, 
-        "number_of_instances": 6
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#h_exch_protection_fact_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 6
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#homonucl_noeCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 6
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_bond", 
-        "label": {
-            "en": "entity_bond", 
-            "ja": "entity_bond"
-        }, 
-        "number_of_instances": 6
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#sample_condition_citationCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 5
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#cross_correlation_d_csa_list", 
-        "label": {
-            "en": "cross_correlation_d_csa_list", 
-            "ja": "cross_correlation_d_csa_list"
-        }, 
-        "number_of_instances": 5
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#cross_correlation_d_csa_experiment", 
-        "label": {
-            "en": "cross_correlation_d_csa_experiment", 
-            "ja": "cross_correlation_d_csa_experiment"
-        }, 
-        "number_of_instances": 5
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#sample_citationCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 5
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#cs_anisotropy_softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 5
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#sample_condition_citation", 
-        "label": {
-            "en": "sample_condition_citation", 
-            "ja": "sample_condition_citation"
-        }, 
-        "number_of_instances": 5
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assembly_citationCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 4
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#assembly_citation", 
-        "label": {
-            "en": "assembly_citation", 
-            "ja": "assembly_citation"
-        }, 
-        "number_of_instances": 4
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_chimera_segment", 
-        "label": {
-            "en": "entity_chimera_segment", 
-            "ja": "entity_chimera_segment"
-        }, 
-        "number_of_instances": 4
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#homonucl_noe_softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 4
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#homonucl_noe_software", 
-        "label": {
-            "en": "homonucl_noe_software", 
-            "ja": "homonucl_noe_software"
-        }, 
-        "number_of_instances": 4
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#atom_typeCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 4
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#h_exch_rate_softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 4
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#citation_editorCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 3
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_t1rho_software", 
-        "label": {
-            "en": "heteronucl_t1rho_software", 
-            "ja": "heteronucl_t1rho_software"
-        }, 
-        "number_of_instances": 3
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_bondCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 3
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_comp_index_alt", 
-        "label": {
-            "en": "entity_comp_index_alt", 
-            "ja": "entity_comp_index_alt"
-        }, 
-        "number_of_instances": 3
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#heteronucl_t1rho_softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 2
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#rep_conf_refinementCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 2
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#h_exch_protection_fact_software", 
-        "label": {
-            "en": "h_exch_protection_fact_software", 
-            "ja": "h_exch_protection_fact_software"
-        }, 
-        "number_of_instances": 2
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#pdbx_poly_seq_schemeCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 2
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#cross_correlation_d_csaCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 2
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#cross_correlation_dd_list", 
-        "label": {
-            "en": "cross_correlation_dd_list", 
-            "ja": "cross_correlation_dd_list"
-        }, 
-        "number_of_instances": 2
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#cross_correlation_d_csa_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 2
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#h_exch_protection_fact_softwareCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 2
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#cross_correlation_d_csa_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 2
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#cross_correlation_dd_experiment", 
-        "label": {
-            "en": "cross_correlation_dd_experiment", 
-            "ja": "cross_correlation_dd_experiment"
-        }, 
-        "number_of_instances": 2
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#rep_conf_refinement", 
-        "label": {
-            "en": "rep_conf_refinement", 
-            "ja": "rep_conf_refinement"
-        }, 
-        "number_of_instances": 2
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#cross_correlation_ddCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 1
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_comp_index_altCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 1
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#entity_chimera_segmentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 1
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#cross_correlation_dd_experimentCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 1
-    }, 
-    {
-        "class": "http://bmrbpub.protein.osaka-u.ac.jp/schema/mmcif_nmr-star.owl#cross_correlation_dd_listCategory", 
-        "label": {
-            "en": "", 
-            "ja": ""
-        }, 
-        "number_of_instances": 1
-    }, 
-    {
-        "class": "http://www.w3.org/2002/07/owl#Ontology", 
-        "label": {
-            "en": "Ontology", 
-            "ja": "Ontology"
-        }, 
-        "number_of_instances": 1
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#pb_char",
+    "number_of_instances": 13063082,
+    "label": {
+      "en": "",
+      "ja": ""
     }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#atom_chem_shift",
+    "number_of_instances": 11326398,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#lacs_char",
+    "number_of_instances": 2115127,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_completeness_char",
+    "number_of_instances": 1871810,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_comp_index",
+    "number_of_instances": 1787901,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_poly_seq",
+    "number_of_instances": 1782695,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_db_link",
+    "number_of_instances": 283643,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp_bond",
+    "number_of_instances": 192964,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp_atom",
+    "number_of_instances": 191143,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#citation_author",
+    "number_of_instances": 162644,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#pb_list",
+    "number_of_instances": 153054,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#experiment",
+    "number_of_instances": 118469,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#sample_component",
+    "number_of_instances": 113289,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_experiment",
+    "number_of_instances": 88721,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entry_author",
+    "number_of_instances": 79248,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#sample_condition_variable",
+    "number_of_instances": 63123,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#task",
+    "number_of_instances": 62192,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#atom_nomenclature",
+    "number_of_instances": 57748,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#spectral_transition_char",
+    "number_of_instances": 54340,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#t1",
+    "number_of_instances": 53482,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#t2",
+    "number_of_instances": 52881,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#release",
+    "number_of_instances": 51975,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#spectral_transition",
+    "number_of_instances": 51211,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#spectral_transition_general_char",
+    "number_of_instances": 51211,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_noe",
+    "number_of_instances": 51187,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#software",
+    "number_of_instances": 46263,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_ref",
+    "number_of_instances": 43601,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#datum",
+    "number_of_instances": 43193,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp_descriptor",
+    "number_of_instances": 42266,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#vendor",
+    "number_of_instances": 38639,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#coupling_constant",
+    "number_of_instances": 28938,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#sample",
+    "number_of_instances": 27670,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_assembly",
+    "number_of_instances": 26669,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#related_entries",
+    "number_of_instances": 26629,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#ambiguous_atom_chem_shift",
+    "number_of_instances": 26434,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#nmr_spectrometer",
+    "number_of_instances": 25618,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#experiment_file",
+    "number_of_instances": 25583,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#lacs_plot",
+    "number_of_instances": 24023,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity",
+    "number_of_instances": 22278,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#nmr_spectrometer_view",
+    "number_of_instances": 20984,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp_db_link",
+    "number_of_instances": 20477,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#struct_keywords",
+    "number_of_instances": 20120,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#citation",
+    "number_of_instances": 20094,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#data_set",
+    "number_of_instances": 20083,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp_common_name",
+    "number_of_instances": 19733,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#rdc",
+    "number_of_instances": 19631,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#order_param",
+    "number_of_instances": 19627,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#sample_condition_list",
+    "number_of_instances": 19563,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assigned_chem_shift_list",
+    "number_of_instances": 19256,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_experimental_src",
+    "number_of_instances": 19159,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_natural_src",
+    "number_of_instances": 18784,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_reference",
+    "number_of_instances": 18169,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entryCategory",
+    "number_of_instances": 17683,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entry",
+    "number_of_instances": 17683,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#datablock",
+    "number_of_instances": 17683,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entry_authorCategory",
+    "number_of_instances": 17683,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#citation_authorCategory",
+    "number_of_instances": 17682,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#citationCategory",
+    "number_of_instances": 17682,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#releaseCategory",
+    "number_of_instances": 17680,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assembly",
+    "number_of_instances": 17675,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_comp_indexCategory",
+    "number_of_instances": 17673,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entityCategory",
+    "number_of_instances": 17673,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#citation_keyword",
+    "number_of_instances": 17663,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assemblyCategory",
+    "number_of_instances": 17659,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_assemblyCategory",
+    "number_of_instances": 17659,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#datumCategory",
+    "number_of_instances": 17505,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#data_setCategory",
+    "number_of_instances": 17482,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#sample_condition_variableCategory",
+    "number_of_instances": 17453,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#sample_condition_listCategory",
+    "number_of_instances": 17453,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#sampleCategory",
+    "number_of_instances": 17453,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_natural_src_listCategory",
+    "number_of_instances": 17429,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_experimental_src_listCategory",
+    "number_of_instances": 17429,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_natural_src_list",
+    "number_of_instances": 17429,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_experimental_src_list",
+    "number_of_instances": 17429,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_experimental_srcCategory",
+    "number_of_instances": 17429,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#experiment_listCategory",
+    "number_of_instances": 17425,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#experiment_list",
+    "number_of_instances": 17425,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_referenceCategory",
+    "number_of_instances": 17389,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#nmr_spectrometerCategory",
+    "number_of_instances": 17378,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_refCategory",
+    "number_of_instances": 17361,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_natural_srcCategory",
+    "number_of_instances": 17325,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#experimentCategory",
+    "number_of_instances": 16978,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assigned_chem_shift_listCategory",
+    "number_of_instances": 16935,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#atom_chem_shiftCategory",
+    "number_of_instances": 16933,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_experimentCategory",
+    "number_of_instances": 16871,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_completeness_list",
+    "number_of_instances": 16679,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#sample_componentCategory",
+    "number_of_instances": 16336,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_poly_seqCategory",
+    "number_of_instances": 15715,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_atom_list",
+    "number_of_instances": 15503,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#softwareCategory",
+    "number_of_instances": 15302,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_completeness_listCategory",
+    "number_of_instances": 15097,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_completeness_charCategory",
+    "number_of_instances": 15036,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#taskCategory",
+    "number_of_instances": 14854,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#nmr_spectrometer_listCategory",
+    "number_of_instances": 13658,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#nmr_spectrometer_list",
+    "number_of_instances": 13658,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#nmr_spectrometer_viewCategory",
+    "number_of_instances": 13654,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#spectral_dim",
+    "number_of_instances": 13440,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#nmr_spec_expt",
+    "number_of_instances": 13217,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_common_name",
+    "number_of_instances": 12806,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#vendorCategory",
+    "number_of_instances": 12319,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#atom",
+    "number_of_instances": 11183,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp_identifier",
+    "number_of_instances": 11020,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#related_entriesCategory",
+    "number_of_instances": 10241,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#bond",
+    "number_of_instances": 9920,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_software",
+    "number_of_instances": 9759,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_db_linkCategory",
+    "number_of_instances": 9542,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp",
+    "number_of_instances": 7505,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#pb_listCategory",
+    "number_of_instances": 6949,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#pb_charCategory",
+    "number_of_instances": 6949,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#lacs_plotCategory",
+    "number_of_instances": 6760,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#lacs_charCategory",
+    "number_of_instances": 6760,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_common_nameCategory",
+    "number_of_instances": 6310,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assembly_common_name",
+    "number_of_instances": 6252,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#nmr_experiment_file",
+    "number_of_instances": 5969,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_compCategory",
+    "number_of_instances": 5832,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp_atomCategory",
+    "number_of_instances": 5759,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#struct_keywordsCategory",
+    "number_of_instances": 5604,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entry_src",
+    "number_of_instances": 5549,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp_descriptorCategory",
+    "number_of_instances": 5432,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_softwareCategory",
+    "number_of_instances": 5404,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#t1rho",
+    "number_of_instances": 4983,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#theoretical_chem_shift",
+    "number_of_instances": 4869,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp_bondCategory",
+    "number_of_instances": 4645,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#citation_keywordCategory",
+    "number_of_instances": 4558,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#sg_project",
+    "number_of_instances": 4518,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#sg_projectCategory",
+    "number_of_instances": 4432,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entry_srcCategory",
+    "number_of_instances": 4299,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assembly_db_link",
+    "number_of_instances": 4205,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp_identifierCategory",
+    "number_of_instances": 3992,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assembly_common_nameCategory",
+    "number_of_instances": 3729,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp_smiles",
+    "number_of_instances": 3322,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#ph_param",
+    "number_of_instances": 3275,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assembly_db_linkCategory",
+    "number_of_instances": 2989,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_systematic_name",
+    "number_of_instances": 2919,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assembly_type",
+    "number_of_instances": 2911,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assembly_typeCategory",
+    "number_of_instances": 2904,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_biological_function",
+    "number_of_instances": 2839,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp_systematic_name",
+    "number_of_instances": 2826,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#bondCategory",
+    "number_of_instances": 2779,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assigned_spectral_transition",
+    "number_of_instances": 2773,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assembly_bio_function",
+    "number_of_instances": 2402,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#nmr_spec_exptCategory",
+    "number_of_instances": 2295,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#h_exch_rate",
+    "number_of_instances": 2270,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_deleted_atom",
+    "number_of_instances": 2202,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_biological_functionCategory",
+    "number_of_instances": 2109,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#spectral_dimCategory",
+    "number_of_instances": 2024,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp_db_linkCategory",
+    "number_of_instances": 1956,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp_common_nameCategory",
+    "number_of_instances": 1947,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assembly_bio_functionCategory",
+    "number_of_instances": 1896,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp_citation",
+    "number_of_instances": 1813,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp_citationCategory",
+    "number_of_instances": 1813,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#homonucl_noe",
+    "number_of_instances": 1736,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#atom_nomenclatureCategory",
+    "number_of_instances": 1731,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp_smilesCategory",
+    "number_of_instances": 1711,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_comp_systematic_nameCategory",
+    "number_of_instances": 1682,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#experiment_fileCategory",
+    "number_of_instances": 1352,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_systematic_nameCategory",
+    "number_of_instances": 1294,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#tensor",
+    "number_of_instances": 1227,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cs_anisotropy",
+    "number_of_instances": 1227,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#auxiliary_files",
+    "number_of_instances": 1145,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#spectral_transition_general_charCategory",
+    "number_of_instances": 1094,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#spectral_transition_charCategory",
+    "number_of_instances": 1094,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#spectral_transitionCategory",
+    "number_of_instances": 1094,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_perturbation",
+    "number_of_instances": 1094,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#ambiguous_atom_chem_shiftCategory",
+    "number_of_instances": 1006,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cross_correlation_d_csa",
+    "number_of_instances": 1000,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chemical_rate",
+    "number_of_instances": 833,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entry_experimental_methodsCategory",
+    "number_of_instances": 811,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entry_experimental_methods",
+    "number_of_instances": 796,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#software_citation",
+    "number_of_instances": 775,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_t2_experiment",
+    "number_of_instances": 694,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_t1_experiment",
+    "number_of_instances": 656,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_t2_list",
+    "number_of_instances": 652,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#coupling_constant_experiment",
+    "number_of_instances": 650,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#spectral_density",
+    "number_of_instances": 644,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_t1_list",
+    "number_of_instances": 634,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_noe_experiment",
+    "number_of_instances": 609,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#h_exch_protection_factor",
+    "number_of_instances": 606,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_noe_list",
+    "number_of_instances": 594,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#study_entry_list",
+    "number_of_instances": 583,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#coupling_constant_list",
+    "number_of_instances": 499,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#study_keyword",
+    "number_of_instances": 499,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_deleted_atomCategory",
+    "number_of_instances": 455,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#order_parameter_experiment",
+    "number_of_instances": 451,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#software_citationCategory",
+    "number_of_instances": 425,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_atom_listCategory",
+    "number_of_instances": 407,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#coupling_constantCategory",
+    "number_of_instances": 382,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#coupling_constant_listCategory",
+    "number_of_instances": 382,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#coupling_constant_experimentCategory",
+    "number_of_instances": 379,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#auxiliary_filesCategory",
+    "number_of_instances": 361,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_t1_listCategory",
+    "number_of_instances": 345,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#t1Category",
+    "number_of_instances": 345,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_noe_listCategory",
+    "number_of_instances": 344,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_noeCategory",
+    "number_of_instances": 342,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_t1_experimentCategory",
+    "number_of_instances": 341,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_noe_experimentCategory",
+    "number_of_instances": 340,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_t2_listCategory",
+    "number_of_instances": 332,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#t2Category",
+    "number_of_instances": 332,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_t2_experimentCategory",
+    "number_of_instances": 328,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_t2_software",
+    "number_of_instances": 327,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#binding_result",
+    "number_of_instances": 322,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_noe_software",
+    "number_of_instances": 320,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#rdc_experiment",
+    "number_of_instances": 305,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_t1_software",
+    "number_of_instances": 303,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#ph_titr_result",
+    "number_of_instances": 293,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#study",
+    "number_of_instances": 260,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#study_listCategory",
+    "number_of_instances": 258,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#study_list",
+    "number_of_instances": 258,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#other_data_experiment",
+    "number_of_instances": 256,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#studyCategory",
+    "number_of_instances": 251,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#atomCategory",
+    "number_of_instances": 247,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#order_parameter_list",
+    "number_of_instances": 240,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assigned_spectral_transitionCategory",
+    "number_of_instances": 234,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#nmr_spectrometer_probe",
+    "number_of_instances": 233,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#nmr_probe",
+    "number_of_instances": 229,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shifts_calc_type",
+    "number_of_instances": 221,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shifts_calc_typeCategory",
+    "number_of_instances": 221,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#theoretical_chem_shiftCategory",
+    "number_of_instances": 221,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#theoretical_chem_shift_listCategory",
+    "number_of_instances": 221,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_keyword",
+    "number_of_instances": 220,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shifts_calc_software",
+    "number_of_instances": 220,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shifts_calc_softwareCategory",
+    "number_of_instances": 220,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#theoretical_chem_shift_list",
+    "number_of_instances": 220,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#binding_experiment",
+    "number_of_instances": 220,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#rdc_list",
+    "number_of_instances": 207,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cross_correlation_dd",
+    "number_of_instances": 201,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#study_keywordCategory",
+    "number_of_instances": 193,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#nmr_spectrometer_probeCategory",
+    "number_of_instances": 187,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#nmr_probeCategory",
+    "number_of_instances": 187,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#binding_partners",
+    "number_of_instances": 161,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assembly_interaction",
+    "number_of_instances": 153,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#rdc_listCategory",
+    "number_of_instances": 150,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#rdcCategory",
+    "number_of_instances": 150,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#rdc_experimentCategory",
+    "number_of_instances": 147,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#nmr_experiment_fileCategory",
+    "number_of_instances": 144,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#dipolar_coupling",
+    "number_of_instances": 140,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#systematic_chem_shift_offset",
+    "number_of_instances": 132,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#method",
+    "number_of_instances": 127,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#binding_software",
+    "number_of_instances": 125,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_keywordCategory",
+    "number_of_instances": 123,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assembly_interactionCategory",
+    "number_of_instances": 121,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_noe_softwareCategory",
+    "number_of_instances": 120,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assembly_keyword",
+    "number_of_instances": 120,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#order_parameter_listCategory",
+    "number_of_instances": 119,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#order_paramCategory",
+    "number_of_instances": 119,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#systematic_chem_shift_offsetCategory",
+    "number_of_instances": 113,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#rdc_software",
+    "number_of_instances": 113,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_t2_softwareCategory",
+    "number_of_instances": 113,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_t1_softwareCategory",
+    "number_of_instances": 113,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#order_parameter_software",
+    "number_of_instances": 109,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#order_parameter_experimentCategory",
+    "number_of_instances": 108,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#other_data_software",
+    "number_of_instances": 103,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#ph_titration_experiment",
+    "number_of_instances": 95,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#methodCategory",
+    "number_of_instances": 87,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#study_entry_listCategory",
+    "number_of_instances": 80,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#other_data_type_list",
+    "number_of_instances": 79,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#binding_value_list",
+    "number_of_instances": 74,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#binding_resultCategory",
+    "number_of_instances": 73,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#binding_partnersCategory",
+    "number_of_instances": 73,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#binding_experimentCategory",
+    "number_of_instances": 73,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#binding_value_listCategory",
+    "number_of_instances": 73,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chemical_rate_experiment",
+    "number_of_instances": 72,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chemical_rate_software",
+    "number_of_instances": 71,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#h_exch_rate_experiment",
+    "number_of_instances": 62,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#binding_softwareCategory",
+    "number_of_instances": 61,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assembly_keywordCategory",
+    "number_of_instances": 61,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#ph_titration_listCategory",
+    "number_of_instances": 58,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#ph_titration_experimentCategory",
+    "number_of_instances": 58,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#ph_titration_list",
+    "number_of_instances": 58,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#ph_titr_resultCategory",
+    "number_of_instances": 58,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#h_exch_rate_list",
+    "number_of_instances": 57,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#natural_source_db",
+    "number_of_instances": 57,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#ph_param_listCategory",
+    "number_of_instances": 55,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#ph_param_list",
+    "number_of_instances": 55,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#ph_paramCategory",
+    "number_of_instances": 55,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#order_parameter_softwareCategory",
+    "number_of_instances": 54,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#rdc_softwareCategory",
+    "number_of_instances": 54,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#auto_relaxation_list",
+    "number_of_instances": 54,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#coupling_constant_software",
+    "number_of_instances": 54,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_t1rho_experiment",
+    "number_of_instances": 53,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_t1rho_list",
+    "number_of_instances": 53,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#natural_source_dbCategory",
+    "number_of_instances": 52,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cs_anisotropy_experiment",
+    "number_of_instances": 51,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chemical_rate_list",
+    "number_of_instances": 47,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assembly_systematic_nameCategory",
+    "number_of_instances": 44,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#other_data_type_listCategory",
+    "number_of_instances": 40,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#h_exch_rate_software",
+    "number_of_instances": 40,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chemical_rate_listCategory",
+    "number_of_instances": 39,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#pdbx_chem_comp_feature",
+    "number_of_instances": 39,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chemical_rate_experimentCategory",
+    "number_of_instances": 39,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#other_data_experimentCategory",
+    "number_of_instances": 38,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chemical_rateCategory",
+    "number_of_instances": 38,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#coupling_constant_softwareCategory",
+    "number_of_instances": 36,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#spectral_density_experiment",
+    "number_of_instances": 36,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#other_data_softwareCategory",
+    "number_of_instances": 34,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chemical_rate_softwareCategory",
+    "number_of_instances": 31,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_purity",
+    "number_of_instances": 27,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#h_exch_rate_listCategory",
+    "number_of_instances": 26,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#h_exch_rateCategory",
+    "number_of_instances": 26,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#h_exch_rate_experimentCategory",
+    "number_of_instances": 26,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_purity_listCategory",
+    "number_of_instances": 23,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_purity_list",
+    "number_of_instances": 23,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_purityCategory",
+    "number_of_instances": 22,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#t1rhoCategory",
+    "number_of_instances": 19,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_t1rho_listCategory",
+    "number_of_instances": 19,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_t1rho_experimentCategory",
+    "number_of_instances": 19,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assembly_systematic_name",
+    "number_of_instances": 18,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#isotope_effect_software",
+    "number_of_instances": 18,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cross_correlation_d_csa_list",
+    "number_of_instances": 15,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#tensor_list",
+    "number_of_instances": 15,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cross_correlation_d_csa_experiment",
+    "number_of_instances": 15,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_anisotropy",
+    "number_of_instances": 15,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#dipolar_coupling_software",
+    "number_of_instances": 12,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_perturbation_experiment",
+    "number_of_instances": 12,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#ph_titration_software",
+    "number_of_instances": 12,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#spectral_density_listCategory",
+    "number_of_instances": 11,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#spectral_density_experimentCategory",
+    "number_of_instances": 11,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#h_exch_rate_softwareCategory",
+    "number_of_instances": 11,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#pdbx_poly_seq_scheme",
+    "number_of_instances": 11,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#spectral_density_list",
+    "number_of_instances": 11,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#nmr_spectrometer_citation",
+    "number_of_instances": 11,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#ph_titration_softwareCategory",
+    "number_of_instances": 11,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cs_anisotropy_software",
+    "number_of_instances": 10,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#isotope_effect_softwareCategory",
+    "number_of_instances": 9,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#isotope_effect_experimentCategory",
+    "number_of_instances": 9,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_perturbation_software",
+    "number_of_instances": 9,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_citation",
+    "number_of_instances": 9,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#nmr_spectrometer_citationCategory",
+    "number_of_instances": 9,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_citationCategory",
+    "number_of_instances": 9,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_isotope_effect_listCategory",
+    "number_of_instances": 9,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_perturbation_list",
+    "number_of_instances": 9,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_isotope_effect_list",
+    "number_of_instances": 9,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#spectral_densityCategory",
+    "number_of_instances": 9,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#h_exch_protection_factor_list",
+    "number_of_instances": 8,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#dipolar_coupling_list",
+    "number_of_instances": 8,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#homonucl_noe_experimentCategory",
+    "number_of_instances": 8,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#homonucl_noe_listCategory",
+    "number_of_instances": 8,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#homonucl_noe_list",
+    "number_of_instances": 8,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#homonucl_noe_experiment",
+    "number_of_instances": 8,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#h_exch_protection_factorCategory",
+    "number_of_instances": 8,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#dipolar_coupling_experimentCategory",
+    "number_of_instances": 8,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#dipolar_couplingCategory",
+    "number_of_instances": 8,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#dipolar_coupling_softwareCategory",
+    "number_of_instances": 8,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#h_exch_protection_factor_listCategory",
+    "number_of_instances": 8,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#dipolar_coupling_listCategory",
+    "number_of_instances": 8,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#h_exch_protection_fact_experiment",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_perturbationCategory",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#homonucl_noeCategory",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#auto_relaxation_listCategory",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#tensor_listCategory",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_perturbation_softwareCategory",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cross_correlation_d_csa_experimentCategory",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cs_anisotropyCategory",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#auto_relaxationCategory",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cross_correlation_d_csaCategory",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cross_correlation_d_csa_listCategory",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_perturbation_experimentCategory",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#auto_relaxation_experimentCategory",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_perturbation_listCategory",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#chem_shift_anisotropyCategory",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cs_anisotropy_experimentCategory",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#tensorCategory",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#sample_citation",
+    "number_of_instances": 7,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_bond",
+    "number_of_instances": 6,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#h_exch_protection_fact_experimentCategory",
+    "number_of_instances": 6,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cross_correlation_d_csa_softwareCategory",
+    "number_of_instances": 5,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#sample_condition_citation",
+    "number_of_instances": 5,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#sample_citationCategory",
+    "number_of_instances": 5,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#atom_type",
+    "number_of_instances": 5,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#pdbx_chem_comp_featureCategory",
+    "number_of_instances": 5,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#citation_editor",
+    "number_of_instances": 5,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#sample_condition_citationCategory",
+    "number_of_instances": 5,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cross_correlation_d_csa_software",
+    "number_of_instances": 5,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assembly_citationCategory",
+    "number_of_instances": 4,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#homonucl_noe_softwareCategory",
+    "number_of_instances": 4,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_chimera_segment",
+    "number_of_instances": 4,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#spectral_density_software",
+    "number_of_instances": 4,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#homonucl_noe_software",
+    "number_of_instances": 4,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#assembly_citation",
+    "number_of_instances": 4,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cs_anisotropy_softwareCategory",
+    "number_of_instances": 4,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_comp_index_alt",
+    "number_of_instances": 3,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_t1rho_software",
+    "number_of_instances": 3,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#atom_typeCategory",
+    "number_of_instances": 3,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_bondCategory",
+    "number_of_instances": 3,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cross_correlation_dd_list",
+    "number_of_instances": 2,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#heteronucl_t1rho_softwareCategory",
+    "number_of_instances": 2,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#theoretical_heteronucl_t1_software",
+    "number_of_instances": 2,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#rep_conf_refinement",
+    "number_of_instances": 2,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#h_exch_protection_fact_softwareCategory",
+    "number_of_instances": 2,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#theoretical_heteronucl_noe_list",
+    "number_of_instances": 2,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#h_exch_protection_fact_software",
+    "number_of_instances": 2,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#theoretical_heteronucl_noe_software",
+    "number_of_instances": 2,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#theoretical_heteronucl_t1_list",
+    "number_of_instances": 2,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#rep_conf_refinementCategory",
+    "number_of_instances": 2,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#citation_editorCategory",
+    "number_of_instances": 2,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cross_correlation_dd_experiment",
+    "number_of_instances": 2,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#pdbx_poly_seq_schemeCategory",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#theoretical_heteronucl_t1_listCategory",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cross_correlation_dd_experimentCategory",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#theoretical_heteronucl_t1_softwareCategory",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_comp_index_altCategory",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#theoretical_heteronucl_noe_softwareCategory",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#spectral_density_softwareCategory",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#entity_chimera_segmentCategory",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cross_correlation_ddCategory",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#theoretical_heteronucl_noe_listCategory",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#theoretical_heteronucl_t2_list",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#cross_correlation_dd_listCategory",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#theoretical_heteronucl_t2_listCategory",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#theoretical_heteronucl_t2_softwareCategory",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://bmrbpub.pdbj.org/schema/mmcif_nmr-star.owl#theoretical_heteronucl_t2_software",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  }
 ]

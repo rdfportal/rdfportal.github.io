@@ -1,0 +1,146 @@
+[
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#SemanticRelationsGGDonto", 
+        "label": {
+            "en": "Semantic Relations GGDonto", 
+            "ja": "Semantic Relations GGDonto"
+        }, 
+        "number_of_instances": 872
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#DatatypeProperty", 
+        "label": {
+            "en": "DatatypeProperty", 
+            "ja": "DatatypeProperty"
+        }, 
+        "number_of_instances": 27
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 19
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#ObjectProperty", 
+        "label": {
+            "en": "ObjectProperty", 
+            "ja": "ObjectProperty"
+        }, 
+        "number_of_instances": 17
+    }, 
+    {
+        "class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", 
+        "label": {
+            "en": "Property", 
+            "ja": "Property"
+        }, 
+        "number_of_instances": 7
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Thing", 
+        "label": {
+            "en": "Thing", 
+            "ja": "Thing"
+        }, 
+        "number_of_instances": 7
+    }, 
+    {
+        "class": "http://www.w3.org/2004/02/skos/core#ConceptScheme", 
+        "label": {
+            "en": "Concept Scheme", 
+            "ja": "Concept Scheme"
+        }, 
+        "number_of_instances": 7
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#GlycoRelatedConceptSchemes", 
+        "label": {
+            "en": "Glyco-related Concept Schemes", 
+            "ja": "Glyco-related Concept Schemes"
+        }, 
+        "number_of_instances": 7
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#TopLevelOntologies", 
+        "label": {
+            "en": "Top Level Ontologies", 
+            "ja": "Top Level Ontologies"
+        }, 
+        "number_of_instances": 7
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#AnnotationProperty", 
+        "label": {
+            "en": "AnnotationProperty", 
+            "ja": "AnnotationProperty"
+        }, 
+        "number_of_instances": 5
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#FunctionalProperty", 
+        "label": {
+            "en": "FunctionalProperty", 
+            "ja": "FunctionalProperty"
+        }, 
+        "number_of_instances": 5
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#ConceptType", 
+        "label": {
+            "en": "Concept Type", 
+            "ja": "Concept Type"
+        }, 
+        "number_of_instances": 5
+    }, 
+    {
+        "class": "http://purl.uniprot.org/core/Database", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 3
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#DiseaseTypeForClassification", 
+        "label": {
+            "en": "Disease Type for Classification", 
+            "ja": "Disease Type for Classification"
+        }, 
+        "number_of_instances": 2
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#GlycoRelatedDatabases", 
+        "label": {
+            "en": "Glyco-related Databases", 
+            "ja": "Glyco-related Databases"
+        }, 
+        "number_of_instances": 2
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#OntologyType", 
+        "label": {
+            "en": "Ontology Type", 
+            "ja": "Ontology Type"
+        }, 
+        "number_of_instances": 2
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#OntologyProperty", 
+        "label": {
+            "en": "OntologyProperty", 
+            "ja": "OntologyProperty"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Ontology", 
+        "label": {
+            "en": "Ontology", 
+            "ja": "Ontology"
+        }, 
+        "number_of_instances": 1
+    }
+]

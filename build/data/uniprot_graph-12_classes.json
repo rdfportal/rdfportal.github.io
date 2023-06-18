@@ -1,0 +1,26 @@
+[
+  {
+    "class": "http://purl.uniprot.org/core/Concept",
+    "number_of_instances": 1201,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#Class",
+    "number_of_instances": 790,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  },
+  {
+    "class": "http://www.w3.org/2002/07/owl#Ontology",
+    "number_of_instances": 1,
+    "label": {
+      "en": "",
+      "ja": ""
+    }
+  }
+]

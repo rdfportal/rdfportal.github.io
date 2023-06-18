@@ -1,0 +1,50 @@
+[
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "number_of_triples": 7427270, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2002/07/owl#sameAs", 
+        "number_of_triples": 3759350, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#material-type", 
+        "number_of_triples": 3759350, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 3759350, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.org/dc/terms/identifier", 
+        "number_of_triples": 3759350, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://xmlns.com/foaf/0.1/depiction", 
+        "number_of_triples": 3582148, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://vocab.jst.go.jp/terms/sti#component-nikkaji-number", 
+        "number_of_triples": 314311, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso", 
+        "number_of_triples": 314311, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

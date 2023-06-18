@@ -1,0 +1,322 @@
+[
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001697", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 407540623
+    }, 
+    {
+        "class": "http://biohackathon.org/resource/faldo#ExactPosition", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 164852641
+    }, 
+    {
+        "class": "http://biohackathon.org/resource/faldo#StrandedPosition", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 164749269
+    }, 
+    {
+        "class": "http://biohackathon.org/resource/faldo#Region", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 145984467
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0001483", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 83926194
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0000306", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 79081234
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0000315", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 17809864
+    }, 
+    {
+        "class": "http://biohackathon.org/resource/faldoExactPosition", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 14914753
+    }, 
+    {
+        "class": "http://biohackathon.org/resource/faldoStrandedPosition", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 14914753
+    }, 
+    {
+        "class": "http://rdf.ebi.ac.uk/terms/ensemblvariation#derived_allele", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 12138174
+    }, 
+    {
+        "class": "http://rdf.ebi.ac.uk/terms/ensemblvariation#ancestral_allele", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 12105027
+    }, 
+    {
+        "class": "http://rdf.ebi.ac.uk/terms/ensemblvariation#reference_allele", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 12105027
+    }, 
+    {
+        "class": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C64214", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 7596074
+    }, 
+    {
+        "class": "http://biohackathon.org/resource/faldoRegion", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 7594420
+    }, 
+    {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#LowOrNoSignal", 
+        "label": {
+            "en": "Low or no signal", 
+            "ja": "Low or no signal"
+        }, 
+        "number_of_instances": 4257922
+    }, 
+    {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#WeakEnhancer", 
+        "label": {
+            "en": "Weak enhancer", 
+            "ja": "Weak enhancer"
+        }, 
+        "number_of_instances": 2857059
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0000673", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1541700
+    }, 
+    {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#StrongEnhancer", 
+        "label": {
+            "en": "Strong enhancer", 
+            "ja": "Strong enhancer"
+        }, 
+        "number_of_instances": 1108922
+    }, 
+    {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#TranscriptionalElongation", 
+        "label": {
+            "en": "Transcriptional elongation", 
+            "ja": "Transcriptional elongation"
+        }, 
+        "number_of_instances": 972160
+    }, 
+    {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#InactiveRegionOrHeterochroma", 
+        "label": {
+            "en": "Inactive region or heterochroma", 
+            "ja": "Inactive region or heterochroma"
+        }, 
+        "number_of_instances": 952899
+    }, 
+    {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#InactiveRegion", 
+        "label": {
+            "en": "Inactive region", 
+            "ja": "Inactive region"
+        }, 
+        "number_of_instances": 797619
+    }, 
+    {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#WeakOrPoisedPromoter", 
+        "label": {
+            "en": "Weak or poised promoter", 
+            "ja": "Weak or poised promoter"
+        }, 
+        "number_of_instances": 609599
+    }, 
+    {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#ActivePromoter", 
+        "label": {
+            "en": "Active promoter", 
+            "ja": "Active promoter"
+        }, 
+        "number_of_instances": 517846
+    }, 
+    {
+        "class": "http://biohackathon.org/resource/faldo#ForwardStrandPosition", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 56885
+    }, 
+    {
+        "class": "http://biohackathon.org/resource/faldo#ReverseStrandPosition", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 55849
+    }, 
+    {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#ChIPseqDataset", 
+        "label": {
+            "en": "ChIP-seq dataset", 
+            "ja": "ChIP-seq dataset"
+        }, 
+        "number_of_instances": 216
+    }, 
+    {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#ChIPseqPeakDataset", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 216
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0000957", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 66
+    }, 
+    {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#SNVDataset", 
+        "label": {
+            "en": "SNV dataset", 
+            "ja": "SNV dataset"
+        }, 
+        "number_of_instances": 52
+    }, 
+    {
+        "class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 28
+    }, 
+    {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#ChromHMMDataset", 
+        "label": {
+            "en": "ChromHMM dataset", 
+            "ja": "ChromHMM dataset"
+        }, 
+        "number_of_instances": 27
+    }, 
+    {
+        "class": "http://semanticscience.org/resource/SIO_001050", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 27
+    }, 
+    {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#RNAseqDataset", 
+        "label": {
+            "en": "RNA-seq dataset", 
+            "ja": "RNA-seq dataset"
+        }, 
+        "number_of_instances": 27
+    }, 
+    {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#SampleType", 
+        "label": {
+            "en": "Sample Type", 
+            "ja": "Sample Type"
+        }, 
+        "number_of_instances": 27
+    }, 
+    {
+        "class": "http://xmlns.com/foaf/0.1/Person", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 27
+    }, 
+    {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#MethylseqDataset", 
+        "label": {
+            "en": "Methyl-seq dataset", 
+            "ja": "Methyl-seq dataset"
+        }, 
+        "number_of_instances": 26
+    }, 
+    {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#TSSseqDataset", 
+        "label": {
+            "en": "TSS-seq dataset", 
+            "ja": "TSS-seq dataset"
+        }, 
+        "number_of_instances": 26
+    }, 
+    {
+        "class": "http://www.w3.org/2000/01/rdf-schema#Class", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 23
+    }, 
+    {
+        "class": "http://purl.obolibrary.org/obo/SO_0000819", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://kero.hgc.jp/ontology/kero.owl#SpeciesType", 
+        "label": {
+            "en": "Species Type", 
+            "ja": "Species Type"
+        }, 
+        "number_of_instances": 1
+    }
+]

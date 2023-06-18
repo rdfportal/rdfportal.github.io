@@ -1,0 +1,102 @@
+[
+  {
+    "property": "http://semanticscience.org/resource/SIO_000008",
+    "number_of_triples": 567599783,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/modified",
+    "number_of_triples": 303913456,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/source",
+    "number_of_triples": 303913456,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/dc/terms/available",
+    "number_of_triples": 303913456,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://semanticscience.org/resource/CHEMINF_000477",
+    "number_of_triples": 288553115,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.obolibrary.org/obo/RO_0000056",
+    "number_of_triples": 259312760,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://purl.org/spar/cito/isDiscussedBy",
+    "number_of_triples": 7082620,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "number_of_triples": 5918312,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "number_of_triples": 4471482,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  },
+  {
+    "property": "http://rdf.wwpdb.org/schema/pdbx-v40.owl#link_to_pdb",
+    "number_of_triples": 437283,
+    "domain_classes": [
+
+    ],
+    "range_classes": [
+
+    ]
+  }
+]

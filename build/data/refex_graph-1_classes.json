@@ -1,0 +1,18 @@
+[
+    {
+        "class": "http://purl.jp/bio/01/refexo#RefExEntry", 
+        "label": {
+            "en": "RefEx entry", 
+            "ja": "RefEx entry"
+        }, 
+        "number_of_instances": 15396788
+    }, 
+    {
+        "class": "http://purl.jp/bio/01/refexo#RefExSample", 
+        "label": {
+            "en": "RefEx sample", 
+            "ja": "RefEx sample"
+        }, 
+        "number_of_instances": 842
+    }
+]

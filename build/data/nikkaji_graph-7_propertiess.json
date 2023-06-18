@@ -1,0 +1,26 @@
+[
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#exactMatch", 
+        "number_of_triples": 17381365, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/2004/02/skos/core#closeMatch", 
+        "number_of_triples": 17230753, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+        "number_of_triples": 55788, 
+        "domain_classes": [], 
+        "range_classes": []
+    }, 
+    {
+        "property": "http://purl.obolibrary.org/obo/has-role", 
+        "number_of_triples": 3975, 
+        "domain_classes": [], 
+        "range_classes": []
+    }
+]

@@ -1,0 +1,138 @@
+[
+    {
+        "class": "http://www.w3.org/2002/07/owl#Class", 
+        "label": {
+            "en": "Class", 
+            "ja": "Class"
+        }, 
+        "number_of_instances": 65
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#ObjectProperty", 
+        "label": {
+            "en": "ObjectProperty", 
+            "ja": "ObjectProperty"
+        }, 
+        "number_of_instances": 41
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#DatatypeProperty", 
+        "label": {
+            "en": "DatatypeProperty", 
+            "ja": "DatatypeProperty"
+        }, 
+        "number_of_instances": 37
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Restriction", 
+        "label": {
+            "en": "Restriction", 
+            "ja": "Restriction"
+        }, 
+        "number_of_instances": 21
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Thing", 
+        "label": {
+            "en": "Thing", 
+            "ja": "Thing"
+        }, 
+        "number_of_instances": 18
+    }, 
+    {
+        "class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", 
+        "label": {
+            "en": "Property", 
+            "ja": "Property"
+        }, 
+        "number_of_instances": 10
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/ggdonto-schema#ConceptType", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 10
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#AnnotationProperty", 
+        "label": {
+            "en": "AnnotationProperty", 
+            "ja": "AnnotationProperty"
+        }, 
+        "number_of_instances": 6
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#OrganismForms", 
+        "label": {
+            "en": "Organism Forms", 
+            "ja": "Organism Forms"
+        }, 
+        "number_of_instances": 4
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#DiseasesClassificationsMeSH", 
+        "label": {
+            "en": "Classifications of Diseases using MeSH", 
+            "ja": "Classifications of Diseases using MeSH"
+        }, 
+        "number_of_instances": 3
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#SemanticRelationsPAConto", 
+        "label": {
+            "en": "Semantic Relations in PAConto", 
+            "ja": "Semantic Relations in PAConto"
+        }, 
+        "number_of_instances": 3
+    }, 
+    {
+        "class": "http://jcggdb.jp/rdf/diseases/paconto-schema#ConnectionToDiseasesClassif", 
+        "label": {
+            "en": "Connection to Diseases Classifications", 
+            "ja": "Connection to Diseases Classifications"
+        }, 
+        "number_of_instances": 3
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#Ontology", 
+        "label": {
+            "en": "Ontology", 
+            "ja": "Ontology"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#OntologyProperty", 
+        "label": {
+            "en": "OntologyProperty", 
+            "ja": "OntologyProperty"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://www.w3.org/2002/07/owl#FunctionalProperty", 
+        "label": {
+            "en": "FunctionalProperty", 
+            "ja": "FunctionalProperty"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://www.w3.org/2004/02/skos/core#ConceptScheme", 
+        "label": {
+            "en": "Concept Scheme", 
+            "ja": "Concept Scheme"
+        }, 
+        "number_of_instances": 1
+    }, 
+    {
+        "class": "http://purl.uniprot.org/core/Rank", 
+        "label": {
+            "en": "", 
+            "ja": ""
+        }, 
+        "number_of_instances": 1
+    }
+]
