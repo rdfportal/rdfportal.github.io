@@ -5697,9 +5697,9 @@
         },
         "files": [
           {
-            "name": "xsearch_jcm_brso20220918.ttl",
-            "url": "./download/xsearch_jcm_brso/latest/rdf/graph-1/xsearch_jcm_brso20220918.ttl",
-            "size": 145021869
+            "name": "xsearch_jcm_brso20230417.ttl",
+            "url": "./download/xsearch_jcm_brso/latest/rdf/all/xsearch_jcm_brso20230417.ttl",
+            "size": 151064173
           }
         ],
         "number_of_triples": 1106776,
