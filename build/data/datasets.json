@@ -5658,9 +5658,9 @@
       "./schema/xsearch_jcm_brso/jcm_brso_2104.svg"
     ],
     "download_file": {
-      "name": "xsearch_jcm_brso20220918.ttl.gz",
-      "url": "./download/xsearch_jcm_brso/latest/rdf/all/xsearch_jcm_brso20220918.ttl.gz",
-      "size": 7015397
+      "name": "xsearch_jcm_brso20230417.ttl",
+      "url": "./download/xsearch_jcm_brso/latest/rdf/all/xsearch_jcm_brso20230417.ttl",
+      "size": 151064173
     },
     "number_of_triples": 1106776,
     "number_of_instances": 257250,
