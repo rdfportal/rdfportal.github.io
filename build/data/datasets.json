@@ -4147,12 +4147,12 @@
         }
       }
     ],
-    "version": "release_20230508",
-    "issued": "2023-05-08",
+    "version": "release_20231020",
+    "issued": "2023-10-20",
     "logo_url": "./logo/pdbj.png",
     "schema_image_urls": [],
     "download_file": {
-      "name": "2023-05-08",
+      "name": "2023-10-20",
       "url": "./download/pdbj/latest/",
       "size": "-"
     },
