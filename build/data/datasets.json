@@ -1,4 +1,154 @@
 {
+  "naro_genebank": {
+    "id": "naro_genebank",
+    "provided_as": "original",
+    "reviewed": "reviewed",
+    "title": {
+      "en": "Dataset of NARO Genebank Microorganism Bioresource",
+      "ja": "NAROジーンバンク微生物バイオリソースデータセット"
+    },
+    "url": {
+      "en": "https://www.gene.affrc.go.jp/about-micro_en.php",
+      "ja": "https://www.gene.affrc.go.jp/about-micro.php"
+    },
+    "project_name": {
+      "en": "Genebank Project, NARO",
+      "ja": "農業生物資源ジーンバンク"
+    },
+    "data_provider": {
+      "en": "The Research Center of Genetic Resources, NARO (National Agriculture and Food Research Organization)",
+      "ja": "国立研究開発法人 農業・食品産業技術総合研究機構　遺伝資源研究センター"
+    },
+    "description": {
+      "en": "”Dataset of NARO Genebank Microorganism Bioresource” is a dataset for microbes which are maintained, managed and provided from Genebank Project, NARO.",
+      "ja": "「NAROジーンバンク微生物バイオリソースデータセット」とは農研機構農業生物資源ジーンバンクが維持・管理・分譲している食料・農業に係る微生物遺伝資源のデータセットです。"
+    },
+    "creators": [
+      {
+        "name": {
+          "en": "Tsuyoshi Tanaka",
+          "ja": "田中 剛"
+        },
+        "affiliation": {
+          "en": "Research Center for Advanced Analysis, NARO",
+          "ja": "農研機構高度分析研究センター"
+        }
+      },
+      {
+        "name": {
+          "en": "Satoshi Tanaka",
+          "ja": "田中 聡"
+        },
+        "affiliation": {
+          "en": "Trans-IT Co., Ltd.",
+          "ja": "トランジット株式会社"
+        }
+      }
+    ],
+    "version": "2023-08-23",
+    "issued": "2023-08-23",
+    "logo_url": "",
+    "schema_image_urls": [
+      "./schema/naro_genebank/naro_genebank.svg"
+    ],
+    "download_file": {
+      "name": "Revised_maff_only_taxon.ttl",
+      "url": "./download/naro_genebank/latest/rdf/all/Revised_maff_only_taxon.ttl",
+      "size": 4542135
+    },
+    "number_of_triples": 132210,
+    "number_of_instances": 52884,
+    "number_of_subjects": 26442,
+    "number_of_objects": 79326,
+    "number_of_literals": 52884,
+    "number_of_classes": 2850,
+    "classes": "./data/naro_genebank_classes.json",
+    "number_of_properties": 4,
+    "properties": "./data/naro_genebank_propertiess.json",
+    "number_of_datatypes": 1,
+    "datatypes": [
+      "http://www.w3.org/2001/XMLSchema#string"
+    ],
+    "xrefs": [],
+    "connected_dataset_ids": [],
+    "number_of_links": 0,
+    "ontologies": [],
+    "graphs": [
+      {
+        "uri": "http://rdfportal.org/dataset/naro_genebank",
+        "description": {
+          "en": "",
+          "ja": ""
+        },
+        "files": [
+          {
+            "name": "Revised_maff_only_taxon.ttl",
+            "url": "./download/naro_genebank/latest/rdf/all/Revised_maff_only_taxon.ttl",
+            "size": 4542135
+          }
+        ],
+        "number_of_triples": 132210,
+        "number_of_instances": 52884,
+        "number_of_subjects": 26442,
+        "number_of_objects": 79326,
+        "number_of_literals": 52884,
+        "number_of_classes": 2850,
+        "classes": "./data/naro_genebank_graph-1_classes.json",
+        "number_of_properties": 4,
+        "properties": "./data/naro_genebank_graph-1_propertiess.json",
+        "number_of_datatypes": 1,
+        "datatypes": [
+          "http://www.w3.org/2001/XMLSchema#string"
+        ]
+      }
+    ],
+    "tags": {
+      "targets": {
+        "en": [
+          "Organism"
+        ],
+        "ja": [
+          "個体/種"
+        ]
+      },
+      "information_types": {
+        "en": [
+          "Bioresource"
+        ],
+        "ja": [
+          "バイオリソース"
+        ]
+      }
+    },
+    "license": {
+      "name": {
+        "en": "Creative commons Attribution 4.0 International (CC BY 4.0) ",
+        "ja": "Creative commons Attribution 4.0 International (CC BY 4.0) "
+      },
+      "url": {
+        "en": "https://creativecommons.org/licenses/by/4.0/",
+        "ja": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "credit": {
+        "en": "Genebank Project, NARO licensed under CC Atribution 4.0 International License.",
+        "ja": "Genebank Project, NARO licensed under CC 表示 - 継承 4.0 国際"
+      }
+    },
+    "sparql_examples": [
+      {
+        "sparql": {
+          "en": "# Retrieve resources with taxid:228894\n\nPREFIX taxonomy: &lt;http://identifiers.org/taxonomy/&gt;\n PREFIX dct: &lt;http://purl.org/dc/terms/&gt;\n\n SELECT ?s ?id\nWHERE {\n ?s a taxonomy:228894 ;\n dct:identifier ?id\n } LIMIT 100",
+          "ja": "# Retrieve resources with taxid:228894\n\nPREFIX taxonomy: &lt;http://identifiers.org/taxonomy/&gt;\n PREFIX dct: &lt;http://purl.org/dc/terms/&gt;\n\n SELECT ?s ?id\nWHERE {\n ?s a taxonomy:228894 ;\n dct:identifier ?id\n } LIMIT 100"
+        },
+        "url": "./primary/sparql?format=default&page=home"
+      }
+    ],
+    "guideline": {
+      "2.4.3": "1",
+      "2.4.2": "1",
+      "2.4.4": "1"
+    }
+  },
   "bmrb": {
     "id": "bmrb",
     "provided_as": "original",
@@ -7759,9 +7909,7 @@
           "http://www.w3.org/2001/XMLSchema#boolean",
           "http://www.w3.org/2001/XMLSchema#int"
         ],
-        "xrefs": [
-          
-        ]
+        "xrefs": []
       },
       {
         "uri": "http://sparql.uniprot.org/citationmapping",
@@ -7789,9 +7937,7 @@
         "datatypes": [
           "http://www.w3.org/2001/XMLSchema#string"
         ],
-        "xrefs": [
-          
-        ]
+        "xrefs": []
       },
       {
         "uri": "http://sparql.uniprot.org/taxonomy",
@@ -7821,9 +7967,7 @@
           "http://www.w3.org/2001/XMLSchema#int",
           "http://www.w3.org/2001/XMLSchema#boolean"
         ],
-        "xrefs": [
-          
-        ]
+        "xrefs": []
       },
       {
         "uri": "http://sparql.uniprot.org/citations",
@@ -7855,9 +7999,7 @@
           "http://www.w3.org/2001/XMLSchema#gYearMonth",
           "http://www.w3.org/2001/XMLSchema#date"
         ],
-        "xrefs": [
-          
-        ]
+        "xrefs": []
       },
       {
         "uri": "http://sparql.uniprot.org/proteomes",
@@ -7889,9 +8031,7 @@
           "http://www.w3.org/2001/XMLSchema#gYear",
           "http://www.w3.org/2001/XMLSchema#gYearMonth"
         ],
-        "xrefs": [
-          
-        ]
+        "xrefs": []
       },
       {
         "uri": "http://sparql.uniprot.org/go",
@@ -7919,9 +8059,7 @@
         "datatypes": [
           "http://www.w3.org/2001/XMLSchema#string"
         ],
-        "xrefs": [
-          
-        ]
+        "xrefs": []
       },
       {
         "uri": "http://sparql.uniprot.org/enzyme",
@@ -7950,9 +8088,7 @@
           "http://www.w3.org/2001/XMLSchema#string",
           "http://www.w3.org/2001/XMLSchema#boolean"
         ],
-        "xrefs": [
-          
-        ]
+        "xrefs": []
       },
       {
         "uri": "http://sparql.uniprot.org/diseases",
@@ -7980,9 +8116,7 @@
         "datatypes": [
           "http://www.w3.org/2001/XMLSchema#string"
         ],
-        "xrefs": [
-          
-        ]
+        "xrefs": []
       },
       {
         "uri": "http://sparql.uniprot.org/journal",
@@ -8010,9 +8144,7 @@
         "datatypes": [
           "http://www.w3.org/2001/XMLSchema#string"
         ],
-        "xrefs": [
-          
-        ]
+        "xrefs": []
       },
       {
         "uri": "http://sparql.uniprot.org/pathways",
@@ -8040,9 +8172,7 @@
         "datatypes": [
           "http://www.w3.org/2001/XMLSchema#string"
         ],
-        "xrefs": [
-          
-        ]
+        "xrefs": []
       },
       {
         "uri": "http://sparql.uniprot.org/keywords",
@@ -8070,9 +8200,7 @@
         "datatypes": [
           "http://www.w3.org/2001/XMLSchema#string"
         ],
-        "xrefs": [
-          
-        ]
+        "xrefs": []
       },
       {
         "uri": "http://sparql.uniprot.org/locations",
@@ -8100,9 +8228,7 @@
         "datatypes": [
           "http://www.w3.org/2001/XMLSchema#string"
         ],
-        "xrefs": [
-          
-        ]
+        "xrefs": []
       },
       {
         "uri": "http://sparql.uniprot.org/tissues",
@@ -8130,9 +8256,7 @@
         "datatypes": [
           "http://www.w3.org/2001/XMLSchema#string"
         ],
-        "xrefs": [
-          
-        ]
+        "xrefs": []
       },
       {
         "uri": "http://sparql.uniprot.org/core",
@@ -8165,9 +8289,7 @@
           "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
           "http://www.w3.org/2001/XMLSchema#float"
         ],
-        "xrefs": [
-          
-        ]
+        "xrefs": []
       },
       {
         "uri": "http://sparql.uniprot.org/databases",
@@ -8196,9 +8318,7 @@
           "http://www.w3.org/2001/XMLSchema#string",
           "http://www.w3.org/2001/XMLSchema#boolean"
         ],
-        "xrefs": [
-          
-        ]
+        "xrefs": []
       }
     ],
     "tags": {
