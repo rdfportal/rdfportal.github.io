@@ -2930,8 +2930,8 @@
       "ja": ""
     },
     "description": {
-      "en": "Creating a comprehensive hierarchical controlled vocabulary for intractable and rare disease (i.e. nanbyo) representation in Japan.",
-      "ja": "難病オントロジーNANDOは、難病に関する語彙や、難病と他の疾患データリソースとの関連を提供します。NANDOに基づき難病関連データを記述することにより、コンピュータを用いた処理やデータの共有が容易になります。"
+      "en": "NANDO is a vocabulary that systematically and comprehensively organizes designated intractable diseases and pediatric chronic specific diseases, including their subtypes. Each disease in NANDO is linked to Mondo (Monarch Disease Ontology), a disease vocabulary adopted by many international databases and systems, enabling integration with major international disease databases such as OMIM and Orphanet.",
+      "ja": "NANDOは指定難病制度および小児慢性特定疾病制度を対象に、難病名を体系的かつ網羅的に整理した語彙集です。NANDOの各疾患は、国際的に多くのデータベースやシステムで採用されている疾患語彙集Mondo（Monarch Disease Ontology）と紐づけられており、OMIMやOrphanetといった国外の主要疾患データベースとの連携が可能です。"
     },
     "creators": [
       {
@@ -2946,16 +2946,6 @@
       },
       {
         "name": {
-          "en": "Ryota Yamada",
-          "ja": "山田 涼太"
-        },
-        "affiliation": {
-          "en": "Fuku Inc.",
-          "ja": "fuku株式会社"
-        }
-      },
-      {
-        "name": {
           "en": "Terue Takatsuki",
           "ja": "高月 照江"
         },
@@ -2964,6 +2954,17 @@
           "ja": "大学共同利用機関法人 情報・システム研究機構\nデータサイエンス共同利用基盤施設\nライフサイエンス統合データベースセンター"
         }
       },
+      {
+        "name": {
+          "en": "Jae-Moon Shin",
+          "ja": "申 在紋"
+        },
+        "affiliation": {
+          "en": "Research Organization of Information and Systems\nJoint Support-Center for Data Science Research\nDatabase Center for Life Science",
+          "ja": "大学共同利用機関法人 情報・システム研究機構\nデータサイエンス共同利用基盤施設\nライフサイエンス統合データベースセンター"
+        }
+      },
+
       {
         "name": {
           "en": "Yasunori Yamamoto",
@@ -3016,6 +3017,16 @@
       },
       {
         "name": {
+          "en": "Atsuo Kikuchi",
+          "ja": "菊池 敦生"
+        },
+        "affiliation": {
+          "en": "Tohoku University School of Medicine",
+          "ja": "東北大学\n大学院医学系研究科"
+        }
+      },
+      {
+        "name": {
           "en": "Toyofumi Fujiwara",
           "ja": "藤原 豊史"
         },
@@ -3025,25 +3036,25 @@
         }
       }
     ],
-    "version": "0.4.3",
-    "issued": "2020-11-11",
+    "version": "2023-11-28",
+    "issued": "2023-11-28",
     "logo_url": "./logo/nando.png",
     "schema_image_urls": [
       "./schema/nando/nando_20200806.svg"
     ],
     "download_file": {
       "name": "nand.tar.gz",
-      "url": "./download/nando/latest/rdf/all/nand.tar.gz",
-      "size": 395912
+      "url": "./download/nando/latest/rdf/all/nand.ttl",
+      "size": 2814530
     },
-    "number_of_triples": 26425,
-    "number_of_instances": 2350,
-    "number_of_subjects": 2350,
-    "number_of_objects": 14056,
-    "number_of_literals": 8485,
-    "number_of_classes": 3,
+    "number_of_triples": 36933,
+    "number_of_instances": 2780,
+    "number_of_subjects": 2780,
+    "number_of_objects": 16434,
+    "number_of_literals": 20499,
+    "number_of_classes": 4,
     "classes": "./data/nando_classes.json",
-    "number_of_properties": 17,
+    "number_of_properties": 19,
     "properties": "./data/nando_propertiess.json",
     "number_of_datatypes": 3,
     "datatypes": [
