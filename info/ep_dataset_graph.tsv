@@ -1,3 +1,4 @@
+endpoint	dataset		graph
 bioportal	bioportal	http://rdf.integbio.jp/dataset/bioportal/aba-amb
 bioportal	bioportal	http://rdf.integbio.jp/dataset/bioportal/abd
 bioportal	bioportal	http://rdf.integbio.jp/dataset/bioportal/aceso
