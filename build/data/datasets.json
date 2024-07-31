@@ -3044,7 +3044,7 @@
     ],
     "download_file": {
       "name": "nand.ttl",
-      "url": "./download/nando/latest/nand.ttl",
+      "url": "./download/nando/latest/rdf/all/nand.ttl",
       "size": 2814530
     },
     "number_of_triples": 36933,
@@ -3076,7 +3076,7 @@
         "files": [
           {
             "name": "nando.ttl",
-            "url": "./download/nando/latest/rdf/nando.ttl",
+            "url": "./download/nando/latest/rdf/all/nando.ttl",
             "size": 2814530
           }
         ],
