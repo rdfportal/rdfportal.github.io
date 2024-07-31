@@ -3075,19 +3075,19 @@
         },
         "files": [
           {
-            "name": "nando.ttl.gz",
-            "url": "./download/nando/latest/rdf/graph-1/nando.ttl.gz",
+            "name": "nando.ttl",
+            "url": "./download/nando/latest/rdf/nando.ttl.gz",
             "size": 395572
           }
         ],
-        "number_of_triples": 26425,
-        "number_of_instances": 2350,
-        "number_of_subjects": 2350,
-        "number_of_objects": 14056,
-        "number_of_literals": 8485,
-        "number_of_classes": 3,
+        "number_of_triples": 36933,
+        "number_of_instances": 2780,
+        "number_of_subjects": 2780,
+        "number_of_objects": 16434,
+        "number_of_literals": 20499,
+        "number_of_classes": 4,
         "classes": "./data/nando_graph-1_classes.json",
-        "number_of_properties": 17,
+        "number_of_properties": 19,
         "properties": "./data/nando_graph-1_propertiess.json",
         "number_of_datatypes": 3,
         "datatypes": [
