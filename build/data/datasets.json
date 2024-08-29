@@ -5820,7 +5820,7 @@
     ],
     "download_file": {
       "name": "xsearch_jcm_brso20230417.ttl",
-      "url": "./download/xsearch_jcm_brso/latest/rdf/all/xsearch_jcm_brso20230417.ttl",
+      "url": "./download/xsearch_jcm_brso/latest/xsearch_jcm_brso20230417.ttl",
       "size": 151064173
     },
     "number_of_triples": 1106776,
@@ -5859,7 +5859,7 @@
         "files": [
           {
             "name": "xsearch_jcm_brso20230417.ttl",
-            "url": "./download/xsearch_jcm_brso/latest/rdf/all/xsearch_jcm_brso20230417.ttl",
+            "url": "./download/xsearch_jcm_brso/latest/xsearch_jcm_brso20230417.ttl",
             "size": 151064173
           }
         ],
