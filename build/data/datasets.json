@@ -3210,8 +3210,8 @@
         }
       }
     ],
-    "version": "release_20241017",
-    "issued": "2024-10-17",
+    "version": "release_20251017",
+    "issued": "2025-10-17",
     "logo_url": "./logo/nbrc.png",
     "schema_image_urls": [
       "./schema/nbrc/nbrc_rdf_20220328.svg"
