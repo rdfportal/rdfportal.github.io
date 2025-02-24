@@ -3210,15 +3210,15 @@
         }
       }
     ],
-    "version": "release_20230313",
-    "issued": "2023-03-13",
+    "version": "release_20241017",
+    "issued": "2024-10-17",
     "logo_url": "./logo/nbrc.png",
     "schema_image_urls": [
       "./schema/nbrc/nbrc_rdf_20220328.svg"
     ],
     "download_file": {
-      "name": "nbrc.ttl.gz",
-      "url": "./download/nbrc/latest/rdf/all/nbrc.ttl.gz",
+      "name": "nbrc.ttl",
+      "url": "./download/nbrc/latest/rdf/nbrc.ttl",
       "size": 2378359
     },
     "number_of_triples": 868816,
