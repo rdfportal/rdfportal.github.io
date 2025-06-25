@@ -3043,7 +3043,7 @@
       "./schema/nando/nando_20200806.svg"
     ],
     "download_file": {
-      "name": "nand.ttl",
+      "name": "nando.ttl",
       "url": "./download/nando/latest/rdf/all/nando.ttl",
       "size": 2814530
     },
