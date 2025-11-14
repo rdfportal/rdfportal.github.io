@@ -51,7 +51,7 @@
       if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") {
         if (it) o = it;
         var i = 0;
-        var F = function () {};
+        var F = function () { };
         return {
           s: F,
           n: function () {
@@ -342,61 +342,61 @@
         } else {
           var noOfFiles = DATASETS.files.noOf(starId, index),
             subHtml2 = _html('tr',
-            // description
-            _html('td', {
-              colspan: 2
-            }, _MLHtml(DATASETS.description(starId, index)))) + '<tr>' + "<th rowspan=\"".concat(noOfFiles, "\">").concat(_MLHtml(STR.files), "</th>") + function () {
-              var subHtml3 = '';
-              for (var i = 0; i < noOfFiles; i++) {
-                subHtml3 += "".concat(i > 0 ? '<tr>' : '', "<td><p class=\"files\">").concat(_htmlAnchor(DATASETS.files.uri(starId, i, index), DATASETS.files.name(starId, i, index)), "<small>").concat(_numeral(DATASETS.files.size(starId, i, index)), " bytes</small></p></td></tr>'");
-              }
-              return subHtml3;
-            }();
+              // description
+              _html('td', {
+                colspan: 2
+              }, _MLHtml(DATASETS.description(starId, index)))) + '<tr>' + "<th rowspan=\"".concat(noOfFiles, "\">").concat(_MLHtml(STR.files), "</th>") + function () {
+                var subHtml3 = '';
+                for (var i = 0; i < noOfFiles; i++) {
+                  subHtml3 += "".concat(i > 0 ? '<tr>' : '', "<td><p class=\"files\">").concat(_htmlAnchor(DATASETS.files.uri(starId, i, index), DATASETS.files.name(starId, i, index)), "<small>").concat(_numeral(DATASETS.files.size(starId, i, index)), " bytes</small></p></td></tr>'");
+                }
+                return subHtml3;
+              }();
           return subHtml2;
         }
       }() + _htmlTRValueNumeral(_MLHtml(STR.subjects), DATASETS.noOfSubjects(starId, index)) +
-      // subjects
-      _htmlTRValueNumeral(_MLHtml(STR.objects), DATASETS.noOfObjects(starId, index)) +
-      // objects
-      _htmlTRValueNumeral(_MLHtml(STR.literals), DATASETS.noOfLiterals(starId, index)) +
-      // literals
-      _htmlTRHasDetailValueNumeral2(
-      // classes / instances
-      _MLHtml(STR.classes) + HYPHEN + _MLHtml(STR.instances), _numeral(NO_OF_CLASSES) + HYPHEN + _numeral(DATASETS.noOfInstances(starId, index)), 'classes', DATASETS.classes.jsonUri(starId, index), classification, index) + _htmlTRDetail(function () {
-        var subHtml2 = _html('table', {
-          class: 'internal'
-        }, _html('thead', _html('tr', _MLHtml('th', STR.classes) + _MLHtml('th', STR.numberOfInstances))) + _html('tbody', _html('tr', {
-          class: 'loading'
-        }, _html('td', {
-          colspan: 2
-        }, ''))));
-        return subHtml2;
-      }()) + _htmlTRHasDetailValueNumeral2(
-      // properties / triples
-      _MLHtml(STR.properties) + HYPHEN + _MLHtml(STR.triples), _numeral(NO_OF_PROPERTIES) + HYPHEN + _numeral(DATASETS.noOfTriples(starId, index)), 'properties', DATASETS.properties.jsonUri(starId, index), classification, index) + _htmlTRDetail(function () {
-        var subHtml2 = _html('table', {
-          class: 'internal'
-        }, _html('thead', _html('tr', _MLHtml('th', STR.properties) + _MLHtml('th', STR.numberOfTriples))) + _html('tbody', _html('tr', {
-          class: 'loading'
-        }, _html('td', {
-          colspan: 2
-        }, ''))));
-        return subHtml2;
-      }()) + _htmlTRHasDetailValueNumeral(_MLHtml(STR.datatypes), NO_OF_DATATYPES) +
-      // datasets
-      _htmlTRDetail(function () {
-        var subHtml2 = _html('table', {
-          class: 'internal'
-        }, _html('thead', _html('tr', _MLHtml('th', STR.datatypes))) + _html('tbody', function () {
-          var subHtml3 = '';
-          for (var j = 0; j < NO_OF_DATATYPES; j++) {
-            var datatype = DATASETS.datatypes.datatype(starId, j, index);
-            subHtml3 += _html('tr', _html('td', _htmlAnchor(datatype, datatype)));
-          }
-          return subHtml3;
+        // subjects
+        _htmlTRValueNumeral(_MLHtml(STR.objects), DATASETS.noOfObjects(starId, index)) +
+        // objects
+        _htmlTRValueNumeral(_MLHtml(STR.literals), DATASETS.noOfLiterals(starId, index)) +
+        // literals
+        _htmlTRHasDetailValueNumeral2(
+          // classes / instances
+          _MLHtml(STR.classes) + HYPHEN + _MLHtml(STR.instances), _numeral(NO_OF_CLASSES) + HYPHEN + _numeral(DATASETS.noOfInstances(starId, index)), 'classes', DATASETS.classes.jsonUri(starId, index), classification, index) + _htmlTRDetail(function () {
+            var subHtml2 = _html('table', {
+              class: 'internal'
+            }, _html('thead', _html('tr', _MLHtml('th', STR.classes) + _MLHtml('th', STR.numberOfInstances))) + _html('tbody', _html('tr', {
+              class: 'loading'
+            }, _html('td', {
+              colspan: 2
+            }, ''))));
+            return subHtml2;
+          }()) + _htmlTRHasDetailValueNumeral2(
+            // properties / triples
+            _MLHtml(STR.properties) + HYPHEN + _MLHtml(STR.triples), _numeral(NO_OF_PROPERTIES) + HYPHEN + _numeral(DATASETS.noOfTriples(starId, index)), 'properties', DATASETS.properties.jsonUri(starId, index), classification, index) + _htmlTRDetail(function () {
+              var subHtml2 = _html('table', {
+                class: 'internal'
+              }, _html('thead', _html('tr', _MLHtml('th', STR.properties) + _MLHtml('th', STR.numberOfTriples))) + _html('tbody', _html('tr', {
+                class: 'loading'
+              }, _html('td', {
+                colspan: 2
+              }, ''))));
+              return subHtml2;
+            }()) + _htmlTRHasDetailValueNumeral(_MLHtml(STR.datatypes), NO_OF_DATATYPES) +
+        // datasets
+        _htmlTRDetail(function () {
+          var subHtml2 = _html('table', {
+            class: 'internal'
+          }, _html('thead', _html('tr', _MLHtml('th', STR.datatypes))) + _html('tbody', function () {
+            var subHtml3 = '';
+            for (var j = 0; j < NO_OF_DATATYPES; j++) {
+              var datatype = DATASETS.datatypes.datatype(starId, j, index);
+              subHtml3 += _html('tr', _html('td', _htmlAnchor(datatype, datatype)));
+            }
+            return subHtml3;
+          }()));
+          return subHtml2;
         }()));
-        return subHtml2;
-      }()));
     return html;
   };
 
@@ -572,18 +572,18 @@
   };
 
   var _CORN = {
-      NUMBER_OF_LINE: 2,
-      ORIGIN: {
-        X: 610 + 115,
-        Y: 1210
-      },
-      ELLIPSE: {
-        POSITIONS: [293, 558, 876],
-        RATIO: 0.1131,
-        RESOLUTION: 64
-      },
-      RADIUS: 532
+    NUMBER_OF_LINE: 2,
+    ORIGIN: {
+      X: 610 + 115,
+      Y: 1210
     },
+    ELLIPSE: {
+      POSITIONS: [293, 558, 876],
+      RATIO: 0.1131,
+      RESOLUTION: 64
+    },
+    RADIUS: 532
+  },
     SHOW_DURATION$1 = 900;
 
   /* Home view manager class
@@ -634,11 +634,12 @@
           // statistics
           var html = '';
           // Datasets
-          html += "<p>".concat(__g.app.datasets.ids().length, "<span>RDF datasets</span></p>");
+          // html += "<p>".concat(__g.app.datasets.ids().length, "<span>RDF datasets</span></p>");
+          html += "<p>".concat(61, "<span>RDF datasets</span></p>");
           var statisticsItems = {
-              noOfLinks: 0,
-              noOfTriples: 0
-            },
+            noOfLinks: 0,
+            noOfTriples: 0
+          },
             ids = __g.app.datasets.ids();
           var _iterator = _createForOfIteratorHelper(ids),
             _step;
@@ -654,6 +655,8 @@
           } finally {
             _iterator.f();
           }
+          statisticsItems.noOfTriples = 196883405223; // トリプル数ハードコード
+          console.log(statisticsItems)
           for (var item in statisticsItems) {
             var sampleString = statisticsItems[item] + '',
               figure = Math.ceil(sampleString.length / 3);
@@ -682,23 +685,23 @@
 
         // force
         __g.d3.force
-        //.gravity(0.001)
-        .on('tick', function () {
-          __g.d3.linksSelection.attr('x1', function (d) {
-            return d.source.x;
-          }).attr('y1', function (d) {
-            return d.source.y;
-          }).attr('x2', function (d) {
-            return d.target.x;
-          }).attr('y2', function (d) {
-            return d.target.y;
-          });
-          __g.d3.nodesSelection.style('left', function (d) {
-            return d.x + __g.SVG_MARGIN_LEFT + 'px';
-          }).style('top', function (d) {
-            return d.y + 'px';
-          });
-        }).stop();
+          //.gravity(0.001)
+          .on('tick', function () {
+            __g.d3.linksSelection.attr('x1', function (d) {
+              return d.source.x;
+            }).attr('y1', function (d) {
+              return d.source.y;
+            }).attr('x2', function (d) {
+              return d.target.x;
+            }).attr('y2', function (d) {
+              return d.target.y;
+            });
+            __g.d3.nodesSelection.style('left', function (d) {
+              return d.x + __g.SVG_MARGIN_LEFT + 'px';
+            }).style('top', function (d) {
+              return d.y + 'px';
+            });
+          }).stop();
 
         // shown
         window.setTimeout(function () {
@@ -966,9 +969,9 @@
   }(); // ********** end of MatrixScrollbarView class
 
   var ORIGIN$1 = {
-      X: 0,
-      Y: 127
-    },
+    X: 0,
+    Y: 127
+  },
     CELL = {
       WIDTH: 120,
       HEIGHT: 32
@@ -1248,12 +1251,12 @@
           star.prepareGraphView();
         });
         __g.d3.force.force('collide',
-        // ノード間の接触反発力
-        d3.forceCollide().radius(function (d) {
-          return d.star.size * .5 + 20;
-        }) // ノード半径
-        .strength(1.0) // オーバーラップするノード間の反発力 0.0〜1.0
-        .iterations(16) // 計算回数
+          // ノード間の接触反発力
+          d3.forceCollide().radius(function (d) {
+            return d.star.size * .5 + 20;
+          }) // ノード半径
+            .strength(1.0) // オーバーラップするノード間の反発力 0.0〜1.0
+            .iterations(16) // 計算回数
         ).restart();
       } // function receiveNotificationChangeSizing
     }]);
@@ -1277,58 +1280,58 @@
         var _this = this;
         var documentName = params ? params.id : 'top';
         $.when(
-        // Documents の内容が記述されたMarkDownファイルの読み込み
-        $.ajax({
-          url: "".concat(PATH).concat(documentName, ".en.md"),
-          dataType: 'text'
-        }), $.ajax({
-          url: "".concat(PATH).concat(documentName, ".ja.md"),
-          dataType: 'text'
-        })).done(function (en, ja) {
-          var contents = {
-            en: en[0],
-            ja: ja[0]
-          };
-          var _loop = function _loop() {
-            // 各言語ごとの処理
-            var content = contents[lang],
-              htmlText = marked(content).replace(/<pre><code>/g, '<textarea>').replace(/<\/code><\/pre>/g, '</textarea>'),
-              htmlElements = $.parseHTML(htmlText),
-              $container = _this.$view.find(".seciton-body[lang=\"".concat(lang, "\"]"));
-            $container.html('');
-            var section = document.createElement('section');
-            // HTMLElement を回してレンダリング
-            $(htmlElements).each(function (index, elm) {
-              if (elm.nodeType === Node.ELEMENT_NODE) {
-                if (0 < index && elm.tagName === 'H2') {
-                  // HTMLElement が大見出しの場合、パラグラフを切る
-                  $container.append(section);
-                  section = document.createElement('section');
+          // Documents の内容が記述されたMarkDownファイルの読み込み
+          $.ajax({
+            url: "".concat(PATH).concat(documentName, ".en.md"),
+            dataType: 'text'
+          }), $.ajax({
+            url: "".concat(PATH).concat(documentName, ".ja.md"),
+            dataType: 'text'
+          })).done(function (en, ja) {
+            var contents = {
+              en: en[0],
+              ja: ja[0]
+            };
+            var _loop = function _loop() {
+              // 各言語ごとの処理
+              var content = contents[lang],
+                htmlText = marked(content).replace(/<pre><code>/g, '<textarea>').replace(/<\/code><\/pre>/g, '</textarea>'),
+                htmlElements = $.parseHTML(htmlText),
+                $container = _this.$view.find(".seciton-body[lang=\"".concat(lang, "\"]"));
+              $container.html('');
+              var section = document.createElement('section');
+              // HTMLElement を回してレンダリング
+              $(htmlElements).each(function (index, elm) {
+                if (elm.nodeType === Node.ELEMENT_NODE) {
+                  if (0 < index && elm.tagName === 'H2') {
+                    // HTMLElement が大見出しの場合、パラグラフを切る
+                    $container.append(section);
+                    section = document.createElement('section');
+                  }
+                  section.appendChild(elm);
                 }
-                section.appendChild(elm);
-              }
-              $container.append(section);
+                $container.append(section);
+              });
+            };
+            for (var lang in contents) {
+              _loop();
+            }
+            // リンク
+            _this.$view.find('.documents-index a').each(function (index, elm) {
+              elm.href = "".concat(__g.rootPath, "documents/").concat(elm.getAttribute('href'));
             });
-          };
-          for (var lang in contents) {
-            _loop();
-          }
-          // リンク
-          _this.$view.find('.documents-index a').each(function (index, elm) {
-            elm.href = "".concat(__g.rootPath, "documents/").concat(elm.getAttribute('href'));
-          });
-          // CodeMirror
-          _this.$view.find('textarea').each(function (index, elm) {
-            CodeMirror.fromTextArea(elm, {
-              mode: 'application/sparql-query',
-              matchBrackets: true,
-              lineNumbers: true
+            // CodeMirror
+            _this.$view.find('textarea').each(function (index, elm) {
+              CodeMirror.fromTextArea(elm, {
+                mode: 'application/sparql-query',
+                matchBrackets: true,
+                lineNumbers: true
+              });
             });
+            window.setTimeout(function () {
+              __g.app.changed(__g.VIEWS_NAME.indexOf('documents'));
+            }, self.SHOW_DURATION);
           });
-          window.setTimeout(function () {
-            __g.app.changed(__g.VIEWS_NAME.indexOf('documents'));
-          }, self.SHOW_DURATION);
-        });
         this.$view.addClass('shown');
       }
     }, {
@@ -1576,9 +1579,9 @@
   }(); // ********** end of Star image class
 
   var ORIGIN = {
-      X: 113,
-      Y: 86
-    },
+    X: 113,
+    Y: 86
+  },
     OFFSET = {
       X: -60,
       Y: 0
@@ -1651,35 +1654,35 @@
           id: ID_SPECIFICATION,
           class: "specification"
         },
-        // #### Specification
-        _html("h3", _MLHtml(STR.specification)) + _html("table", {
-          class: "horizontal-table"
-        }, _html("tbody", {
-          class: "specification"
-        }, _htmlTR(_MLHtml(STR.tags), function () {
-          // tags
-          var subHtml = '<ul class="tags">',
-            tag;
-          for (i = 0; i < datasets.tags.noOf(starId); i++) {
-            tag = datasets.tags.tag(starId, i);
-            subHtml += "<li class=\"tag-".concat(_sanitizeTag(tag.en), "\">").concat(_MLHtml(tag), "</li>");
-          }
-          subHtml += "</ul>";
-          return subHtml;
-        }()) + _htmlTR(_MLHtml(STR.dataProvider), _MLHtml(datasets.dataProvider(starId))) + _htmlTR(_MLHtml(STR.creators), function () {
-          var numberOfCreators = datasets.creators.noOf(starId),
-            subHtml = "<ul>";
-          for (i = 0; i < numberOfCreators; i++) {
-            subHtml += "<li>".concat(_MLHtml(datasets.creators.name(starId, i)), "&nbsp;&nbsp;<small>").concat(_MLHtml(datasets.creators.affiliation(starId, i)), "</small></li>");
-          }
-          return subHtml + "</ul>";
-        }()) + _htmlTR(_MLHtml(STR.version), datasets.version(starId)) + _htmlTR(_MLHtml(STR.issued), datasets.issued(starId)) + function () {
-          return datasets.license.uri(starId)[__g.app.language] === "" ? "" : _htmlTR(_MLHtml(STR.license), _MLAnchor(datasets.license.uri(starId), datasets.license.name(starId)) + "<br>" + _MLHtml(datasets.license.credit(starId)));
-        }() + _htmlTR(_MLHtml(STR.status), "<div class=\"reviewed-icon".concat(datasets.reviewed(starId) === "reviewed" ? "" : " -unreviewed", "\"></div> <span>").concat(_MLHtml(datasets.reviewed(starId) === "reviewed" ? STR.reviewed : STR.unreviewed), "</span>") + "<div class=\"star\" data-provided-as=\"".concat(datasets.providedAs(starId), "\"><div class=\"icon\"><div class=\"body\"></div></div></div><span>").concat(_MLHtml(datasets.providedAs(starId) === "original" ? STR.originalDataset : STR.thirdPartyDataset), "</span>")) + _htmlTR(_MLHtml(STR.downloadFile), _html("p", {
-          class: "file"
-        }, _html("a", {
-          href: datasets.downloadFile.uri(starId)
-        }, datasets.downloadFile.name(starId)) + " " + _html("small", _numeral(datasets.downloadFile.size(starId)) + " bytes"))) /* + // ガイドライン一時的にコメントアウト
+          // #### Specification
+          _html("h3", _MLHtml(STR.specification)) + _html("table", {
+            class: "horizontal-table"
+          }, _html("tbody", {
+            class: "specification"
+          }, _htmlTR(_MLHtml(STR.tags), function () {
+            // tags
+            var subHtml = '<ul class="tags">',
+              tag;
+            for (i = 0; i < datasets.tags.noOf(starId); i++) {
+              tag = datasets.tags.tag(starId, i);
+              subHtml += "<li class=\"tag-".concat(_sanitizeTag(tag.en), "\">").concat(_MLHtml(tag), "</li>");
+            }
+            subHtml += "</ul>";
+            return subHtml;
+          }()) + _htmlTR(_MLHtml(STR.dataProvider), _MLHtml(datasets.dataProvider(starId))) + _htmlTR(_MLHtml(STR.creators), function () {
+            var numberOfCreators = datasets.creators.noOf(starId),
+              subHtml = "<ul>";
+            for (i = 0; i < numberOfCreators; i++) {
+              subHtml += "<li>".concat(_MLHtml(datasets.creators.name(starId, i)), "&nbsp;&nbsp;<small>").concat(_MLHtml(datasets.creators.affiliation(starId, i)), "</small></li>");
+            }
+            return subHtml + "</ul>";
+          }()) + _htmlTR(_MLHtml(STR.version), datasets.version(starId)) + _htmlTR(_MLHtml(STR.issued), datasets.issued(starId)) + function () {
+            return datasets.license.uri(starId)[__g.app.language] === "" ? "" : _htmlTR(_MLHtml(STR.license), _MLAnchor(datasets.license.uri(starId), datasets.license.name(starId)) + "<br>" + _MLHtml(datasets.license.credit(starId)));
+          }() + _htmlTR(_MLHtml(STR.status), "<div class=\"reviewed-icon".concat(datasets.reviewed(starId) === "reviewed" ? "" : " -unreviewed", "\"></div> <span>").concat(_MLHtml(datasets.reviewed(starId) === "reviewed" ? STR.reviewed : STR.unreviewed), "</span>") + "<div class=\"star\" data-provided-as=\"".concat(datasets.providedAs(starId), "\"><div class=\"icon\"><div class=\"body\"></div></div></div><span>").concat(_MLHtml(datasets.providedAs(starId) === "original" ? STR.originalDataset : STR.thirdPartyDataset), "</span>")) + _htmlTR(_MLHtml(STR.downloadFile), _html("p", {
+            class: "file"
+          }, _html("a", {
+            href: datasets.downloadFile.uri(starId)
+          }, datasets.downloadFile.name(starId)) + " " + _html("small", _numeral(datasets.downloadFile.size(starId)) + " bytes"))) /* + // ガイドライン一時的にコメントアウト
                                                                                                                                  _htmlTR( _MLHtml( STR.responseToRDFGuideline ),
                                                                                                                                  (function(){
                                                                                                                                  const guideline = datasets.guideline(starId);
@@ -1694,133 +1697,133 @@
                                                                                                                                  return html.replace('status-?', 'status-question');
                                                                                                                                  })()
                                                                                                                                  )*/))) + function () {
-          // #### 関連データセット
-          var subHtml1 = "";
-          if (noOfConnectedDatasets > 0) {
-            // 関連データセットのソート
-            subHtml1 += _html("aside", {
-              id: ID_CONNECTED_DATASETS,
-              class: "connected-dataset-ids"
-            }, _MLHtml("h3", STR.connectedDatasetIDs) + _html("div", {
-              class: "stars"
-            }, function () {
-              var subHtml2 = "",
-                id,
-                type,
-                disposableStarId,
-                maxTriples = 0,
-                noOfTriples = [],
-                noOfConnectedDatasets = datasets.connectedDatasetIds.noOf(starId),
-                noOfXrefs = datasets.xref.noOf(starId);
-              // calculation
-              for (i = 0; i < noOfConnectedDatasets; i++) {
-                noOfTriples[i] = datasets.connectedDatasetIds.noOfTriple(starId, i);
-                maxTriples = maxTriples > noOfTriples[i] ? maxTriples : noOfTriples[i];
-              }
-              for (j = 0; j < noOfXrefs; j++) {
-                noOfTriples[i + j] = datasets.xref.noOfTriples(starId, j);
-                maxTriples = maxTriples > noOfTriples[i + j] ? maxTriples : noOfTriples[i + j];
-              }
-              // internal
-              for (i = 0; i < noOfConnectedDatasets; i++) {
-                disposableStarId = "disposableStar" + __g.disposableStarId++;
-                id = datasets.connectedDatasetIds.id(starId, i);
-                type = datasets.connectedDatasetIds.type(starId, i);
-                subHtml2 += "<div id=\"".concat(disposableStarId, "\" class=\"star\" data-id=\"").concat(id, "\" data-type=\"").concat(type, "\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"icon\"></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"label\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t").concat(_MLHtml("h2", datasets.title(id)), "\n\t\t\t\t\t\t\t\t\t\t\t\t\t").concat(type ? "<p class=\"link-type\">".concat(type, "</p>") : "", "\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"bar\" style=\"width: ").concat(noOfTriples[i] / maxTriples * 75, "%;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<p class=\"number-of-triples\">").concat(_numeral(noOfTriples[i]), "<small>links</small></p>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>");
-                disposableStarIds.push(disposableStarId);
-              }
-              for (j = 0; j < noOfXrefs; j++) {
-                type = datasets.xref.type(starId, j);
-                subHtml2 += "\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"star xref\" data-type=\"".concat(type, "\">\n\t\t\t\t\t\t\t\t\t\t\t\t<a class=\"icon\" href=\"").concat(datasets.xref.uri(starId, j), "\" target=\"_blank\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"label\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t").concat(_MLHtml("h2", datasets.xref.title(starId, j)), "\n\t\t\t\t\t\t\t\t\t\t\t\t\t").concat(type ? "<p class=\"link-type\">".concat(type, "</p>") : "", "\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"bar\" style=\"width: ").concat(noOfTriples[i + j] / maxTriples * 75, "%;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<p class=\"number-of-triples\">").concat(_numeral(noOfTriples[i + j]), "<small>links</small></p>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>");
-              }
-              // external
-              return subHtml2;
-            }()));
-          }
-          return subHtml1;
-        }() + _html("aside", {
-          id: ID_STATISTICS,
-          class: "statistics"
-        },
-        // #### 統計情報
-        _MLHtml("h3", STR.statistics) + _html("table", {
-          class: "horizontal-table"
-        }, _htmlStatics(starId) + _htmlHasDetailAndDetail("graphs") +
-        // Graphs
-        _htmlHasDetailAndDetail("ontologies") // Ontologies
-        )) + function () {
-          // #### Schema
-          if (noOfSchema === 0) {
-            return "";
-          }
-          var subHtml = "";
-          for (var i = 0; i < noOfSchema; i++) {
-            subHtml += '<a href="' + datasets.schema.imageUri(starId, i) + '" target="_blank" class="schema">' + '<img src="' + datasets.schema.imageUri(starId, i) + '" alt="">' + _MLHtml("span", {
-              class: "open"
-            }, STR.open) + "</a>";
-          }
-          subHtml = _html("aside", {
-            id: ID_SCHEMA,
-            class: "schema"
-          }, _MLHtml("h3", STR.schema) + _html("div", {
-            class: "images"
-          }, subHtml));
-          return subHtml;
-        }() + function () {
-          // #### SPARQL examples
-          if (noOfSPARQLExamples === 0) {
-            return "";
-          }
-          var subHtml1 = _html("aside", {
-            id: ID_SPARQL_EXAMPLES,
-            class: "sparql-examples"
-          }, _MLHtml("h3", STR.sparqlExamples) + function () {
-            var subHtml2 = "";
-            for (var i = 0; i < datasets.SPARQLExamples.noOf(starId); i++) {
-              subHtml2 += _html("div", {
-                class: "sparql"
-              }, '<textarea class="sparql-textarea">' + datasets.SPARQLExamples.sparql(starId, i) + "</textarea>" + _html("form", {
-                action: datasets.SPARQLExamples.uri(starId, i),
-                target: "_blank",
-                method: "GET"
-              }, _html("button", {
-                type: "submit"
-              }, _MLHtml(STR.sparqlEndpoint)) + _html("input", {
-                type: "hidden",
-                name: "query",
-                value: datasets.SPARQLExamples.sparql(starId, i).replace(/"/g, "&quot;")
-              }, "")));
+            // #### 関連データセット
+            var subHtml1 = "";
+            if (noOfConnectedDatasets > 0) {
+              // 関連データセットのソート
+              subHtml1 += _html("aside", {
+                id: ID_CONNECTED_DATASETS,
+                class: "connected-dataset-ids"
+              }, _MLHtml("h3", STR.connectedDatasetIDs) + _html("div", {
+                class: "stars"
+              }, function () {
+                var subHtml2 = "",
+                  id,
+                  type,
+                  disposableStarId,
+                  maxTriples = 0,
+                  noOfTriples = [],
+                  noOfConnectedDatasets = datasets.connectedDatasetIds.noOf(starId),
+                  noOfXrefs = datasets.xref.noOf(starId);
+                // calculation
+                for (i = 0; i < noOfConnectedDatasets; i++) {
+                  noOfTriples[i] = datasets.connectedDatasetIds.noOfTriple(starId, i);
+                  maxTriples = maxTriples > noOfTriples[i] ? maxTriples : noOfTriples[i];
+                }
+                for (j = 0; j < noOfXrefs; j++) {
+                  noOfTriples[i + j] = datasets.xref.noOfTriples(starId, j);
+                  maxTriples = maxTriples > noOfTriples[i + j] ? maxTriples : noOfTriples[i + j];
+                }
+                // internal
+                for (i = 0; i < noOfConnectedDatasets; i++) {
+                  disposableStarId = "disposableStar" + __g.disposableStarId++;
+                  id = datasets.connectedDatasetIds.id(starId, i);
+                  type = datasets.connectedDatasetIds.type(starId, i);
+                  subHtml2 += "<div id=\"".concat(disposableStarId, "\" class=\"star\" data-id=\"").concat(id, "\" data-type=\"").concat(type, "\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"icon\"></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"label\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t").concat(_MLHtml("h2", datasets.title(id)), "\n\t\t\t\t\t\t\t\t\t\t\t\t\t").concat(type ? "<p class=\"link-type\">".concat(type, "</p>") : "", "\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"bar\" style=\"width: ").concat(noOfTriples[i] / maxTriples * 75, "%;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<p class=\"number-of-triples\">").concat(_numeral(noOfTriples[i]), "<small>links</small></p>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>");
+                  disposableStarIds.push(disposableStarId);
+                }
+                for (j = 0; j < noOfXrefs; j++) {
+                  type = datasets.xref.type(starId, j);
+                  subHtml2 += "\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"star xref\" data-type=\"".concat(type, "\">\n\t\t\t\t\t\t\t\t\t\t\t\t<a class=\"icon\" href=\"").concat(datasets.xref.uri(starId, j), "\" target=\"_blank\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"label\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t").concat(_MLHtml("h2", datasets.xref.title(starId, j)), "\n\t\t\t\t\t\t\t\t\t\t\t\t\t").concat(type ? "<p class=\"link-type\">".concat(type, "</p>") : "", "\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"bar\" style=\"width: ").concat(noOfTriples[i + j] / maxTriples * 75, "%;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<p class=\"number-of-triples\">").concat(_numeral(noOfTriples[i + j]), "<small>links</small></p>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>");
+                }
+                // external
+                return subHtml2;
+              }()));
             }
-            return subHtml2;
-          }());
-          return subHtml1;
-        }() + function () {
-          // #### Stanza
-          //// Rubby wrapper CASE
-          {
-            return "";
-          }
-        }() + "</div><!-- /.detail-view -->" + function () {
-          // navigation
-          var subHtml = '<nav class="detail-navigation">';
-          subHtml += _html("a", {
-            href: "#" + ID_SPECIFICATION
-          }, _MLHtml("h3", STR.specification));
-          subHtml += noOfConnectedDatasets > 0 ? _html("a", {
-            href: "#" + ID_CONNECTED_DATASETS
-          }, _MLHtml("h3", STR.connectedDatasetIDs)) : "";
-          subHtml += _html("a", {
-            href: "#" + ID_STATISTICS
-          }, _MLHtml("h3", STR.statistics));
-          subHtml += noOfSchema !== 0 ? _html("a", {
-            href: "#" + ID_SCHEMA
-          }, _MLHtml("h3", STR.schema)) : "";
-          subHtml += noOfSPARQLExamples > 0 ? _html("a", {
-            href: "#" + ID_SPARQL_EXAMPLES
-          }, _MLHtml("h3", STR.sparqlExamples)) : "";
-          subHtml += "";
-          return subHtml + "</nav>";
-        }();
+            return subHtml1;
+          }() + _html("aside", {
+            id: ID_STATISTICS,
+            class: "statistics"
+          },
+            // #### 統計情報
+            _MLHtml("h3", STR.statistics) + _html("table", {
+              class: "horizontal-table"
+            }, _htmlStatics(starId) + _htmlHasDetailAndDetail("graphs") +
+            // Graphs
+            _htmlHasDetailAndDetail("ontologies") // Ontologies
+            )) + function () {
+              // #### Schema
+              if (noOfSchema === 0) {
+                return "";
+              }
+              var subHtml = "";
+              for (var i = 0; i < noOfSchema; i++) {
+                subHtml += '<a href="' + datasets.schema.imageUri(starId, i) + '" target="_blank" class="schema">' + '<img src="' + datasets.schema.imageUri(starId, i) + '" alt="">' + _MLHtml("span", {
+                  class: "open"
+                }, STR.open) + "</a>";
+              }
+              subHtml = _html("aside", {
+                id: ID_SCHEMA,
+                class: "schema"
+              }, _MLHtml("h3", STR.schema) + _html("div", {
+                class: "images"
+              }, subHtml));
+              return subHtml;
+            }() + function () {
+              // #### SPARQL examples
+              if (noOfSPARQLExamples === 0) {
+                return "";
+              }
+              var subHtml1 = _html("aside", {
+                id: ID_SPARQL_EXAMPLES,
+                class: "sparql-examples"
+              }, _MLHtml("h3", STR.sparqlExamples) + function () {
+                var subHtml2 = "";
+                for (var i = 0; i < datasets.SPARQLExamples.noOf(starId); i++) {
+                  subHtml2 += _html("div", {
+                    class: "sparql"
+                  }, '<textarea class="sparql-textarea">' + datasets.SPARQLExamples.sparql(starId, i) + "</textarea>" + _html("form", {
+                    action: datasets.SPARQLExamples.uri(starId, i),
+                    target: "_blank",
+                    method: "GET"
+                  }, _html("button", {
+                    type: "submit"
+                  }, _MLHtml(STR.sparqlEndpoint)) + _html("input", {
+                    type: "hidden",
+                    name: "query",
+                    value: datasets.SPARQLExamples.sparql(starId, i).replace(/"/g, "&quot;")
+                  }, "")));
+                }
+                return subHtml2;
+              }());
+              return subHtml1;
+            }() + function () {
+              // #### Stanza
+              //// Rubby wrapper CASE
+              {
+                return "";
+              }
+            }() + "</div><!-- /.detail-view -->" + function () {
+              // navigation
+              var subHtml = '<nav class="detail-navigation">';
+              subHtml += _html("a", {
+                href: "#" + ID_SPECIFICATION
+              }, _MLHtml("h3", STR.specification));
+              subHtml += noOfConnectedDatasets > 0 ? _html("a", {
+                href: "#" + ID_CONNECTED_DATASETS
+              }, _MLHtml("h3", STR.connectedDatasetIDs)) : "";
+              subHtml += _html("a", {
+                href: "#" + ID_STATISTICS
+              }, _MLHtml("h3", STR.statistics));
+              subHtml += noOfSchema !== 0 ? _html("a", {
+                href: "#" + ID_SCHEMA
+              }, _MLHtml("h3", STR.schema)) : "";
+              subHtml += noOfSPARQLExamples > 0 ? _html("a", {
+                href: "#" + ID_SPARQL_EXAMPLES
+              }, _MLHtml("h3", STR.sparqlExamples)) : "";
+              subHtml += "";
+              return subHtml + "</nav>";
+            }();
         __g.app.$main.append(html);
         this._$currentDetailView = $("#detail-view" + this._counter++);
         //$detailView = __g.append
@@ -2743,7 +2746,7 @@
     _DURATION = 5;
 
   /* ViewLabel Class
-  	 ビューのラベル
+     ビューのラベル
   */
   var ViewLabel = /*#__PURE__*/function () {
     function ViewLabel() {
@@ -2880,21 +2883,21 @@
           _this._colorSchema[tag] = __g.COLORS[counter++];
           idFilter = 'tag-filter-' + tag;
           htmlFilter +=
-          // フィルター
-          '<dd>' + _html('input', {
-            type: 'checkbox',
-            name: idFilter,
-            id: idFilter,
-            value: tag
-          }, '') + _MLHtml('label', {
-            for: idFilter
-          }, _tags[i]) + '</dd>';
+            // フィルター
+            '<dd>' + _html('input', {
+              type: 'checkbox',
+              name: idFilter,
+              id: idFilter,
+              value: tag
+            }, '') + _MLHtml('label', {
+              for: idFilter
+            }, _tags[i]) + '</dd>';
           htmlMarker +=
-          // マーカー
-          '<dd data-value="' + tag + '">' + _html('label', _html('span', {
-            class: 'color-ball',
-            style: 'border-color: ' + _this._colorSchema[tag]
-          }, '') + _MLHtml(_tags[i])) + '</dd>';
+            // マーカー
+            '<dd data-value="' + tag + '">' + _html('label', _html('span', {
+              class: 'color-ball',
+              style: 'border-color: ' + _this._colorSchema[tag]
+            }, '') + _MLHtml(_tags[i])) + '</dd>';
           // Stylesheet
           __g.styleSheet.insertRule('ul.tags li.tag-' + tag + ':before { background-color: ' + _this._colorSchema[tag] + '; }', __g.styleSheet.cssRules.length);
         }
@@ -2924,12 +2927,12 @@
         __g.app.$main.get(0).setAttribute('data-kind-of-sort', _this._sort);
         _$display.listView.sortBy.html(e.delegateTarget.nextElementSibling.innerHTML);
       }).end().find('input[name="ascend"]') // 昇順降順
-      .on('change', function (e) {
-        _this._isAscend = e.delegateTarget.value === 'ascend';
-        _this._defaults.list.isAscend = _this._isAscend;
-        __g.app.postNortification('change-sorting', _this._isAscend);
-        _$display.listView.sortOrder.html(e.delegateTarget.nextElementSibling.innerHTML);
-      });
+        .on('change', function (e) {
+          _this._isAscend = e.delegateTarget.value === 'ascend';
+          _this._defaults.list.isAscend = _this._isAscend;
+          __g.app.postNortification('change-sorting', _this._isAscend);
+          _$display.listView.sortOrder.html(e.delegateTarget.nextElementSibling.innerHTML);
+        });
 
       // サイジング
       $('#control-panel-scaling').find('input').on('change', function (e) {
@@ -3286,7 +3289,7 @@
       }
     }, {
       key: "prepareHomeView",
-      value: function prepareHomeView() {}
+      value: function prepareHomeView() { }
     }, {
       key: "prepareListView",
       value: function prepareListView(order, top, delegate) {
@@ -3392,8 +3395,8 @@
       key: "matrixReplace",
       value: function matrixReplace(order) {
         var properties = {
-            top: MatrixViewController.ORIGIN.Y + order * MatrixViewController.CELL.HEIGHT
-          },
+          top: MatrixViewController.ORIGIN.Y + order * MatrixViewController.CELL.HEIGHT
+        },
           options = {
             duration: __g.DURATION + order * 100,
             easing: 'easeInOutSine'
@@ -4040,36 +4043,36 @@
           parseInt(__g.d3.svg.attr('width'));
           parseInt(__g.d3.svg.attr('height'));
           __g.d3.force = d3.forceSimulation()
-          //.velocityDecay(0.1) // ノードの速度減衰係数
-          .alpha(0.0025)
-          //.alphaDecay(0.9)
-          .alphaTarget(0).force('link',
-          // リンクによるバネ力
-          d3.forceLink()
-          //.distance(distance) // リンクの長さ
-          //.strength(.5) // リンクの強度
-          //.iterations() // 計算回数
-          )
-          //.force('collide', // ノード間の接触反発力
-          //	d3.forceCollide()
-          //		.radius(function(d) { return d.star.size * .5; }) // ノード半径
-          //		.strength(1.0) // オーバーラップするノード間の反発力 0.0〜1.0
-          //		.iterations(16) // 計算回数
-          //)
-          .force('charge',
-          // ノード間のクーロン力（非接触作用力）
-          d3.forceManyBody()
-          //.strength(-300) // 正でくっつき、負で離れる
-          //.theta() // 精度
-          //.distanceMin() // クーロン力を計算する最小距離
-          //.distanceMax() // ノード間の最大距離
-          ).force('x',
-          // 位置に基づく場の力
-          d3.forceX().strength(0.1).x(0) // 中心x座標
-          ).force('y',
-          // 位置に基づく場の力
-          d3.forceY().strength(0.1).y(0) // 中心y座標
-          );
+            //.velocityDecay(0.1) // ノードの速度減衰係数
+            .alpha(0.0025)
+            //.alphaDecay(0.9)
+            .alphaTarget(0).force('link',
+              // リンクによるバネ力
+              d3.forceLink()
+              //.distance(distance) // リンクの長さ
+              //.strength(.5) // リンクの強度
+              //.iterations() // 計算回数
+            )
+            //.force('collide', // ノード間の接触反発力
+            //	d3.forceCollide()
+            //		.radius(function(d) { return d.star.size * .5; }) // ノード半径
+            //		.strength(1.0) // オーバーラップするノード間の反発力 0.0〜1.0
+            //		.iterations(16) // 計算回数
+            //)
+            .force('charge',
+              // ノード間のクーロン力（非接触作用力）
+              d3.forceManyBody()
+              //.strength(-300) // 正でくっつき、負で離れる
+              //.theta() // 精度
+              //.distanceMin() // クーロン力を計算する最小距離
+              //.distanceMax() // ノード間の最大距離
+            ).force('x',
+              // 位置に基づく場の力
+              d3.forceX().strength(0.1).x(0) // 中心x座標
+            ).force('y',
+              // 位置に基づく場の力
+              d3.forceY().strength(0.1).y(0) // 中心y座標
+            );
           //.force('center',
           //	d3.forceCenter(screenWidth * 0.5, screenHeight * 0.5)
           //);
